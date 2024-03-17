@@ -1,0 +1,17 @@
+1. La modernizacion de ortografía 
+2. Correccion de errores
+3. Resolucion de abreviaturas
+
+Estas tareas se hacen con un elemento <choice> dentro de él va como esta el texto y la modificacion.
+
+Modernizacion: <orig></orig> de origen y <reg></reg> de regularizacion 
+Correccion de errores: <sic></sic> y <corr></corr> de Correccion
+Abreviaturas: <abbr></abbr> y <expan></expan>
+
+Command E para coger un texto para ponerlo entre elementos
+
+Poner dentro la palabra cortada <lb break="no"/>
+Para ingresa folio debo poner antes del head <pb n="numero de folio"/>
+Para las columnas <cb n="numero de columna"/>
+
+COMANDO S = GUARDAR
