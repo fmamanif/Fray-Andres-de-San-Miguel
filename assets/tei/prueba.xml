@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La Regenta</title>
+        <author>Leopoldo Alas (Clarín)</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+        <date>2000</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>La Regenta, por Leopoldo Alas (Clarín). Prólogo de Benito Pérez Galdós, Madrid, Librería
+          de Fernando Fé 1900</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <!-- En este caso, podríamos marcar el prólogo en el elemento <front> -->
+    <front>
+      <div type="prologo">
+        <head>Prólogo</head>
+        <p>Creo que fue Wieland quien dijo que los pensamientos de los hombres valen más que sus
+          acciones, y las buenas novelas más que el género humano. Podrá esto no ser verdad; pero es
+          hermoso y consolador. etc.</p>
+      </div>
+    </front>
+
+    <!-- Aquí empieza propiamente el texto, donde utilizaremos <div> para estructurar las diferentes secciones: -->
+    <body>
+      <div type="tomo" xml:id="tomo_1">
+        <!-- Para separar los dos tomos de que consta la edición. -->
+        <div type="capitulo" n="1">
+          <!-- en lugar del atríbuto "n" también podríamos asignarle un identificador "xml:id" -->
+          <head>Capítulo 1</head>
+          <!-- los títulos pueden marcarse con el elemento <head> -->
+          <!-- Secuencia de los párrafos: -->
+          <p>La heroica ciudad dormía la siesta. El viento Sur, caliente y perezoso, empujaba las
+            nubes blanquecinas que se rasgaban al correr hacia el Norte. En las calles no había más
+            ruido que el rumor <choice><sic>estrudente</sic><corr>estridente</corr></choice> de los remolinos de polvo, trapos, pajas y papeles que
+            iban de arroyo en arroyo, de acera en acera, de esquina en esquina revolando y
+            persiguiéndose, como mariposas que se <choice><orig>bvscan</orig><reg>buscan</reg></choice> y huyen y que el aire envuelve en sus
+            pliegues invisibles.</p> 
+          <p/> <!-- Recordad: esto es un elemento vacío. -->
+          <p/>
+          <p/>
+        </div> <!-- Fin del capítulo 1 -->
+        <div type="capitulo" n="2">
+          <head>Capítulo 2</head>
+          <p>El coro había terminado: los venerables canónigos<ptr target="#note1" n="1"/> cumplido por aquel día su
+            deber de alabar al Señor entre bostezo y bostezo. Uno tras otro iban entrando en la
+            sacristía<ptr target="#note2" n="2"/> con el aire aburrido de todo funcionario que desempeña cargos oficiales
+            mecánicamente, siempre del mismo modo, sin creer en la utilidad del esfuerzo con que
+            gana el pan de cada día.</p>
+        </div> <!-- Fin del capítulo 2 -->
+        <div type="capitulo" n="3">
+          <head>Capítulo 3</head>
+          <p> Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
+            que se encontraran y por su confianza con la Regenta facilitó la entrevista. </p>
+          <p> Pocas veces habían cruzado la palabra la hermosa dama y el Provisor, y nunca había
+            pasado la conversación de los lugares comunes a que obliga el trato social.</p>
+          <p>La heroica ciudad dormía la siesta. El viento Sur, caliente y perezoso, empujaba las
+            nubes blanquecinas que se rasgaban al correr hacia el Norte. En las calles no había más
+            ruido que el rumor <choice><sic>estrudente</sic><corr>estridente</corr></choice> de los remolinos de polvo, trapos, pajas y papeles que
+            iban de arroyo en arroyo, de acera en acera, de esquina en esquina revolando y
+            persiguiéndose, como mariposas que se <choice><orig>bvscan</orig><reg>buscan</reg></choice> y huyen y que el aire envuelve en sus
+            pliegues invisibles.</p> 
+          <p>El coro había terminado: los venerables canónigos<ptr target="#note1" n="1"/> cumplido por aquel día su
+            deber de alabar al Señor entre bostezo y bostezo. Uno tras otro iban entrando en la
+            sacristía<ptr target="#note2" n="2"/> con el aire aburrido de todo funcionario que desempeña cargos oficiales
+            mecánicamente, siempre del mismo modo, sin creer en la utilidad del esfuerzo con que
+            gana el pan de cada día.</p>
+        </div> <!-- Fin del capítulo 2 -->
+        <div type="capitulo" n="3">
+          <head>Capítulo 3</head>
+          <p> Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
+            que se encontraran y por su confianza con la Regenta facilitó la entrevista. </p>
+          <p> Pocas veces habían cruzado la palabra la hermosa dama y el Provisor, y nunca había
+            pasado la conversación de los lugares comunes a que obliga el trato social.</p>
+
+        </div> <!-- Fin del capítulo 3 -->
+        <div type="capitulo" n="1">
+          <!-- en lugar del atríbuto "n" también podríamos asignarle un identificador "xml:id" -->
+          <head>Capítulo 1</head>
+          <!-- los títulos pueden marcarse con el elemento <head> -->
+          <!-- Secuencia de los párrafos: -->
+          <p>La heroica ciudad dormía la siesta. El viento Sur, caliente y perezoso, empujaba las
+            nubes blanquecinas que se rasgaban al correr hacia el Norte. En las calles no había más
+            ruido que el rumor <choice><sic>estrudente</sic><corr>estridente</corr></choice> de los remolinos de polvo, trapos, pajas y papeles que
+            iban de arroyo en arroyo, de acera en acera, de esquina en esquina revolando y
+            persiguiéndose, como mariposas que se <choice><orig>bvscan</orig><reg>buscan</reg></choice> y huyen y que el aire envuelve en sus
+            pliegues invisibles.</p> 
+          <p/> <!-- Recordad: esto es un elemento vacío. -->
+          <p/>
+          <p/>
+        </div> <!-- Fin del capítulo 1 -->
+        <div type="capitulo" n="2">
+          <head>Capítulo 2</head>
+          <p>El coro había terminado: los venerables canónigos<ptr target="#note1" n="1"/> cumplido por aquel día su
+            deber de alabar al Señor entre bostezo y bostezo. Uno tras otro iban entrando en la
+            sacristía<ptr target="#note2" n="2"/> con el aire aburrido de todo funcionario que desempeña cargos oficiales
+            mecánicamente, siempre del mismo modo, sin creer en la utilidad del esfuerzo con que
+            gana el pan de cada día.</p>
+        </div> <!-- Fin del capítulo 2 -->
+        <div type="capitulo" n="3">
+          <head>Capítulo 3</head>
+          <p> Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
+            que se encontraran y por su confianza con la Regenta facilitó la entrevista. </p>
+          <p> Pocas veces habían cruzado la palabra la hermosa dama y el Provisor, y nunca había
+            pasado la conversación de los lugares comunes a que obliga el trato social.</p>
+          <p>La heroica ciudad dormía la siesta. El viento Sur, caliente y perezoso, empujaba las
+            nubes blanquecinas que se rasgaban al correr hacia el Norte. En las calles no había más
+            ruido que el rumor <choice><sic>estrudente</sic><corr>estridente</corr></choice> de los remolinos de polvo, trapos, pajas y papeles que
+            iban de arroyo en arroyo, de acera en acera, de esquina en esquina revolando y
+            persiguiéndose, como mariposas que se <choice><orig>bvscan</orig><reg>buscan</reg></choice> y huyen y que el aire envuelve en sus
+            pliegues invisibles.</p> 
+          <p>El coro había terminado: los venerables canónigos<ptr target="#note1" n="1"/> cumplido por aquel día su
+            deber de alabar al Señor entre bostezo y bostezo. Uno tras otro iban entrando en la
+            sacristía<ptr target="#note2" n="2"/> con el aire aburrido de todo funcionario que desempeña cargos oficiales
+            mecánicamente, siempre del mismo modo, sin creer en la utilidad del esfuerzo con que
+            gana el pan de cada día.</p>
+        </div> 
+        <div type="capitulo" n="3">
+          <head>Capítulo 3</head>
+          <p> Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
+            que se encontraran y por su confianza con la Regenta facilitó la entrevista. </p>
+          <p> Pocas veces habían cruzado la palabra la hermosa dama y el Provisor, y nunca había
+            pasado la conversación de los lugares comunes a que obliga el trato social.</p>
+
+        </div> <!-- Fin del capítulo 3 -->
+      </div> <!-- Fin del tomo 1 -->
+    </body>
+    <back>
+      <note xml:id="note1" type="Término-técnico">Canónigos. Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
+        que se encontraran y por su confianza con la Regenta facilitó la entrevista.Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
+        que se encontraran y por su confianza con la Regenta facilitó la entrevista.Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
+        que se encontraran y por su confianza con la Regenta facilitó la entrevista.Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
+        que se encontraran y por su confianza con la Regenta facilitó la entrevista.Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
+        que se encontraran y por su confianza con la Regenta facilitó la entrevista.Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
+        que se encontraran y por su confianza con la Regenta facilitó la entrevista.Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
+        que se encontraran y por su confianza con la Regenta facilitó la entrevista.Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
+        que se encontraran y por su confianza con la Regenta facilitó la entrevista.</note>
+      <note xml:id="note2" type="Término-histórico">Sacristía. Contenido de la nota.</note>
+    </back>
+    
+  </text>
+</TEI>

@@ -1,0 +1,377 @@
+/* Estilos generales */
+body,
+html {
+  font-family: 'Open sans', sans-serif;
+  margin: 0;
+  height: 100%;  
+  box-sizing: border-box; 
+  background-color: var(--color-fondo); 
+  color: var(--color-texto); 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Asegura que las columnas se ajusten en pantallas pequeñas */
+  margin-right: -20px; /* Ajusta el margen negativo para compensar el espacio extra del padding */
+  margin-left: -20px; /* Ajusta el margen negativo para compensar el espacio extra del padding */
+  box-sizing: border-box;
+}
+
+/* Clases de columnas */
+.col-1, .col-3, .col-6, .col-9, .col-10 {
+  padding: 20px; /* padding a cada lado, resultando en un total de 40px de espacio interior */
+}
+
+.col-1 { width: 8.33%; }
+.col-3 { width: 25%; }
+.col-6 { width: 50%; }
+.col-9 {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col-10 { width: 83.33%; }
+
+/* Clearfix para el sistema de float */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/* Estilos para los párrafos */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;  /* Espacio después de los párrafos */
+}
+
+
+/* Estilos para los encabezados */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;  /* 32px si el tamaño base es 16px */
+}
+
+h2 {
+  font-size: 1.75em;  /* 28px */
+}
+
+h3 {
+  font-size: 1.5em;  /* 24px */
+}
+
+h4 {
+  font-size: 1.25em;  /* 20px */
+}
+
+h5 {
+  font-size: 1em;  /* 16px */
+}
+
+h6 {
+  font-size: 0.875em;  /* 14px */
+}
+
+/* Estilos para enlaces */
+.enlace {
+	text-decoration: none;
+	color: var(--color-texto);
+	font-weight: normal;
+  position: relative;
+}
+
+.enlace::before {
+  content: '';
+  background-color: var(--grisclaro);
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  z-index: 1;
+  transition: all .3s ease-in-out;
+}
+
+.enlace:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+
+
+
+/* Estilo básico para listas */
+ul,
+ol {
+  margin-left: 20px;  /* Añade indentación a las listas */
+}
+
+/* BOTONES */
+.boton {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: var(--blanco);
+  background-color: var(--color-boton);
+  border: 0px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.boton:hover {
+  border-color: var(--color-boton);
+  opacity: 0.8;
+}
+
+a.boton {
+  text-decoration: none;
+}
+
+/* Estilo del sidebar */
+.sidebar {
+  display: flex;  /* Activa Flexbox */
+  flex-direction: column;  /* Organiza los elementos en una columna */
+  justify-content: space-between;  /* Espacia los elementos al inicio y al final */
+  height: 100%;  /* Asegura que el sidebar ocupe toda la altura disponible */
+  width: 250px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  background-color: var(--color-sidebar);
+  overflow-x: hidden;
+  transition: 0.5s ease;
+  transform: translateX(100%);  /* Oculta el sidebar moviéndolo hacia la derecha */
+  padding-top: 60px;
+}
+
+.cita {
+  margin-top: auto;  /* Esto empuja la cita hacia abajo, al final del espacio disponible */
+  color: var(--gris);
+  padding: 10px 15px;
+}
+
+/* Estilo de los enlaces del sidebar */
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: var(--blanco);
+}
+
+
+/* Estilo para el botón de menú hamburguesa */
+.menu-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  padding: 10px 15px;
+  z-index: 1001;
+  font-size: 30px;
+}
+
+/* Estilo para hover */
+.menu-bar:hover {
+  color: var(--grisclaro);
+}
+
+
+
+/* PORTADA*/
+#portada .col-9 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.centrado-vertical {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#creditos {
+  margin-top: auto;
+}
+
+
+
+
+
+/* BOTONES VERSIONES*/
+.botones-fijos {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#showDiplomatic {
+  background-color: var(--gris);
+}
+#showModernized {
+  background-color: var(--grisclaro);
+}
+
+/*IMÁGENES FACSÍMIL */
+.imagen-fixed {
+  position: fixed;
+  bottom: 200px; /* Ajusta esta distancia para que la imagen quede encima de los botones */
+  left: 40px; /* Alineación con el margen izquierdo, similar a los botones */
+}
+
+.imagen-fixed img {
+  width: 150px; /* Ajusta este tamaño según el margen*/
+  height: auto; /* Mantiene la proporción de la imagen */
+  cursor: pointer; /* Cambia el cursor para indicar que la imagen se puede clickear */
+}
+
+.imagen-modal {
+  display: none; /* Se cambiará a 'flex' con JavaScript */
+  position: fixed;
+  z-index: 1002;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto; /* Permite scrolling si es necesario */
+}
+
+.imagen-modal-content {
+  max-width: 100%; /* Controla el tamaño máximo de la imagen */
+  max-height: 90vh; /* Evita que la imagen sea demasiado alta */
+}
+
+#caption {
+  color: var(--blanco);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+/* Utiliza una clase separada para el botón de cerrar específico de este modal */
+.cerrar-imagen {
+  position: absolute;
+  top: 15px;
+  left: 35px;
+  color: var(--grisclaro);
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.cerrar-imagen:hover {
+  color: var(--blanco);
+}
+
+
+/* Estilos para el enlace del logo */
+.logo-enlace {
+  position: fixed; 
+  right: 20px; 
+  bottom: 20px; 
+  z-index: 998; 
+}
+
+.logo-enlace img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; 
+}
+
+
+
+/* Estilos para ajustar el contenido de la edición a pantallas más pequeñas */
+@media screen and (max-width: 1024px) {
+  .row {
+    display: block; /* Cambia el display para desactivar flexbox */
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .col-1, .col-3, .col-6, .col-9, .col-10 {
+    width: 100%; /* Hace que todas las columnas ocupen el ancho completo */
+    padding: 40px; /* Ajusta el padding si es necesario */
+  }
+  .logo-enlace {
+    display: none;
+  }
+  .botones-fijos {
+    position: static; /* Desactiva el posicionamiento fijo */
+    top: auto; /* Remueve el ajuste de posición 'top' */
+    left: auto; /* Remueve el ajuste de posición 'left' */
+    transform: none; /* Anula cualquier transformación */
+    display: flex; /* Mantiene el layout flex */
+    flex-direction: row; /* Cambia la dirección de los botones a horizontal */
+    justify-content: left; /* Centra los botones horizontalmente */
+    gap: 10px; /* Mantiene un espacio entre los botones */
+    margin-top: 20px; /* Añade espacio arriba de los botones para separarlos del título */
+  }
+  .imagen-fixed {
+    position: static; /* Desactiva el posicionamiento fijo */
+    top: auto; /* Remueve el ajuste de posición 'top' */
+    left: auto; /* Remueve el ajuste de posición 'left' */
+    transform: none; /* Anula cualquier transformación */
+    display: flex; /* Mantiene el layout flex */
+    flex-direction: row; /* Cambia la dirección de los botones a horizontal */
+    justify-content: left; /* Centra los botones horizontalmente */
+    gap: 10px; /* Mantiene un espacio entre los botones */
+    margin-top: 20px; /* Añade espacio arriba de los botones para separarlos del título */  
+  }
+}
+@media (max-width: 500px) {
+  .botones-fijos {
+    position: static; /* Desactiva el posicionamiento fijo */
+    top: auto; /* Remueve el ajuste de posición 'top' */
+    left: auto; /* Remueve el ajuste de posición 'left' */
+    transform: none; /* Anula cualquier transformación */
+    display: flex; /* Activa flexbox para el layout */
+    flex-direction: column; /* Cambia la dirección de los botones a vertical */
+    justify-content: flex-start; /* Alinea los botones al inicio (arriba) del contenedor */
+    align-items: flex-start; /* Alinea los botones al inicio (izquierda) del contenedor */
+    gap: 10px; /* Mantiene un espacio entre los botones */
+    margin-top: 20px; /* Añade espacio arriba de los botones para separarlos del título */
+  }
+}

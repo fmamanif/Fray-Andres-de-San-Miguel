@@ -1,0 +1,151 @@
+tei-text {
+  display: block;
+}
+
+tei-div {
+  display: block;
+
+}
+
+tei-p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px; /* Espacio después de los párrafos */
+  display: block;
+  text-align: justify;
+}
+tei-head {
+  display: block;
+  font-weight: 700;
+  font-size: 1.75em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+tei-standoff {
+  display: none;
+}
+
+tei-back {
+  display: none;
+}
+
+/*NOTAS*/
+.modal {
+  display: none;
+  position: fixed; /* No 'absolute', para que se posicione relativo al viewport */
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 40px;
+  border-radius: 10px; /* Esquinas redondeadas */
+  width: 50%; /* Ancho del modal */
+  max-width: 600px; /* Máximo ancho */
+  max-height: 80vh; /* Máximo alto, con scroll interno si el contenido excede esto */
+  overflow-y: auto; /* Permite el desplazamiento interno para contenido largo */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Sombra para efecto visual */
+  position: absolute; /* Posicionamiento absoluto dentro de .modal */
+  top: 50%; /* Posiciona a la mitad de .modal en términos de altura */
+  left: 50%; /* Posiciona a la mitad de .modal en términos de ancho */
+  transform: translate(-50%, -50%); /* Ajusta la posición para centrar exactamente */
+  text-align: justify;
+}
+
+/* Media query para pantallas menores a 1100px */
+@media (max-width: 1100px) {
+  .modal-content {
+    width: 85%; /* Aumenta el ancho al 85% */
+  }
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Número de nota */
+.notaTEI  {
+  display: inline-block; /* Hace que el enlace se comporte como un bloque para poder aplicar padding */
+  width: 20px; /* Establece un ancho fijo */
+  height: 20px; /* Establece un alto fijo */
+  line-height: 20px; /* Asegura que el texto esté centrado verticalmente */
+  text-align: center; /* Centra el texto horizontalmente */
+  border-radius: 50%; /* Crea el efecto de círculo */
+  border: 0px solid #000; /* Establece el color y grosor del borde */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: #fff; /* Establece el color del texto */
+  font-weight: normal; /* Opcional: hace el número más notorio */
+  background-color: #333; /* Establece el color de fondo; cambia según tus necesidades */
+  margin-left: 2px;
+  text-decoration: none;
+}
+
+.notaTEI:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+/* Etiquetas de notas */
+.note-type {
+  border-radius: 10px; /* Esquinas redondeadas */
+  padding: 5px 10px; /* Relleno: 5px arriba/abajo y 10px izquierda/derecha */
+  display: inline-block; /* Asegura que el padding y border-radius se apliquen */
+  margin: 5px 0; /* Un poco de margen arriba y abajo */
+  color: white; /* Color del texto */
+  font-weight: bold; /* Texto en negrita */
+}
+
+.note-type[data-type="termino-tecnico"] {
+  background-color: #f7b733;
+}
+
+.note-type[data-type="termino-historico"] {
+  background-color: #3371f7;
+}
+
+
+/* CHOICE */
+/* Configuración inicial para que corr y reg (elementos modernizados) se muestren por defecto */
+tei-corr, tei-reg {
+  display: inline;
+}
+
+tei-sic, tei-orig {
+  display: none; /* sic y orig (elementos diplomáticos) ocultos por defecto */
+}
+
+/* Cuando la clase "diplomatic" está presente, se invierte la lógica */
+.diplomatic tei-corr, .diplomatic tei-reg {
+  display: none;
+}
+
+.diplomatic tei-sic, .diplomatic tei-orig {
+  display: inline; /* Muestra sic y orig, oculta corr y reg */
+}
+
+
+/* Estilos versiones */
+tei-sic {
+  text-decoration: underline dotted red;
+}
+
+tei-orig {
+  text-decoration: underline dotted green;
+}
+

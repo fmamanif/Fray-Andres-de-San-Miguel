@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edición digital</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/tei.css">
+</head>
+<body>
+    <!--MENU-->
+    <div id="menu-bar" class="menu-bar">
+        &#9776; <!-- Símbolo de menú hamburguesa -->
+    </div>
+
+    <div id="mySidebar" class="sidebar">
+        <!-- Contenido del menú -->
+        <a href="/">Inicio</a>
+        <a href="/proyecto">Sobre el proyecto</a>
+        <a href="/edicion">Edición</a>
+        <a href="/estudio">Estudio</a>
+        <div class="cita">
+            <p>Mamani Fuentes, Francisco (2024). Edición digital de la sección de carpintería del manuscrito de Fray Andrés de San Miguel, siglo XVII.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div class="titulo" id="tituloedicion">
+                    <h1>Edición digital de la sección de carpintería del manuscrito de Fray Andrés de San Miguel</h1>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-3">
+                <div id="imagenContainer" class="imagen-fixed">
+                    <img src="/assets/images/facsimil/fac01.jpg" alt="Descripción de la imagen" id="miImagen" />
+                </div>
+                <div id="modalImagen" class="imagen-modal" style="display: none;">
+                    <div class="modal-content-wrapper"> <!-- Contenedor agregado para centrado -->
+                        <span class="cerrar-imagen">&times;</span>
+                        <img class="imagen-modal-content" id="img01" alt="Descripción de la imagen">
+                        <div id="caption"></div>
+                    </div>
+                </div>
+                <div class="botones-fijos">
+                    <button id="showDiplomatic" class="boton">Edición diplomática</button>
+                    <button id="showModernized" class="boton">Edición modernizada</button>
+                </div>
+            </div>
+            <div class="col-6">
+                <div id="xml-tei-container">
+                    <!-- Aquí se colocará el contenido del archivo XML-TEI -->
+                </div>
+            </div>
+            <div class="col-3">
+                <a href="tu_enlace_aquí" class="logo-enlace">
+                    <img src="/assets/images/tei.png" alt="Logo TEI">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+
+    <!-- CETEIcean -->
+    <script src="/assets/js/CETEI.js"></script>
+
+    <script>
+        let c = new CETEI();
+
+        let behaviors = {
+            "tei": {
+                "ptr": function (e) {
+                    // Crea un elemento <a> para hacer el ptr clickable
+                    let a = document.createElement("a");
+                    a.href = "#";
+                    a.textContent = e.getAttribute("n");
+                    // Agrega una clase al elemento <a>
+                    a.className = "notaTEI"; // Asigna la clase "nota-link"
+
+                    // Encuentra la nota referenciada
+                    let targetId = e.getAttribute("target").substring(1); // elimina el "#" inicial
+                    let noteElement = document.querySelector("#" + targetId);
+                    let note = noteElement.textContent;
+
+                    // Procesa el contenido de 'type', reemplazando '-' por ' '
+                    let noteType = noteElement.getAttribute("type") ? noteElement.getAttribute("type").replace(/-/g, ' ') : "";
+
+                    // Agrega un evento de clic al enlace para abrir un modal
+                    a.onclick = function () {
+                        // Crea el modal y muestra la nota
+                        let modal = document.createElement("div");
+                        modal.setAttribute("class", "modal");
+
+                        let modalContent = document.createElement("div");
+                        modalContent.setAttribute("class", "modal-content");
+
+                        let closeSpan = document.createElement("span");
+                        closeSpan.setAttribute("class", "close");
+                        closeSpan.innerHTML = "&times;";
+                        closeSpan.onclick = function () {
+                            modal.style.display = "none";
+                            document.body.removeChild(modal);
+                            document.body.style.overflow = ''; // Re-habilita el desplazamiento del cuerpo de la página cuando el modal se cierra
+                        };
+
+                        modal.onclick = function (event) {
+                            if (event.target == modal) {
+                                modal.style.display = "none";
+                                document.body.removeChild(modal);
+                                document.body.style.overflow = ''; // Re-habilita el desplazamiento del cuerpo de la página cuando el modal se cierra
+                            }
+                        };
+
+                        modalContent.appendChild(closeSpan);
+
+                        // Deshabilita el desplazamiento del cuerpo de la página cuando el modal está activo
+                        document.body.style.overflow = 'hidden';
+
+                        // Crea un elemento específico para 'type' si existe
+                        if (noteType) {
+                            let normalizedNoteType = noteType.normalize("NFD").replace(/[\u0300-\u036f]/g, "") // Quita los acentos
+                                .replace(/-/g, ' ').toLowerCase() // Convierte guiones a espacios y a minúsculas
+                                .replace(/\s+/g, '-'); // Reemplaza espacios con guiones para el atributo data-type
+
+                            let noteTypeElement = document.createElement("span");
+                            noteTypeElement.className = "note-type";
+                            noteTypeElement.textContent = noteType;
+                            noteTypeElement.setAttribute('data-type', normalizedNoteType);
+                            modalContent.appendChild(noteTypeElement);
+                        }
+
+                        let noteContent = document.createElement("p");
+                        noteContent.textContent = note;
+                        modalContent.appendChild(noteContent);
+
+                        modal.appendChild(modalContent);
+                        document.body.appendChild(modal);
+
+                        modal.style.display = "block";
+
+                        // Evita que el enlace navegue a su href
+                        return false;
+                    };
+
+                    return a;
+                }
+            }
+        };
+
+
+        c.addBehaviors(behaviors);
+            c.getHTML5('../assets/tei/prueba.xml', function (data) {
+                document.getElementById('xml-tei-container').appendChild(data);
+                // Ocultar o eliminar el contenedor de notas
+                let notesContainer = document.querySelector('.notes');
+                if (notesContainer) {
+                    // Para ocultar el contenedor de notas
+                    notesContainer.style.display = 'none';
+                    // O para eliminar el contenedor de notas del documento
+                    // notesContainer.parentNode.removeChild(notesContainer);
+                }
+                document.body.classList.add("modernized"); // Asegúrate de que por defecto se muestre la versión modernizada
+
+                document.getElementById("showDiplomatic").addEventListener("click", function () {
+                    document.body.classList.remove("modernized"); // Quita la clase para mostrar la versión diplomática
+                    document.body.classList.add("diplomatic"); // Añade la clase "diplomatic"
+                });
+
+                document.getElementById("showModernized").addEventListener("click", function () {
+                    document.body.classList.remove("diplomatic"); // Quita la clase "diplomatic"
+                    document.body.classList.add("modernized"); // Asegura que la clase "modernized" esté presente
+                });
+        });
+
+    </script>
+    <script>
+        document.getElementById('miImagen').onclick = function () {
+            var modal = document.getElementById('modalImagen');
+            var modalImg = document.getElementById('img01');
+            var captionText = document.getElementById('caption');
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+
+            var span = document.getElementsByClassName("cerrar-imagen")[0];
+
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+
+            // Cierra el modal si el usuario hace clic fuera de la imagen
+            window.onclick = function (event) {
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                }
+            }
+        }
+    </script>
+    
+</body>
+</html>
