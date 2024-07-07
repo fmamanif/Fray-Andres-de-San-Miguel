@@ -19,15 +19,6 @@
   </teiHeader>
 
   <text>
-    <!-- En este caso, podríamos marcar el prólogo en el elemento <front> -->
-    <front>
-      <div type="prologo">
-        <head>Prólogo</head>
-        <p>Creo que fue Wieland quien dijo que los pensamientos de los hombres valen más que sus
-          acciones, y las buenas novelas más que el género humano. Podrá esto no ser verdad; pero es
-          hermoso y consolador. etc.</p>
-      </div>
-    </front>
 
     <!-- Aquí empieza propiamente el texto, donde utilizaremos <div> para estructurar las diferentes secciones: -->
     <body>
@@ -56,6 +47,7 @@
             mecánicamente, siempre del mismo modo, sin creer en la utilidad del esfuerzo con que
             gana el pan de cada día.</p>
         </div> <!-- Fin del capítulo 2 -->
+        <pb n="114r"/>
         <div type="capitulo" n="3">
           <head>Capítulo 3</head>
           <p> Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
@@ -74,6 +66,7 @@
             mecánicamente, siempre del mismo modo, sin creer en la utilidad del esfuerzo con que
             gana el pan de cada día.</p>
         </div> <!-- Fin del capítulo 2 -->
+        <pb n="115v"/>
         <div type="capitulo" n="3">
           <head>Capítulo 3</head>
           <p> Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
@@ -82,7 +75,7 @@
             pasado la conversación de los lugares comunes a que obliga el trato social.</p>
 
         </div> <!-- Fin del capítulo 3 -->
-        <div type="capitulo" n="1">
+        <div type="capitulo" n="4">
           <!-- en lugar del atríbuto "n" también podríamos asignarle un identificador "xml:id" -->
           <head>Capítulo 1</head>
           <!-- los títulos pueden marcarse con el elemento <head> -->
@@ -97,7 +90,8 @@
           <p/>
           <p/>
         </div> <!-- Fin del capítulo 1 -->
-        <div type="capitulo" n="2">
+        <pb n="4"/>
+        <div type="capitulo" n="5">
           <head>Capítulo 2</head>
           <p>El coro había terminado: los venerables canónigos<ptr target="#note1" n="1"/> cumplido por aquel día su
             deber de alabar al Señor entre bostezo y bostezo. Uno tras otro iban entrando en la
@@ -105,7 +99,7 @@
             mecánicamente, siempre del mismo modo, sin creer en la utilidad del esfuerzo con que
             gana el pan de cada día.</p>
         </div> <!-- Fin del capítulo 2 -->
-        <div type="capitulo" n="3">
+        <div type="capitulo" n="6">
           <head>Capítulo 3</head>
           <p> Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
             que se encontraran y por su confianza con la Regenta facilitó la entrevista. </p>
@@ -123,7 +117,8 @@
             mecánicamente, siempre del mismo modo, sin creer en la utilidad del esfuerzo con que
             gana el pan de cada día.</p>
         </div> 
-        <div type="capitulo" n="3">
+        <pb n="5"/>
+        <div type="capitulo" n="7">
           <head>Capítulo 3</head>
           <p> Aquella tarde hablaron la Regenta y el Magistral en el paseo. El Arcipreste procuró
             que se encontraran y por su confianza con la Regenta facilitó la entrevista. </p>
