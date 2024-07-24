@@ -16,3 +16,4 @@ Para las columnas <cb n="numero de columna"/>
 
 COMANDO S = GUARDAR
 Cambio 
+He puesto <note: en vez de head por el problema
