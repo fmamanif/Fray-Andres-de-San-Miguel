@@ -17,3 +17,18 @@ Para las columnas <cb n="numero de columna"/>
 COMANDO S = GUARDAR
 Cambio 
 He puesto <note: en vez de head por el problema
+
+Antes de comenzar a trabajar
+git pull
+
+Trabajo
+1.⁠ ⁠Hacer todos los cambios
+2.⁠ ⁠Guardar cambios en local (comando + s)
+
+Terminar de trabajar
+1.⁠ ⁠git pull (por si yo en el intertanto hice algo)
+2.⁠ ⁠Almacenar "stage" cambios (darle a +)
+3.⁠ ⁠Escribir Mensaje y darle a Confirmación
+4.⁠ ⁠Sincronizar cambios o git push
+
+FIN
