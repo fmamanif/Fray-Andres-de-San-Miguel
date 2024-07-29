@@ -76,7 +76,7 @@
                     <lb/>una armadura quadrada de lazo de ocho. 
                 </p>
 
-            </div> <!-- Fin de la entrada_1 -->
+            </div><!-- Fin de la entrada_1 -->
 
             <div type="entrada" n="2" xml:id="entrada_2">
                 <pb n="72v" facs="72v.jpg"/>
@@ -103,8 +103,11 @@
                     <lb/>los puntos ·q y r es el largo del nudillo y juntamente los pares y alfardas y el ancho de la casa quedan partidos en tres par<lb break="no"/>tes
                     yguales. 
                 </p> 
-                
-                <note>De como se montea cualquier armadura qadrada de lazo o llana y se le busca el cartabon y albanecar a que arma</note>
+
+            </div><!-- Fin de la entrada_2 -->
+            
+            <div type="entrada" n="3" xml:id="entrada_3">
+                <head>De como se montea cualquier armadura qadrada de lazo o llana y se le busca el cartabon y albanecar a que arma</head>
                 <p>
                     <lb/>montear una trasa cualquiera que sea no es otra
                     <lb/>cosa sino sino buscarle y hallar con açierto los cor/tes y lo alto y ancho y forma que ha de tener: puesto
@@ -173,9 +176,12 @@
                     la garganta. y se a de dejar este corte de la cola un dedo
                     <lb/>mas alto delo que llena el nudillo en que entre la tabica con<lb break="no"/>forme
                     al corte dela garganta se abre el encaje en el nudillo. 
-                </p> 
+                </p>
 
-                <note>Reglas que se deuen usar</note>
+            </div><!-- Fin de la entrada_3 -->
+            
+            <div type="entrada" n="4" xml:id="entrada_4">
+                <head>Reglas que se deuen usar</head>
                 <p>
                     <lb/>toda suerte de armaduras aun que sean llanas teniendo calle
                     <lb/>de limas conuiene ajustarla abaxo y para esto se hazen dos reglas
@@ -193,41 +199,45 @@
                     en las limas y abren las patillas y senalan (sic) escopleaduras y si a
                     <lb/>de llevar lazo a que se trasa y guarnese y de aqui sale todo ajustado y guar<lb break="no"/>neçido
                     como se a de asentar en su lugar. 
-                </p>               
-            </div><!-- Fin de la entrada_2 -->
-
-            <div type="entrada" n="3" xml:id="entrada_3">
-               <pb n="73r" facs="73r.jpg"/>
-               <note>IMAGEN</note>
-            </div><!-- Fin de la entrada_3 -->
-
-            <div type="entrada" n="4" xml:id="entrada_4">
-                <pb n="73v" facs="73v.jpg"/>
-                <p>
-                    <lb/>la patilla de la lima la abre el albanecar por la tabla
-                    <lb/>que esta a esquadra y por la del canpaneo el coz de limas
-                    <lb/>pero porque siempre sale con alguna inperfecçion es mas
-                    <lb/>çierto abrir estas patillas por rehendimiento este se ha<lb break="no"/>ze
-                    despues de ajustada la lima en su lugar se le seña<lb break="no"/>la
-                    la patilla en el canto alto y baxo derecha con la de los
-                    <lb/>pares y pendolas y en la pendola mas sercana a la lima se
-                    <lb/>se pasan de una a otra esquina por la tabla los trasos que
-                    <lb/>cortan la patilla y pasados con el cartabon quadrado por 
-                    <lb/>el canto baxo de la pendola por estos trasos de la una a la
-                    <lb/>otra pendola se tira una regla y sino alcansa un cordel
-                    <lb/>que alcanse dentranbas lineas y se les senala (sic) este traso en
-                    <lb/>el canto baxo que es el de la canpana dentranbas linas (sic) este
-                    <lb/>es el traso que abre la barbilla y en el canto alto de la lima se
-                    <lb/>señalla (sic) el traso que de la patilla salio al canto alto de la
-                    <lb/>pendola con esto quedan en la lima senala (sic) dos quatro
-                    <lb/>trasos dos en el canto baxo de la campana y dos en el can<lb break="no"/>to
-                    alto estos quatro trasos se tiran encontrados por la ta<lb break="no"/>blas
-                    de esquina a esquina y donde se cortan uno a otro en 
-                    <lb/> las mismas tablas abien la patilla este es el modo mas per<lb break="no"/>fecto
-                    que para abrir quales quiera patillas de limas se pueda dar.
                 </p>
 
-                <note>De otras reglas y de algunas medidas de lazo de ocho</note>
+                <pb n="73r" facs="73r.jpg"/>
+
+               <!--IMAGEN-->
+               
+               <pb n="73v" facs="73v.jpg"/>
+
+               <p>
+                <lb/>la patilla de la lima la abre el albanecar por la tabla
+                <lb/>que esta a esquadra y por la del canpaneo el coz de limas
+                <lb/>pero porque siempre sale con alguna inperfecçion es mas
+                <lb/>çierto abrir estas patillas por rehendimiento este se ha<lb break="no"/>ze
+                despues de ajustada la lima en su lugar se le seña<lb break="no"/>la
+                la patilla en el canto alto y baxo derecha con la de los
+                <lb/>pares y pendolas y en la pendola mas sercana a la lima se
+                <lb/>se pasan de una a otra esquina por la tabla los trasos que
+                <lb/>cortan la patilla y pasados con el cartabon quadrado por 
+                <lb/>el canto baxo de la pendola por estos trasos de la una a la
+                <lb/>otra pendola se tira una regla y sino alcansa un cordel
+                <lb/>que alcanse dentranbas lineas y se les senala (sic) este traso en
+                <lb/>el canto baxo que es el de la canpana dentranbas linas (sic) este
+                <lb/>es el traso que abre la barbilla y en el canto alto de la lima se
+                <lb/>señalla (sic) el traso que de la patilla salio al canto alto de la
+                <lb/>pendola con esto quedan en la lima senala (sic) dos quatro
+                <lb/>trasos dos en el canto baxo de la campana y dos en el can<lb break="no"/>to
+                alto estos quatro trasos se tiran encontrados por la ta<lb break="no"/>blas
+                de esquina a esquina y donde se cortan uno a otro en 
+                <lb/> las mismas tablas abien la patilla este es el modo mas per<lb break="no"/>fecto
+                que para abrir quales quiera patillas de limas se pueda dar.
+            </p>
+
+                
+            </div><!-- Fin de la entrada_4 -->
+
+
+            <div type="entrada" n="5" xml:id="entrada_5">
+                <pb n="73v" facs="73v.jpg"/>
+                <head>De otras reglas y de algunas medidas de lazo de ocho</head>
                 <p>
                     <lb/>quando el armadura es de lazo se a de usar de dos o tres
                     <lb/> reglas y aqui llamaremos cuerdas del largo de una bara o poco
@@ -277,7 +287,7 @@
                     medida en todos los lazos y es el siguiente. 
                 </p>
 
-                <note>IMAGEN</note>
+                <!--IMAGEN-->
 
                 <p>
                     <lb/>en este exemplo se declaran las medidas mas dificultosas
@@ -307,7 +317,10 @@
                     de sinos y de candilejos estas son las mas çiertas por des<lb break="no"/>pedirlas 
                     assi el mismo lazo sin artifiçio. 
                 </p>
+
+            </div><!-- Fin de la entrada_5 -->
                 
+            <div type="entrada" n="6" xml:id="entrada_6">
                 <note>De las medidas de las demas boquillas</note>
                 <p>
                     <lb/>La cola del cartabon quadrado y la cabeça del de nueve y echa<lb break="no"/>dos 
@@ -345,10 +358,9 @@
                     de su costadillo lo despide el lazo de diez y sale por el orden que el diez
                     <lb/> y seys.
                 </p>
-            </div><!-- Fin de la entrada_4 -->
-
-            <div type="entrada" n="5" xml:id="entrada_5">
+           
                 <pb n="74r" facs="74r.jpg"/>
+
                 <p>
                     <lb/>estos aqui abaxo trazados son exemplos de todas las boquillas la pri<lb break="no"/>mera
                     señalada con este numero 8 es su mesma boquilla del trazo a
@@ -380,15 +392,18 @@
                     <lb/>de diez y el traso ·s·u es la cola del cartabon de çinco.
                 </p>
 
-                <note>IMAGEN</note>
+                <!--IMAGEN-->
 
                 <p>
                   <lb/>Estos por su orden son los cartabones que cortan en todos los lazos ·de ocho, nueve, diez, doze, diez y seys y veynte. 
                 </p>
 
-                <note>IMAGEN</note>
+                <!--IMAGEN-->
 
-                <note>De como sin abrir ni serrar el compas se sacan el cartabon de quatro y medio y el que llaman atimbron</note>
+            </div><!-- Fin de la entrada_6 -->
+
+            <div type="entrada" n="7" xml:id="entrada_7">
+                <head>De como sin abrir ni serrar el compas se sacan el cartabon de quatro y medio y el que llaman atimbron</head>
                 <p>
                    <lb/>formada con sus lineas la planta señalada ·A y se
                    <lb/> sacan en ella los cartabones quadrado el de çinco y el de diez
@@ -411,14 +426,13 @@
                    <lb/>·n y se tiran las lineas ·a·n ·n·b con que queda formado el cartabon atimbron. 
                 </p>
 
-                <note>IMAGEN</note>
+                <!--IMAGEN-->
 
-            </div><!-- Fin de la entrada_5 -->
-            <div type="entrada" n="6" xml:id="entrada_6">
                 <pb n="74v" facs="74v.jpg"/>
-                
-                <note>IMAGEN</note>
 
+                <!--IMAGEN-->
+                
+                <!-- Podria ser una entrada nueva (a evaluar)-->
                 <p>
                     <lb/>el armadura aqui trazada y monteada esta en çinco paños
                     <lb/>y es quadrada por el almisate y por abaxo y ochaba<lb break="no"/>da 
@@ -454,7 +468,9 @@
                     <lb/>obro y es lo que se deue seguir en toda suerte de lazos.
                 </p>
 
-            </div><!-- Fin de la entrada_6 -->
+            </div>
+            
+                
 
           
         </div>
