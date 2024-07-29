@@ -14,6 +14,6 @@ Poner dentro la palabra cortada <lb break="no"/>
 Para ingresa folio debo poner antes del head <pb n="numero de folio"/>
 Para las columnas <cb n="numero de columna"/>
 
-COMANDO S = GUARDAR
+COMANDO S = GUARDAR 
 Cambio 
 He puesto <note: en vez de head por el problema
