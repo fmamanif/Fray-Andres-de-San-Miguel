@@ -1,5 +1,5 @@
-let c = new CETEI();
 
+    let c = new CETEI();
     let behaviors = {
         "tei": {
             "ptr": function (e) {
@@ -82,26 +82,26 @@ let c = new CETEI();
 
 
     c.addBehaviors(behaviors);
-        c.getHTML5('../assets/tei/prueba.xml', function (data) {               
-            document.getElementById('xml-tei-container').appendChild(data);
 
-            // Ocultar o eliminar el contenedor de notas
-            let notesContainer = document.querySelector('.notes');
-            if (notesContainer) {
-                // Para ocultar el contenedor de notas
-                notesContainer.style.display = 'none';
-                // O para eliminar el contenedor de notas del documento
-                // notesContainer.parentNode.removeChild(notesContainer);
-            }
-            document.body.classList.add("modernized"); // Asegúrate de que por defecto se muestre la versión modernizada
+    document.addEventListener("DOMContentLoaded", function() {
+    // Ocultar o eliminar el contenedor de notas
+    let notesContainer = document.querySelector('.notes');
+    if (notesContainer) {
+        notesContainer.style.display = 'none';
+    }
 
-            document.getElementById("showDiplomatic").addEventListener("click", function () {
-                document.body.classList.remove("modernized"); // Quita la clase para mostrar la versión diplomática
-                document.body.classList.add("diplomatic"); // Añade la clase "diplomatic"
-            });
+    // Asegúrate de que por defecto se muestre la versión modernizada
+    document.body.classList.add("modernized");
 
-            document.getElementById("showModernized").addEventListener("click", function () {
-                document.body.classList.remove("diplomatic"); // Quita la clase "diplomatic"
-                document.body.classList.add("modernized"); // Asegura que la clase "modernized" esté presente
-            });
-        });
+    // Gestionar los botones para alternar entre versiones
+    document.getElementById("showDiplomatic").addEventListener("click", function () {
+        document.body.classList.remove("modernized");
+        document.body.classList.add("diplomatic");
+    });
+
+    document.getElementById("showModernized").addEventListener("click", function () {
+        document.body.classList.remove("diplomatic");
+        document.body.classList.add("modernized");
+    });
+    
+});
