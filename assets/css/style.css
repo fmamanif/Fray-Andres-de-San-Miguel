@@ -136,7 +136,7 @@ ol {
 .boton {
   margin-top: 20px;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 20px;
   font-size: 16px;
   color: var(--blanco);
   background-color: var(--color-boton);
@@ -154,6 +154,10 @@ ol {
 
 a.boton {
   text-decoration: none;
+}
+
+.centered-container {
+  text-align: center; /* Asegura que el texto dentro del div también esté centrado */
 }
 
 /* Estilo del sidebar */
@@ -179,6 +183,19 @@ a.boton {
   color: var(--gris);
   padding: 10px 15px;
 }
+
+.sidebar .logos a {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle; 
+}
+
+.sidebar .logos img {
+  height: 30px; 
+  width: auto; 
+}
+
+
 
 /* Estilo de los enlaces del sidebar */
 .sidebar a {
@@ -225,12 +242,46 @@ a.boton {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: 1;
 }
 
 #creditos {
   margin-top: auto;
 }
+#creditos p {
+  margin-top: 2px;    /* Espacio superior entre los párrafos */
+  margin-bottom: 2px; /* Espacio inferior entre los párrafos */
+}
 
+
+.centrado-vertical .background-image {
+  position: absolute; 
+  right: 0; 
+  top: 40px; 
+  bottom: 40px; 
+  width: 500px;
+  height: auto;
+  background: url('/assets/images/inicio.jpg') no-repeat center center;
+  background-size: cover; 
+  opacity: 0.7;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+/* Ensure the parent is positioned relatively */
+.centrado-vertical {
+  position: relative; /* Needed to position the child absolutely */
+}
+
+@media screen and (max-width: 1024px) {
+  .centrado-vertical .background-image {
+    width: 100%;
+  }
+  .centrado-vertical {
+    padding: 20px;
+  }
+  
+}
 
 
 
@@ -251,6 +302,34 @@ a.boton {
 #showModernized {
   background-color: var(--grisclaro);
 }
+
+/* PASAR PAGINA */
+.navegacion-paginas {
+  position: fixed;
+  bottom: 40px;
+  display: block;
+}
+
+.navegacion-paginas div {
+  margin-bottom: 10px; /* Añade espacio entre los enlaces */
+}
+
+.navegacion-paginas div:last-child {
+  margin-bottom: 0; /* Elimina el margen en el último elemento para un ajuste limpio */
+}
+
+.flecha {
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--color-texto);
+}
+
+.flecha:hover {
+  color: var(--gris);
+}
+
+
+
 
 /*IMÁGENES FACSÍMIL */
 .imagen-fixed {
@@ -323,6 +402,50 @@ a.boton {
 }
 
 
+/* GRID IMAGENES */
+.grid-container {
+  width: 100%; /* Un poco de espacio en los lados */
+  margin: 20px auto; /* Centrado horizontal */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Automáticamente ajusta las columnas */
+  gap: 10px;
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.grid-item img:hover {
+  transform: scale(1.1);
+}
+
+.title-overlay {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* asegura que el div no interfiera con el clic en la imagen */
+}
+
+.grid-item:hover .title-overlay {
+  opacity: 1;
+}
+
+
 
 /* Estilos para ajustar el contenido de la edición a pantallas más pequeñas */
 @media screen and (max-width: 1024px) {
@@ -360,6 +483,18 @@ a.boton {
     gap: 10px; /* Mantiene un espacio entre los botones */
     margin-top: 20px; /* Añade espacio arriba de los botones para separarlos del título */  
   }
+  .navegacion-paginas {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  } 
+  #anterior {
+    text-align: left;
+  }
+  #siguiente {
+    text-align: right;
+  }
 }
 @media (max-width: 500px) {
   .botones-fijos {
@@ -375,3 +510,5 @@ a.boton {
     margin-top: 20px; /* Añade espacio arriba de los botones para separarlos del título */
   }
 }
+
+
