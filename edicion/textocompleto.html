@@ -22,9 +22,14 @@
         <a href="../">Inicio</a>
         <a href="../proyecto">Sobre el proyecto</a>
         <a href="../edicion">Edición</a>
+        <a href="../edicion/textocompleto.html">Texto completo</a>
         <a href="../estudio">Estudio</a>
         <div class="cita">
             <p>Mamani Fuentes, Francisco (2024). Edición digital de la sección de carpintería del manuscrito de Fray Andrés de San Miguel, siglo XVII.</p>
+        </div>
+        <div class="logos">
+            <a href="https://github.com/fmamanif/Fray-Andres-de-San-Miguel" target="_blank"><img src="/assets/images/github.png" alt="GitHub"></a>
+            <a href="#" target="_blank"><img src="/assets/images/zenodo.png" alt="Zenodo"></a> 
         </div>
     </div>
 
@@ -40,9 +45,6 @@
     
         <div class="row">
             <div class="col-3">
-                <div id="imagenContainer" class="imagen-fixed">
-                    <img src="../assets/images/facsimil/72r.jpg" alt="Descripción de la imagen" id="miImagen" />
-                </div> <!-- HAY QUE PROBAR A RECUPERAR LA IMAGEN DESDE EL TEI DICIENDO QUE LO INSERTE EN ESTE CONTAINER -->
                 <div id="modalImagen" class="imagen-modal" style="display: none;">
                     <div class="modal-content-wrapper"> <!-- Contenedor agregado para centrado -->
                         <span class="cerrar-imagen">&times;</span>
@@ -73,6 +75,14 @@
     <!-- CETEIcean -->
     <script src="../assets/js/CETEI.js"></script>
     <script src="../assets/js/teiViewer.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            c.getHTML5('../assets/tei/FrayAndresDeSanMiguel.xml', function(data) {
+                document.getElementById('xml-tei-container').appendChild(data);
+            });
+        });
+    </script>
 
     <script>
         document.getElementById('miImagen').onclick = function () {
