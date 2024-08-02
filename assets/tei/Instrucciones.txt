@@ -37,3 +37,6 @@ FIN
 # Expresiones regulares para modernización
 BUSCAR: (?<!<choice>)(<orig>.*?</orig>)(<reg>.*?</reg>)
 REEMPLAZAR: <choice>$1$2</choice>
+
+
+<choice><orig></orig><reg>,</reg></choice>
