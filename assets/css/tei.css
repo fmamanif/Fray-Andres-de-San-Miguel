@@ -149,3 +149,20 @@ tei-orig {
   text-decoration: underline dotted green;
 }
 
+
+
+/* tei-pb */
+
+tei-pb {
+  border-top: 1px solid var(--gris);
+  display: block;
+  width: 100%;
+  text-align: right;
+  color: var(--gris);
+  margin: 4em 0 0 0;
+  font-size: 12pt;
+}
+
+tei-pb:before {
+content: "[Folio " attr(n) "]";
+} 
