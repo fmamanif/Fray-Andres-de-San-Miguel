@@ -139,15 +139,26 @@ tei-sic, tei-orig {
   display: inline; /* Muestra sic y orig, oculta corr y reg */
 }
 
-
-/* Estilos versiones */
-tei-sic {
-  text-decoration: underline dotted red;
+/* Subrayar en verde las palabras originales seguidas por un <reg> cuando se muestra la versión diplomática */
+.diplomatic tei-choice > tei-orig + tei-reg ~ tei-orig {
+  text-decoration: underline green;
 }
 
-tei-orig {
-  text-decoration: underline dotted green;
+/* Subrayar en rojo las palabras originales seguidas por un <corr> cuando se muestra la versión diplomática */
+.diplomatic tei-choice > tei-orig + tei-corr ~ tei-orig {
+  text-decoration: underline red;
 }
+
+/* No subrayar en la versión modernizada */
+.modernized tei-choice > tei-orig {
+  text-decoration: none;
+}
+
+
+
+
+
+
 
 
 
@@ -166,3 +177,12 @@ tei-pb {
 tei-pb:before {
 content: "[Folio " attr(n) "]";
 } 
+
+tei-hi[rend="italic"] {
+  font-style: italic;
+  font-weight: bold;
+}
+
+tei-lb {
+  display: none;
+}
