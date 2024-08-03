@@ -92,16 +92,19 @@
 
     // Asegúrate de que por defecto se muestre la versión modernizada
     document.body.classList.add("modernized");
+    document.getElementById("toggleEdition").textContent = "Ver edición diplomática";
 
-    // Gestionar los botones para alternar entre versiones
-    document.getElementById("showDiplomatic").addEventListener("click", function () {
-        document.body.classList.remove("modernized");
-        document.body.classList.add("diplomatic");
+    // Gestionar el botón para alternar entre versiones
+    document.getElementById("toggleEdition").addEventListener("click", function () {
+        if (document.body.classList.contains("modernized")) {
+            document.body.classList.remove("modernized");
+            document.body.classList.add("diplomatic");
+            this.textContent = "Ver edición modernizada"; // Cambia el texto del botón
+        } else {
+            document.body.classList.remove("diplomatic");
+            document.body.classList.add("modernized");
+            this.textContent = "Ver edición diplomática"; // Cambia el texto del botón
+        }
     });
 
-    document.getElementById("showModernized").addEventListener("click", function () {
-        document.body.classList.remove("diplomatic");
-        document.body.classList.add("modernized");
-    });
-    
 });
