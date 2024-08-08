@@ -40,3 +40,7 @@ REEMPLAZAR: <choice>$1$2</choice>
 
 
 <choice><orig></orig><reg>,</reg></choice>
+
+<choice><orig></orig><reg><hi rend="italic"></hi></reg></choice>
+
+<choice><abbr></abbr><expan></expan></choice>
