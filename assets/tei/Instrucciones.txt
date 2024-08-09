@@ -34,7 +34,8 @@ Terminar de trabajar
 FIN
 
 
-# Expresiones regulares para modernización
+# Expresiones regulares
+
 BUSCAR: (?<!<choice>)(<orig>.*?</orig>)(<reg>.*?</reg>)
 REEMPLAZAR: <choice>$1$2</choice>
 
@@ -44,3 +45,13 @@ REEMPLAZAR: <choice>$1$2</choice>
 <choice><orig></orig><reg><hi rend="italic"></hi></reg></choice>
 
 <choice><abbr></abbr><expan></expan></choice>
+
+
+puntos = (?<!<orig>[^<]*)·(?![^>]*</orig>)
+
+# Imágenes
+<figure xml:id="fig1" n="1" type="ilustración">
+<head></head>
+<graphic url="../assets/images/ilustraciones/_.png" />
+<figDesc></figDesc>
+</figure>

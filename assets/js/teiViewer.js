@@ -2,6 +2,40 @@
     let c = new CETEI();
     let behaviors = {
         "tei": {
+            "figure": (element) => {
+                // Busca un elemento 'graphic' dentro del 'figure'
+                let graphic = element.querySelector("graphic");
+                if (graphic && graphic.getAttribute("url")) {
+                    // Crea un div contenedor
+                    let container = document.createElement("div");
+                    container.className = "figure-container";
+
+                    // Extraer el valor del atributo @place y asignar clases correspondientes
+                    let place = element.getAttribute("place");
+                    if (place) {
+                        container.classList.add(`place-${place}`);
+                    }
+
+                    // Crea un elemento img y configura su src
+                    let img = document.createElement("img");
+                    img.src = graphic.getAttribute("url").replace("..", "");
+                    img.alt = element.querySelector("figDesc")?.textContent || "Imagen TEI";
+
+                    // Añade la imagen al contenedor
+                    container.appendChild(img);
+
+                    // Añade descripción si existe
+                    let desc = element.querySelector("figDesc");
+                    if (desc) {
+                    let figDesc = document.createElement("figcaption");
+                    figDesc.textContent = desc.textContent;
+                    container.appendChild(figDesc);
+                    }
+
+                    // Reemplaza el elemento 'figure' original con el contenedor en el DOM
+                    element.parentNode.replaceChild(container, element);
+                }
+            },
             "ptr": function (e) {
                 // Crea un elemento <a> para hacer el ptr clickable
                 let a = document.createElement("a");

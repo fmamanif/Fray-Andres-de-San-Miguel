@@ -186,3 +186,21 @@ tei-hi[rend="italic"] {
 tei-lb {
   display: none;
 }
+
+
+
+/* IMÁGENES */
+
+tei-figure tei-head {
+  font-size: 1rem;
+}
+
+tei-graphic img {
+  width: 100%;
+  height: auto;
+}
+
+tei-figdesc {
+  font-style: italic;
+  font-size: 12px;
+}
