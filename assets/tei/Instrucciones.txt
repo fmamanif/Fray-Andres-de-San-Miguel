@@ -41,6 +41,9 @@ REEMPLAZAR: <choice>$1$2</choice>
 
 
 <choice><orig></orig><reg>,</reg></choice>
+<choice><orig></orig><reg></reg></choice>
+<choice><orig></orig><corr></corr></choice>
+
 
 <choice><orig></orig><reg><hi rend="italic"></hi></reg></choice>
 
@@ -55,3 +58,6 @@ puntos = (?<!<orig>[^<]*)·(?![^>]*</orig>)
 <graphic url="../assets/images/ilustraciones/_.png" />
 <figDesc></figDesc>
 </figure>
+
+
+<note place="inline margin left"></note>

@@ -204,3 +204,8 @@ tei-figdesc {
   font-style: italic;
   font-size: 12px;
 }
+
+
+tei-del[rend="line-through"] {
+  text-decoration: line-through;
+}
