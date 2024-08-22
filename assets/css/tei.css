@@ -7,8 +7,8 @@ tei-div {
 
 }
 
-tei-p {
-  font-size: 16px;
+tei-p, tei-item {
+  font-size: 20px;
   line-height: 1.6;
   margin-bottom: 10px; /* Espacio después de los párrafos */
   display: block;
@@ -28,6 +28,18 @@ tei-standoff {
 
 tei-back {
   display: none;
+}
+
+tei-item {
+  position: relative;
+  margin-left: 20px; 
+  padding-left: 10px; 
+}
+
+tei-item::before {
+  content: "•"; 
+  position: absolute; 
+  left: 0; 
 }
 
 /*NOTAS*/
@@ -178,9 +190,13 @@ tei-pb:before {
 content: "[Folio " attr(n) "]";
 } 
 
-tei-hi[rend="italic"] {
+tei-hi[rend="italic bold"] {
   font-style: italic;
   font-weight: bold;
+}
+
+tei-hi[rend="italic"] {
+  font-style: italic;
 }
 
 tei-lb {
