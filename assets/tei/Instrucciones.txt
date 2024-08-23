@@ -61,3 +61,11 @@ puntos = (?<!<orig>[^<]*)·(?![^>]*</orig>)
 
 
 <note place="inline margin left"></note>
+
+
+
+(?<!<orig>)(<abbr>[^<]*<\/abbr>)(?!<\/orig>)
+<orig>$1</orig>
+
+(?<!<reg>)(<expan>[^<]*<\/expan>)(?!<\/reg>)
+<reg>$1</reg>

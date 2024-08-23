@@ -225,3 +225,8 @@ tei-figdesc {
 tei-del[rend="line-through"] {
   text-decoration: line-through;
 }
+
+
+tei-gap:before {
+  content: "[...]";
+  } 
