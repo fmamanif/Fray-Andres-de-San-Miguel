@@ -123,7 +123,9 @@ h6 {
   height: 100%;
 }
 
+.menu {
 
+}
 
 
 /* Estilo básico para listas */
@@ -261,9 +263,9 @@ a.boton {
   bottom: 40px; 
   width: 500px;
   height: auto;
-  background: url('/assets/images/inicio.jpg') no-repeat center center;
+  background: url('/assets/images/21.png') no-repeat center center;
   background-size: cover; 
-  opacity: 0.7;
+  opacity: 0.5;
   border-radius: 20px;
   z-index: -1;
 }
@@ -334,7 +336,7 @@ a.boton {
 /*IMÁGENES FACSÍMIL */
 .imagen-fixed {
   position: fixed;
-  bottom: 200px; /* Ajusta esta distancia para que la imagen quede encima de los botones */
+  bottom: 135px; /* Ajusta esta distancia para que la imagen quede encima de los botones */
   left: 40px; /* Alineación con el margen izquierdo, similar a los botones */
 }
 

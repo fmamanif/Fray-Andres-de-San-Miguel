@@ -8,13 +8,23 @@ tei-div {
 }
 
 tei-p, tei-item {
-  font-size: 20px;
+  font-size: 1.1em;
   line-height: 1.6;
   margin-bottom: 10px; /* Espacio después de los párrafos */
   display: block;
   text-align: justify;
 }
+
+
 tei-head {
+  display: block;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+tei-head[type="subsección"] {
   display: block;
   font-weight: 700;
   font-size: 1.75em;
@@ -230,3 +240,7 @@ tei-del[rend="line-through"] {
 tei-gap:before {
   content: "[...]";
   } 
+
+tei-note[place="inline margin left"] {
+    font-size: 0.8em;
+  }
