@@ -289,7 +289,7 @@ a.boton {
 
 
 /* BOTONES VERSIONES*/
-.botones-fijos {
+.boton-version {
   position: fixed;
   bottom: 40px;
   left: 40px;
@@ -463,7 +463,7 @@ a.boton {
   .logo-enlace {
     display: none;
   }
-  .botones-fijos {
+  .boton-version {
     position: static; /* Desactiva el posicionamiento fijo */
     top: auto; /* Remueve el ajuste de posición 'top' */
     left: auto; /* Remueve el ajuste de posición 'left' */
@@ -471,7 +471,6 @@ a.boton {
     display: flex; /* Mantiene el layout flex */
     flex-direction: row; /* Cambia la dirección de los botones a horizontal */
     justify-content: left; /* Centra los botones horizontalmente */
-    gap: 10px; /* Mantiene un espacio entre los botones */
     margin-top: 20px; /* Añade espacio arriba de los botones para separarlos del título */
   }
   .imagen-fixed {
@@ -499,18 +498,7 @@ a.boton {
   }
 }
 @media (max-width: 500px) {
-  .botones-fijos {
-    position: static; /* Desactiva el posicionamiento fijo */
-    top: auto; /* Remueve el ajuste de posición 'top' */
-    left: auto; /* Remueve el ajuste de posición 'left' */
-    transform: none; /* Anula cualquier transformación */
-    display: flex; /* Activa flexbox para el layout */
-    flex-direction: column; /* Cambia la dirección de los botones a vertical */
-    justify-content: flex-start; /* Alinea los botones al inicio (arriba) del contenedor */
-    align-items: flex-start; /* Alinea los botones al inicio (izquierda) del contenedor */
-    gap: 10px; /* Mantiene un espacio entre los botones */
-    margin-top: 20px; /* Añade espacio arriba de los botones para separarlos del título */
-  }
+
 }
 
 
