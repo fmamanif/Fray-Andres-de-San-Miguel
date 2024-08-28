@@ -214,24 +214,6 @@ tei-lb {
 }
 
 
-
-/* IMÁGENES */
-
-tei-figure tei-head {
-  font-size: 1rem;
-}
-
-tei-graphic img {
-  width: 100%;
-  height: auto;
-}
-
-tei-figdesc {
-  font-style: italic;
-  font-size: 12px;
-}
-
-
 tei-del[rend="line-through"] {
   text-decoration: line-through;
 }
@@ -244,3 +226,159 @@ tei-gap:before {
 tei-note[place="inline margin left"] {
     font-size: 0.8em;
   }
+
+
+  
+/* IMÁGENES */
+
+tei-figure tei-head {
+  font-size: 1rem;
+}
+
+tei-figdesc {
+  font-style: italic;
+  font-size: 12px;
+}
+
+/* IMÁGENES */
+
+tei-figure {
+  text-align: center;
+  display: inline-flex;
+  margin: 10px; 
+  justify-content: center; 
+
+}
+
+tei-figure img {
+  width: 100%;
+}
+
+/* #region FIGURAS */
+
+tei-figure[id="fig_72r_1"] img,
+tei-figure[id="fig_72r_2"] img {
+  width: 80%;
+}
+
+tei-figure[id="fig_72r_3"] img {
+  width: 30%;
+}
+
+tei-figure[id="fig_72r_4"] img {
+  width: 40%;
+}
+
+tei-figure[id="fig_73r_1"] img {
+  width: 60%;
+  display: flex;
+  margin-left: 8%;
+}
+
+tei-figure#group_73r {
+  display: flex; 
+  align-items: flex-end; 
+}
+tei-figure[id="fig_73r_2"] img {
+  width: 70%;
+}
+tei-figure[id="fig_73r_3"] img {
+  width: 50%;
+}
+
+tei-figure[id="fig_74r_3"] img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+tei-figure[id="fig_74r_4"] img {
+  width: 100%;
+}
+
+tei-figure[id="fig_75v_1"] img {
+  width: 50%;
+}
+
+tei-figure#group_76r {
+  display: flex; 
+  align-items: flex-end; 
+}
+
+tei-figure[id="fig_76r_4"] img {
+  width: 50%;
+}
+
+tei-figure[id="fig_77r_1"] img {
+  width: 50%;
+}
+
+tei-figure[id="fig_78r_1"] img {
+  width: 80%;
+}
+
+tei-figure[id="fig_78r_2"] img {
+  width: 80%;
+}
+
+tei-figure[id="fig_78v_1"] img {
+  width: 40%;
+}
+
+tei-figure[id="fig_78v_2"] img {
+  width: 40%;
+}
+
+tei-figure#group_79r {
+  display: flex; 
+  align-items: flex-start; 
+}
+
+tei-figure[id="fig_79r_1"] img {
+  width: 60%;
+}
+
+tei-figure[id="fig_79r_2"] img {
+  width: 100%;
+}
+
+tei-figure[id="fig_80r_3"] {
+  display: block; 
+}
+
+tei-figure[id="fig_80r_3"] img {
+  width: 20%;
+}
+
+tei-figure[id="fig_81v_1"] img {
+  width: 60%;
+}
+
+tei-figure[id="fig_87v_1"] img {
+  width: 60%;
+}
+
+tei-figure#group_88r {
+  display: flex; 
+  align-items: flex-end; 
+}
+
+tei-figure[id="fig_88r_1"] img {
+  width: 80%;
+}
+
+tei-figure#group_88v {
+  display: flex; 
+  align-items: flex-end; 
+}
+
+tei-figure[id="fig_88v_1"] img {
+  width: 60%;
+}
+
+tei-figure[id="fig_88v_3"] img {
+  width: 60%;
+}
+
+
+
+
+/* #endregion FIGURAS */
