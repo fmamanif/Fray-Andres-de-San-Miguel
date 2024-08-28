@@ -17,21 +17,17 @@
         &#9776; <!-- Símbolo de menú hamburguesa -->
     </div>
 
-    <div id="mySidebar" class="sidebar">
-        <!-- Contenido del menú -->
-        <a href="../">Inicio</a>
-        <a href="../proyecto">Sobre el proyecto</a>
-        <a href="../edicion">Edición</a>
-        <a href="../edicion/textocompleto.html">Texto completo</a>
-        <a href="../estudio">Estudio</a>
-        <div class="cita">
-            <p>Mamani Fuentes, Francisco (2024). Edición digital de la sección de carpintería del manuscrito de Fray Andrés de San Miguel, siglo XVII.</p>
-        </div>
-        <div class="logos">
-            <a href="https://github.com/fmamanif/Fray-Andres-de-San-Miguel" target="_blank"><img src="/assets/images/github.png" alt="GitHub"></a>
-            <a href="#" target="_blank"><img src="/assets/images/zenodo.png" alt="Zenodo"></a> 
-        </div>
-    </div>
+    <div id="menu-placeholder"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          fetch("../includes/menu.html")
+            .then(response => response.text())
+            .then(data => {
+              document.getElementById("menu-placeholder").innerHTML = data;
+            });
+        });
+    </script>
 
     <div class="container">
         <div class="row">
