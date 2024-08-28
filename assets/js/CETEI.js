@@ -65,7 +65,7 @@ var CETEI = (function () {
             return (o.id = i), (o.innerHTML = e.innerHTML), r.appendChild(o), s;
           },
         ],
-        ["_", ["(", ")"]],
+        ["_", ["[Al margen: ", "]"]],
       ],
       teiHeader: function (e) {
         this.hideContent(e, !1);
