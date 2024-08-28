@@ -56,12 +56,14 @@
                         <choice><orig>como</orig><reg>cómo</reg></choice> el lazo de ocho despide <choice><orig>del</orig><reg>al de</reg></choice> de <choice><orig>diez y seys</orig><reg>dieciséis</reg></choice> con todas sus medidas. 
                     </p> 
 
-                    <figure xml:id="fig_72r_1" type="dibujo">
-                        <graphic url="/assets/images/dibujos/72r_1.png"/>
-                    </figure>
+                    <figure xml:id="group_72r">
+                        <figure xml:id="fig_72r_1" type="dibujo">
+                            <graphic url="/assets/images/dibujos/72r_1.png"/>
+                        </figure>
 
-                    <figure xml:id="fig_72r_2" type="dibujo">
-                        <graphic url="/assets/images/dibujos/72r_2.png"/>
+                        <figure xml:id="fig_72r_2" type="dibujo">
+                            <graphic url="/assets/images/dibujos/72r_2.png"/>
+                        </figure>
                     </figure>
 
                     <p>
@@ -101,7 +103,7 @@
 
                 <div type="entrada" n="2" xml:id="entrada_2">
                     <pb n="72v" facs="72v.jpg"/>
-                    <head><choice><orig>de</orig><reg>De</reg></choice> <choice><orig>como</orig><reg>cómo</reg></choice> se <choice><orig>trasa</orig><reg>traza</reg></choice> <choice><orig>un</orig><reg>una</reg></choice> armadura<choice><orig></orig><reg>,</reg></choice> su <choice><orig>almisate</orig><reg>almizate</reg></choice> <choice><orig>quajado</orig><reg>cuajado</reg></choice> de lazo de ocho y los <choice><orig>panos</orig><reg>paños</reg></choice> de <choice><orig>signos</orig><reg>sinos</reg></choice> y nudos</head>
+                    <head><choice><orig>de</orig><reg>De</reg></choice> <choice><orig>como</orig><reg>cómo</reg></choice> se <choice><orig>trasa</orig><reg>traza</reg></choice> <choice><orig>un</orig><reg>una</reg></choice> armadura<choice><orig></orig><reg>,</reg></choice> su <choice><orig>almisate</orig><reg>almizate</reg></choice> <choice><orig>quajuado</orig><corr>quajado</corr></choice> de lazo de ocho y los <choice><orig>panos</orig><reg>paños</reg></choice> de <choice><orig>signos</orig><reg>sinos</reg></choice> y nudos</head>
                     <p>
                         <lb/><choice><orig>armadura</orig><reg><hi rend="italic">Armadura</hi></reg></choice> <choice><orig>quadrada</orig><reg><hi rend="italic">cuadrada</hi></reg></choice> es cualquiera que se arma sobre estribo<choice><orig></orig><reg>,</reg></choice> planta y almizate de <choice><orig>quatro</orig><reg>cuatro</reg></choice> <choice><orig>angulos</orig><reg>ángulos</reg></choice><choice><orig></orig><reg>.</reg></choice> <choice><orig>sea</orig><reg>Sea</reg></choice> o no sea
                         <lb/>de lados y <choice><orig>angulos</orig><reg>ángulos</reg></choice> <choice><orig>yguales</orig><reg>iguales</reg></choice><choice><orig></orig><reg>,</reg></choice> basta  que sea de <choice><orig>quatro</orig><reg>cuatro</reg></choice> lados para que se le <choice><orig>de</orig><reg>dé</reg></choice> <choice><orig>nonbre</orig><reg>nombre</reg></choice> de <choice><orig>quadrada</orig><reg>cuadrada</reg></choice>. <choice><orig>y</orig><reg></reg></choice> <choice><orig>para</orig><reg>Para</reg></choice> trazar<lb break="no"/>la
@@ -157,8 +159,8 @@
                         <lb/>dos <choice><orig>lineas</orig><reg>líneas</reg></choice> muestran el ancho de la casa y el que <choice><orig>ay</orig><reg>hay</reg></choice> entre los
                         <lb/>estribos<choice><orig>, hecho</orig><reg>. Hecho</reg></choice>  esto se pone <choice><orig>el</orig><reg></reg></choice> un pie del <choice><orig>compas</orig><reg>compás</reg></choice> en el centro
                         <lb/>del <choice><orig>almiçate</orig><reg>almizate</reg></choice><choice><orig></orig><reg>,</reg></choice> sea en el punto <choice><orig>·8</orig><reg><hi rend="italic bold">8</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y donde <choice><orig>alli</orig><reg>allí</reg></choice> se abre el <choice><orig>conpas</orig><reg>compás</reg></choice> has<lb break="no"/>ta
-                        la <choice><orig>·f</orig><reg><hi rend="italic bold">f</hi></reg></choice> o hasta la <choice><orig>e</orig><reg><hi rend="italic bold">e</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> que es lo mismo<choice><orig>, y con</orig><reg>. Con</reg></choice> este tamaño se pone el
-                        <lb/><choice><orig>el</orig><reg></reg></choice> un pie del <choice><orig>compas</orig><corr>compás</corr></choice> en el punto <choice><orig>·8</orig><reg><hi rend="italic bold">8</hi></reg></choice> y con el otro pie se señala la
+                        la <choice><orig>·f</orig><reg><hi rend="italic bold">f</hi></reg></choice> o hasta la <choice><orig>e</orig><reg><hi rend="italic bold">e</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> que es lo mismo<choice><orig>, y con</orig><reg>. Con</reg></choice> este tamaño se pone <choice><orig>el</orig><reg></reg></choice>
+                        <lb/><choice><orig>el</orig><corr></corr></choice> un pie del <choice><orig>compas</orig><corr>compás</corr></choice> en el punto <choice><orig>·8</orig><reg><hi rend="italic bold">8</hi></reg></choice> y con el otro pie se señala la
                         <lb/> <choice><orig>t</orig><reg><hi rend="italic bold">t</hi></reg></choice> y la <choice><orig>s</orig><reg><hi rend="italic bold">s</hi></reg></choice><choice><orig> y puesto</orig><reg>. Puesto</reg></choice> el mismo pie del <choice><orig>compas</orig><reg>compás</reg></choice> en la <choice><orig>a</orig><reg><hi rend="italic bold">a</hi></reg></choice> se circunda a
                         <lb/>una y otra parte y se tiran las dos <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>·s·r</orig><reg><hi rend="italic bold">s,r</hi></reg></choice> y <choice><orig>·t·q</orig><reg><hi rend="italic bold">t,q</hi></reg></choice><choice><orig> tiradas</orig><reg>. Tiradas</reg></choice> 
                         <lb/>estas <choice><orig>lineas</orig><reg>líneas</reg></choice> se <choice><orig>buelue</orig><reg>vuelve</reg></choice> a la <choice><orig>trasa</orig><reg>traza</reg></choice> y puesta la <choice><orig>una</orig><reg></reg></choice> punta del <choice><orig>compas</orig><reg>compás</reg></choice>
@@ -185,7 +187,7 @@
                         se parte la tabla <choice><orig>del</orig><reg>de la</reg></choice> alfarda en tres partes<choice><orig> y</orig><reg>:</reg></choice> la una se
                         <lb/> da a la barbilla y las dos partes se dan a la patilla<choice><orig></orig><reg>,</reg></choice> que es la parte
                         <lb/>que <choice><orig>açienta</orig><reg>asienta</reg></choice> sobre el <choice><orig>estriuo</orig><reg>estribo</reg></choice><choice><orig>, el</orig><reg>. El</reg></choice> corte de la garganta <choice><orig>del</orig><reg>de la</reg></choice> alfar<lb break="no"/>da
-                        donde asientan las tijeras del nudillo<choice><orig></orig><reg>,</reg></choice> <choice><orig>assi</orig><reg>así</reg></choice> por las tablas
+                        donde asientan las quijeras del nudillo<choice><orig></orig><reg>,</reg></choice> <choice><orig>assi</orig><reg>así</reg></choice> por las tablas
                         <lb/>como por el canto<choice><orig></orig><reg>,</reg></choice> siempre las <choice><orig>haze</orig><reg>hace</reg></choice> la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig>, para</orig><reg>. Para</reg></choice>
                         <lb/>la garganta se parte el grueso <choice><orig>del</orig><reg>de la</reg></choice> alfarda en <choice><orig>çinco</orig><reg>cinco</reg></choice> partes<choice><orig></orig><reg>:</reg></choice> las
                         <lb/>tres se dan al <choice><orig>gruesso</orig><reg>grueso</reg></choice> de la garganta y las dos se quitan una de
@@ -227,12 +229,14 @@
                         <graphic url="/assets/images/dibujos/73r_1.png"/>
                     </figure>
 
+                   <figure xml:id="group_73r"> 
                     <figure xml:id="fig_73r_2" type="dibujo">
                         <graphic url="/assets/images/dibujos/73r_2.png"/>
                     </figure>
 
                     <figure xml:id="fig_73r_3" type="dibujo">
                         <graphic url="/assets/images/dibujos/73r_3.png"/>
+                    </figure>
                     </figure>
 
                     
@@ -702,12 +706,14 @@
                         <graphic url="/assets/images/dibujos/76r_1.png"/>
                     </figure>
 
-                    <figure xml:id="fig_76r_2" type="dibujo">
-                        <graphic url="/assets/images/dibujos/76r_2.png"/>
-                    </figure>
+                    <figure xml:id="group_76r">
+                        <figure xml:id="fig_76r_2" type="dibujo">
+                            <graphic url="/assets/images/dibujos/76r_2.png"/>
+                        </figure>
 
-                    <figure xml:id="fig_76r_3" type="dibujo">
-                        <graphic url="/assets/images/dibujos/76r_3.png"/>
+                        <figure xml:id="fig_76r_3" type="dibujo">
+                            <graphic url="/assets/images/dibujos/76r_3.png"/>
+                        </figure>
                     </figure>
 
                     <p>
@@ -979,7 +985,6 @@
                 </div><!-- Fin de la entrada_12 -->
 
                 <div type="entrada" n="13" xml:id="entrada_13">
-                    <pb n="78v" facs="78v.jpg"/>
                     <head>Del <choice><orig>almiçate</orig><reg>almizate</reg></choice> y de sus cortes</head>
 
                     <p>
@@ -1000,12 +1005,14 @@
 
                     <pb n="79r" facs="79r.jpg"/>
 
-                    <figure xml:id="fig_79r_1" type="dibujo">
-                        <graphic url="/assets/images/dibujos/79r_1.png"/>
-                    </figure>
+                    <figure xml:id="group_79r">
+                        <figure xml:id="fig_79r_1" type="dibujo">
+                            <graphic url="/assets/images/dibujos/79r_1.png"/>
+                        </figure>
 
-                    <figure xml:id="fig_79r_2" type="dibujo">
-                        <graphic url="/assets/images/dibujos/79_r_2.png"/>
+                        <figure xml:id="fig_79r_2" type="dibujo">
+                            <graphic url="/assets/images/dibujos/79r_2.png"/>
+                        </figure>
                     </figure>
 
                     <!--
@@ -1211,12 +1218,14 @@
 
                     <pb n="86v" facs="86v.jpg"/>
                     
-                    <figure xml:id="fig_86v_1" type="dibujo">
-                        <graphic url="/assets/images/dibujos/86v_1.png"/>
-                    </figure>
+                    <figure xml:id="group_86v">
+                        <figure xml:id="fig_86v_1" type="dibujo">
+                            <graphic url="/assets/images/dibujos/86v_1.png"/>
+                        </figure>
 
-                    <figure xml:id="fig_86v_2" type="dibujo">
-                        <graphic url="/assets/images/dibujos/86v_2.png"/>
+                        <figure xml:id="fig_86v_2" type="dibujo">
+                            <graphic url="/assets/images/dibujos/86v_2.png"/>
+                        </figure>
                     </figure>
 
                     <pb n="87r" facs="87r.jpg"/>
@@ -1438,12 +1447,14 @@
                         <lb/> se <choice><orig>trasa</orig><reg>traza</reg></choice> en papel.
                     </p>
 
-                    <figure xml:id="fig_88r_1" type="dibujo">
-                        <graphic url="/assets/images/dibujos/88r_1.png"/>
-                    </figure>
+                    <figure xml:id="group_88r">
+                        <figure xml:id="fig_88r_1" type="dibujo">
+                            <graphic url="/assets/images/dibujos/88r_1.png"/>
+                        </figure>
 
-                    <figure xml:id="fig_88r_2" type="dibujo">
-                        <graphic url="/assets/images/dibujos/88r_2.png"/>
+                        <figure xml:id="fig_88r_2" type="dibujo">
+                            <graphic url="/assets/images/dibujos/88r_2.png"/>
+                        </figure>
                     </figure>
 
                 </div><!-- Fin de la entrada_22 -->
@@ -1488,12 +1499,14 @@
                         <lb/>tablilla<choice><orig></orig><reg>,</reg></choice> con que se <choice><orig>trasa</orig><reg>traza</reg></choice> la media caña en planta llana. 
                     </p>
 
-                    <figure xml:id="fig_88v_1" type="dibujo">
-                        <graphic url="/assets/images/dibujos/88v_1.png"/>
-                    </figure>
+                    <figure xml:id="group_88v">
+                        <figure xml:id="fig_88v_1" type="dibujo">
+                            <graphic url="/assets/images/dibujos/88v_1.png"/>
+                        </figure>
 
-                    <figure xml:id="fig_88v_2" type="dibujo">
-                        <graphic url="/assets/images/dibujos/88v_2.png"/>
+                        <figure xml:id="fig_88v_2" type="dibujo">
+                            <graphic url="/assets/images/dibujos/88v_2.png"/>
+                        </figure>
                     </figure>
 
                     <figure xml:id="fig_88v_3" type="dibujo">
