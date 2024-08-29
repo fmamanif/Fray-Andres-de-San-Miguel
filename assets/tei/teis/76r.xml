@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+        <author>
+          <name type="full">Fray Andrés de San Miguel</name>
+          <name type="personal">
+            <forename>Andrés</forename> 
+            <surname>de Segura de la Alcuña</surname>
+          </name>
+          <idno type="wikidata">Q16942240</idno>
+          <idno type="bne">XX1182168</idno>
+          <idno type="viaf">1661877</idno>
+        </author>
+        <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+        <editor role="Technical_Editor">David Merino Recalde</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Francisco Mamani Fuentes</publisher>
+        <availability status="free">
+          <licence>CC BY-NC-SA</licence>
+				</availability>
+        <date>2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+              <repository>University of Texas Libraries</repository>
+              <collection>Benson Latin American Collection</collection>
+              <idno>31775792</idno>
+          </msIdentifier>
+          <msContents>
+              <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+              <textLang mainLang="es"/>
+              <msItem  n="72r-88v">
+                <title>Sección dedicada a la carpintería de armar</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+              <objectDesc>
+                  <supportDesc>
+                      <support>Papel</support>
+                      <extent>295 folios</extent>
+                  </supportDesc>
+              </objectDesc>
+          </physDesc>
+          <history>
+              <origin>
+                  <date>ca. 1630</date>
+                  <placeName>Ciudad de México</placeName>
+              </origin>
+          </history>
+        </msDesc>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>1969</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+          <editor>
+            <name type="personal">
+              <forename>Enrique</forename>
+              <surname>Nuere</surname>
+            </name>
+          </editor>
+					<publisher>Colegio de Arquitectos de Málaga</publisher>
+					<pubPlace>Málaga</pubPlace>
+          <date>1990</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>2007</date>
+				</bibl>
+      </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div type="seccion">
+            <div type="subsección" n="1" xml:id="subsección_1">
+
+              <!-- Continuación de la entrada_9 -->
+              <pb n="76r" facs="76r.jpg"/>
+
+              <figure xml:id="fig_76r_1" type="dibujo">
+                  <graphic url="/assets/images/dibujos/76r_1.png"/>
+              </figure>
+
+              <figure xml:id="group_76r">
+                  <figure xml:id="fig_76r_2" type="dibujo">
+                      <graphic url="/assets/images/dibujos/76r_2.png"/>
+                  </figure>
+
+                  <figure xml:id="fig_76r_3" type="dibujo">
+                      <graphic url="/assets/images/dibujos/76r_3.png"/>
+                  </figure>
+              </figure>
+
+              <p>
+                  <lb/><choice><orig>formada</orig><reg>Formada</reg></choice> la figura <choice><orig>·A</orig><reg><hi rend="italic bold">A</hi></reg></choice> con sus ordinarias <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>·a·b·</orig><reg><hi rend="italic bold">a,b</hi></reg></choice><choice><orig></orig><reg>,</reg></choice>
+                  <lb/><choice><orig>·c·d</orig><reg><hi rend="italic bold">c,d</hi></reg></choice> y <choice><orig>·b·h</orig><reg><hi rend="italic bold">b,h</hi></reg></choice> se toma con el <choice><orig>compas</orig><reg>compás</reg></choice> de <choice><orig>angulo</orig><reg>ángulo</reg></choice> <choice><orig>·a·</orig><reg>a</reg></choice> <choice><orig>angulo</orig><reg>ángulo</reg></choice> la <choice><orig>li<lb break="no"/>nea</orig><reg>línea</reg></choice>
+                  <lb/><choice><orig>·b·h</orig><reg><hi rend="italic bold">b,h</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> que es diagonal y cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig> y</orig><reg>.</reg></choice>
+                  <lb/><choice><orig>puesto</orig><reg>Puesto</reg></choice> <choice><orig>el</orig><reg></reg></choice> un pie del <choice><orig>conpas</orig><reg>compás</reg></choice> con esta medida en el <choice><orig>angulo</orig><reg>ángulo</reg></choice> <choice><orig>·a</orig><reg><hi rend="italic bold">a</hi></reg></choice><choice><orig></orig><reg>,</reg></choice>
+                  <lb/><choice><orig>señalese</orig><reg>señálese</reg></choice> con el otro pie sobre la <choice><orig>linea</orig><reg>línea</reg></choice> llana <choice><orig>·a·b</orig><reg><hi rend="italic bold">a,b</hi></reg></choice> donde <choice><orig>al<lb break="no"/>cansare</orig><reg>alcanzare</reg></choice><choice><orig></orig><reg>,</reg></choice> 
+                  y <choice><orig>sera</orig><reg>será</reg></choice> en el punto <choice><orig>·m·</orig><reg><hi rend="italic bold">m</hi></reg></choice> y el <choice><orig>interbalo</orig><reg>intervalo</reg></choice> <choice><orig>·c·m</orig><reg><hi rend="italic bold">c,m</hi></reg></choice> es medio
+                  <lb/><choice><orig>ochabo</orig><reg>ochavo</reg></choice><choice><orig>, hecho</orig><reg>. Hecho</reg></choice> esto se saca el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>a</orig><reg>con</reg></choice> que <choice><orig>a</orig><reg>ha</reg></choice> de armar <choice><orig>el</orig><reg>la</reg></choice> arma<lb break="no"/>dura,
+                  <choice><orig>aqui</orig><reg>aquí</reg></choice> se pone que arme por cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice>
+                  <lb/>que es la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·b·g·f</orig><reg><hi rend="italic bold">b,g,f</hi></reg></choice><choice><orig> y para</orig><reg>. Para</reg></choice> darle a este <choice><orig>cartabon</orig><reg>cartabón</reg></choice> su albane<lb break="no"/>car
+                  <choice><orig>ochabada</orig><reg>ochavado</reg></choice> se toma todo lo que tiene la cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>·b·g</orig><reg><hi rend="italic bold">b,g</hi></reg></choice><choice><orig></orig><reg>.</reg></choice>
+                  <lb/><choice><orig>y puesto</orig><reg>Puesto</reg></choice> <choice><orig>el</orig><reg></reg></choice> un pie del <choice><orig>compas</orig><reg>compás</reg></choice> en el centro <choice><orig>·c</orig><reg><hi rend="italic bold">c</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> con el otro se <choice><orig>se<lb break="no"/>nala</orig><reg>señala</reg></choice>
+                  sobre la <choice><orig>linea</orig><reg>línea</reg></choice> perpendicular donde <choice><orig>alcansare</orig><reg>alcanzare</reg></choice> y <choice><orig>se<lb break="no"/>ra</orig><reg>será</reg></choice>
+                  en el punto <choice><orig>·e</orig><reg><hi rend="italic bold">e</hi></reg></choice><choice><orig> y se</orig><reg>. Se</reg></choice> tira la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·e·m·</orig><reg><hi rend="italic bold">e,m</hi></reg></choice> que con la <choice><orig>linea</orig><reg>línea</reg></choice>
+                  <lb/><choice><orig>·c·e</orig><reg><hi rend="italic bold">c,e</hi></reg></choice> forma el albanecar <choice><orig>ochabada</orig><reg>ochavado</reg></choice> del propuesto <choice><orig>cartabon</orig><reg>cartabón</reg></choice><choice><orig></orig><reg>,</reg></choice>
+                  <lb/>y las <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>·c·e·</orig><reg><hi rend="italic bold">c,e</hi></reg></choice> y <choice><orig>·be·</orig><reg><hi rend="italic bold">b,e</hi></reg></choice> forman el albanecar <choice><orig>quadrada</orig><reg>cuadrado</reg></choice> del
+                  <lb/>mismo <choice><orig>cartabon</orig><reg>cartabón</reg></choice><choice><orig> esta</orig><reg>. Esta</reg></choice> es regla general para <choice><orig>todas</orig><reg>todos</reg></choice> <choice><orig>las</orig><reg>los</reg></choice> <choice><orig>albane<lb break="no"/>cares</orig><reg>albanécares</reg></choice>
+                  <choice><orig>quadradas</orig><reg>cuadrados</reg></choice> y <choice><orig>ochabadas</orig><reg>ochavados</reg></choice> que salen por cola de <choice><orig>cartabon</orig><reg>cartabón</reg></choice>.
+              </p>
+
+              <p>
+                  <lb/><choice><orig>y para</orig><reg>Para</reg></choice> sacarle su coz de limas <choice><orig>ochabado</orig><reg>ochavado</reg></choice> se toma con el <choice><orig>conpas</orig><reg>compás</reg></choice>
+                  <lb/>lo que <choice><orig>ay</orig><reg>hay</reg></choice> del punto <choice><orig>·m</orig><reg><hi rend="italic bold">m</hi></reg></choice> hasta el <choice><orig>angulo</orig><reg>ángulo</reg></choice> <choice><orig>·h</orig><reg><hi rend="italic bold">h</hi></reg></choice><choice><orig>, y puesto</orig><reg>. Puesto</reg></choice> <choice><orig>el</orig><reg></reg></choice> un pie del
+                  <lb/> <choice><orig>conpas</orig><reg>compás</reg></choice> con esta medida en el centro <choice><orig>·c</orig><reg><hi rend="italic bold">c</hi></reg></choice> con el otro pie se <choice><orig>sena<lb break="no"/>le</orig><reg>señala</reg></choice>
+                  sobre la <choice><orig>linea</orig><reg>línea</reg></choice> llana donde <choice><orig>alcansare</orig><reg>alcanzare</reg></choice><choice><orig></orig><reg>,</reg></choice> que <choice><orig>sera</orig><reg>será</reg></choice> en el
+                  <lb/>punto <choice><orig>·i·</orig><reg><hi rend="italic bold">i</hi></reg></choice><choice><orig> y tirada</orig><reg>. Tirada</reg></choice> la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>i g</orig><reg><hi rend="italic bold">i,g</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> con la <choice><orig>g·c</orig><reg><hi rend="italic bold">g,c</hi></reg></choice> se forma su coz de
+                  <lb/>limas <choice><orig>ochabado</orig><reg>ochavado</reg></choice><choice><orig> y para</orig><reg>. Para</reg></choice> sacar su coz de limas <choice><orig>quadrado</orig><reg>cuadrado</reg></choice>
+                  <lb/>se toma la distancia <choice><orig>·b·h</orig><reg><hi rend="italic bold">b,h</hi></reg></choice> y puesto con ella <choice><orig>el</orig><reg></reg></choice> un pie del <choice><orig>conpas</orig><reg>compás</reg></choice>
+                  <lb/>en el centro <choice><orig>·c</orig><reg><hi rend="italic bold">c</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> con el otro se <choice><orig>çircunda</orig><reg>circunda</reg></choice> sobre la <choice><orig>linea</orig><reg>línea</reg></choice> llana<choice><orig></orig><reg>,</reg></choice> y
+                  <lb/><choice><orig>sera</orig><reg>será</reg></choice> en el punto <choice><orig>·l·</orig><reg><hi rend="italic bold">l</hi></reg></choice><choice><orig> y se</orig><reg>. Se</reg></choice> tira la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·g·l</orig><reg><hi rend="italic bold">g,l</hi></reg></choice> y con la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>cg</orig><reg><hi rend="italic bold">c,g</hi></reg></choice> que<lb break="no"/>da 
+                  formado el coz de limas <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> del dicho <choice><orig>cartabon</orig><reg>cartabón</reg></choice><choice><orig> y</orig><reg>.</reg></choice>
+                  <lb/><choice><orig>es</orig><reg>Es</reg></choice> regla general para todos los coz de limas cuadrados y o<lb break="no"/>chabados<choice><orig></orig><reg>,</reg></choice>
+                  para armaduras a cola de <choice><orig>cartabon</orig><reg>cartabón</reg></choice>.
+              </p>
+
+              <p>
+                  <lb/><choice><orig>y para</orig><reg>Para</reg></choice> sacar <choice><orig>las</orig><reg>los</reg></choice> <choice><orig>albanecares</orig><reg>albanécares</reg></choice> <choice><orig>quadradas</orig><reg>cuadrados</reg></choice> y <choice><orig>ochabadas</orig><reg>ochavados</reg></choice> 
+                  <lb/>de <choice><orig>cabeça</orig><reg>cabeza</reg></choice> de <choice><orig>cartabon</orig><reg>cartabón</reg></choice> se <choice><orig>forme</orig><reg>forma</reg></choice> la figura <choice><orig>·B</orig><reg><hi rend="italic bold">B</hi></reg></choice> en todo seme<lb break="no"/>jante
+                  a la <choice><orig>sobre dicha</orig><reg>sobredicha</reg></choice> <choice><orig>·A</orig><reg><hi rend="italic bold">A</hi></reg></choice><choice><orig> </orig><reg>,</reg></choice> y tirada la <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del <choice><orig>carta<lb break="no"/>bon</orig><reg>cartabón</reg></choice>
+                  a que <choice><orig>a</orig><reg>ha</reg></choice> de armar hasta la <choice><orig>linea</orig><reg>línea</reg></choice> perpendicular<choice><orig> y pon<lb break="no"/>go</orig><reg>. Pongo</reg></choice>
+                  por <choice><orig>exemplo</orig><reg>ejemplo</reg></choice> la <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice> <choice><orig>·a·n</orig><reg><hi rend="italic bold">a,n</hi></reg></choice> y <choice><orig>a<lb break="no"/>biendo</orig><reg>habiendo</reg></choice>
+                  tomado toda esta <choice><orig>distançia</orig><reg>distancia</reg></choice> <choice><orig>·a·n</orig><reg><hi rend="italic bold">a,n</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> en un <choice><orig>conpas</orig><reg>compás</reg></choice> se po<lb break="no"/>ne
+                  <choice><orig>el</orig><reg></reg></choice> un pie en el centro <choice><orig>c</orig><reg><hi rend="italic bold">c</hi></reg></choice>
+                  y con el otro se <choice><orig>senala</orig><reg>señala</reg></choice> donde <choice><orig><abbr>alca<lb break="no"/>sa</abbr></orig><reg><expan>alcanza</expan></reg></choice>
+                  sobre la <choice><orig>linea</orig><reg>línea</reg></choice> a plomo<choice><orig> y</orig><reg>.</reg></choice> <choice><orig>sera</orig><reg>Será</reg></choice> en el punto <choice><orig>·e·</orig><reg><hi rend="italic bold">e</hi></reg></choice> de donde
+                  <lb/>se tire la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·e·m</orig><reg><hi rend="italic bold">e,m</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> con que queda <choice><orig>formada</orig><reg>formado</reg></choice> el albanecar
+                  ochavado de la <choice><orig>calebeça</orig><corr>cabeza</corr></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice> <choice><orig>·e·c·m</orig><reg><hi rend="italic bold">e,c,m</hi></reg></choice>. 
+                  <lb/><choice><orig>y para</orig><reg>Para</reg></choice> sacar el albanecar <choice><orig>quadrada</orig><reg>cuadrado</reg></choice> de la dicha <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del
+                  <lb/><choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice> se tira la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>b·e</orig><reg><hi rend="italic bold">b,e</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y con la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·e·c</orig><reg><hi rend="italic bold">e,c</hi></reg></choice> que<lb break="no"/>da
+                  formado el albanecar <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> de <choice><orig>cabeça</orig><reg>cabeza</reg></choice><choice><orig> y la</orig><reg>. La</reg></choice> <choice><orig>mesma</orig><reg>misma</reg></choice>
+                  <lb/>forma se guarda para sacar <choice><orig>todas</orig><reg>todos</reg></choice> <choice><orig>las</orig><reg>los</reg></choice> <choice><orig>albanecares</orig><reg>albanécares</reg></choice> <choice><orig>quadra<lb break="no"/>das</orig><reg>cuadrados</reg></choice>
+                  y <choice><orig>ochabadas</orig><reg>ochavados</reg></choice> de <choice><orig>cabeça</orig><reg>cabeza</reg></choice>.
+              </p>
+
+              <p>
+                  <lb/><choice><orig>mas</orig><reg>Mas</reg></choice> para sacar los coz de limas por <choice><orig>cabesa</orig><reg>cabeza</reg></choice> de <choice><orig>cartabon</orig><reg>cartabón</reg></choice>
+                  <lb/>se toma toda la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·b·h</orig><reg><hi rend="italic bold">b,h</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y teniendo <choice><orig>el</orig><reg></reg></choice> un pie del <choice><orig>conpas</orig><reg>compás</reg></choice>
+                  <lb/><choice><orig>fixo</orig><reg>fijo</reg></choice> en el <choice><orig>angulo</orig><reg>ángulo</reg></choice> <choice><orig>·b·</orig><reg><hi rend="italic bold">b</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> con el otro<choice><orig>,</orig><reg></reg></choice> se señala sobre la <choice><orig>linea</orig><reg>línea</reg></choice> lla<lb break="no"/>na
+                  en el punto <choice><orig>·o</orig><reg><hi rend="italic bold">o</hi></reg></choice> y se tira la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·o·p</orig><reg><hi rend="italic bold">o,p</hi></reg></choice> <choice><orig>parallella</orig><corr>paralela</corr></choice> con la
+                  <lb/>perpendicular <choice><orig>·e·c</orig><reg><hi rend="italic bold">e,c</hi></reg></choice><choice><orig> y tomando</orig><reg>. Tomando</reg></choice> la <choice><orig>distançia</orig><reg>distancia</reg></choice> <choice><orig>·c·n</orig><reg><hi rend="italic bold">c,n</hi></reg></choice> se <choice><orig>senala</orig><reg>señala</reg></choice>
+                  <lb/>en la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·o·p</orig><reg><hi rend="italic bold">o,p</hi></reg></choice> en el punto <choice><orig>·q</orig><reg><hi rend="italic bold">q</hi></reg></choice> y se tira la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·a·q</orig><reg><hi rend="italic bold">a,q</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y de
+                  <lb/>donde esta corta la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>çircular</orig><reg>circular</reg></choice> se tira la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·b·r</orig><reg><hi rend="italic bold">b,r</hi></reg></choice><choice><orig></orig><reg>;</reg></choice>
+                  <lb/>con <choice><orig></orig><corr>que</corr></choice> queda formado el coz de limas <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> de <choice><orig>cabeca</orig><reg>cabeza</reg></choice> con
+                  <lb/>las tres <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>·a·b·r</orig><reg><hi rend="italic bold">a,b,r</hi></reg></choice><choice><orig> pero</orig><reg>. Pero</reg></choice> para sacar el coz de limas
+                  <lb/> <choice><orig>ochabado</orig><reg>ochavado</reg></choice> se toma la <choice><orig>distançia</orig><reg>distancia</reg></choice> <choice><orig>·c·e</orig><reg><hi rend="italic bold">c,e</hi></reg></choice> a la <choice><orig>distançia</orig><reg>distancia</reg></choice> <choice><orig>·a·n</orig><reg><hi rend="italic bold">a,n</hi></reg></choice> <choice><orig></orig><reg>—</reg></choice><choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> 
+                  <lb/>es lo <choice><orig>mesmo</orig><reg>mismo</reg></choice><choice><orig></orig><reg>—</reg></choice> y se <choice><orig>senala</orig><reg>señala</reg></choice> sobre la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·o·p</orig><reg><hi rend="italic bold">o,p</hi></reg></choice> el punto <choice><orig>·p</orig><reg><hi rend="italic bold">p</hi></reg></choice> y
+                  <lb/>se tira la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·a·p</orig><reg><hi rend="italic bold">a,p</hi></reg></choice><choice><orig></orig><reg>.</reg></choice> <choice><orig>y donde</orig><reg>En</reg></choice> esta <choice><orig>linea</orig><reg>línea</reg></choice> que es la <choice><orig>cabe<lb break="no"/>ça</orig><reg>cabeza</reg></choice>
+                  del coz de limas <choice><orig></orig><reg>—que </reg></choice>corta la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>çircular</orig><reg>circular</reg></choice><choice><orig></orig><reg>—</reg></choice> se tira la linea
+                  <lb/> <choice><orig>·b·s</orig><reg><hi rend="italic bold">b,s</hi></reg></choice> y queda formado el coz de limas <choice><orig>ochabado</orig><reg>ochavado</reg></choice> de <choice><orig>cabe<lb break="no"/>ça</orig><reg>cabeza</reg></choice>
+                  con las tres <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>·a·b·s</orig><reg><hi rend="italic bold">a,b,s</hi></reg></choice><choice><orig> y la</orig><reg>. La</reg></choice> misma forma se <choice><orig>deue</orig><reg>debe</reg></choice> guar<lb break="no"/>dar
+                  en formar los otros coz de limas ochabados y cuadrados de <choice><orig>cabeça</orig><reg>cabeza</reg></choice>.
+              </p>
+
+              <figure xml:id="fig_76r_4" type="dibujo">
+                  <graphic url="/assets/images/dibujos/76r_4.png"/>
+              </figure>
+
+              <p>
+                  <lb/><choice><orig>mas</orig><reg>Mas</reg></choice> queriendo sacar el 
+                  <lb/>albanecar <choice><orig>seysabada</orig><reg>seisavado</reg></choice> se <choice><orig>forme</orig><reg>forma</reg></choice>
+                  <lb/>el <choice><orig>çirculo</orig><reg>círculo</reg></choice> y <choice><orig>lineas</orig><reg>líneas</reg></choice> como se <choice><orig>a</orig><reg>ha</reg></choice> dicho<choice><orig></orig><reg>.</reg></choice>
+                  <lb/><choice><orig>y se</orig><reg>Se</reg></choice> parte en dos partes iguales
+                  <lb/>la <choice><orig>linea</orig><reg>línea</reg></choice> llana <choice><orig>·c·b</orig><reg><hi rend="italic bold">c,b</hi></reg></choice> <choice><orig></orig><reg>—</reg></choice>como se <choice><orig>mues<lb break="no"/>ta</orig><corr>muestra</corr></choice> 
+                  en la figura <choice><orig>·C·</orig><reg><hi rend="italic bold">C</hi></reg></choice><choice><orig></orig><reg>—</reg></choice><choice><orig></orig><reg>,</reg></choice> y tomada la
+                  <lb/> cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>b·g</orig><reg><hi rend="italic bold">b,g</hi></reg></choice> <choice><orig></orig><reg>—</reg></choice><choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es el de
+                  <lb/><choice><orig>çinco</orig><reg>cinco</reg></choice><choice><orig></orig><reg>—</reg></choice> y este tamaño<choice><orig></orig><reg>,</reg></choice> se hecha
+                  <lb/>sobre la <choice><orig>linea</orig><reg>línea</reg></choice> perpendicular
+                  <lb/>y se tira la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·e·m</orig><reg><hi rend="italic bold">e,m</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> con que
+                  <lb/>queda formada su albanecar de <choice><orig>seys</orig><reg>seis</reg></choice> <choice><orig>·c·e·m</orig><reg><hi rend="italic bold">c,e,m</hi></reg></choice><choice><orig> y para</orig><reg>. Para</reg></choice> sacarle su coz
+                  <lb/> de limas se toma <choice><orig>·m·h</orig><reg><hi rend="italic bold">m,h</hi></reg></choice> y se señala desde la <choice><orig>·c·</orig><reg><hi rend="italic bold">c</hi></reg></choice> a la <choice><orig>·i</orig><reg><hi rend="italic bold">i</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y tomando en el
+                  <lb/><choice><orig>conpas</orig><reg>compás</reg></choice> <choice><orig>·i·h</orig><reg><hi rend="italic bold">i,h</hi></reg></choice> se <choice><orig>hecha</orig><reg>echa</reg></choice> esta medida <choice><orig>·c·o</orig><reg><hi rend="italic bold">c,o</hi></reg></choice> y se tira la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·a·o</orig><reg><hi rend="italic bold">a,o</hi></reg></choice><choice><orig> y donde</orig><reg>. Donde</reg></choice>
+                  <lb/>corta el <choice><orig>çirculo</orig><reg>círculo</reg></choice> se tira la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·b·r</orig><reg><hi rend="italic bold">b,r</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> con <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> queda formado el coz de li<lb break="no"/>mas
+                  <lb/><choice><orig>·a·b·r·</orig><reg><hi rend="italic bold">a,b,r</hi></reg></choice><choice><orig> y para</orig><reg>. Para</reg></choice> sacarle el coz de limas de <choice><orig>cabeça</orig><reg>cabeza</reg></choice><choice><orig></orig><reg>,</reg></choice> partida la <choice><orig>lin</orig><corr>línea</corr></choice>
+                  <lb/><choice><orig>·a·c</orig><reg><hi rend="italic bold">a,c</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> se tira la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·q·p</orig><reg><hi rend="italic bold">q,p</hi></reg></choice> <choice><orig>parallela</orig><corr>paralela</corr></choice> con la <choice><orig>·c·o</orig><reg><hi rend="italic bold">c,o</hi></reg></choice><choice><orig> y tomada</orig><reg>. Tomada</reg></choice> la <choice><orig>distançia</orig><reg>distancia</reg></choice>
+                  <lb/><choice><orig>·c·e</orig><reg><hi rend="italic bold">c,e</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> se señala de la <choice><orig>t</orig><reg><hi rend="italic bold">t</hi></reg></choice> a la <choice><orig>·q·</orig><reg><hi rend="italic bold">q</hi></reg></choice> y se tira <choice><orig>·a·q</orig><reg><hi rend="italic bold">a,q</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y donde corta el <choice><orig>çirculo</orig><reg>círculo</reg></choice>
+                  <lb/> <choice><orig></orig><corr>se</corr></choice> tira <choice><orig>·b·s</orig><reg><hi rend="italic bold">b,s</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> con que queda formado el coz de limas de <choice><orig>cabeça</orig><reg>cabeza</reg></choice> <choice><orig>·a·b·s</orig><reg><hi rend="italic bold">a,b,s</hi></reg></choice><choice><orig> y</orig><reg>. Y</reg></choice> se<lb break="no"/>mejantemente
+                  se sacan los <choice><orig>demas</orig><reg>demás</reg></choice>.
+              </p>
+              <!-- Fin del folio 76r -->
+              <!-- La entrada_9 continúa en siguientes folios -->
+
+
+            </div>
+        </div>    
+    </body>
+</text>
+</TEI>

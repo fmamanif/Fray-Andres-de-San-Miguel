@@ -104,8 +104,12 @@
     <body>
         <div type="seccion">
             <div type="subsección" n="1" xml:id="subsección_1">
+                <pb n="75r" facs="75r.jpg"/>
 
-
+                <figure xml:id="fig_75r_1" type="dibujo">
+                    <graphic url="/assets/images/dibujos/75r_1.png"/>
+                </figure>
+                
             </div>
         </div>    
     </body>

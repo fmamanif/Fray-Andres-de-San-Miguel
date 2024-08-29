@@ -105,6 +105,18 @@
         <div type="seccion">
             <div type="subsección" n="1" xml:id="subsección_1">
 
+              <!-- Continuación de la entrada_11 -->
+              <pb n="77r" facs="77r.jpg"/>
+
+              <figure xml:id="fig_77r_1" type="dibujo">
+                  <graphic url="/assets/images/dibujos/77r_1.png"/>
+              </figure>
+
+              <figure xml:id="fig_77r_2" type="dibujo">
+                  <graphic url="/assets/images/dibujos/77r_2.png"/>
+              </figure>
+              <!-- Fin de la entrada_11 -->
+              <!-- Fin del folio 77r -->
 
             </div>
         </div>    

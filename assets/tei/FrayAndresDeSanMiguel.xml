@@ -1000,12 +1000,9 @@
                         <graphic url="/assets/images/dibujos/77r_2.png"/>
                     </figure>
                     <!-- Fin del folio 77r -->
-
-                    <pb n="77v" facs="77v.jpg"/>
-
-                    <!--Hoja en blanco-->
-
                 </div><!-- Fin de la entrada_11 -->
+
+                <pb n="77v" facs="77v.jpg"/>
                 <!-- Fin del folio 77v -->
 
                 <div type="entrada" n="12" xml:id="entrada_12">

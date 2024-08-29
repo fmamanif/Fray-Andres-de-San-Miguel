@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+        <author>
+          <name type="full">Fray Andrés de San Miguel</name>
+          <name type="personal">
+            <forename>Andrés</forename> 
+            <surname>de Segura de la Alcuña</surname>
+          </name>
+          <idno type="wikidata">Q16942240</idno>
+          <idno type="bne">XX1182168</idno>
+          <idno type="viaf">1661877</idno>
+        </author>
+        <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+        <editor role="Technical_Editor">David Merino Recalde</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Francisco Mamani Fuentes</publisher>
+        <availability status="free">
+          <licence>CC BY-NC-SA</licence>
+				</availability>
+        <date>2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+              <repository>University of Texas Libraries</repository>
+              <collection>Benson Latin American Collection</collection>
+              <idno>31775792</idno>
+          </msIdentifier>
+          <msContents>
+              <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+              <textLang mainLang="es"/>
+              <msItem  n="72r-88v">
+                <title>Sección dedicada a la carpintería de armar</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+              <objectDesc>
+                  <supportDesc>
+                      <support>Papel</support>
+                      <extent>295 folios</extent>
+                  </supportDesc>
+              </objectDesc>
+          </physDesc>
+          <history>
+              <origin>
+                  <date>ca. 1630</date>
+                  <placeName>Ciudad de México</placeName>
+              </origin>
+          </history>
+        </msDesc>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>1969</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+          <editor>
+            <name type="personal">
+              <forename>Enrique</forename>
+              <surname>Nuere</surname>
+            </name>
+          </editor>
+					<publisher>Colegio de Arquitectos de Málaga</publisher>
+					<pubPlace>Málaga</pubPlace>
+          <date>1990</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>2007</date>
+				</bibl>
+      </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div type="seccion">
+            <div type="subsección" n="1" xml:id="subsección_1">
+                <!-- Continuación de la entrada_9 -->
+                <pb n="76v" facs="76v.jpg"/>
+
+                <p>
+                    <lb/><choice><orig>esta es</orig><reg>Es</reg></choice> regla general que cada <choice><orig>una</orig><reg>uno</reg></choice> de los <choice><orig>alba<lb break="no"/>necares</orig><reg>albanécares</reg></choice> se forma en la mitad del lugar donde <choice><orig>serue</orig><reg>sirve</reg></choice><choice><orig></orig><reg>,</reg></choice>
+                    <lb/>porque si es <choice><orig>quadrada</orig><reg>cuadrado</reg></choice><choice><orig></orig><reg>,</reg></choice> su forma es la mitad del <choice><orig>quadra<lb break="no"/>do</orig><reg>cuadrado</reg></choice><choice><orig>y </orig><reg>;</reg></choice>
+                    si es <choice><orig>ochabada</orig><reg>ochavado</reg></choice> se forma en la mitad del <choice><orig>ocha<lb break="no"/>bo</orig><reg>ochavo</reg></choice><choice><orig>, y</orig><reg>;</reg></choice> <choice><orig>la</orig><reg>el</reg></choice> <choice><orig>seys abada</orig><reg>seisavado</reg></choice> en la mitad del <choice><orig>seys abo</orig><reg>seisavo</reg></choice><choice><orig></orig><reg>;</reg></choice> y siendo 
+                    <lb/><choice><orig>çinco abada</orig><reg>cincoavado</reg></choice> o <choice><orig>siete abada</orig><reg>sieteavado</reg></choice><choice><orig></orig><reg>,</reg></choice> o de <choice><orig>qualquiera</orig><reg>cualquiera</reg></choice> otra figura
+                    <lb/>semejantemente<choice><orig></orig><reg>,</reg></choice> siempre se forman sus <choice><orig>albanecares</orig><reg>albanécares</reg></choice> en
+                    <lb/>su mitad y su coz de limas<choice><orig></orig><reg>,</reg></choice> siempre como se <choice><orig>a</orig><reg>ha</reg></choice> <choice><orig>bisto</orig><reg>visto</reg></choice> en los
+                    <lb/><choice><orig>exemplos</orig><reg>ejemplos</reg></choice> propuestos siguen a su albanecar y <choice><orig>cartabon</orig><reg>cartabón</reg></choice>.
+                </p>
+            </div><!-- Fin de la entrada_9 -->
+
+            <div type="entrada" n="10" xml:id="entrada_10">
+                <head>De la <choice><orig>cornija</orig><reg>cornisa</reg></choice> o arrocabe</head>
+
+                <p>
+                    <lb/><choice><orig>quando</orig><reg>Cuando</reg></choice> la sala o templo que con armadura se cubre
+                    <lb/>es tan larga que convenga <choice><orig>hecharle</orig><reg>echarla</reg></choice> tirantes<choice><orig></orig><reg>,</reg></choice> se <choice><orig><abbr>conpne</abbr></orig><reg><expan>compone</expan></reg></choice>
+                    <lb/>el <choice><orig>arrocave</orig><reg>arrocabe</reg></choice> <choice><orig>desta</orig><reg>de esta</reg></choice> manera<choice><orig>, sobre</orig><reg>. Sobre</reg></choice> los nudillos que se
+                    <lb/><choice><orig>enveven</orig><reg>embeben</reg></choice> en la pared <choice><orig>quando</orig><reg>cuando</reg></choice> se enrasa se asienta
+                    <lb/>la solera con las molduras <choice><orig>mas</orig><reg>más</reg></choice> convenientes<choice><orig> y sobre</orig><reg>. Sobre</reg></choice>
+                    <lb/>la solera se <choice><orig>açientan</orig><reg>asientan</reg></choice> los canes<choice><orig></orig><reg>,</reg></choice> y entre can y can se <choice><orig>he<lb break="no"/>chan</orig><reg>echan</reg></choice>
+                    unas tablas limpias en forma de tabicas <choice><orig></orig><reg>—</reg></choice>que <choice><orig></orig><reg>se</reg></choice> llaman
+                    <lb/><choice><orig>alizeres</orig><reg>aliceres</reg></choice><choice><orig></orig><reg>—</reg></choice> engargoladas en los mismos canes con <choice><orig>algun</orig><reg>algún</reg></choice>
+                    <lb/>acuesto<choice><orig> y sobre</orig><reg>. Sobre</reg></choice> los canes y <choice><orig>alizeres</orig><reg>aliceres</reg></choice> se <choice><orig>hecha</orig><reg>echa</reg></choice> una mol<lb break="no"/>dura
+                    pequeña que ate toda la obra, y sobre el can se <choice><orig>bea</orig><reg>vea</reg></choice>
+                    <lb/>esta moldura en una tabla que lo llena todo por <choice><orig>ensima</orig><reg>encima</reg></choice><choice><orig></orig><reg>;</reg></choice>
+                    <lb/>esta parte sirve de arquitrabe<choice><orig>, sobre</orig><reg>. Sobre</reg></choice> los canes se <choice><orig>açien<lb break="no"/>tan</orig><reg>asientan</reg></choice>
+                    <lb/>los tirantes y en ellos sus <choice><orig>alizeres</orig><reg>aliceres</reg></choice><choice><orig></orig><reg>,</reg></choice> que <choice><orig>hazen</orig><reg>hacen</reg></choice> el <choice><orig>fri<lb break="no"/>ço</orig><reg>friso</reg></choice>
+                    <lb/>con otra moldura pequeña que los guarnece por <choice><orig>ensi<lb break="no"/>ma</orig><reg>encima</reg></choice><choice><orig></orig><reg>,</reg></choice> 
+                    semejante a la que se <choice><orig>hecho</orig><reg>echó</reg></choice> sobre los canes<choice><orig> sobre</orig><reg>. Sobre</reg></choice> los
+                    <lb/>tirantes se <choice><orig>hecha</orig><reg>echa</reg></choice> el estribo en que <choice><orig>enpatilla</orig><reg>empatilla</reg></choice> <choice><orig>el</orig><reg>la</reg></choice> armadu<lb break="no"/>ra<choice><orig></orig><reg>.</reg></choice>
+                    <choice><orig>este</orig><reg>Este</reg></choice> y la <choice><orig>çanca</orig><reg>zanca</reg></choice> de dos cuerdas<choice><orig></orig><reg>,</reg></choice> que se deja en los pares
+                    <lb/> hasta el almarbate<choice><orig></orig><reg>,</reg></choice> cubre la <choice><orig>cornija</orig><reg>cornisa</reg></choice> que se <choice><orig>hecha</orig><reg>echa</reg></choice> en es<lb break="no"/>ta
+                    parte muy cumplida<choice><orig>, toda</orig><reg>. Toda</reg></choice> esta obra se ata a la redonda<choice><orig></orig><reg>,</reg></choice>
+                    <lb/>pero si <choice><orig>el</orig><reg>la</reg></choice> armadura es <choice><orig>ochabado</orig><reg>ochavada</reg></choice> o <choice><orig>seysabada</orig><reg>seisavada</reg></choice><choice><orig>,</orig><reg></reg></choice> no ha de
+                    <lb/>bajar todo el <choice><orig>ochabo</orig><reg>ochavo</reg></choice> con la <choice><orig>cornixa</orig><reg>cornisa</reg></choice> como algunos lo <choice><orig>an</orig><reg>han</reg></choice>
+                    <lb/>hecho<choice><orig></orig><reg>,</reg></choice> porque es obra muy fea y gasto sin <choice><orig>probecho</orig><reg>provecho</reg></choice><choice><orig></orig><reg>,</reg></choice> sino que se
+                    <lb/> pase en forma <choice><orig>quadrada</orig><reg>cuadrada</reg></choice> guardando las paredes toda la
+                    <lb/>obra de la solera<choice><orig></orig><reg>,</reg></choice> canes y tirantes<choice><orig></orig><reg>,</reg></choice> y pase solo el <choice><orig><abbr>quadra<lb break="no"/>te</abbr></orig><reg><expan>cuadrante</expan></reg></choice>
+                    que es el estribo del <choice><orig>ochabo</orig><reg>ochavo</reg></choice><choice><orig> con</orig><reg>. Con</reg></choice> alguna <choice><orig>mas</orig><reg>más</reg></choice> obra que lo
+                    <lb/><choice><orig>agraçie</orig><reg>agracie</reg></choice> por <choice><orig>debaxo</orig><reg>debajo</reg></choice> y por la tabla<choice><orig> y</orig><reg>,</reg></choice> por <choice><orig>ençima</orig><reg>encima</reg></choice> corra su
+                    <lb/><choice><orig>cornixa</orig><reg>cornisa</reg></choice> siguiendo el <choice><orig>ochabo</orig><reg>ochavo</reg></choice>. 
+                </p>
+
+                <p>
+                    <lb/><choice><orig>quando</orig><reg>Cuando</reg></choice> el templo que se cubre de armadura <choice><orig>haze</orig><reg>hace</reg></choice> <choice><orig><abbr>co</abbr></orig><reg><expan>con</expan></reg></choice>
+                    <lb/>arco <choice><orig>diviçion</orig><reg>división</reg></choice> de capilla mayor no se <choice><orig>deve</orig><reg>debe</reg></choice> pasar <choice><orig>el</orig><reg>la</reg></choice> armadu<lb break="no"/>ra
+                    de la nave por <choice><orig>ensima</orig><reg>encima</reg></choice> del arco<choice><orig></orig><reg>,</reg></choice> porque pasando por <choice><orig>en<lb break="no"/>sima</orig><reg>encima</reg></choice>
+                    queda <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig>baxo</orig><reg>bajo</reg></choice> el arco todo lo que <choice><orig>ay</orig><reg>hay</reg></choice> <choice><orig>donde</orig><reg>desde</reg></choice> el
+                    <lb/><choice><orig>almiçate</orig><reg>almizate</reg></choice> a la rosca del arco<choice><orig></orig><reg>.</reg></choice> <choice><orig>asi</orig><reg>Así</reg></choice> <choice><orig>afeo</orig><reg>afeó</reg></choice> y <choice><orig>hechalo</orig><reg>lo echó</reg></choice>  a <choice><orig>querder</orig><corr>perder</corr></choice>
+                    <lb/>el templo de Santo Domingo de <choice><orig>Mexico</orig><reg>México</reg></choice> el carpintero que
+                    <lb/>lo <choice><orig>cubrio</orig><reg>cubrió</reg></choice> por <choice><orig><del rend="line-through">que</del></orig><reg></reg></choice> querer <choice><orig><del rend="line-through">iendo</del></orig><reg></reg></choice> <choice><orig>ochabar</orig><reg>ochavar</reg></choice> su armadura<choice><orig> sobre</orig><reg>. Sobre</reg></choice>
+                    <lb/>el arco <choice><orig>hecharon</orig><reg>echaron</reg></choice> <choice><orig>sobre el</orig><reg></reg></choice> una <choice><orig>cornixa</orig><reg>cornisa</reg></choice> grande de piedra
+                    <lb/>que <choice><orig>siñe</orig><reg>ciñe</reg></choice> toda la <choice><orig>ygleçia</orig><reg>iglesia</reg></choice><choice><orig> y sobre</orig><reg>. Sobre</reg></choice> esta <choice><orig>cornixa</orig><reg>cornisa</reg></choice> todo el <choice><orig><abbr>a<lb break="no"/>rocabe</abbr></orig><reg><expan>arrocabe</expan></reg></choice>
+                    de solera, con<choice><orig>,</orig><reg></reg></choice> tirante<choice><orig>,</orig><reg></reg></choice> y <choice><orig>cornixa</orig><reg>cornisa</reg></choice>, <choice><orig>y </orig><reg></reg></choice><choice><orig>mas</orig><reg>más</reg></choice> lo que
+                    <lb/>sube <choice><orig>el</orig><reg>la</reg></choice> armadura <choice><orig>cauzi</orig><reg>casi</reg></choice> hasta el <choice><orig>almiçate</orig><reg>almizate</reg></choice><choice><orig></orig><reg>,</reg></choice> con que
+                    <lb/>dejaron el <choice><orig>arxo</orig><corr>arco</corr></choice> <choice><orig>baxo</orig><reg></reg></choice> <choice><orig>mas de</orig><reg></reg></choice> ocho <choice><orig>baras</orig><reg>varas</reg></choice><choice><orig>,</orig><reg></reg></choice> <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig></orig><reg>bajo</reg></choice> de lo que
+                    <lb/>pide <choice><orig>el</orig><reg>la</reg></choice> altura de las paredes sobre que <choice><orig>esta</orig><reg>está</reg></choice> armada
+                    <lb/><choice><orig>el</orig><reg>la</reg></choice> armadura<choice><orig> de</orig><reg>. De</reg></choice> manera que<choice><orig></orig><reg>,</reg></choice> sin <choice><orig>escusar</orig><reg>excusar</reg></choice> el gasto de <choice><orig>le<lb break="no"/>bantar</orig><reg>levantar</reg></choice>
+                    las paredes<choice><orig></orig><reg>,</reg></choice> <choice><orig>dexo</orig><reg>dejó</reg></choice> los arcos tan bajos que de <choice><orig>tenplo</orig><reg>templo</reg></choice>
+                    <lb/><choice><orig>hermosisimo</orig><reg>hermosísimo</reg></choice> que fuera <choice><orig></orig><reg>—</reg></choice><choice><orig>alsandolos</orig><reg>alzándolos</reg></choice> a su lugar<choice><orig></orig><reg>—</reg></choice> hizo una 
+                    <lb/>bodega<choice><orig></orig><reg>;</reg></choice> <choice><orig>descuydo</orig><reg>descuido</reg></choice> <choice><orig>yntolerable</orig><reg>intolerable</reg></choice> que perpetuamente <choice><orig>esta</orig><reg>está</reg></choice> con<lb break="no"/>denando
+                    su autor y ofendiendo la <choice><orig>bista</orig><reg>vista</reg></choice> de todos<choice><orig> y</orig><reg>. Y</reg></choice> <choice><orig>a<lb break="no"/>si</orig><reg>así</reg></choice> no se <choice><orig>deve</orig><reg>debe</reg></choice> <choice><orig>ochabar</orig><reg>ochavar</reg></choice> armadura sobre arco<choice><orig></orig><reg>,</reg></choice> sino su<lb break="no"/>biendo
+                    el arco <choice><orig>quanta</orig><reg>cuanto</reg></choice> <choice><orig>arrimandole</orig><reg>arrimándole</reg></choice> a <choice><orig>moxinete</orig><reg>mojinete</reg></choice> <choice><orig>el</orig><reg>la</reg></choice> ar<lb break="no"/>madura
+                    se descubra media <choice><orig>bara</orig><reg>vara</reg></choice> de la rosca del arco.
+                </p>
+            </div><!-- Fin de la entrada_10 -->
+
+            <div type="entrada" n="11" xml:id="entrada_11">
+                <head>De otra manera de sacar los coz de limas de <choice><orig>qualquera</orig><reg>cualquier</reg></choice> <choice><orig>genero</orig><reg>género</reg></choice> de armadura</head>
+
+                <p>
+                    <lb/>Para sacar el coz de limas <choice><orig><abbr>depues</abbr></orig><reg><expan>después</expan></reg></choice> de labrada la
+                    <lb/>lima se <choice><orig>heche</orig><reg>echa</reg></choice> la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice>
+                    <lb/>por la tabla que <choice><orig>esta</orig><reg>está</reg></choice> a <choice><orig>esquadra</orig><reg>escuadra</reg></choice><choice><orig> y este</orig><reg>. Este</reg></choice> <choice><orig>traso</orig><reg>trazo</reg></choice> se <choice><orig>buel<lb break="no"/>va</orig><reg>vuelve</reg></choice>
+                    por los cantos de la lima con la cola del albane<lb break="no"/>car
+                    <choice><orig>a</orig><reg></reg></choice> que arma <choice><orig>el</orig><reg>la</reg></choice> armadura<choice><orig> y de</orig><reg>. De</reg></choice> la una a la otra cola
+                    <lb/>de albanecar se <choice><orig>tire</orig><reg>tira</reg></choice> un <choice><orig>traso</orig><reg>trazo</reg></choice> por la <choice><orig>canpana</orig><reg>campana</reg></choice> de la lima<choice><orig></orig><reg>,</reg></choice>
+                    <lb/>y este <choice><orig>traso</orig><reg>trazo</reg></choice> es la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del coz de limas<choice><orig> y con</orig><reg>. Con</reg></choice> la <choice><orig>cabesa</orig><reg>cabeza</reg></choice>
+                    <lb/>del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> asentada sobre esta <choice><orig>cabesa</orig><reg>cabeza</reg></choice><choice><orig></orig><reg>,</reg></choice> se sa<lb break="no"/>ca
+                    la cola al coz de limas<choice><orig> la</orig><reg>. La</reg></choice> otra <choice><orig>linea</orig><reg>línea</reg></choice> que <choice><orig>sierra</orig><reg>cierra</reg></choice> el <choice><orig>tri<lb break="no"/>angulo</orig><reg>triángulo</reg></choice>
+                    es la que forma la cola del albanecar y en que se
+                    <lb/>asienta <choice><orig>el</orig><reg>la</reg></choice> alpartilla o <choice><orig>trazilla</orig><reg>tracilla</reg></choice>. 
+                </p>
+                <!-- Fin del folio 76v -->
+                <!-- La entrada 11 continúa en siguientes folios -->
+
+
+            </div>
+        </div>    
+    </body>
+</text>
+</TEI>
