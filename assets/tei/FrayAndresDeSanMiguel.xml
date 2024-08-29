@@ -1118,12 +1118,10 @@
                     -->
                     <!-- Fin del folio 79r -->
 
-                    <pb n="79v" facs="79v.jpg"/>
-
-                    <!--Hoja en blanco-->
-
                 </div><!-- Fin de la entrada_13 -->
-                <!-- Fin del folio 79v  -->
+
+                <pb n="79v" facs="79v.jpg"/>
+                <!-- Fin del folio 79v -->
 
                 <div type="entrada" n="14" xml:id="entrada_14">
                     <pb n="80r" facs="80r.jpg"/>
@@ -1288,10 +1286,11 @@
 
                     <pb n="83r" facs="83r.jpg"/>
                     
-                    <figure xml:id="fig_83r_1" type="dibujo">
-                        <graphic url="/assets/images/dibujos/83r_1.png"/>
-                    </figure>
-                    <!-- Fin del folio 83r. -->
+                        <figure xml:id="fig_83r_1" type="dibujo">
+                            <graphic url="/assets/images/dibujos/83r_1.png"/>
+                        </figure>
+
+                    <!-- Fin del folio 83r -->
 
                     <pb n="83v" facs="83v.jpg"/>
                     <!-- Fin del folio 83v -->
@@ -1301,9 +1300,9 @@
 
                     <pb n="84v" facs="84v.jpg"/>
                     
-                    <figure xml:id="fig_84v_1" type="dibujo">
-                        <graphic url="/assets/images/dibujos/84v_1.png"/>
-                    </figure>
+                        <figure xml:id="fig_84v_1" type="dibujo">
+                            <graphic url="/assets/images/dibujos/84v_1.png"/>
+                        </figure>
                     <!-- Fin del folio 84v -->
 
                     <pb n="85r" facs="85r.jpg"/>
@@ -1311,9 +1310,10 @@
 
                     <pb n="85v" facs="85v.jpg"/>
                     
-                    <figure xml:id="fig_85v_1" type="dibujo">
-                        <graphic url="/assets/images/dibujos/85v_1.png"/>
-                    </figure>
+                        <figure xml:id="fig_85v_1" type="dibujo">
+                            <graphic url="/assets/images/dibujos/85v_1.png"/>
+                        </figure>
+
                     <!-- Fin del folio 85v -->
 
                     <pb n="86r" facs="86r.jpg"/>
@@ -1321,15 +1321,15 @@
 
                     <pb n="86v" facs="86v.jpg"/>
                     
-                    <figure xml:id="group_86v">
-                        <figure xml:id="fig_86v_1" type="dibujo">
-                            <graphic url="/assets/images/dibujos/86v_1.png"/>
-                        </figure>
+                        <figure xml:id="group_86v">
+                            <figure xml:id="fig_86v_1" type="dibujo">
+                                <graphic url="/assets/images/dibujos/86v_1.png"/>
+                            </figure>
 
-                        <figure xml:id="fig_86v_2" type="dibujo">
-                            <graphic url="/assets/images/dibujos/86v_2.png"/>
+                            <figure xml:id="fig_86v_2" type="dibujo">
+                                <graphic url="/assets/images/dibujos/86v_2.png"/>
+                            </figure>
                         </figure>
-                    </figure>
                     <!-- Fin del folio 86v -->
 
                     <pb n="87r" facs="87r.jpg"/>
@@ -1341,7 +1341,7 @@
                 </div><!-- Fin de la entrada_18 -->
                 <!-- Fin del folio 87r -->
             
-            </div><!-- Finde la subsección 1-->
+            </div><!--  Fin de la subsección_1-->
             
             <div type="subsección" n="2" xml:id="subsección_2">
                 <pb n="87v" facs="87v.jpg"/>
