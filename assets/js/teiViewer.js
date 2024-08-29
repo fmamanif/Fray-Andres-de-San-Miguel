@@ -1,5 +1,14 @@
 
     let c = new CETEI();
+    let notesDocument = null;  // Variable global para almacenar el documento de notas
+
+    // Cargar el archivo de notas al iniciar teiViewer.js
+    document.addEventListener("DOMContentLoaded", function() {
+    c.getHTML5('../assets/tei/notas.xml', function(data) {
+        notesDocument = data;  // Almacenar el documento de notas
+    });
+    });
+
     let behaviors = {
         "tei": {
             "figure": (element) => {
@@ -36,25 +45,35 @@
                     element.parentNode.replaceChild(container, element);
                 }
             },
-            "ptr": function (e) {
-                // Crea un elemento <a> para hacer el ptr clickable
-                let a = document.createElement("a");
-                a.href = "#";
-                a.textContent = e.getAttribute("n");
-                // Agrega una clase al elemento <a>
-                a.className = "notaTEI"; // Asigna la clase "nota-link"
+        "ptr": function (e) {
+            let a = document.createElement("a");
+            a.href = "#";
+            a.textContent = e.getAttribute("n");
+            a.className = "notaTEI"; 
 
-                // Encuentra la nota referenciada
-                let targetId = e.getAttribute("target").substring(1); // elimina el "#" inicial
-                let noteElement = document.querySelector("#" + targetId);
+            // Extraer el valor del atributo 'type'
+            let ptrType = e.getAttribute("type");
+            if (ptrType) {
+                // Añadir la clase basada en el valor de 'type'
+                a.classList.add(ptrType);
+            }
+
+            // Asegurarse de que el documento de notas esté cargado
+            if (!notesDocument) {
+                console.error('El documento de notas no está disponible.');
+                return a;
+            }
+
+            let targetId = e.getAttribute("target").substring(1);
+
+            // Buscar la nota correspondiente en notesDocument
+            let noteElement = notesDocument.querySelector("#" + targetId);
+            if (noteElement) {
                 let note = noteElement.textContent;
-
-                // Procesa el contenido de 'type', reemplazando '-' por ' '
                 let noteType = noteElement.getAttribute("type") ? noteElement.getAttribute("type").replace(/-/g, ' ') : "";
 
-                // Agrega un evento de clic al enlace para abrir un modal
                 a.onclick = function () {
-                    // Crea el modal y muestra la nota
+                    // Crear y mostrar el modal
                     let modal = document.createElement("div");
                     modal.setAttribute("class", "modal");
 
@@ -80,14 +99,13 @@
 
                     modalContent.appendChild(closeSpan);
 
-                    // Deshabilita (hidden) el desplazamiento del cuerpo de la página cuando el modal está activo
+                    // Deshabilita el desplazamiento del cuerpo de la página cuando el modal está activo
                     document.body.style.overflow = 'shown';
 
-                    // Crea un elemento específico para 'type' si existe
                     if (noteType) {
                         let normalizedNoteType = noteType.normalize("NFD").replace(/[\u0300-\u036f]/g, "") // Quita los acentos
-                            .replace(/-/g, ' ').toLowerCase() // Convierte guiones a espacios y a minúsculas
-                            .replace(/\s+/g, '-'); // Reemplaza espacios con guiones para el atributo data-type
+                            .replace(/-/g, ' ').toLowerCase()
+                            .replace(/\s+/g, '-');
 
                         let noteTypeElement = document.createElement("span");
                         noteTypeElement.className = "note-type";
@@ -96,23 +114,38 @@
                         modalContent.appendChild(noteTypeElement);
                     }
 
+                    // Procesar el contenido de la nota, incluyendo el reemplazo de <term> por <span class="term">
                     let noteContent = document.createElement("p");
-                    noteContent.textContent = note;
-                    modalContent.appendChild(noteContent);
 
+                    // Copiar el contenido de la nota
+                    noteContent.innerHTML = noteElement.innerHTML;
+
+                    // Reemplazar los <term> por <span class="term">
+                    noteContent.querySelectorAll('term').forEach(function(termElement) {
+                        let span = document.createElement("span");
+                        span.className = "term";
+                        span.innerHTML = termElement.innerHTML;
+
+                        // Reemplazar el <term> original por el <span> en el DOM
+                        termElement.parentNode.replaceChild(span, termElement);
+                    });
+
+                    modalContent.appendChild(noteContent);
                     modal.appendChild(modalContent);
                     document.body.appendChild(modal);
 
                     modal.style.display = "block";
 
-                    // Evita que el enlace navegue a su href
-                    return false;
+                    return false; // Prevenir la navegación predeterminada del enlace
                 };
-
-                return a;
             }
-        }
-    };
+
+            return a;
+        },
+        
+    }
+};
+
 
 
     c.addBehaviors(behaviors);

@@ -69,3 +69,5 @@ puntos = (?<!<orig>[^<]*)·(?![^>]*</orig>)
 <reg>$1</reg>
 
 <choice><orig><del rend="line-through"></del></orig><reg></reg></choice>
+
+<ptr target="#" n="?"/> 

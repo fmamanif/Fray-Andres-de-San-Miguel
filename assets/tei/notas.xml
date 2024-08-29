@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title>Notas a la edición</title>
+            <author></author>
+        </titleStmt>
+        <publicationStmt>
+            <publisher>Francisco Mamani Fuentes</publisher>
+            <date>2024</date>
+        </publicationStmt>
+        <sourceDesc>
+            <p></p>
+        </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div></div>
+        </body>
+        <back>
+
+            <note xml:id="lazo" type="término"><term rend="bold">Lazo</term> 
+                Obra producida por el entrelazamiento continuo de cintas o bandas que forman ciertas líneas cortadas o curvilíneas, sin solución de continuidad aparente. En la carpintería de armar histórica iberoamericano, este lazo, además de obedecer a las leyes internas del trazado geométrico, depende de los factores constructivos como la modulación y las dimensiones de los elementos que la forman, esto le confiere un aspecto propio. Se usa también el término lacería para hablar de un grupo de lazos o de forma genérica para este tipo de entrelazamiento de bandas.</note>
+            <note xml:id="azafate" type="término"><term rend="bold">Azafate o zafate</term> 
+                Del árabe andalusí <hi rend="italic">as-safāṭ</hi> (cesta o canasta). Figura o hueco de forma hexagonal resultante de la intersección de dos bandas de madera que forman una rueda de lazo. Puede tener forma “redonda”, es decir hexagonal, o “harpados”, en forma de un arpón.</note>
+            <note xml:id="candilejo" type="término"><term rend="bold">Candilejo</term> 
+                Figura o hueco en forma de estrella de cinco puntas que resulta del cruce de bandas de madera que forman una rueda de lazo.</note>
+            <note xml:id="almendrilla" type="término"><term rend="bold">Almendrilla</term> 
+                Figura o hueco de forma romboidal resultante de la intersección de lazos que forman una rueda.</note>
+            <note xml:id="sino" type="término"><term rend="bold">Sino o signo</term> 
+                Polígono regular en forma de estrella que da su nombre a cada tipo de rueda de lazo. Es el centro y el origen de cada rueda y resulta del cruce de las bandas que componen los lazos. </note>
+            <note xml:id="plomo" type="expresión"><term rend="bold">Plomo ("a plomo")</term>  
+                Línea perpendicular a un plano horizontal. Línea vertical.</note>
+            <note xml:id="cuerda" type="término"><term rend="bold">Cuerda</term> 
+                Grueso de la madera.</note>
+            <note xml:id="desculatar" type="verbo"><term rend="bold">Desculatar o descopetar</term> 
+                Acción de generar una rueda de lazo a partir de una o varias otras ruedas de lazo extendiendo sus brazos. </note>
+            <note xml:id="ferrete" type="término"><term rend="bold">Ferrete</term> 
+                Del francés <hi rend="italic">ferret</hi>, diminutivo de <hi rend="italic">fer</hi> (objeto o parte de un objeto hecho de hierro). Instrumento de hierro utilizado para marcar o poner señal a las cosas.</note>
+
+
+
+        </back>
+
+    </text>
+
+
+</TEI>

@@ -104,23 +104,38 @@ tei-item::before {
 /* Número de nota */
 .notaTEI  {
   display: inline-block; /* Hace que el enlace se comporte como un bloque para poder aplicar padding */
-  width: 20px; /* Establece un ancho fijo */
-  height: 20px; /* Establece un alto fijo */
-  line-height: 20px; /* Asegura que el texto esté centrado verticalmente */
+  line-height: 15px; /* Asegura que el texto esté centrado verticalmente */
   text-align: center; /* Centra el texto horizontalmente */
+  width: 15px;
+  height: 15px;
   border-radius: 50%; /* Crea el efecto de círculo */
   border: 0px solid #000; /* Establece el color y grosor del borde */
   text-decoration: none; /* Elimina el subrayado del enlace */
-  color: #fff; /* Establece el color del texto */
   font-weight: normal; /* Opcional: hace el número más notorio */
-  background-color: #333; /* Establece el color de fondo; cambia según tus necesidades */
-  margin-left: 2px;
   text-decoration: none;
+  font-size: 0.7em;
+  font-weight: bold;
+  vertical-align: super;
 }
 
 .notaTEI:hover {
   text-decoration: none;
-  opacity: 0.8;
+  opacity: 0.6;
+}
+
+.t {
+  color: #fefefe;
+  background-color: #9B0072;
+}
+
+.v {
+  color: #fefefe;
+  background-color: #005A0C;
+}
+
+.e {
+  color: #fefefe;
+  background-color: #B05500;
 }
 
 /* Etiquetas de notas */
@@ -133,12 +148,25 @@ tei-item::before {
   font-weight: bold; /* Texto en negrita */
 }
 
-.note-type[data-type="termino-tecnico"] {
-  background-color: #f7b733;
+.note-type[data-type="termino"] {
+  background-color: #9B0072;
 }
 
-.note-type[data-type="termino-historico"] {
-  background-color: #3371f7;
+
+.note-type[data-type="verbo"] {
+  background-color: #005A0C;
+}
+
+.note-type[data-type="expresion"] {
+  background-color: #B05500;
+}
+
+
+tei-term[rend="bold"] {
+  font-weight: bold;
+  font-size: 1.25em;
+  display: block;
+
 }
 
 
@@ -202,6 +230,10 @@ content: "[Folio " attr(n) "]";
 
 tei-hi[rend="italic bold"] {
   font-style: italic;
+  font-weight: bold;
+}
+
+tei-hi[rend="bold"] {
   font-weight: bold;
 }
 
