@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edición digital</title>
+    <title>La carpintería de armar en Fray Andrés de San Miguel. Edición digital</title>
     <link rel="icon" type="image/png" href="../assets/images/favicon.png">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/variables.css">
@@ -30,38 +30,37 @@
     </script>
 
     <div class="container">
-        <div class="row">
-            <div class="col-3"></div>
-            <div class="col-6">
-                <div class="titulo" id="tituloedicion">
-                    <h1>Edición digital de la sección de carpintería del manuscrito de Fray Andrés de San Miguel</h1>
-                </div>
-            </div>
-        </div>
     
         <div class="row">
             <div class="col-3">
+                <div id="imagenContainer" class="imagen-fixed">
+                    <img src="../assets/images/facsimil/88v.jpg" alt="Descripción de la imagen" id="miImagen" />
+                </div>
                 <div id="modalImagen" class="imagen-modal" style="display: none;">
-                    <div class="modal-content-wrapper"> <!-- Contenedor agregado para centrado -->
+                    <div class="modal-content-wrapper">
                         <span class="cerrar-imagen">&times;</span>
                         <img class="imagen-modal-content" id="img01" alt="Descripción de la imagen">
                         <div id="caption"></div>
                     </div>
                 </div>
                 <div class="boton-version">
-                    <button id="showDiplomatic" class="boton">Edición diplomática</button>
-                    <button id="showModernized" class="boton">Edición modernizada</button>
-                </div>
+                    <button id="toggleEdition" class="boton">Ver edición diplomática</button>
+                </div> 
             </div>
             <div class="col-6">
                 <div id="xml-tei-container">
                     <!-- Aquí se colocará el contenido del archivo XML-TEI -->
                 </div>
+                
             </div>
             <div class="col-3">
-                <a href="tu_enlace_aquí" class="logo-enlace">
-                    <img src="../assets/images/tei.png" alt="Logo TEI">
-                </a>
+                <div class="navegacion-paginas">
+                    <div id="anterior"><a href="88r.html" class="flecha">← Anterior</a></div>                    
+                <div>
+                    <a href="tu_enlace_aquí" class="logo-enlace">
+                        <img src="../assets/images/tei.png" alt="Logo TEI">
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -74,12 +73,12 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            c.getHTML5('../assets/tei/prueba.xml', function(data) {
+            c.getHTML5('../assets/tei/teis/88r.xml', function(data) {
                 document.getElementById('xml-tei-container').appendChild(data);
             });
         });
     </script>
-
+        
     <script>
         document.getElementById('miImagen').onclick = function () {
             var modal = document.getElementById('modalImagen');
