@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+        <author>
+          <name type="full">Fray Andrés de San Miguel</name>
+          <name type="personal">
+            <forename>Andrés</forename> 
+            <surname>de Segura de la Alcuña</surname>
+          </name>
+          <idno type="wikidata">Q16942240</idno>
+          <idno type="bne">XX1182168</idno>
+          <idno type="viaf">1661877</idno>
+        </author>
+        <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+        <editor role="Technical_Editor">David Merino Recalde</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Francisco Mamani Fuentes</publisher>
+        <availability status="free">
+          <licence>CC BY-NC-SA</licence>
+				</availability>
+        <date>2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+              <repository>University of Texas Libraries</repository>
+              <collection>Benson Latin American Collection</collection>
+              <idno>31775792</idno>
+          </msIdentifier>
+          <msContents>
+              <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+              <textLang mainLang="es"/>
+              <msItem  n="72r-88v">
+                <title>Sección dedicada a la carpintería de armar</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+              <objectDesc>
+                  <supportDesc>
+                      <support>Papel</support>
+                      <extent>295 folios</extent>
+                  </supportDesc>
+              </objectDesc>
+          </physDesc>
+          <history>
+              <origin>
+                  <date>ca. 1630</date>
+                  <placeName>Ciudad de México</placeName>
+              </origin>
+          </history>
+        </msDesc>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>1969</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+          <editor>
+            <name type="personal">
+              <forename>Enrique</forename>
+              <surname>Nuere</surname>
+            </name>
+          </editor>
+					<publisher>Colegio de Arquitectos de Málaga</publisher>
+					<pubPlace>Málaga</pubPlace>
+          <date>1990</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>2007</date>
+				</bibl>
+      </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div type="seccion">
+            <div type="subsección" n="1" xml:id="subsección_1">
+
+              <div type="entrada" n="12" xml:id="entrada_12">
+                <pb n="78r" facs="78r.jpg"/>
+
+                <figure xml:id="fig_78r_1" type="dibujo">
+                    <graphic url="/assets/images/dibujos/78r_1.png"/>
+                </figure>
+
+                <figure xml:id="fig_78r_2" type="dibujo">
+                    <graphic url="/assets/images/dibujos/78r_2.png"/>
+                </figure>
+
+                <head>De una armadura de lazo de ocho <choice><orig>en</orig><reg></reg></choice> <choice><orig>quadrada</orig><reg>cuadrada</reg></choice> por arriba <choice><orig><del rend="line-through">hecha çinco panos</del></orig><reg></reg></choice> y <choice><orig>ochabada</orig><reg>ochavada</reg></choice> <choice><orig>por</orig><reg></reg></choice> en medio y por <choice><orig>abaxo</orig><reg>abajo</reg></choice></head>
+
+                <p>
+                    <lb/>Esta armadura<choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>aunq</abbr></orig><reg><expan>aunque</expan></reg></choice> el lazo que tiene no <choice><orig>dize</orig><reg>dice</reg></choice> tan bien con su ar<lb break="no"/>mar
+                    como si fuera de nueve y <choice><orig>doçe</orig><reg>doce</reg></choice><choice><orig></orig><reg>,</reg></choice> mas con todo <choice><orig>esso</orig><reg>eso</reg></choice> se puede armar en
+                    <lb/><choice><orig>qualquiera</orig><reg>cualquier</reg></choice> capilla como no sea de <choice><orig>mas</orig><reg>más</reg></choice> que de <choice><orig>quinze</orig><reg>quince</reg></choice> a <choice><orig>diez y ocho</orig><reg>dieciocho</reg></choice>
+                    <lb/>pies de ancho<choice><orig></orig><reg>.</reg></choice> <choice><orig><abbr>porq</abbr></orig><reg><expan>Porque</expan></reg></choice> si el ancho fuese <choice><orig>mas</orig><reg>más</reg></choice><choice><orig></orig><reg>,</reg></choice> las madera <choice><orig>serian</orig><reg>serían</reg></choice> <choice><orig>de<lb break="no"/>maçiado</orig><reg>demasiado</reg></choice>
+                    <choice><orig>de</orig><reg></reg></choice> <choice><orig>grueças</orig><reg>gruesas</reg></choice> y la obra <choice><orig>seria</orig><reg>sería</reg></choice> fea y <choice><orig>pareseria</orig><reg>parecería</reg></choice> mal a la vista a la
+                    <lb/><choice><orig>qual</orig><reg>cual</reg></choice> se pretende agradar<choice><orig> en</orig><reg>. En</reg></choice> <choice><orig>semexantes</orig><reg>semejantes</reg></choice> obras <choice><orig>sufrira</orig><reg>sufrirá</reg></choice> esta arma<lb break="no"/>dura
+                    <lb/><choice><orig>qualquiera</orig><reg>cualquier</reg></choice> <choice><orig>covertura</orig><reg>cobertura</reg></choice><choice><orig></orig><reg>,</reg></choice> por pesada que sea<choice><orig></orig><reg>,</reg></choice> sin tener <choice><orig>neçesçidad</orig><reg>necesidad</reg></choice>
+                    <lb/> de <choice><orig>caramanchon</orig><reg>camaranchón</reg></choice>. <note place="inline margin left">cartabones <choice><orig>a</orig><reg></reg></choice>que <choice><orig>arma</orig><reg>arman</reg></choice></note> Los cartabones <choice><orig>aqui</orig><reg>aquí</reg></choice> <choice><orig>ban</orig><reg>van</reg></choice> bien apuntados en la misma
+                    <lb/>montea <choice><orig>que</orig><reg></reg></choice> son los siguientes<choice><orig></orig><reg>:</reg></choice> el <choice><orig>triangulo</orig><reg>triángulo</reg></choice> arma por <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de
+                    <lb/><choice><orig>de</orig><corr></corr></choice> cinco, el paño <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> arma al <choice><orig>quadrado</orig><reg>cuadrado</reg></choice>, y los paños <choice><orig>baxos</orig><reg>bajos</reg></choice> todos
+                    <lb/>arman por <choice><orig>cabeça</orig><reg>cabeza</reg></choice> de ocho. 
+                </p>
+                
+                <p>
+                    <lb/><note place="inline margin left">montea</note> La montea <choice><orig>desta</orig><reg>de esta</reg></choice> <choice><orig>piessa</orig><reg>pieza</reg></choice> se <choice><orig>haze</orig><reg>hace</reg></choice> <choice><orig>desta</orig><reg>de esta</reg></choice> manera<choice><orig> primeramente</orig><reg>. Primeramente</reg></choice> se <choice><orig>hecha</orig><reg>echa</reg></choice> una <choice><orig>linea</orig><reg>línea</reg></choice> llana o recta como la señalada <choice><orig>A·B</orig><reg><hi rend="italic bold">A,B</hi></reg></choice> y luego otra perpendicular
+                    <lb/>o a plomo como la señalada <choice><orig>·C·D·</orig><reg><hi rend="italic bold">C,D</hi></reg></choice><choice><orig> luego</orig><reg>. Luego</reg></choice> se <choice><orig>yra</orig><reg>irá</reg></choice> con el <choice><orig>compaz</orig><reg>compás</reg></choice> al papel y<choice><orig></orig><reg>,</reg></choice> <choice><orig>començando</orig><reg>comenzando</reg></choice> por el <choice><orig>almiçate</orig><reg>almizate</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig></orig><reg>se </reg></choice> <choice><orig>pondra</orig><reg>pondrá</reg></choice> <choice><orig>la</orig><reg></reg></choice> una punta del <choice><orig>compaz</orig><reg>compás</reg></choice> en el <choice><orig>çentro</orig><reg>centro</reg></choice> de <choice><orig>o<lb break="no"/>chabo</orig><reg>ochavo</reg></choice>
+                    y con la otra <choice><orig>alançara</orig><corr>alcanzará</corr></choice> <choice><orig>a la</orig><reg>al</reg></choice> quiebre del mismo <choice><orig>almiçate</orig><reg>almizate</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es el <choice><orig>numero</orig><reg>número</reg></choice> <choice><orig>senallado</orig><reg>señalado</reg></choice> <choice><orig>8</orig><reg><hi rend="italic bold">8</hi></reg></choice><choice><orig> y este</orig><reg>. Este</reg></choice> tamaño se <choice><orig>pasara</orig><reg>pasará</reg></choice> a la montea que tiene <choice><orig>comencada</orig><reg>comenzada</reg></choice> poniendo
+                    <lb/><choice><orig>la</orig><reg></reg></choice> una punta del <choice><orig>compaz</orig><reg>compás</reg></choice> en el <choice><orig>çentro</orig><reg>centro</reg></choice> <choice><orig></orig><reg>—</reg></choice>señalado con la <choice><orig>·c·</orig><reg><hi rend="italic bold">c</hi></reg></choice><choice><orig></orig><reg>—</reg></choice><choice><orig></orig><reg>,</reg></choice> y desde <choice><orig>alli</orig><reg>allí</reg></choice> <choice><orig></orig><reg>se</reg></choice> <choice><orig>señalara</orig><reg>señalará</reg></choice> con la otra punta<choice><orig></orig><reg>,</reg></choice> a donde <choice><orig>alcansare</orig><reg>alcanzare</reg></choice> en la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>traviesça</orig><reg>atraviesa</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>sera</orig><reg>será</reg></choice> en la letra
+                    <lb/>señalada <choice><orig>·e·</orig><reg><hi rend="italic bold">e</hi></reg></choice><choice><orig> luego</orig><reg>. Luego</reg></choice> señale por <choice><orig>alli</orig><reg>allí</reg></choice> arriba una <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>baya</orig><reg>vaya</reg></choice> corriendo <choice><orig>yqualmente</orig><reg>igualmente</reg></choice> con la <choice><orig>linea</orig><reg>línea</reg></choice> a plomo <choice><orig>·C·D</orig><reg><hi rend="italic bold">C,D</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>sera</orig><reg>será</reg></choice> la señalada <choice><orig>e·</orig><reg><hi rend="italic bold">e</hi></reg></choice> y <choice><orig>·8·</orig><reg><hi rend="italic bold">8</hi></reg></choice><choice><orig> esta</orig><reg>. Esta</reg></choice> <choice><orig>linea</orig><reg>línea</reg></choice><choice><orig></orig><reg>,</reg></choice>
+                    <lb/>como se ve claro<choice><orig></orig><reg>,</reg></choice> despide el <choice><orig>almiçate</orig><reg>almizate</reg></choice> por la parte del paño <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig> hecho</orig><reg>. Hecho</reg></choice> esto se torna a poner la punta del <choice><orig>compaz</orig><reg>compás</reg></choice> en el <choice><orig>çentro</orig><reg>centro</reg></choice> del mismo <choice><orig>ochabo</orig><reg>ochavo</reg></choice> y la
+                    <lb/> otra se destiende al punto señalado <choice><orig>·9·</orig><reg><hi rend="italic bold">9</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> que es el mismo <choice><orig>çentro</orig><reg>centro</reg></choice> del <choice><orig>signo</orig><reg>sino</reg></choice><choice><orig> y con</orig><reg>. Con</reg></choice> este tamaño se <choice><orig>biene</orig><reg>viene</reg></choice> a la letra <choice><orig>·c·</orig><reg><hi rend="italic bold">c</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y desde <choice><orig>alli</orig><reg>allí</reg></choice> se señala a la <choice><orig>f</orig><reg><hi rend="italic bold">f</hi></reg></choice> y se
+                    <lb/>señala <choice><orig><abbr>aqlla</abbr></orig><reg><expan>aquella</expan></reg></choice> <choice><orig>linea</orig><reg>línea</reg></choice> a plomo <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es la señalada <choice><orig>f·y·9</orig><reg><hi rend="italic bold">f</hi> y <hi rend="italic bold">9</hi></reg></choice><choice><orig> esto</orig><reg>. Esto</reg></choice> es para la parte del <choice><orig>triangulo</orig><reg>triángulo</reg></choice><choice><orig></orig><reg>:</reg></choice> del <choice><orig>almiçate</orig><reg>almizate</reg></choice> se <choice><orig>baxa</orig><reg>baja</reg></choice> luego al paño <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> y se <choice><orig>fixa</orig><reg>fija</reg></choice> la <choice><orig>una</orig><reg></reg></choice>
+                    <lb/>punta del <choice><orig>compaz</orig><reg>compás</reg></choice> en el centro en medio de los dos <choice><orig>safates</orig><reg>azafates</reg></choice><ptr target="#azafate" n="?"/> <choice><orig></orig><reg>—</reg></choice>señalados <choice><orig>·h·</orig><reg><hi rend="italic bold">h</hi></reg></choice><choice><orig></orig><reg>—</reg></choice><choice><orig></orig><reg>,</reg></choice> y <choice><orig>dende</orig><corr>desde</corr></choice> allí se destiende el <choice><orig>compaz</orig><reg>compás</reg></choice> a la <choice><orig>·l·</orig><reg><hi rend="italic bold">l</hi></reg></choice> y <choice><orig></orig><reg>se</reg></choice> <choice><orig>haze</orig><reg>hace</reg></choice> un <choice><orig>semiçirculo</orig><reg>semicírculo</reg></choice> como se ve <choice><orig>alli</orig><reg>allí</reg></choice>
+                    <lb/>apuntado<choice><orig> hecho</orig><reg>. Hecho</reg></choice> esto se pone <choice><orig>la</orig><reg></reg></choice> una punta del <choice><orig>compaz</orig><reg>compás</reg></choice> en el <choice><orig>çentro</orig><reg>centro</reg></choice> del sino <choice><orig></orig><reg>—</reg></choice>señalado <choice><orig>·l·</orig><reg><hi rend="italic bold">l</hi></reg></choice><choice><orig></orig><reg>—</reg></choice> y la otra se destiende hasta donde el <choice><orig>semiçirculo</orig><reg>semicírculo</reg></choice> <choice><orig>traviessa</orig><reg>atraviesa</reg></choice>
+                    <lb/>por la <choice><orig>linea</orig><reg>línea</reg></choice> a plomo<choice><orig> y</orig><reg>,</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es en la <choice><orig>·i·</orig><reg><hi rend="italic bold">i</hi></reg></choice><choice><orig> con</orig><reg>. Con</reg></choice> este tamaño se <choice><orig>benga</orig><reg>viene</reg></choice> a la montea<choice><orig></orig><reg>,</reg></choice> y sin <choice><orig>serrar</orig><reg>cerrar</reg></choice> ni abrir el <choice><orig>compaz</orig><reg>compás</reg></choice> <choice><orig>fixe</orig><reg>fije</reg></choice> <choice><orig>la</orig><reg></reg></choice> una punta en la <choice><orig>·e·</orig><reg><hi rend="italic bold">e</hi></reg></choice> y con la otra
+                    <lb/>señale la <choice><orig>linea</orig><reg>línea</reg></choice> señalada <choice><orig>·m·</orig><reg><hi rend="italic bold">m</hi></reg></choice><choice><orig> y teniendo</orig><reg>. Teniendo</reg></choice> firme la punta en la <choice><orig>·m·</orig><reg><hi rend="italic bold">m</hi></reg></choice> <choice><orig>abara</orig><corr>abra</corr></choice> el <choice><orig>compaz</orig><reg>compás</reg></choice> hasta la <choice><orig>·c·</orig><reg><hi rend="italic bold">c</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y teniendo el <choice><orig>compaz</orig><reg>compás</reg></choice> firme en la <choice><orig>·c·</orig><reg><hi rend="italic bold">c</hi></reg></choice> <choice><orig>buelva</orig><reg>vuelva</reg></choice>
+                    <lb/>la otra punta del <choice><orig>conpaz</orig><reg>compás</reg></choice> y señale la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·n·</orig><reg><hi rend="italic bold">n</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y <choice><orig>heche</orig><reg>eche</reg></choice> estas dos <choice><orig>lineas</orig><reg>líneas</reg></choice> a plomo como <choice><orig>aqui</orig><reg>aquí</reg></choice> se muestran apuntadas<choice><orig></orig><reg>.</reg></choice> <choice><orig>baxese</orig><reg>Bájese</reg></choice> luego con el <choice><orig>compas</orig><reg>compás</reg></choice>
+                    <lb/>al paño <choice><orig>baxo</orig><reg>bajo</reg></choice><choice><orig> y</orig><reg>,</reg></choice> ponga <choice><orig>la</orig><reg></reg></choice> una punta en el <choice><orig>numero</orig><reg>número</reg></choice> señalado <choice><orig>·i·</orig><reg><hi rend="italic bold">i</hi></reg></choice> y destienda la otra <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>alcançe</orig><reg>alcance</reg></choice> al <choice><orig>dos</orig><reg><hi rend="italic bold">2</hi></reg></choice> y al <choice><orig>·3·</orig><reg><hi rend="italic bold">3</hi></reg></choice><choice><orig> y</orig><reg>.</reg></choice> <choice><orig>vengase</orig><reg>Véngase</reg></choice> a la montea con este tamaño y <choice><orig>fixe</orig><reg>fije</reg></choice>
+                    <lb/><choice><orig>la</orig><reg></reg></choice> una punta del <choice><orig>compaz</orig><reg>compás</reg></choice> en la <choice><orig>·c·</orig><reg><hi rend="italic bold">c</hi></reg></choice> y con la otra haga un <choice><orig>semiçirculo</orig><reg>semicírculo</reg></choice><choice><orig></orig><reg>,</reg></choice> como  <choice><orig>alli</orig><reg>allí</reg></choice> se muestra<choice><orig> luego</orig><reg>. Luego</reg></choice> se pone <choice><orig>la</orig><reg></reg></choice> una punta del <choice><orig>compaz</orig><reg>compás</reg></choice> en uno de los <choice><orig>angulos</orig><reg>ángulos</reg></choice> <choice><orig>·o·</orig><reg><hi rend="italic bold">o</hi></reg></choice>
+                    <lb/><choice><orig>ho</orig><reg>o</reg></choice> <choice><orig>·f·</orig><reg><hi rend="italic bold">f</hi></reg></choice><choice><orig> desde</orig><reg>. Desde</reg></choice> <choice><orig>alli</orig><reg>allí</reg></choice> se destiende hasta donde <choice><orig>traviesça</orig><reg>atraviesa</reg></choice> el <choice><orig>semiçirculo</orig><reg>semicírculo</reg></choice> por la <choice><orig>linea</orig><reg>línea</reg></choice> a plomo <choice><orig></orig><reg>—</reg></choice><choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>es donde</orig><reg></reg></choice> <choice><orig>esta</orig><reg>está</reg></choice> señalada con la <choice><orig>·p·</orig><reg><hi rend="italic bold">p</hi></reg></choice><choice><orig></orig><reg>—</reg></choice><choice><orig></orig><reg>,</reg></choice> y teniendo firme el <choice><orig>compaz</orig><reg>compás</reg></choice>
+                    <lb/>en la misma letra <choice><orig>·o·</orig><reg><hi rend="italic bold">o</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig>buelva</orig><reg>vuelva</reg></choice> la otra punta sobre la <choice><orig>·B·</orig><reg><hi rend="italic bold">B</hi></reg></choice><choice><orig> por</orig><reg>. Por</reg></choice> la <choice><orig>linea</orig><reg>línea</reg></choice> recta<choice><orig></orig><reg>,</reg></choice> y a donde le <choice><orig>alcansare</orig><reg>alcanzare</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig>heche</orig><reg>eche</reg></choice> un <choice><orig>traço</orig><reg>trazo</reg></choice> a plomo <choice><orig></orig><reg>—</reg></choice>que <choice><orig>sera</orig><reg>será</reg></choice> el señalado <choice><orig>·r·s·</orig><reg><hi rend="italic bold">r,s</hi></reg></choice><choice><orig></orig><reg>—</reg></choice><choice><orig> y luego</orig><reg>. Luego</reg></choice>
+                    <lb/><choice><orig>porgase</orig><corr>póngase</corr></choice> el <choice><orig>compaz</orig><reg>compás</reg></choice> en el mismo tamaño como <choice><orig>esta</orig><reg>está</reg></choice> en el <choice><orig>angulo</orig><reg>ángulo</reg></choice> <choice><orig>·f·</orig><reg><hi rend="italic bold">f</hi></reg></choice><choice><orig> y</orig><reg>,</reg></choice> señale <choice><orig>a</orig><reg></reg></choice> donde le <choice><orig>alcançare</orig><reg>alcanzare</reg></choice> por la <choice><orig>linea</orig><reg>línea</reg></choice> recta hacia la <choice><orig>·A·</orig><reg><hi rend="italic bold">A</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y <choice><orig>heche</orig><reg>eche</reg></choice> otro <choice><orig>traço</orig><reg>trazo</reg></choice> a plomo
+                    <lb/>como en la otra parte<choice><orig> este</orig><reg>. Este</reg></choice> <choice><orig>traço</orig><reg>trazo</reg></choice> y el señalado <choice><orig>·r·s·</orig><reg><hi rend="italic bold">r,s</hi></reg></choice> muestran el ancho de la casa<choice><orig></orig><reg>,</reg></choice> como se puede ver <choice><orig>aqui</orig><reg>aquí</reg></choice> <choice><orig>traçada</orig><reg>trazada</reg></choice> y en los <choice><orig>estrivos</orig><reg>estribos</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>estan</orig><reg>están</reg></choice> <choice><orig>devaxo</orig><reg>debajo</reg></choice> de ella<choice><orig></orig><reg>,</reg></choice> <choice><orig>hecha<lb break="no"/>das</orig><reg>echadas</reg></choice>
+                    todas las <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> tengo dichas y señaladas la <choice><orig>liena</orig><corr>línea</corr></choice> para el <choice><orig>almicate</orig><reg>almizate</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es la señalada con el <choice><orig>·8·</orig><reg><hi rend="italic bold">8</hi></reg></choice> y el <choice><orig></orig><reg><hi rend="italic bold">9</hi></reg></choice><choice><orig></orig><reg>.</reg></choice> <choice><orig>vengase</orig><reg>Véngase</reg></choice> luego con el <choice><orig>compaz</orig><reg>compás</reg></choice> a la <choice><orig>traca</orig><reg>traza</reg></choice> y ponga
+                    <lb/><choice><orig>la</orig><reg></reg></choice> una punta en medio <choice><orig>de la quebra</orig><reg>del quiebre</reg></choice> <choice><orig></orig><reg>—</reg></choice><choice><orig>señalada</orig><reg>señalado</reg></choice> <choice><orig>·h·</orig><reg><hi rend="italic bold">h</hi></reg></choice><choice><orig></orig><reg>—</reg></choice><choice><orig></orig><reg>,</reg></choice> y destienda la otra hasta <choice><orig>la quebra</orig><reg>el quiebre</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>haze</orig><reg>hace</reg></choice> el paño <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> con el <choice><orig>almiçate</orig><reg>almizate</reg></choice><choice><orig> este</orig><reg>. Este</reg></choice> tamaño se <choice><orig>a</orig><reg>ha</reg></choice> de
+                    <lb/><choice><orig>hechar</orig><reg>echar</reg></choice> desde el <choice><orig>ocho</orig><reg><hi rend="italic bold">8</hi></reg></choice> a la <choice><orig>t</orig><reg><hi rend="italic bold">t</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> que es de garganta a garganta<choice><orig> luego</orig><reg>. Luego</reg></choice> se tome el largo del <choice><orig>triangulo</orig><reg>triángulo</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es desde su <choice><orig>misma quiebra</orig><reg>mismo quiebre</reg></choice> hasta el <choice><orig>çentro</orig><reg>centro</reg></choice> del <choice><orig>signo</orig><reg>sino</reg></choice> <choice><orig></orig><reg>—</reg></choice><choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es
+                    <lb/><choice><orig>q</orig><corr></corr></choice> <choice><orig>esla</orig><reg>es la</reg></choice> señal <choice><orig>·x·z</orig><reg><hi rend="italic bold">x,z</hi></reg></choice><choice><orig></orig><reg>—</reg></choice> y <choice><orig>heche</orig><reg>eche</reg></choice> este tamaño del <choice><orig>9</orig><reg><hi rend="italic bold">9</hi></reg></choice> a la <choice><orig>u</orig><reg><hi rend="italic bold">u</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y <choice><orig>alli</orig><reg>allí</reg></choice> se muestra el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> a <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> arma y lo <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>an</orig><reg>han</reg></choice> de <gap unit="word" reason="illegible" extent="unknown"/> el <choice><orig>numero</orig><reg>número</reg></choice> <choice><orig>·1·</orig><reg><hi rend="italic bold">1</hi></reg></choice> y alargue el <choice><orig>compaz</orig><reg>compás</reg></choice> hasta la <gap unit="word" reason="illegible" extent="unknown"/>
+                <!-- Fin del folio 78r -->
+              </p>
+              </div><!-- La entrada_12 continúa en el folio siguiente -->
+
+            </div>
+        </div>    
+    </body>
+</text>
+</TEI>

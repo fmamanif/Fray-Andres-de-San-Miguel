@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+        <author>
+          <name type="full">Fray Andrés de San Miguel</name>
+          <name type="personal">
+            <forename>Andrés</forename> 
+            <surname>de Segura de la Alcuña</surname>
+          </name>
+          <idno type="wikidata">Q16942240</idno>
+          <idno type="bne">XX1182168</idno>
+          <idno type="viaf">1661877</idno>
+        </author>
+        <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+        <editor role="Technical_Editor">David Merino Recalde</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Francisco Mamani Fuentes</publisher>
+        <availability status="free">
+          <licence>CC BY-NC-SA</licence>
+				</availability>
+        <date>2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+              <repository>University of Texas Libraries</repository>
+              <collection>Benson Latin American Collection</collection>
+              <idno>31775792</idno>
+          </msIdentifier>
+          <msContents>
+              <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+              <textLang mainLang="es"/>
+              <msItem  n="72r-88v">
+                <title>Sección dedicada a la carpintería de armar</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+              <objectDesc>
+                  <supportDesc>
+                      <support>Papel</support>
+                      <extent>295 folios</extent>
+                  </supportDesc>
+              </objectDesc>
+          </physDesc>
+          <history>
+              <origin>
+                  <date>ca. 1630</date>
+                  <placeName>Ciudad de México</placeName>
+              </origin>
+          </history>
+        </msDesc>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>1969</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+          <editor>
+            <name type="personal">
+              <forename>Enrique</forename>
+              <surname>Nuere</surname>
+            </name>
+          </editor>
+					<publisher>Colegio de Arquitectos de Málaga</publisher>
+					<pubPlace>Málaga</pubPlace>
+          <date>1990</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>2007</date>
+				</bibl>
+      </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div type="seccion">
+            <div type="subsección" n="1" xml:id="subsección_1">
+              <pb n="88r" facs="88r.jpg"/>
+                <div><!-- Continuación de la entrada_20-->
+
+                  <p>
+                      <lb/>La madera de las <choice><orig>ataçias</orig><reg>atacias</reg></choice> <choice><orig>medios</orig><reg>medias</reg></choice> <choice><orig>quadrados</orig><reg>cuadradas</reg></choice> se labra <choice><orig>quadra<lb break="no"/>do</orig><reg>cuadrado</reg></choice>
+                      y a sierra<choice><orig></orig><reg>,</reg></choice> de esquina a esquina<choice><orig> y</orig><reg>. Y</reg></choice> para las media <choice><orig>ja<lb break="no"/>yras</orig><reg>jairas</reg></choice><choice><orig></orig><reg>,</reg></choice>
+                      <choice><orig>dunbaques</orig><reg>dumbaques</reg></choice> y grullillos, se labra la madera como el <choice><orig>mas<lb break="no"/>til</orig><reg>mástil</reg></choice> 
+                      y aserrada por las esquinas del <choice><orig>ochabo</orig><reg>ochavo</reg></choice> salen ocho
+                      <lb/><choice><orig>piesas</orig><reg>piezas</reg></choice><choice><orig> para</orig><reg>. Para</reg></choice> esto se le da <choice><orig>mas</orig><reg>más</reg></choice> lo que comen las sierras. 
+                  </p>
+
+                  <p>
+                      <lb/><choice><orig>para</orig><reg>Para</reg></choice> mejor señalar con las plantillas se le pone a ca<lb break="no"/>da
+                      una su alpartilla o <choice><orig>trazilla</orig><reg>tracilla</reg></choice> como a <choice><orig>cartabon</orig><reg>cartabón</reg></choice><choice><orig></orig><reg>,</reg></choice> y <choice><orig>haque<lb break="no"/>llos</orig><reg>aquellos</reg></choice>
+                      bocados que señalan las plantillas se sacan con <choice><orig>çie<lb break="no"/>rra</orig><reg>sierra</reg></choice>
+                      <choice><orig>angusta</orig><corr>angosta</corr></choice> y <choice><orig>despues</orig><reg>después</reg></choice> se limpian y <choice><orig>perfecçionan</orig><reg>perfeccionan</reg></choice>.
+                  </p>
+              
+                  <p>
+                      <lb/>La primera compostura es asentar ocho <choice><orig>dunbaques</orig><reg>dumbaques</reg></choice> so<lb break="no"/>bre 
+                      los ocho <choice><orig>ochabos</orig><reg>ochavos</reg></choice> del <choice><orig>mastil</orig><reg>mástil</reg></choice>, y luego se <choice><orig>encaxan</orig><reg>encajan</reg></choice> so<lb break="no"/>bre 
+                      <choice><orig>la</orig><reg>el</reg></choice> frente del mismo <choice><orig>mastil</orig><reg>mástil</reg></choice> otros ocho <choice><orig>dunbaques</orig><reg>dumbaques</reg></choice>
+                      <lb/>grullillos<choice><orig></orig><reg>;</reg></choice> a estos<choice><orig></orig><reg>,</reg></choice> en el canto alto<choice><orig></orig><reg>,</reg></choice> se les deja un lomillo que 
+                      <lb/>le <choice><orig>de</orig><reg>dé</reg></choice> <choice><orig>graçia</orig><reg>gracia</reg></choice><choice><orig>,</orig><reg>.</reg></choice> Los otros ocho <choice><orig>dunbaques</orig><reg>dumbaques</reg></choice> se abren por la par<lb break="no"/>te
+                      <choice><orig>mas</orig><reg>más</reg></choice> angosta y entre <choice><orig>dunbaque</orig><reg>dumbaque</reg></choice> y <choice><orig>dunbaque</orig><reg>dumbaque</reg></choice> se <choice><orig>açien<lb break="no"/>tan</orig><reg>asientan</reg></choice>
+                      ocho medios <choice><orig>quadrados</orig><reg>cuadrados</reg></choice><choice><orig>, estos</orig><reg>. Estos</reg></choice> se abren por la parte
+                      <lb/><choice><orig>mas</orig><reg>más</reg></choice> ancha, con un lomo por medio y <choice><orig>ensima</orig><reg>encima</reg></choice> de los
+                      <lb/><choice><orig>quadrados</orig><reg>cuadrados</reg></choice> ocho <choice><orig>ataçiias</orig><corr>atacias</corr></choice><choice><orig> y entre</orig><reg>. Entre</reg></choice> las <choice><orig>ataçias</orig><reg>atacias</reg></choice> media <choice><orig>jayra</orig><reg>jaira</reg></choice>
+                      <lb/>y <choice><orig>ensima</orig><reg>encima</reg></choice> de la media <choice><orig>jayra</orig><reg>jaira</reg></choice> otra media <choice><orig>jayra</orig><reg>jaira</reg></choice><choice><orig></orig><reg>,</reg></choice> de manera
+                      <lb/>que haga una <choice><orig>jayra</orig><reg>jaira</reg></choice> <choice><orig>ahoncada</orig><corr>ahorcada</corr></choice> con las piernas parejas<choice><orig></orig><reg></reg></choice>
+                      <lb/><choice><orig>y</orig><reg></reg></choice> <choice><orig>ensima</orig><reg>Encima</reg></choice> se asienta la <choice><orig>ataçia</orig><reg>atacia</reg></choice> y <choice><orig>ençima</orig><reg>encima</reg></choice> de la <choice><orig>ataçia</orig><reg>atacia</reg></choice>
+                      <lb/>otro medio <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig> y arrimado</orig><reg>. Arrimado</reg></choice> a este medio <choice><orig>quadra<lb break="no"/>do</orig><reg>cuadrado</reg></choice>
+                      se <choice><orig>açienta</orig><reg>asienta</reg></choice> otro medio y <choice><orig>ensima</orig><reg>encima</reg></choice> <choice><orig>del</orig><reg>de él</reg></choice> otro<choice><orig></orig><reg>,</reg></choice> y otro de la o<lb break="no"/>tra
+                      parte<choice><orig></orig><reg>,</reg></choice> de manera que <choice><orig>bengan</orig><reg>vengan</reg></choice> a <choice><orig>serrar</orig><reg>cerrar</reg></choice> un <choice><orig>ochabo</orig><reg>ochavo</reg></choice>.
+                  </p>
+
+                  <p>
+                      <lb/><choice><orig>y </orig><reg></reg></choice><choice><orig>ensima</orig><reg>Encima</reg></choice> del <choice><orig>ochabo</orig><reg>ochavo</reg></choice> se asientan dos medios <choice><orig>quadrados</orig><reg>cuadrados</reg></choice>
+                      <lb/>de tabla<choice><orig></orig><reg>,</reg></choice> que es por el siete<choice><orig></orig><reg>,</reg></choice> y en medio <choice><orig>destos</orig><reg>de estos</reg></choice> dos se <choice><orig>açienta</orig><reg>asienta</reg></choice>
+                      <lb/>otro de manera que se juntan todos tres<choice><orig>, y en</orig><reg>. En</reg></choice> las <choice><orig><abbr>esqunas</abbr></orig><reg><expan>esquinas</expan></reg></choice> 
+                      <lb/>entre <choice><orig>estas</orig><corr>estos</corr></choice> <choice><orig>quadrados</orig><reg>cuadrados</reg></choice> se asienta una <choice><orig>jayra</orig><reg>jaira</reg></choice><choice><orig>,</orig><reg></reg></choice> <choice><orig>çiruelo</orig><reg>ciruelo</reg></choice>, y <choice><orig>en<lb break="no"/><note place="inline margin left">r</note>sima</orig><reg><note place="inline margin left"><hi rend="italic bold">r</hi></note> encima</reg></choice>
+                      <lb/>de la <choice><orig>jayra</orig><reg>jaira</reg></choice> un medio <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> <choice><orig>hechado</orig><reg>echado</reg></choice> por el <choice><orig>çinco</orig><reg>cinco</reg></choice><choice><orig> y</orig><reg>.</reg></choice>
+                      <lb/><choice><orig>entre</orig><reg>Entre</reg></choice> los dos medios <choice><orig>quadrados</orig><reg>cuadrados</reg></choice> se <choice><orig>açienta</orig><reg>asienta</reg></choice> una <choice><orig>conça</orig><reg>conza</reg></choice><choice><orig> y</orig><reg>,</reg></choice> <choice><orig>en<lb break="no"/>sima</orig><reg>encima</reg></choice>
+                      de la <choice><orig>conça</orig><reg>conza</reg></choice> se asienta una <choice><orig>ataçia</orig><reg>atacia</reg></choice> y a sus dos lados
+                      <lb/>se arriman dos medios <choice><orig>quadrados</orig><reg>cuadrados</reg></choice> y se <choice><orig>sierra</orig><reg>cierra</reg></choice> el <choice><orig>ochabo</orig><reg>ochavo</reg></choice>
+                      <lb/> con las <choice><orig>jayras</orig><reg>jairas</reg></choice>. <choice><orig>hasta</orig><reg>Hasta</reg></choice> <choice><orig>aqui</orig><reg>aquí</reg></choice> es el <choice><orig>razimo</orig><reg>racimo</reg></choice> menor <choice><orig>alli</orig><reg>allí</reg></choice> <choice><orig>tra<lb break="no"/>sado</orig><reg>trazado</reg></choice>
+                      <lb/>y sin cubillos, mas para <choice><orig>hecharselos</orig><reg>echárselos</reg></choice>, sirve todo
+                      <lb/>lo escrito hasta el fin del <choice><orig>renglon</orig><reg>renglón</reg></choice> notado <choice><orig>y</orig><reg></reg></choice> <choice><orig>r</orig><reg><hi rend="italic bold">r</hi></reg></choice><choice><orig></orig><reg>,</reg></choice>
+                      y prosi<lb break="no"/>guiendo
+                      <choice><orig><abbr>dede</abbr></orig><reg><expan>desde</expan></reg></choice> <choice><orig></orig><reg>"</reg></choice><choice><orig>hechado</orig><reg>echado</reg></choice> por el <choice><orig>çinco</orig><reg>cinco</reg></choice><choice><orig></orig><reg>"</reg></choice>.
+                  </p>
+
+                  <p>
+                      <lb/><choice><orig>y en</orig><reg>En</reg></choice> aquella <choice><orig>conpostura</orig><reg>compostura</reg></choice> se <choice><orig>açienta</orig><reg>asienta</reg></choice> otro medio <choice><orig>quadra<lb break="no"/>do</orig><reg>cuadrado</reg></choice>
+                      en medio<choice><orig></orig><reg>.</reg></choice> <choice><orig>aqui</orig><reg>Aquí</reg></choice> comienza a salir otra <choice><orig>jayra</orig><reg>jaira</reg></choice> ahor<lb break="no"/>cada
+                      y <choice><orig>ensima</orig><reg>encima</reg></choice> <choice><orig>desta</orig><reg>de esta</reg></choice> <choice><orig>jayra</orig><reg>jaira</reg></choice> medio <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> <choice><orig>hechado</orig><reg>echado</reg></choice>
+                      <lb/>por el <choice><orig>çinco</orig><reg>cinco</reg></choice><choice><orig></orig><reg>.</reg></choice> <choice><orig>a</orig><reg>A</reg></choice> este se le arrima otro medio <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig></orig><reg>,</reg></choice> sie<lb break="no"/>te<choice><orig>,</orig><reg></reg></choice>
+                      con<choice><orig>,</orig><reg></reg></choice> siete<choice><orig></orig><reg>,</reg></choice> y entre estos dos sietes que se juntan <choice><orig>bie<lb break="no"/>ne</orig><reg>viene</reg></choice>
+                      un cubillo<choice><orig></orig><reg>,</reg></choice> y <choice><orig><abbr>ente</abbr></orig><reg><expan>entre</expan></reg></choice> cubillo y cubillo dos medios <choice><orig>qua<lb break="no"/>drados</orig><reg>cuadrados</reg></choice><choice><orig> y</orig><reg>.</reg></choice> <choice><orig>ensima</orig><reg>Encima</reg></choice> <choice><orig>destos</orig><reg>de estos</reg></choice> dos medios <choice><orig>quadrados</orig><reg>cuadrados</reg></choice> una <choice><orig>jay<lb break="no"/>ra</orig><reg>jaira</reg></choice>
+                      <choice><orig>çiruelo</orig><reg>ciruelo</reg></choice>, y <choice><orig>ensima</orig><reg>encima</reg></choice> de la <choice><orig>jayra</orig><reg>jaira</reg></choice> un medio <choice><orig>quadra<lb break="no"/>do</orig><reg>cuadrado</reg></choice>
+                      sobre el medio de los cubillos<choice><orig>, con</orig><reg>. Con</reg></choice> esto <choice><orig>ba</orig><reg>va</reg></choice> a fenecer el 
+                      <lb/><choice><orig>ochabo</orig><reg>ochavo</reg></choice> y entre punta y punta del ochavo dos medios
+                      <lb/><choice><orig>quadrados</orig><reg>cuadrados</reg></choice><choice><orig> y la</orig><reg>. La</reg></choice> punta <choice><orig>destos</orig><reg>de estos</reg></choice> <choice><orig>hazen</orig><reg>hacen</reg></choice> <choice><orig>un</orig><reg>una</reg></choice> almendrilla con
+                      <lb/>que se <choice><orig>sierra</orig><reg>cierra</reg></choice> el <choice><orig>ochabo</orig><reg>ochavo</reg></choice><choice><orig>, luego</orig><reg>. Luego</reg></choice> se <choice><orig>hecha</orig><reg>echa</reg></choice> el <orig>alberneca</orig><corr>albanecar</corr>
+                      <lb/>de la <choice><orig>mesma</orig><reg>misma</reg></choice> forma y tomado el largo del ochavo se a<lb break="no"/>bre
+                      con las <choice><orig>mismas</orig><reg>mismás</reg></choice> formetas de la compostura <choice><orig>ultima</orig><reg>última</reg></choice><choice><orig></orig><reg>.</reg></choice>
+                      <lb/><choice><orig>dan se</orig><reg>Danse</reg></choice> a lo ancho del <choice><orig>alberneca</orig><corr>albanecar</corr></choice> <choice><orig>doze</orig><reg>doce</reg></choice> tamaños<choice><orig></orig><reg>:</reg></choice> en los
+                      <lb/><choice><orig>çinco</orig><reg>cinco</reg></choice> se clavan las <choice><orig>piesas</orig><reg>piezas</reg></choice><choice><orig>,</orig><reg></reg></choice> y los siete <choice><orig></orig><reg>restantes</reg></choice> se dan para lo que
+                      <lb/>cuelga <choice><orig>abaxo</orig><reg>abajo</reg></choice><choice><orig>, el</orig><reg>. El</reg></choice> <choice><orig>razimo</orig><reg>racimo</reg></choice> <choice><orig>desta</orig><reg>de esta</reg></choice> forma ya <choice><orig>sera</orig><reg>será</reg></choice> colgante
+                      <lb/>y de cubillos, y se parte en <choice><orig>treynta y quatro</orig><reg>treinta y cuatro</reg></choice> tamaños.
+                  </p>
+
+                </div><!-- Fin de la entrada_20 -->
+
+                <div type="entrada" n="21" xml:id="entrada_21">
+                    <head>Del <choice><orig>razimo</orig><reg>racimo</reg></choice> mayor que <choice><orig><abbr>s</abbr></orig><reg><expan>se</expan></reg></choice> ve en la hoja pasada</head>
+
+                    <p>
+                        <lb/>La <choice><orig>conpostura</orig><reg>compostura</reg></choice> <choice><orig>deste</orig><reg>de este</reg></choice> es muy diferente de las que se <choice><orig>an</orig><reg>han</reg></choice> dicho<choice><orig></orig><reg>:</reg></choice>
+                        <lb/><choice><orig>porque</orig><reg></reg></choice> asentados los ocho <choice><orig>dunbaque</orig><reg>dumbaques</reg></choice> sobre los ocho <choice><orig>ochabos</orig><reg>ochavos</reg></choice>
+                        <lb/>del <choice><orig>mastil</orig><reg>mástil</reg></choice><choice><orig> y</orig><reg>,</reg></choice> en su frente los ocho grullillos y entre los <choice><orig>dun<lb break="no"/>baque</orig><reg>dumbaques</reg></choice>
+                        los ocho medios <choice><orig>quadrados</orig><reg>cuadrados</reg></choice>, entre los dos medios <choice><orig>qua<lb break="no"/>drados</orig><reg>cuadrados</reg></choice>
+                        se <choice><orig>açienta</orig><reg>asienta</reg></choice> una <choice><orig>jayra</orig><reg>jaira</reg></choice> <choice><orig>hechada</orig><reg>echada</reg></choice><choice><orig>, y sobre</orig><reg>. Sobre</reg></choice> cada <choice><orig>jayra</orig><reg>jaira</reg></choice> 
+                        <lb/>dos medios <choice><orig>quadrados</orig><reg>cuadrados</reg></choice> por el <choice><orig>çinco</orig><reg>cinco</reg></choice> y sobre estos otros dos me<lb break="no"/>dios
+                        <choice><orig>quadrados</orig><reg>cuadrados</reg></choice> siete con siete<choice><orig> y entre</orig><reg>. Entre</reg></choice> medios <choice><orig>quadrados</orig><reg>cuadrados</reg></choice>
+                        <lb/>entra una <choice><orig>jayra</orig><reg>jaira</reg></choice> de punta<choice><orig></orig><reg>,</reg></choice> y en medio <choice><orig>abrasa</orig><reg>abraza</reg></choice> a los dos me<lb break="no"/>dios 
+                        <choice><orig>quadrados</orig><reg>cuadrados</reg></choice> otro medio <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> tan grande como los dos<choice><orig></orig><reg>.</reg></choice>
+                        <lb/><choice><orig>sobre</orig><reg>Sobre</reg></choice> los <choice><orig>çincos</orig><reg>cincos</reg></choice> <choice><orig>deste</orig><reg>de este</reg></choice> medio <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> grande se <choice><orig>açientan</orig><reg>asientan</reg></choice>
+                        dos <choice><orig>conças</orig><reg>conzas</reg></choice><choice><orig></orig><reg>,</reg></choice> entre las dos <choice><orig>conças</orig><reg>conzas</reg></choice> <choice><orig>encaxa</orig><reg>encaja</reg></choice> otro medio <choice><orig>quadra<lb break="no"/>do</orig><reg>cuadrado</reg></choice>
+                        con los <choice><orig>çincos</orig><reg>cincos</reg></choice><choice><orig> y sobre</orig><reg>. Sobre</reg></choice> este otro medio <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig></orig><reg>,</reg></choice> siete con
+                        <lb/>siete<choice><orig></orig><reg>,</reg></choice> y sobre las <choice><orig>conças</orig><reg>conzas</reg></choice> otro medio <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> asimismo
+                        <lb/>por el siete<choice><orig>,</orig><reg>.</reg></choice> <choice><orig>çinco</orig><reg>Cinco</reg></choice> con <choice><orig>sinco</orig><reg>cinco</reg></choice> del segundo medio <choice><orig>quadra<lb break="no"/>do</orig><reg>cuadrado</reg></choice>
+                        que entra entre las <choice><orig>conças</orig><reg>conzas</reg></choice><choice><orig></orig><reg>,</reg></choice> se asientan otros dos medios <choice><orig>qua<lb break="no"/>drados</orig><reg>cuadrados</reg></choice> 
+                        <choice><orig>hechados</orig><reg>echados</reg></choice><choice><orig></orig><reg>,</reg></choice> y siete con siete <choice><orig>destos</orig><reg>de estos</reg></choice> se <choice><orig>açientan</orig><reg>asientan</reg></choice> otros dos
+                        <lb/>medios <choice><orig>quadrados</orig><reg>cuadrados</reg></choice> <choice><orig>asi mismo</orig><reg>asimismo</reg></choice> <choice><orig>hechados</orig><reg>echados</reg></choice><choice><orig> y</orig><reg>.</reg></choice> <choice><orig>ensima</orig><reg>Encima</reg></choice> de los dos
+                        <lb/>ya dichos <choice><orig>hechados</orig><reg>echados</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig>encaxa</orig><reg>encaja</reg></choice> otro medio <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> con los <choice><orig>çin<lb break="no"/>cos</orig><reg>cincos</reg></choice> 
+                        <lb/>y <choice><orig>ensima</orig><reg>encima</reg></choice> del siete <choice><orig>deste</orig><reg>de este</reg></choice> <choice><orig>medrio</orig><corr>medio</corr></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> asienta u<lb break="no"/>na
+                        <choice><orig>conça</orig><reg>conza</reg></choice><choice><orig> y a</orig><reg>. A</reg></choice> los lados <choice><orig>desta</orig><reg>de esta</reg></choice> <choice><orig>conça</orig><reg>conza</reg></choice> asientan con los <choice><orig>çincos</orig><reg>cincos</reg></choice> 
+                        <lb/>dos medios <choice><orig>quadrados</orig><reg>cuadrados</reg></choice><choice><orig></orig><reg>,</reg></choice> y los otros dos <choice><orig>çincos</orig><reg>cincos</reg></choice> <choice><orig>destos</orig><reg>de estos</reg></choice> medios <choice><orig>qua<lb break="no"/>drados</orig><reg>cuadrados</reg></choice>
+                        <lb/>con la <choice><orig>conça</orig><reg>conza</reg></choice> <choice><orig>comiensan</orig><reg>comienzan</reg></choice> a <choice><orig><abbr>serar</abbr></orig><reg><expan>cerrar</expan></reg></choice> el <choice><orig>ochabo</orig><reg>ochavo</reg></choice> siete con
+                        <lb/>siete<choice><orig></orig><reg>.</reg></choice> <choice><orig>destos</orig><reg>De estos</reg></choice> medios <choice><orig>quadrados</orig><reg>cuadrados</reg></choice> se <choice><orig>açientan</orig><reg>asientan</reg></choice> otros <choice><orig><abbr>medos</abbr></orig><reg><expan>medios</expan></reg></choice>
+                        <lb/><choice><orig>quadrados</orig><reg>cuadrados</reg></choice><choice><orig></orig><reg>,</reg></choice> y entre todos los medios <choice><orig>quadrados</orig><reg>cuadrados</reg></choice> <choice><orig><abbr>entra</abbr></orig><reg><expan>entran</expan></reg></choice>
+                        <lb/>puntas de <choice><orig>jayra</orig><reg>jaira</reg></choice> con que <choice><orig>sierran</orig><reg>cierran</reg></choice> los ocho cubillos que en
+                        <lb/>la <choice><orig>trase</orig><corr>traza</corr></choice> se <choice><orig>ben</orig><reg>ven</reg></choice><choice><orig></orig><reg>.</reg></choice>
+                    </p>
+
+                </div><!-- Fin de la entrada_21 -->
+      
+            </div><!-- Fin de la subsección 2 -->
+      
+            <div type="subsección" n="3" xml:id="subsección_3">
+              <head type="subsección"><choice><orig></orig><reg>Confección de medias naranjas</reg></choice></head>
+
+              <div type="entrada" n="22" xml:id="entrada_22">
+                  <head>De <choice><orig>como</orig><reg>cómo</reg></choice> se saca la cercha de la media naranja para ponerla en <choice><orig>trasa</orig><reg>traza</reg></choice></head>
+                  <p>
+                      <lb/><choice><orig>para</orig><reg>Para</reg></choice> esto se forma el <choice><orig>çirculo</orig><reg>círculo</reg></choice> <choice><orig>a b</orig><reg><hi rend="italic bold">a,b</hi></reg></choice> <choice><orig>de</orig><reg></reg></choice> sobre el centro <choice><orig>c</orig><reg><hi rend="italic bold">c</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y tirada
+                      <lb/>la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>e·g</orig><reg><hi rend="italic bold">e,g</hi></reg></choice> distante de la <choice><orig>·a·b</orig><reg><hi rend="italic bold">a,b</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> una de <choice><orig>veynte</orig><reg>veinte</reg></choice> partes del <choice><orig>quarto</orig><reg>cuarto</reg></choice>
+                      <lb/>del <choice><orig>çirculo</orig><reg>círculo</reg></choice> se forma sobre ella el <choice><orig>çirculo</orig><reg>círculo</reg></choice> <choice><orig>·e·h·g</orig><reg><hi rend="italic bold">e,h,g</hi></reg></choice><choice><orig> luego</orig><reg>. Luego</reg></choice> se parte
+                      <lb/>el <choice><orig>semiçirculo</orig><reg>semicírculo</reg></choice> <choice><orig>·e·g·d</orig><reg><hi rend="italic bold">e,g,d</hi></reg></choice> en los tamaños <choice><orig>yguales</orig><reg>iguales</reg></choice> que se quisiere<choice><orig></orig><reg>;</reg></choice> <choice><orig>aqui</orig><reg>aquí</reg></choice>
+                      <lb/><choice><orig>esta</orig><reg>está</reg></choice> partido en <choice><orig>çinco</orig><reg>cinco</reg></choice> tamaños. <choice><orig>y tiradas</orig><reg>Tiradas</reg></choice> las <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>paralellas</orig><reg>paralelas</reg></choice> y a
+                      <lb/>plomo <choice><orig>·4·3·2·1</orig><reg><hi rend="italic bold">4,3,2,1</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> se forman sobre ellas <choice><orig>donde</orig><reg>en</reg></choice> el centro <choice><orig>·f</orig><reg><hi rend="italic bold">f</hi></reg></choice> los <choice><orig>se<lb break="no"/>miçirculos</orig><reg>semicírculos</reg></choice>
+                      <choice><orig>4·3·2·1</orig><reg><hi rend="italic bold">4,3,2,1</hi></reg></choice><choice><orig> y partido</orig><reg>. Partido</reg></choice> el <choice><orig>cemiçirculo</orig><reg>semicírculo</reg></choice> en
+                      <lb/><choice><orig>quatro</orig><reg>cuatro</reg></choice> partes <choice><orig>yguales</orig><reg>iguales</reg></choice>, cada una <choice><orig>dellas</orig><reg>de ellas</reg></choice> <choice><orig>sera</orig><reg>será</reg></choice>
+                      <lb/>un casco de ocho que <choice><orig>tendra</orig><reg>tendrá</reg></choice> esta media naranja<choice><orig></orig><reg>.</reg></choice>
+                      <lb/><choice><orig>y para</orig><reg>Para</reg></choice> ponerla en la forma que <choice><orig>a</orig><reg>ha</reg></choice> de tener la <choice><orig>trasa</orig><reg>traza</reg></choice> se
+                      <lb/>tira la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·m·n</orig><reg><hi rend="italic bold">m,n</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y tomada la distancia <choice><orig>f·4</orig><reg><hi rend="italic bold">f,4</hi></reg></choice>
+                      <lb/>se señalan con esta medida sobre la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>m n</orig><reg><hi rend="italic bold">m,n</hi></reg></choice> tan<lb break="no"/>tos 
+                      puntos como tiene el <choice><orig>quarto</orig><reg>cuarto</reg></choice> del <choice><orig>çirculo</orig><reg>círculo</reg></choice> <choice><orig>e 
+                      <lb/>g d</orig><reg><hi rend="italic bold">e,g,d</hi></reg></choice> <choice><orig></orig><reg>a</reg></choice> plomos<choice><orig> y se</orig><reg>. Se</reg></choice> <choice><orig>tiraran</orig><reg>tirarán</reg></choice> las <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>paralellas</orig><reg>paralelas</reg></choice>
+                      <lb/><choice><orig><abbr>qe</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>alli</orig><reg>allí</reg></choice> se ven <choice><orig>·1·2·3·4·5</orig><reg><hi rend="italic bold">1,2,3,4,5</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y tomando con el <choice><orig>compas</orig><reg>compás</reg></choice>
+                      <lb/>en uno de los <choice><orig>quatro</orig><reg>cuatro</reg></choice> cascos en que se <choice><orig>partio</orig><reg>partió</reg></choice>
+                      <lb/>el <choice><orig>cemiçirculo</orig><reg>semicírculo</reg></choice> las <choice><orig>distançias</orig><reg>distancias</reg></choice> de los plomos<choice><orig></orig><reg>,</reg></choice>
+                      <lb/>se <choice><orig>ban</orig><reg>van</reg></choice> pasando <choice><orig>desta</orig><reg>de esta</reg></choice> manera<choice><orig></orig><reg>:</reg></choice> puesta la punta
+                      <lb/>del <choice><orig>conpas</orig><reg>compás</reg></choice> en <choice><orig>·1</orig><reg><hi rend="italic bold">1</hi></reg></choice> se toman los dos puntos <choice><orig>l·h</orig><reg><hi rend="italic bold">l,h</hi></reg></choice>
+                      <lb/>y se <choice><orig>hechan</orig><reg>echan</reg></choice> sobre la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·m·1</orig><reg><hi rend="italic bold">m,1</hi></reg></choice><choice><orig></orig><reg>;</reg></choice> y <choice><orig><abbr>bolvien</abbr></orig><reg><expan>volviendo</expan></reg></choice>
+                      <lb/>a tomar la <choice><orig>distançia</orig><reg>distancia</reg></choice> <choice><orig></orig><reg><hi rend="italic bold">2</hi></reg></choice> con su <choice><orig>çirculo</orig><reg>círculo</reg></choice><choice><orig>,</orig><reg></reg></choice> se <choice><orig>he<lb break="no"/>cha</orig><reg>echa</reg></choice>
+                      esta medida en la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig></orig><reg><hi rend="italic bold">2</hi></reg></choice><choice><orig></orig><reg>;</reg></choice> y <choice><orig>asi</orig><reg>así</reg></choice> las <choice><orig>de<lb break="no"/>mas</orig><reg>demás</reg></choice>
+                      hasta <choice><orig>·5·</orig><reg><hi rend="italic bold">5</hi></reg></choice><choice><orig> y</orig><reg>. Y</reg></choice> en una tablilla se
+                      <lb/><choice><orig>haze</orig><reg>hace</reg></choice> la cercha que
+                      <lb/>tome todos los
+                      <lb/>puntos con que
+                      <lb/> se <choice><orig>trasa</orig><reg>traza</reg></choice> en papel.
+                  </p>
+
+                  <figure xml:id="group_88r">
+                      <figure xml:id="fig_88r_1" type="dibujo">
+                          <graphic url="/assets/images/dibujos/88r_1.png"/>
+                      </figure>
+
+                      <figure xml:id="fig_88r_2" type="dibujo">
+                          <graphic url="/assets/images/dibujos/88r_2.png"/>
+                      </figure>
+                  </figure>
+
+              </div><!-- Fin de la entrada_22 -->
+          
+          
+              <!-- Fin del folio 88r-->
+            </div><!-- La subsección_3 continúa en el siguiente folio -->
+        </div>    
+    </body>
+</text>
+</TEI>

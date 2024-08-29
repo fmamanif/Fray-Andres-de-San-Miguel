@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+        <author>
+          <name type="full">Fray Andrés de San Miguel</name>
+          <name type="personal">
+            <forename>Andrés</forename> 
+            <surname>de Segura de la Alcuña</surname>
+          </name>
+          <idno type="wikidata">Q16942240</idno>
+          <idno type="bne">XX1182168</idno>
+          <idno type="viaf">1661877</idno>
+        </author>
+        <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+        <editor role="Technical_Editor">David Merino Recalde</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Francisco Mamani Fuentes</publisher>
+        <availability status="free">
+          <licence>CC BY-NC-SA</licence>
+				</availability>
+        <date>2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+              <repository>University of Texas Libraries</repository>
+              <collection>Benson Latin American Collection</collection>
+              <idno>31775792</idno>
+          </msIdentifier>
+          <msContents>
+              <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+              <textLang mainLang="es"/>
+              <msItem  n="72r-88v">
+                <title>Sección dedicada a la carpintería de armar</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+              <objectDesc>
+                  <supportDesc>
+                      <support>Papel</support>
+                      <extent>295 folios</extent>
+                  </supportDesc>
+              </objectDesc>
+          </physDesc>
+          <history>
+              <origin>
+                  <date>ca. 1630</date>
+                  <placeName>Ciudad de México</placeName>
+              </origin>
+          </history>
+        </msDesc>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>1969</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+          <editor>
+            <name type="personal">
+              <forename>Enrique</forename>
+              <surname>Nuere</surname>
+            </name>
+          </editor>
+					<publisher>Colegio de Arquitectos de Málaga</publisher>
+					<pubPlace>Málaga</pubPlace>
+          <date>1990</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>2007</date>
+				</bibl>
+      </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div type="seccion">
+            <div type="subsección" n="1" xml:id="subsección_1">
+              <!-- Continuación de la entrada_18 -->
+
+              <pb n="86r" facs="86r.jpg"/>
+              <!-- Fin del folio 86r -->
+
+              <!-- La entrada_18 continúa en los siguientes folios-->
+            </div>
+        </div>    
+    </body>
+</text>
+</TEI>

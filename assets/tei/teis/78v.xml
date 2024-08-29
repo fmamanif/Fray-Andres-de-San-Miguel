@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+        <author>
+          <name type="full">Fray Andrés de San Miguel</name>
+          <name type="personal">
+            <forename>Andrés</forename> 
+            <surname>de Segura de la Alcuña</surname>
+          </name>
+          <idno type="wikidata">Q16942240</idno>
+          <idno type="bne">XX1182168</idno>
+          <idno type="viaf">1661877</idno>
+        </author>
+        <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+        <editor role="Technical_Editor">David Merino Recalde</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Francisco Mamani Fuentes</publisher>
+        <availability status="free">
+          <licence>CC BY-NC-SA</licence>
+				</availability>
+        <date>2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+              <repository>University of Texas Libraries</repository>
+              <collection>Benson Latin American Collection</collection>
+              <idno>31775792</idno>
+          </msIdentifier>
+          <msContents>
+              <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+              <textLang mainLang="es"/>
+              <msItem  n="72r-88v">
+                <title>Sección dedicada a la carpintería de armar</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+              <objectDesc>
+                  <supportDesc>
+                      <support>Papel</support>
+                      <extent>295 folios</extent>
+                  </supportDesc>
+              </objectDesc>
+          </physDesc>
+          <history>
+              <origin>
+                  <date>ca. 1630</date>
+                  <placeName>Ciudad de México</placeName>
+              </origin>
+          </history>
+        </msDesc>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>1969</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+          <editor>
+            <name type="personal">
+              <forename>Enrique</forename>
+              <surname>Nuere</surname>
+            </name>
+          </editor>
+					<publisher>Colegio de Arquitectos de Málaga</publisher>
+					<pubPlace>Málaga</pubPlace>
+          <date>1990</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>2007</date>
+				</bibl>
+      </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div type="seccion">
+          <div type="subsección" n="1" xml:id="subsección_1">
+              <pb n="78v" facs="78v.jpg"/>
+              <div type="entrada" n="12" xml:id="entrada_12"><!-- Continuación de la entrada_12-->
+                <p><!-- Continuación del párrafo del folio anterior-->    
+                  <lb/><gap unit="word" reason="illegible" extent="unknown"/> <choice><orig>estan</orig><reg>están</reg></choice> <choice><orig>traçados</orig><reg>trazados</reg></choice> en la propia montea<choice><orig></orig><reg>.</reg></choice> <choice><orig>tanbien</orig><reg>También</reg></choice> se <choice><orig>deve</orig><reg>debe</reg></choice> advertir <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> los pares del <choice><orig>triangulo</orig><reg>triángulo</reg></choice> son <choice><orig>mas</orig><reg>más</reg></choice> cortos <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> los del paño <choice><orig>quadrado</orig><reg>cuadrado</reg></choice>
+                  <lb/>por <choice><orig>raçon</orig><reg>razón</reg></choice> de que el <choice><orig>triangulo</orig><reg>triángulo</reg></choice> arma por la <choice><orig>cavesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice> y el paño <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> por la cola del <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig></orig><reg>.</reg></choice>
+                  <lb/><choice><orig> y por</orig><reg>Por</reg></choice> esta <choice><orig>raçon</orig><reg>razón</reg></choice><choice><orig></orig><reg>,</reg></choice> el <choice><orig>triangulo</orig><reg>triángulo</reg></choice> pide mayor estribo que el paño <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig>por que</orig><reg>porque</reg></choice> el paño <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> no ensancha
+                  <lb/>el estribo <choice><orig>mas</orig><reg>más</reg></choice> de lo que tiene por <choice><orig>la quiebra</orig><reg>el quiebre</reg></choice><choice><orig></orig><reg>,</reg></choice> y todo lo <choice><orig>demas</orig><reg>demás</reg></choice> es estribo del <choice><orig>triangulo</orig><reg>triángulo</reg></choice><choice><orig> y por</orig><reg>. Por</reg></choice> <choice><orig>raçon</orig><reg>razón</reg></choice> de tener el <choice><orig>estrivo</orig><reg>estribo</reg></choice>
+                  <lb/>mayor pide <choice><orig>mas</orig><reg>más</reg></choice> chico<choice><orig></orig><reg> par,</reg></choice> <choice><orig><abbr>porq</abbr></orig><reg><expan>porque</expan></reg></choice> <choice><orig>quando</orig><reg>cuando</reg></choice> el <choice><orig>estrivo</orig><reg>estribo</reg></choice> entra <choice><orig>mas</orig><reg>más</reg></choice> adentro <choice><orig>en sangosta</orig><corr>se angosta</corr> <choice><orig>mas</orig><reg>más</reg></choice></choice> la casa<choice><orig></orig><reg>;</reg></choice> como se muestra en el <choice><orig>estrivo</orig><reg>estribo</reg></choice> que <choice><orig><abbr>qda</abbr></orig><reg><expan>queda</expan></reg></choice> <choice><orig>traçado</orig><reg>trazado</reg></choice> en la plana pa<lb break="no"/>sada<choice><orig></orig><reg>,</reg></choice>
+                  con este nombre<choice><orig></orig><reg>:</reg></choice> <choice><orig>estrivo</orig><reg>estribo</reg></choice> del <choice><orig>triangulo</orig><reg>triángulo</reg></choice><choice><orig> y</orig><reg>.</reg></choice> <choice><orig>mas</orig><reg>Más</reg></choice> <choice><orig>abaxo</orig><reg>abajo</reg></choice> <choice><orig>esta</orig><reg>está</reg></choice> el <choice><orig>estrivo</orig><reg>estribo</reg></choice> de los paños <choice><orig>baxos</orig><reg>bajos</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es <choice><orig>ochabado</orig><reg>ochavado</reg></choice> perfecto<choice><orig></orig><reg>,</reg></choice> porque son todos paños <choice><orig>yguales</orig><reg>iguales</reg></choice><choice><orig></orig><reg>;</reg></choice> como se muestra en
+                  <lb/> toda la <choice><orig>traça</orig><reg>traza</reg></choice> y montea. 
+                </p>
+              </div><!-- Fin de la entrada_12 -->
+
+              <div type="entrada" n="13" xml:id="entrada_13">
+                <head>Del <choice><orig>almiçate</orig><reg>almizate</reg></choice> y de sus cortes</head>
+
+                <p>
+                    <lb/>Todos los cortes <choice><orig>deste</orig><reg>de este</reg></choice> <choice><orig>almiçate</orig><reg>almizate</reg></choice> los <choice><orig>haçe</orig><reg>hace</reg></choice> el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig></orig><reg>,</reg></choice> porque con la cola se <choice><orig>desquixeran</orig><reg>desquijeran</reg></choice> los nudillos y manguetas<choice><orig></orig><reg>,</reg></choice> 
+                    <lb/><choice><orig>y</orig><reg></reg></choice> con la <choice><orig>caveça</orig><reg>cabeza</reg></choice> se <choice><orig>hazen</orig><reg>hacen</reg></choice> todas las escopladuras en los <choice><orig><del rend="line-through">peynaços</del></orig><reg></reg></choice> nudillos y las espigas en los <choice><orig>peynaços</orig><reg>peinazos</reg></choice> y manguetas<choice><orig> los</orig><reg>. Los</reg></choice> <choice><orig>seys</orig><reg>seis</reg></choice>
+                    <lb/><choice><orig>peynaços</orig><reg>peinazos</reg></choice> de <choice><orig>enmedio</orig><reg>en medio</reg></choice> y los dos nudillos no se mete <choice><orig>laço</orig><reg>lazo</reg></choice> ninguno en ellos<choice><orig></orig><reg>,</reg></choice> y <choice><orig>quando</orig><reg>cuando</reg></choice> se labra la madera para
+                    <lb/>ellos se les quita el grueso del <choice><orig><del rend="line-through">tay</del></orig><reg></reg></choice> <choice><orig>taugel</orig><reg>taujel</reg></choice><choice><orig></orig><reg>;</reg></choice> porque <choice><orig>despues</orig><reg>después</reg></choice> se <choice><orig>açienta</orig><reg>asienta</reg></choice> <choice><orig>ençima</orig><reg>encima</reg></choice> el <choice><orig>laço</orig><reg>lazo</reg></choice><choice><orig> los</orig><reg>. Los</reg></choice> dos nudillos de
+                    <lb/>afuera y los <choice><orig>seys</orig><reg>seis</reg></choice> <choice><orig>peynaços</orig><reg>peinazos</reg></choice> todos son vivos<choice><orig></orig><reg>,</reg></choice> y se debe <choice><orig>traçar</orig><reg>trazar</reg></choice> el <choice><orig>laso</orig><reg>lazo</reg></choice> en ellos como lo muestra la <choice><orig>traça</orig><reg>traza</reg></choice>.
+                </p>
+
+                <figure xml:id="fig_78v_1" type="dibujo">
+                    <graphic url="/assets/images/dibujos/78v_1.png"/>
+                </figure>
+
+                <figure xml:id="fig_78v_2" type="dibujo">
+                    <graphic url="/assets/images/dibujos/78v_2.png"/>
+                </figure>
+                
+              </div>
+              <!-- Fin del folio 78v -->
+          </div>
+        </div>    
+    </body>
+</text>
+</TEI>

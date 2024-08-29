@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+        <author>
+          <name type="full">Fray Andrés de San Miguel</name>
+          <name type="personal">
+            <forename>Andrés</forename> 
+            <surname>de Segura de la Alcuña</surname>
+          </name>
+          <idno type="wikidata">Q16942240</idno>
+          <idno type="bne">XX1182168</idno>
+          <idno type="viaf">1661877</idno>
+        </author>
+        <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+        <editor role="Technical_Editor">David Merino Recalde</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Francisco Mamani Fuentes</publisher>
+        <availability status="free">
+          <licence>CC BY-NC-SA</licence>
+				</availability>
+        <date>2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+              <repository>University of Texas Libraries</repository>
+              <collection>Benson Latin American Collection</collection>
+              <idno>31775792</idno>
+          </msIdentifier>
+          <msContents>
+              <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+              <textLang mainLang="es"/>
+              <msItem  n="72r-88v">
+                <title>Sección dedicada a la carpintería de armar</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+              <objectDesc>
+                  <supportDesc>
+                      <support>Papel</support>
+                      <extent>295 folios</extent>
+                  </supportDesc>
+              </objectDesc>
+          </physDesc>
+          <history>
+              <origin>
+                  <date>ca. 1630</date>
+                  <placeName>Ciudad de México</placeName>
+              </origin>
+          </history>
+        </msDesc>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>1969</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+          <editor>
+            <name type="personal">
+              <forename>Enrique</forename>
+              <surname>Nuere</surname>
+            </name>
+          </editor>
+					<publisher>Colegio de Arquitectos de Málaga</publisher>
+					<pubPlace>Málaga</pubPlace>
+          <date>1990</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>2007</date>
+				</bibl>
+      </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div type="seccion">
+            <div type="subsección" n="1" xml:id="subsección_1">
+              <pb n="81r" facs="81r.jpg"/>
+                <div type="entrada" n="17" xml:id="entrada_17">  
+
+                  <figure xml:id="fig_81r_1" type="dibujo">
+                      <graphic url="/assets/images/dibujos/81r_1.png"/>
+                  </figure>
+
+                  <head>Cortes de <choice><orig>almiçate</orig><reg>almizate</reg></choice> <choice><orig>ochabado</orig><reg>ochavado</reg></choice></head>
+
+                  <p>
+                      <lb/>La figura del <choice><orig>almiçate</orig><reg>almizate</reg></choice> <choice><orig>aqui</orig><reg>aquí</reg></choice> arriba <choice><orig>tracada</orig><reg>trazada</reg></choice> muestra
+                      <lb/>bien claro todos los cortes que tiene un <choice><orig>almiçate</orig><reg>almizate</reg></choice>
+                      <lb/><choice><orig>ochabado</orig><reg>ochavado</reg></choice><choice><orig></orig><reg>,</reg></choice> y <choice><orig>asi</orig><reg>así</reg></choice> no <choice><orig>sera</orig><reg>será</reg></choice> <choice><orig>nesesçario</orig><reg>necesario</reg></choice> ponerlo por letra<choice><orig></orig><reg>.</reg></choice>
+                      <lb/><choice><orig>solamente</orig><reg>Solamente</reg></choice> digo <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> todos los señalados con la <choice><orig>·p·</orig><reg><hi rend="italic bold">p</hi></reg></choice><choice><orig></orig><reg>,</reg></choice>
+                      <lb/>y todos los a ellos <choice><orig>semexantes</orig><reg>semejantes</reg></choice><choice><orig></orig><reg>,</reg></choice> son <choice><orig>peynaços</orig><reg>peinzados</reg></choice>
+                      <lb/>que son en <choice><orig>numero</orig><reg>número</reg></choice> <choice><orig>veyntiquatro</orig><reg>veinticuatro</reg></choice> en redon<lb break="no"/>do
+                      y dos en el medio que son <choice><orig>beyntiseys</orig><reg>veintiseis</reg></choice><choice><orig></orig><reg>.</reg></choice>
+                      <lb/><choice><orig>los</orig><reg>Los</reg></choice> <choice><orig>dies</orig><reg>diez</reg></choice> son de una manera y medida<choice><orig></orig><reg>,</reg></choice> y a 
+                      <lb/>todos los corta el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> <choice><orig><abbr>co</abbr></orig><reg><expan>con</expan></reg></choice> 
+                      <lb/>la <choice><orig>cabeça</orig><reg>cabeza</reg></choice> y las espigas con la cola.
+                      <lb/>Los otros <choice><orig>dies y seys</orig><reg>dieciséis</reg></choice> <choice><orig>peynasos</orig><reg>peinazos</reg></choice> tienen
+                      <lb/>por <choice><orig>la</orig><reg></reg></choice> una parte el mismo corte
+                      <lb/>y espiga y por la otra corta la <choice><orig>ca<lb break="no"/>beça</orig><reg>cabeza</reg></choice> de ocho<choice><orig> las</orig><reg>. Las</reg></choice> <choice><orig>quixeras</orig><reg>quijeras</reg></choice> de
+                      <lb/>los nudillos se muestran
+                      <lb/>en la <choice><orig><abbr>motea</abbr></orig><reg><expan>montea</expan></reg></choice> <choice><orig>aqui</orig><reg>aquí</reg></choice> <choice><orig>abaxo</orig><reg>abajo</reg></choice>.
+                  </p>
+
+                </div><!-- Fin de la entrada_17 -->
+
+                <div type="entrada" n="18" xml:id="entrada_18">
+                  <head><choice><orig>Como</orig><reg>Cómo</reg></choice> se montea una <choice><orig>piesa</orig><reg>pieza</reg></choice> <choice><orig>ochabada</orig><reg>ochavada</reg></choice> en tres paños</head>
+
+                  <p>
+                      <lb/>Para montear <choice><orig>un</orig><reg>una armadura de</reg></choice> tres paños <choice><orig>ochabados</orig><reg>ochavados</reg></choice> y sacarle su <choice><orig>cartabon</orig><reg>cartabón</reg></choice> albanecar y coz de limas<choice><orig></orig><reg>,</reg></choice> se puede <choice><orig>hazer</orig><reg>hacer</reg></choice> en dos maneras<choice><orig>.</orig><reg>:</reg></choice> <choice><orig>La</orig><reg></reg></choice> una es buscando
+                      <lb/>en la misma <choice><orig>traça</orig><reg>traza</reg></choice> el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> por el albanecar<choice><orig>.</orig><reg>;</reg></choice> <choice><orig>La</orig><reg>la</reg></choice> otra es <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>despues</orig><reg>después</reg></choice> de monteado se saca el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> y por <choice><orig>el</orig><reg>él</reg></choice> el albanecar<choice><orig> esta</orig><reg>. Esta</reg></choice> manera de montear
+                      <lb/>es <choice><orig>mexor</orig><reg>mejor</reg></choice> y <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig>sierta</orig><reg>cierta</reg></choice> y tiene <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig>façilidad</orig><reg>facilidad</reg></choice> <choice><orig>enpoderse</orig><reg>de poderse</reg></choice> <choice><orig>hazer</orig><reg>hacer</reg></choice>. <choice><orig>para</orig><reg>Para</reg></choice> <choice><orig>asertarlo</orig><reg>acertarlo</reg></choice> a <choice><orig>hazer</orig><reg>hacer</reg></choice> se <choice><orig>hara</orig><reg>hará</reg></choice> lo siguente<choice><orig> primeramente</orig><reg>. Primeramente</reg></choice><choice><orig></orig><reg>,</reg></choice> en una tabla o papel
+                      <lb/>donde se <choice><orig>uviere</orig><reg>hubiere</reg></choice> de <choice><orig>traçar</orig><reg>trazar</reg></choice> la <choice><orig><abbr>motea</abbr></orig><reg><expan>montea</expan></reg></choice><choice><orig></orig><reg>,</reg></choice> se <choice><orig>hechara</orig><reg>echará</reg></choice> una <choice><orig>linea</orig><reg>línea</reg></choice> recta por la parte de <choice><orig>abaxo</orig><reg>abajo</reg></choice><choice><orig></orig><reg>,</reg></choice> y en medio de ella se <choice><orig>sacara</orig><reg>sacará</reg></choice> otra a plomo <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> tire a la parte
+                      <lb/>de arriba. <choice><orig>y despues</orig><reg>Después</reg></choice> de <choice><orig>averdado</orig><reg>haber dado</reg></choice> en la <choice><orig>traça</orig><reg>traza</reg></choice> todo el <choice><orig>çanco</orig><reg>zanco</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>a</orig><reg>ha</reg></choice> menester <choice><orig>segun</orig><reg>según</reg></choice> el <choice><orig>arrocave</orig><reg>arrocabe</reg></choice> <choice><orig><abbr>qe</abbr></orig><reg><expan>que</expan></reg></choice> pide<choice><orig></orig><reg>,</reg></choice> se toma con el <choice><orig>conpaz</orig><reg>compás</reg></choice> la <choice><orig>mitaddel</orig><reg>mitad del</reg></choice> ancho que tiene por
+                      <lb/>la parte de <choice><orig>abaxo</orig><reg>abajo</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>sera</orig><reg>será</reg></choice> poner el <choice><orig>conpas</orig><reg>compás</reg></choice> en la letra <choice><orig>·a·</orig><reg><hi rend="italic bold">a</hi></reg></choice> y <choice><orig>estender</orig><reg>extender</reg></choice> lo que <choice><orig>alcançe</orig><reg>alcance</reg></choice><choice><orig> a la</orig><reg>,</reg></choice> una parte a la <choice><orig>·b</orig><reg><hi rend="italic bold">b</hi></reg></choice> y <choice><orig>a</orig><reg></reg></choice> la otra a la <choice><orig>·c·</orig><reg><hi rend="italic bold">c</hi></reg></choice><choice><orig> y</orig><reg>.</reg></choice> <choice><orig>afixando</orig><reg>Fijando</reg></choice> el <choice><orig>compaz</orig><reg>compás</reg></choice> <choice><orig>e</orig><corr>en</corr></choice> la <choice><orig>·a·</orig><reg><hi rend="italic bold">a</hi></reg></choice>
+                      <lb/>se <choice><orig>hara</orig><reg>hará</reg></choice> un <choice><orig>semiçirculo</orig><reg>semicírculo</reg></choice><choice><orig></orig><reg>,</reg></choice> y con este tamaño del <choice><orig>compaz</orig><reg>compás</reg></choice> sin <choice><orig>serrarlo</orig><reg>cerrarlo</reg></choice> ni abrirlo<choice><orig></orig><reg>,</reg></choice> <choice><orig>señalara</orig><reg>señalará</reg></choice> <choice><orig>abaxo</orig><reg>abajo</reg></choice><choice><orig> a</orig><reg>,</reg></choice> donde <choice><orig>estan</orig><reg>están</reg></choice> hechas las dos <choice><orig>lineas</orig><reg>líneas</reg></choice> ya dichas<choice><orig> y</orig><reg>.</reg></choice> <choice><orig>alli</orig><reg>Allí</reg></choice> se <choice><orig>a</orig><reg>ha</reg></choice>
+                      <lb/>de señalar con la punta del <choice><orig>compas</orig><reg>compás</reg></choice> como se muestra <choice><orig>aqui</orig><reg>aquí</reg></choice> <choice><orig>abaxo</orig><reg>abajo</reg></choice> en la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>baxa</orig><reg>baja</reg></choice> señalada con unos <choice><orig>punto</orig><corr>puntos</corr></choice> en la <choice><orig>a·</orig><reg><hi rend="italic bold">a</hi></reg></choice> <choice><orig>b</orig><reg><hi rend="italic bold">b</hi></reg></choice> y <choice><orig>·c</orig><reg><hi rend="italic bold">c</hi></reg></choice><choice><orig> señalados</orig><reg>. Señalados</reg></choice> estos pun<lb break="no"/>tos 
+                      <lb/>se <choice><orig>bolvera</orig><reg>volverá</reg></choice> a la <choice><orig>traça</orig><reg>traza</reg></choice> con el <choice><orig>compaz</orig><reg>compás</reg></choice> en la mano y se <choice><orig>afijara</orig><reg>fijará</reg></choice> en la letra <choice><orig>·b·</orig><reg><hi rend="italic bold">b</hi></reg></choice> o en <choice><orig>·c·</orig><reg><hi rend="italic bold">c</hi></reg></choice> <choice><orig></orig><reg>—</reg></choice>la que es todo una cosa<choice><orig></orig><reg>—</reg></choice><choice><orig></orig><reg>,</reg></choice> y reteniendo <choice><orig>alli</orig><reg>allí</reg></choice> <choice><orig>fi<lb break="no"/>xa</orig><reg>fija</reg></choice>
+                      <lb/><choice><orig>la</orig><reg></reg></choice> una punta se <choice><orig>alargara</orig><reg>alargará</reg></choice> la otra hasta la letra <choice><orig>·D</orig><reg><hi rend="italic bold">D</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es el medio del <choice><orig>semiçirculo</orig><reg>semicírculo</reg></choice><choice><orig> y con</orig><reg>. Con</reg></choice> <choice><orig><abbr>aqste</abbr></orig><reg>este</reg></choice> tamaño <choice><orig></orig><reg>—</reg></choice>sin abrir ni <choice><orig>ser<lb break="no"/>rar</orig><reg>cerrar</reg></choice>
+                      <lb/>el <choice><orig>conpas</orig><reg>compás</reg></choice><choice><orig></orig><reg>—</reg></choice> se <choice><orig>daran</orig><reg>darán</reg></choice> otros en la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> digo se <choice><orig>a</orig><reg>ha</reg></choice> de <choice><orig>hazer</orig><reg>hacer</reg></choice><choice><orig></orig><reg>,</reg></choice> que es poniendo el <choice><orig>compaz</orig><reg>compás</reg></choice> en el punto señalado
+                      <lb/>con la <choice><orig>·C</orig><reg><hi rend="italic bold">C</hi></reg></choice> y señalar con la otra punta <choice><orig>el</orig><corr>del</corr> <choice><orig>compaz</orig><reg>compás</reg></choice></choice> en la misma <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>hazia</orig><reg>hacia</reg></choice> fuera<choice><orig></orig><reg>,</reg></choice> que <choice><orig>biene</orig><reg>viene</reg></choice> a <choice><orig>çer</orig><reg>ser</reg></choice> en la letra
+                      <lb/><choice><orig>·e·</orig><reg><hi rend="italic bold">e</hi></reg></choice><choice><orig> y de</orig><reg>. De</reg></choice> la misma manera se <choice><orig>hecha</orig><reg>echa</reg></choice> otro tamaño de la <choice><orig>·b</orig><reg><hi rend="italic bold">b</hi></reg></choice> hasta la <choice><orig>·D</orig><reg><hi rend="italic bold">D</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y de cada uno <choice><orig>destos</orig><reg>de estos</reg></choice> dos pun<lb break="no"/>tos
+                      se <choice><orig>hecha</orig><reg>echa</reg></choice> una <choice><orig>linea</orig><reg>línea</reg></choice> a plomo que corra <choice><orig>ygualmente</orig><reg>igualmente</reg></choice> con la <choice><orig>linea</orig><reg>línea</reg></choice> perpendicular que sale 
+                      <lb/> de la <choice><orig>·a</orig><reg><hi rend="italic bold">a</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig>La</orig><reg>la</reg></choice> <choice><orig>qual</orig><reg>cual</reg></choice> <choice><orig>a</orig><reg>ha</reg></choice> de estar tan distante de la una como de la otra<choice><orig> luego</orig><reg>. Luego</reg></choice> se pone
+                      <lb/><choice><orig>la</orig><reg></reg></choice> una punta del <choice><orig>compaz</orig><reg>compás</reg></choice> en el <choice><orig>çentro</orig><reg>centro</reg></choice> del <choice><orig>almiçate</orig><reg>almizate</reg></choice> y se <choice><orig>estiende</orig><reg>extiende</reg></choice> <choice><orig>hazia</orig><reg>hacia</reg></choice> afu<lb break="no"/>era<choice><orig></orig><reg>,</reg></choice> 
+                      derechamente hasta el <choice><orig>çentro</orig><reg>centro</reg></choice> <choice><orig>del</orig><reg>de</reg></choice> uno de los <choice><orig>signos</orig><reg>sinos</reg></choice><choice><orig></orig><reg>,</reg></choice> y con este
+                      <lb/>tamaño se <choice><orig>pondra</orig><reg>pondrá</reg></choice> el <choice><orig>compaz</orig><reg>compás</reg></choice> en la letra <choice><orig>·a·</orig><reg><hi rend="italic bold">a</hi></reg></choice> en la <choice><orig>li<lb break="no"/>nea</orig><reg>línea</reg></choice>
+                      de <choice><orig>abaxo</orig><reg>abajo</reg></choice><choice><orig> y</orig><reg>.</reg></choice> <choice><orig>afixado</orig><reg>Fijado</reg></choice> allí <choice><orig>la</orig><reg></reg></choice> una punta<choice><orig></orig><reg>,</reg></choice>
+                      <lb/>con la otra se <choice><orig>señalara</orig><reg>señalará</reg></choice> con la <choice><orig>mi<lb break="no"/>ma</orig><corr>misma</corr></choice>
+                      <choice><orig>linea</orig><reg>línea</reg></choice> donde <choice><orig>al<lb break="no"/>cansare</orig><reg>alcazare</reg></choice><choice><orig></orig><reg>,</reg></choice>
+                  
+                      <figure xml:id="group_81r">
+                          <figure xml:id="fig_81r_2" type="dibujo">
+                              <graphic url="/assets/images/dibujos/81r_2.png"/>
+                          </figure>
+                      </figure>
+                  
+                      <lb/>que <choice><orig>sera</orig><reg>será</reg></choice> en las dos <choice><orig>lineas</orig><reg>líneas</reg></choice> perpendiculares que despiden el nudillo o <choice><orig>almiçate</orig><reg>almizate</reg></choice><choice><orig></orig><reg>,</reg></choice> como se ve en la montea presente<choice><orig></orig><reg>.</reg></choice> <choice><orig>hechadas</orig><reg>Echadas</reg></choice> todas las <choice><orig>lineas</orig><reg>líneas</reg></choice> ya dichas<choice><orig></orig><reg>,</reg></choice> se va con el
+                      <lb/><choice><orig>compaz</orig><reg>compás</reg></choice> a la <choice><orig>traça</orig><reg>traza</reg></choice> y se <choice><orig>afixa</orig><reg>fija</reg></choice> <choice><orig>la</orig><reg></reg></choice> una punta en el punto señalado <choice><orig>·a·</orig><reg><hi rend="italic bold">a</hi></reg></choice> y se <choice><orig>estiende</orig><reg>extiende</reg></choice> la <choice><orig>linea</orig><reg>línea</reg></choice> arriba hasta el <choice><orig>sentro</orig><reg>centro</reg></choice> del <choice><orig>signo</orig><reg>sino</reg></choice> señalado <choice><orig>·e·</orig><reg><hi rend="italic bold">e</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es en <choice><orig>la quiebra</orig><reg>el quiebre</reg></choice> del <choice><orig>al<lb break="no"/>miçate</orig><reg>almizate</reg></choice>
+                      y gargantas de los pares<choice><orig> con</orig><reg>. Con</reg></choice> este tamaño se <choice><orig>baxara</orig><reg>bajará</reg></choice> a la montea y se <choice><orig>pondra</orig><reg>pondrá</reg></choice> <choice><orig>la</orig><reg></reg></choice> una punta del <choice><orig>compaz</orig><reg>compás</reg></choice> en la letra <choice><orig>de</orig><reg><hi rend="italic bold">D</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y con la otra <choice><orig></orig><reg>—</reg></choice>sin <choice><orig>serrarlo</orig><reg>cerrarlo</reg></choice> ni abrirlo<choice><orig></orig><reg>—</reg></choice> <choice><orig>heri<lb break="no"/>ra</orig><reg>herirá</reg></choice>
+                      en la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>dixe</orig><reg>dije</reg></choice> del <choice><orig>almiçate</orig><reg>almizate</reg></choice> <choice><orig></orig><reg>—</reg></choice><choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es la <choice><orig>·f·</orig><reg><hi rend="italic bold">f</hi></reg></choice><choice><orig></orig><reg>—</reg></choice><choice><orig></orig><reg>,</reg></choice> y de la <choice><orig>·D·</orig><reg><hi rend="italic bold">D</hi></reg></choice> a la <choice><orig>·f·</orig><reg><hi rend="italic bold">f</hi></reg></choice> se <choice><orig>echara</orig><reg>echará</reg></choice> una <choice><orig>linea</orig><reg>línea</reg></choice> como <choice><orig>aqui</orig><reg>aquí</reg></choice> se muestra<choice><orig></orig><reg>,</reg></choice> la <choice><orig>qual</orig><reg>cual</reg></choice> ha de llegar hasta la <choice><orig>·g·</orig><reg><hi rend="italic bold">g</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y de la <gap unit="word" reason="illegible" extent="unknown"/> 
+                      <lb/>se <choice><orig>hechara</orig><reg>echará</reg></choice> otra<choice><orig></orig><reg>,</reg></choice> y luego se le <choice><orig>dara</orig><reg>dará</reg></choice> el alto <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> se <choice><orig>uviere</orig><reg>hubiere</reg></choice> de dar al par y al <choice><orig>almiçate</orig><reg>almizate</reg></choice> <gap unit="word" reason="illegible" extent="unknown"/> mon<lb break="no"/>tea<choice><orig></orig><reg>,</reg></choice>  
+                      y es la <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig>çierta</orig><reg>cierta</reg></choice> y <gap unit="word" reason="illegible" extent="unknown"/><choice><orig></orig><reg>.</reg></choice>
+                  </p>
+                
+                </div><!-- La entrada_18 continúa en los siguientes folios -->
+              <!-- Fin del folio 81r -->
+            </div>  
+        </div>  
+    </body>
+</text>
+</TEI>

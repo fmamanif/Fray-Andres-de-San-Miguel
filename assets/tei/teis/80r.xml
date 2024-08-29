@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+        <author>
+          <name type="full">Fray Andrés de San Miguel</name>
+          <name type="personal">
+            <forename>Andrés</forename> 
+            <surname>de Segura de la Alcuña</surname>
+          </name>
+          <idno type="wikidata">Q16942240</idno>
+          <idno type="bne">XX1182168</idno>
+          <idno type="viaf">1661877</idno>
+        </author>
+        <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+        <editor role="Technical_Editor">David Merino Recalde</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Francisco Mamani Fuentes</publisher>
+        <availability status="free">
+          <licence>CC BY-NC-SA</licence>
+				</availability>
+        <date>2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+              <repository>University of Texas Libraries</repository>
+              <collection>Benson Latin American Collection</collection>
+              <idno>31775792</idno>
+          </msIdentifier>
+          <msContents>
+              <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+              <textLang mainLang="es"/>
+              <msItem  n="72r-88v">
+                <title>Sección dedicada a la carpintería de armar</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+              <objectDesc>
+                  <supportDesc>
+                      <support>Papel</support>
+                      <extent>295 folios</extent>
+                  </supportDesc>
+              </objectDesc>
+          </physDesc>
+          <history>
+              <origin>
+                  <date>ca. 1630</date>
+                  <placeName>Ciudad de México</placeName>
+              </origin>
+          </history>
+        </msDesc>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>1969</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+          <editor>
+            <name type="personal">
+              <forename>Enrique</forename>
+              <surname>Nuere</surname>
+            </name>
+          </editor>
+					<publisher>Colegio de Arquitectos de Málaga</publisher>
+					<pubPlace>Málaga</pubPlace>
+          <date>1990</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>2007</date>
+				</bibl>
+      </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div>
+          <pb n="80r" facs="80r.jpg"/>
+            <div type="entrada" n="14" xml:id="entrada_14">
+              <head>De la taravea de diez y de todas sus medidas</head>
+
+              <p>
+                  <lb/>El ancho de la taravea de diez es dos costadillos de <choice><orig>dies</orig><reg>diez</reg></choice> y el candilejo<ptr target="#candilejo" n="?"/><choice><orig></orig><reg>,</reg></choice> tomado por lo <choice><orig>mas</orig><reg>más</reg></choice> ancho del candilejo<ptr target="#candilejo" n="?"/><choice><orig></orig><reg>.</reg></choice>
+                  <lb/> Para abrir el candilejo<ptr target="#candilejo" n="?"/> se <choice><orig>an</orig><reg>han</reg></choice> de <choice><orig>hechar</orig><reg>echar</reg></choice> por el canto del par dos colas del de <choice><orig>çinco</orig><reg>cinco</reg></choice> y <choice><orig>an</orig><reg>han</reg></choice> de rehendir con la cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice>
+                  <lb/>de diez<choice><orig> y rehendida</orig><reg>. Rehendida</reg></choice><choice><orig></orig><reg>,</reg></choice> se saca el costadillo con la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice> y desde la esquina del par donde <choice><orig>alcança</orig><reg>alcanza</reg></choice> el costadi<lb break="no"/>llo
+                  se toma con un <choice><orig>compaz</orig><reg>compás</reg></choice> hasta la cola de <choice><orig>dies</orig><reg>diez</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> rehiende la <choice><orig>laliba</orig><reg>háliba</reg></choice> y dos tamaños de <choice><orig><abbr>aqllos</abbr></orig><reg><expan>aquellos</expan></reg></choice> es el candilejo<ptr target="#candilejo" n="?"/><choice><orig></orig><reg>,</reg></choice> lo <choice><orig>qual</orig><reg>cual</reg></choice> se <choice><orig>podra</orig><reg>podrá</reg></choice> ver
+                  <lb/>en el <choice><orig>deseño</orig><reg>diseño</reg></choice> <choice><orig>aqui</orig><reg>aquí</reg></choice> puesto en <choice><orig>qual</orig><reg>cual</reg></choice> se muestra el candilejo<ptr target="#candilejo" n="?"/><choice><orig> y</orig><reg>,</reg></choice> una <choice><orig>haliba</orig><reg>háliba</reg></choice> y tres costadillos<choice><orig> la</orig><reg>. La</reg></choice> medida que se toma para darlos al
+                  <lb/>candilejo<ptr target="#candilejo" n="?"/> es la señalada <choice><orig>·a·b</orig><reg><hi rend="italic bold">a,b</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> tomando desde la <choice><orig>·b·</orig><reg><hi rend="italic bold">b</hi></reg></choice> hasta la <choice><orig>linea</orig><reg>línea</reg></choice> larga que rehiende <choice><orig>el</orig><reg>la</reg></choice> aspilla<choice><orig></orig><reg>,</reg></choice> y dando dos al candilejo<ptr target="#candilejo" n="?"/><choice><orig></orig><reg>.</reg></choice>
+                  <lb/><choice><orig>la</orig><reg>La</reg></choice> medida del costadillo es lo <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> tiende la <choice><orig>cavesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de diez por el canto del par. 
+              </p>
+
+              <figure xml:id="fig_80r_1" type="dibujo">
+                  <graphic url="/assets/images/dibujos/80r_1.png"/>
+              </figure>
+
+              <figure xml:id="fig_80r_2" type="dibujo">
+                  <graphic url="/assets/images/dibujos/80r_2.png"/>
+              </figure>
+            </div><!-- Fin de la entrada_14 -->
+
+            <div type="entrada" n="15" xml:id="entrada_15">
+                <head>Del <choice><orig>signo</orig><reg>sino</reg></choice> y boquilla de diez y muestra de como se mete el lazo en el par</head>
+
+                <p>
+                    <lb/>La medida del <choice><orig>signo</orig><reg>sino</reg></choice> de diez por lo <choice><orig>mas</orig><reg>más</reg></choice> ancho es dos colas del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice><choice><orig></orig><reg>,</reg></choice> como muestra la figura <choice><orig>aqui</orig><reg>aquí</reg></choice> <choice><orig>abaxo</orig><reg>abajo</reg></choice> señalada <choice><orig>·a·b·c</orig><reg><hi rend="italic bold">a,b,c</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es echando un <choice><orig>traço</orig><reg>trazo</reg></choice>
+                    <lb/>con la cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice> de la <choice><orig>·b·</orig><reg><hi rend="italic bold">b</hi></reg></choice> a la <choice><orig>·a·</orig><reg><hi rend="italic bold">a</hi></reg></choice> y otro de la <choice><orig>·b·</orig><reg><hi rend="italic bold">b</hi></reg></choice> a la <choice><orig>·c·</orig><reg><hi rend="italic bold">c</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y echando <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> ya dicho de <choice><orig>çinco</orig><reg>cinco</reg></choice> de la <choice><orig>·a·</orig><reg><hi rend="italic bold">a</hi></reg></choice> a la <choice><orig>·d·</orig><reg><hi rend="italic bold">d</hi></reg></choice> y de la <choice><orig>·c·</orig><reg><hi rend="italic bold">c</hi></reg></choice> a la <choice><orig>·f·</orig><reg><hi rend="italic bold">f</hi></reg></choice>
+                    <lb/>quedara <choice><orig>avierto</orig><reg>abierto</reg></choice> el <choice><orig>signo</orig><reg>sino</reg></choice> de diez perfectamente.  El largo de la boquilla de diez es cola y <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig>hechada</orig><reg>echada</reg></choice> por el canto
+                    <lb/>del par de esta manera<choice><orig></orig><reg>:</reg></choice> 
+                    
+                    <figure xml:id="fig_80r_3" type="dibujo">
+                        <graphic url="/assets/images/dibujos/80r_3.png"/>
+                    </figure>
+                    
+                    <choice><orig>y en</orig><reg>En</reg></choice> la figura <choice><orig>·a·d·e</orig><reg><hi rend="italic bold">a,d,e</hi></reg></choice> se <choice><orig>podra</orig><reg>podrá</reg></choice> ver la manera <choice><orig>como</orig><reg>cómo</reg></choice> se <choice><orig>a</orig><reg>ha</reg></choice> de cortar, y en todo el par <choice><orig>aqui</orig><reg>aquí</reg></choice> <choice><orig>abaxo</orig><reg>abajo</reg></choice> señalado
+                    <lb/>la manera como se mete el lazo<choice><orig> en</orig><reg>. En</reg></choice> la misma figura se muestra el largo de la <choice><orig>haliba</orig><reg>háliba</reg></choice><choice><orig> y</orig><reg>,</reg></choice> del costadillo y aspilla<choice><orig> el</orig><reg>. El</reg></choice> largo de la <choice><orig>haliba</orig><reg>háliba</reg></choice> es todo lo que ti<lb break="no"/>ende
+                    la cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice> por el canto del par<choice><orig>, y el</orig><reg>. El</reg></choice> largo del costadillo es todo lo que tiende la <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de diez por el canto del par<choice><orig></orig><reg>.</reg></choice>
+                    <lb/><choice><orig>el</orig><reg>La</reg></choice> aspilla es la que <choice><orig>esta</orig><reg>está</reg></choice> señalada con su mismo nombre y <choice><orig>estan</orig><reg>están</reg></choice> tan claras sus medidas <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> no <choice><orig>ay</orig><reg>hay</reg></choice> <choice><orig>neçescidad</orig><reg>necesidad</reg></choice> de declararlas<choice><orig></orig><reg>,</reg></choice> mas pues en ellas se ven dos costadillos<choice><orig></orig><reg>:</reg></choice> uno
+                    <lb/>de cada parte y dos colas de <choice><orig>çinco</orig><reg>cinco</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> los dividen el uno del otro y cola y <choice><orig>cabeça</orig><reg>cabeza</reg></choice> de diez<choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> rehienden y atan sus perfiles.
+                </p>
+
+                <figure xml:id="fig_80r_4" type="dibujo">
+                    <graphic url="/assets/images/dibujos/80r_4.png"/>
+                </figure>
+            </div><!-- Fin de la entrada_15 -->
+
+            <div type="entrada" n="16" xml:id="entrada_16">
+              <head><choice><orig>Como</orig><reg>Cómo</reg></choice> se <choice><orig>basteçe</orig><reg>abastece</reg></choice> una <choice><orig>tarabea</orig><reg>taravea</reg></choice> de <choice><orig>dies</orig><reg>diez</reg></choice></head>
+
+              <p>
+                  <lb/><choice><orig>el</orig><reg>El</reg></choice> modo como se <choice><orig>bastesera</orig><reg>abastecerá</reg></choice> una <choice><orig>tarabea</orig><reg>taravea</reg></choice> de lazo de diez se muestra en la figura <choice><orig>aqui</orig><reg>aquí</reg></choice> <choice><orig>abaxo</orig><reg>abajo</reg></choice> <choice><orig>traçada</orig><reg>trazada</reg></choice><choice><orig></orig><reg>,</reg></choice> en la <choice><orig>qual</orig><reg>cual</reg></choice> se <choice><orig>hallaran</orig><reg>hallarán</reg></choice> dos costadillos
+                  <lb/>y <choice><orig>seys</orig><reg>seis</reg></choice> <choice><orig>peynasos</orig><reg>peinazos</reg></choice> <choice><orig>vibos</orig><reg>vivos</reg></choice> con sus dos pares<choice><orig></orig><reg>,</reg></choice> que muestran con claridad el modo como se <choice><orig>metera</orig><reg>meterá</reg></choice> el lazo<choice><orig></orig><reg>.</reg></choice> <choice><orig>y</orig><reg>Y</reg></choice> <choice><orig>como</orig><reg>cómo</reg></choice> se <choice><orig>guarnese</orig><reg>guarnece</reg></choice><choice><orig></orig><reg>,</reg></choice> lo muestra la taravea <choice><orig>aqui</orig><reg>aquí</reg></choice> arriba
+                  <lb/><choice><orig>guarnesida</orig><reg>guarnecida</reg></choice><choice><orig></orig><reg>,</reg></choice> en la <choice><orig>qual</orig><reg>cual</reg></choice> <choice><orig>estan</orig><reg>están</reg></choice> señalados todos los cortes de todos sus miembros<choice><orig></orig><reg>,</reg></choice> uno por uno, como lo <choice><orig>podra</orig><reg>podrá</reg></choice> ver el que considerase <choice><orig>la</orig><reg></reg></choice> una figura y <choice><orig>la</orig><reg></reg></choice> otra. 
+              </p>
+
+              <figure xml:id="fig_80r_5" type="dibujo">
+                  <graphic url="/assets/images/dibujos/80r_5.png"/>
+              </figure>
+
+              <p>
+                  <lb/><choice><orig>Adviertase</orig><reg>Adviértase</reg></choice> que <choice><orig></orig><reg>en</reg></choice> ninguno <choice><orig>destos</orig><reg>de estos</reg></choice> <choice><orig>peynasos</orig><reg>peinazos</reg></choice> <choice><orig>ni</orig><reg>y</reg></choice> costadillos <choice><orig>no</orig><reg></reg></choice> <choice><orig>ay</orig><reg>hay</reg></choice> <choice><orig>nesessidad</orig><reg>necesidad</reg></choice> de <choice><orig>hazerle</orig><reg>hacerle</reg></choice> escopladura en el par ni <choice><orig><del rend="line-through">ni en el espiga</del></orig><reg></reg></choice> espiga en el <choice><orig>peynaso</orig><reg>peinazo</reg></choice><choice><orig></orig><reg>,</reg></choice> <orig>aynque</orig><corr>aunque</corr> se
+                  <lb/>puede <choice><orig>hazer</orig><reg>hacer</reg></choice><choice><orig></orig><reg>,</reg></choice> mas <choice><orig>ay</orig><reg>hay</reg></choice> para ello dos <choice><orig>incombenientes</orig><reg>inconvenientes</reg></choice><choice><orig></orig><reg>:</reg></choice> <choice><orig>el</orig><reg></reg></choice> uno es <choice><orig>enflaqueçer</orig><reg>enflaquecer</reg></choice> <choice><orig>demaziado</orig><reg>demasiado</reg></choice> el par con las escopladuras<choice><orig></orig><reg>;</reg></choice> el otro es la demasiada <choice><orig>prolixidad</orig><reg>prolijidad</reg></choice> y traba<lb break="no"/>jo
+                  que se <choice><orig>tendera</orig><corr>tendría</corr></choice> para <choice><orig>averse</orig><reg>haberse</reg></choice> de ajustar. <choice><orig>mas</orig><reg>Mas</reg></choice> esto es <choice><orig>forçoso</orig><reg>forzoso</reg></choice> <choice><orig>hazerle</orig><reg>hacerle</reg></choice> <choice><orig>quando</orig><reg>cuando</reg></choice> se <choice><orig>uvieron</orig><reg>hubieron</reg></choice> de <choice><orig>hazer</orig><reg>hacer</reg></choice> algunas puertas de lazo<choice><orig></orig><reg>,</reg></choice> que <choice><orig>entonses</orig><reg>entonces</reg></choice> <choice><orig>conbiene</orig><reg>conviene</reg></choice> <choice><orig>yr</orig><reg>ir</reg></choice> esco<lb break="no"/>pleado
+                  y espigado<choice><orig></orig><reg>,</reg></choice> como lo <choice><orig>ban</orig><reg>van</reg></choice> las <choice><orig>demas</orig><reg>demás</reg></choice> puertas<choice><orig>,</orig><reg>.</reg></choice> <choice><orig>mas</orig><reg>Mas</reg></choice> para armadura basta que sea la <choice><orig>quixera</orig><reg>quijera</reg></choice> de doblado grueso del que es el <choice><orig>tauxel</orig><reg>taujel</reg></choice> con que se <choice><orig>guarneçe</orig><reg>guarnece</reg></choice><choice><orig></orig><reg>,</reg></choice> que <choice><orig>vendra</orig><reg>vendrá</reg></choice>
+                  <lb/>a <choice><orig>çer</orig><reg>ser</reg></choice> la <choice><orig>quixera</orig><reg>quijera</reg></choice> <choice><orig>dedos</orig><reg>de dos</reg></choice> dedos de grueso<choice><orig></orig><reg>,</reg></choice> poco <choice><orig>mas</orig><reg>más</reg></choice> o menos<choice><orig></orig><reg>,</reg></choice> <choice><orig>segun</orig><reg>según</reg></choice> el grueso de las maderas<choice><orig></orig><reg>.</reg></choice> <choice><orig>mas</orig><reg>Mas</reg></choice> este grueso no se <choice><orig>a</orig><reg>ha</reg></choice> de <choice><orig>hechar</orig><reg>echar</reg></choice> en toda la <choice><orig>quixera</orig><reg>quijera</reg></choice><choice><orig></orig><reg>,</reg></choice> si acaso no es el <choice><orig>peynaso</orig><reg>peinazo</reg></choice> ro<lb break="no"/>mo
+                  <lb/>como lo es el señalado de <choice><orig>·A·</orig><reg><hi rend="italic bold">A</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> mas si es agudo como el señalado <choice><orig>·B·</orig><reg><hi rend="italic bold">B</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> no es todo el grueso <choice><orig>mas</orig><reg>más</reg></choice> de en aquello que <choice><orig>alcansan</orig><reg>alcanzan</reg></choice> los perfiles del par<choice><orig> y lo</orig><reg>. Lo</reg></choice> <choice><orig>demas</orig><reg>demás</reg></choice> de la <choice><orig>qui<lb break="no"/>xera</orig><reg>quijera</reg></choice><choice><orig></orig><reg>,</reg></choice>
+                  que es aquello que <choice><orig>esta</orig><reg>está</reg></choice> señalado <choice><orig>abaxo</orig><reg>abajo</reg></choice> de la <choice><orig>B·</orig><reg><hi rend="italic bold">B</hi></reg></choice> con <choice><orig>unnos</orig><reg>unos</reg></choice> puntos <choice><orig>osbcuros</orig><reg>oscuros</reg></choice><choice><orig> que</orig><reg>,</reg></choice> no <choice><orig>lleba</orig><reg>lleva</reg></choice> <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> el grueso del <choice><orig>tauxel</orig><reg>taujel</reg></choice>. 
+              </p>
+            
+            </div><!-- La entrada_16 continúa en el siguiente folio -->
+          <!-- Fin del folio 80r -->
+        </div>    
+    </body>
+</text>
+</TEI>

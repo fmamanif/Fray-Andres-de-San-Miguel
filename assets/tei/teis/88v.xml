@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+        <author>
+          <name type="full">Fray Andrés de San Miguel</name>
+          <name type="personal">
+            <forename>Andrés</forename> 
+            <surname>de Segura de la Alcuña</surname>
+          </name>
+          <idno type="wikidata">Q16942240</idno>
+          <idno type="bne">XX1182168</idno>
+          <idno type="viaf">1661877</idno>
+        </author>
+        <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+        <editor role="Technical_Editor">David Merino Recalde</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Francisco Mamani Fuentes</publisher>
+        <availability status="free">
+          <licence>CC BY-NC-SA</licence>
+				</availability>
+        <date>2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+              <repository>University of Texas Libraries</repository>
+              <collection>Benson Latin American Collection</collection>
+              <idno>31775792</idno>
+          </msIdentifier>
+          <msContents>
+              <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+              <textLang mainLang="es"/>
+              <msItem  n="72r-88v">
+                <title>Sección dedicada a la carpintería de armar</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+              <objectDesc>
+                  <supportDesc>
+                      <support>Papel</support>
+                      <extent>295 folios</extent>
+                  </supportDesc>
+              </objectDesc>
+          </physDesc>
+          <history>
+              <origin>
+                  <date>ca. 1630</date>
+                  <placeName>Ciudad de México</placeName>
+              </origin>
+          </history>
+        </msDesc>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>1969</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+          <editor>
+            <name type="personal">
+              <forename>Enrique</forename>
+              <surname>Nuere</surname>
+            </name>
+          </editor>
+					<publisher>Colegio de Arquitectos de Málaga</publisher>
+					<pubPlace>Málaga</pubPlace>
+          <date>1990</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>2007</date>
+				</bibl>
+      </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div type="seccion">
+            <div type="subsección" n="3" xml:id="subsección_3">
+              <pb n="88v" facs="88v.jpg"/>
+              
+                <div type="entrada" n="23" xml:id="entrada_23">
+                
+                  <head>De <choice><orig>como</orig><reg>cómo</reg></choice> se saca la cercha de una media caña para en <choice><orig>trasa</orig><reg>traza</reg></choice> y <orig>jantamente</orig><corr>juntamente</corr> para en obra</head>
+
+                  <p>
+                      <lb/>La cercha de la lima de la media caña en <choice><orig>trasa</orig><reg>traza</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>aunq</abbr></orig><reg><expan>aunque</expan></reg></choice>
+                      <lb/>es muy diferente de la que sirve puesta en obra<choice><orig></orig><reg>,</reg></choice> se <choice><orig>sacan</orig><reg>saca</reg></choice> por
+                      <lb/>un mismo camino y plomos<choice><orig>, y para</orig><reg>. Para</reg></choice> sacarlas <choice><orig>entrambas</orig><reg></reg></choice> jun<lb break="no"/>tamente<choice><orig></orig><reg>,</reg></choice>
+                      se forma el <choice><orig>quarto</orig><reg>cuarto</reg></choice> de <choice><orig>çirculo</orig><reg>círculo</reg></choice> <choice><orig>·a·b·c</orig><reg><hi rend="italic bold">a,b,c</hi></reg></choice> y se parte en las
+                      <lb/>partes iguales que se quiere a <choice><orig>discreçion</orig><reg>discreción</reg></choice><choice><orig> este</orig><reg>. Este</reg></choice> <choice><orig>esta</orig><reg>está</reg></choice> partido en
+                      <lb/><choice><orig>seys</orig><reg>seis</reg></choice> <choice><orig></orig><reg>—</reg></choice>como se ve por sus <choice><orig>numeros</orig><reg>números</reg></choice><choice><orig></orig><reg>—</reg></choice><choice><orig></orig><reg>,</reg></choice> y tirada la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>b e</orig><reg><hi rend="italic bold">b,e</hi></reg></choice> cortan<lb break="no"/>do 
+                      el centro <choice><orig>·c·</orig><reg><hi rend="italic bold">c</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> se le da tanto a la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>c·e</orig><reg><hi rend="italic bold">c,e</hi></reg></choice> como tiene la <choice><orig>linea</orig><reg>línea</reg></choice>
+                      <lb/><choice><orig>·c·b</orig><reg><hi rend="italic bold">c,b</hi></reg></choice> y <choice><orig>·c·a</orig><reg><hi rend="italic bold">c,a</hi></reg></choice><choice><orig> y tirada</orig><reg>. Tirada</reg></choice> la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·a·e</orig><reg><hi rend="italic bold">a,e</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> que <choice><orig>tendra</orig><reg>tendrá</reg></choice> la misma largura
+                      <lb/>que <choice><orig>ay</orig><reg>hay</reg></choice> del <choice><orig>angulo</orig><reg>ángulo</reg></choice> <choice><orig>·a</orig><reg><hi rend="italic bold">a</hi></reg></choice> al <choice><orig>angulo</orig><reg>ángulo</reg></choice> <choice><orig>·b</orig><reg><hi rend="italic bold">b</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> luego se tiran sobre la <choice><orig>linea</orig><reg>línea</reg></choice>
+                      <lb/><choice><orig>a·e</orig><reg><hi rend="italic bold">a,e</hi></reg></choice> <choice><orig>paralellas</orig><reg>paralelas</reg></choice> todas las <choice><orig>lineas</orig><reg>líneas</reg></choice> que se partieron en el <choice><orig>quarto</orig><reg>cuarto</reg></choice> del
+                      <lb/><choice><orig>çirculo</orig><reg>círculo</reg></choice><choice><orig></orig><reg>,</reg></choice> tirando la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·6·5</orig><reg><hi rend="italic bold">6,5</hi></reg></choice> y la <choice><orig>·5·4</orig><reg><hi rend="italic bold">5,4</hi></reg></choice><choice><orig></orig><reg>;</reg></choice> y <choice><orig>asi</orig><reg>así</reg></choice> las <choice><orig>demas</orig><reg>demás</reg></choice> hasta <choice><orig>·2·2</orig><reg><hi rend="italic bold">2,2</hi></reg></choice><choice><orig></orig><reg>.</reg></choice>
+                      <lb/><choice><orig>esto</orig><reg>Esto</reg></choice> hecho<choice><orig></orig><reg>,</reg></choice> se saca en <choice><orig>angulo</orig><reg>ángulo</reg></choice> recto con la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>a·e</orig><reg><hi rend="italic bold">a,e</hi></reg></choice> la <choice><orig>e·f</orig><reg><hi rend="italic bold">e,f</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y con
+                      <lb/>ella <choice><orig>paralellas</orig><reg>paralelas</reg></choice> todas las que se muestran <choice><orig>·5·4·3·2·1</orig><reg><hi rend="italic bold">5,4,3,2,1</hi></reg></choice><choice><orig> y</orig><reg>.</reg></choice> <choice><orig>abiendolos</orig><reg>Habiéndolas</reg></choice> ti<lb break="no"/>rado
+                      se toma en el <choice><orig>quarto</orig><reg>cuarto</reg></choice> del <choice><orig>çirculo</orig><reg>círculo</reg></choice> la distancia <choice><orig>c·b</orig><reg><hi rend="italic bold">c,b</hi></reg></choice><choice><orig> y</orig><reg>,</reg></choice> se señala
+                      <lb/>sobre la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>e·f</orig><reg><hi rend="italic bold">e,f</hi></reg></choice> y luego la distancia del <choice><orig>6</orig><reg><hi rend="italic bold">6</hi></reg></choice> a la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>a·c</orig><reg><hi rend="italic bold">a,c</hi></reg></choice><choice><orig></orig><reg>.</reg></choice> 
+                      <lb/><choice><orig>y puesto</orig><reg>Puesto</reg></choice> <choice><orig>el</orig><reg></reg></choice> <choice><orig>u</orig><corr>un</corr></choice> pie del <choice><orig>conpas</orig><reg>compás</reg></choice> en el punto <choice><orig>5</orig><reg><hi rend="italic bold">5</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> sobre la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·a·e</orig><reg><hi rend="italic bold">a,e</hi></reg></choice> se señala
+                      <lb/>con el otro pie sobre la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>5·g</orig><reg><hi rend="italic bold">5,g</hi></reg></choice><choice><orig> y</orig><reg>. Y</reg></choice> <choice><orig>asi</orig><reg>así</reg></choice> se <choice><orig>ban</orig><reg>van</reg></choice> tomando todos los ta<lb break="no"/>maños
+                      del <choice><orig>quarto</orig><reg>cuarto</reg></choice> del <choice><orig>çirculo</orig><reg>círculo</reg></choice> <choice><orig>5·4·3·2</orig><reg><hi rend="italic bold">5,4,3,2</hi></reg></choice><choice><orig> y</orig><reg>,</reg></choice> <choice><orig>pasandolos</orig><reg>pasándolos</reg></choice> sobre las <choice><orig>line<lb break="no"/>as</orig><reg>líneas</reg></choice> 
+                      <choice><orig>4·3·2·1</orig><reg><hi rend="italic bold">4,3,2,1</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y con los puntos <choice><orig>f·g·h·i·l·m·a</orig><reg><hi rend="italic bold">f,g,h,i,l,m,a</hi></reg></choice> se saca la plantilla con que
+                      <lb/>se labra la lima de la media caña.
+                  </p>
+
+                  <p>
+                      <lb/><choice><orig>y para</orig><reg>Para</reg></choice> sacar la cercha con que se <choice><orig>trasa</orig><reg>traza</reg></choice> en papel la lima de la
+                      <lb/>media caña<choice><orig></orig><reg>,</reg></choice> se tiran de los mismos puntos <choice><orig>6·5·4·3·2</orig><reg><hi rend="italic bold">6,5,4,3,2</hi></reg></choice> en que se
+                      <lb/><choice><orig>partio</orig><reg>partió</reg></choice> el <choice><orig>quarto</orig><reg>cuarto</reg></choice> del <choice><orig>çirculo</orig><reg>círculo</reg></choice> <choice><orig>a·b·c</orig><reg><hi rend="italic bold">a,b,c</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig>paralellas</orig><reg>paralelas</reg></choice> con la <choice><orig>linea</orig><reg>línea</reg></choice> 
+                      <lb/><choice><orig>a·d</orig><reg><hi rend="italic bold">a,d</hi></reg></choice> que son <choice><orig>2·r</orig><reg><hi rend="italic bold">2,r</hi></reg></choice> <choice><orig>q·3</orig><reg><hi rend="italic bold">q,3</hi></reg></choice><choice><orig></orig><reg>;</reg></choice> y <choice><orig>asi</orig><reg>así</reg></choice> las <choice><orig>demas</orig><reg>demás</reg></choice> hasta la <choice><orig>6·n</orig><reg><hi rend="italic bold">6,n</hi></reg></choice><choice><orig> y con</orig><reg>. Con</reg></choice>
+                      <lb/>el tamaño que se <choice><orig>partio</orig><reg>partió</reg></choice> el <choice><orig>quarto</orig><reg>cuarto</reg></choice> de <choice><orig>çirculo</orig><reg>círculo</reg></choice> <choice><orig>a·b</orig><reg><hi rend="italic bold">a,b</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> se <choice><orig>hechan</orig><reg>echan</reg></choice> otros
+                      <lb/>tantos tamaños <choice><orig>donde</orig><reg>desde</reg></choice> el centro <choice><orig>c</orig><reg><hi rend="italic bold">c</hi></reg></choice> a la <choice><orig>d</orig><reg><hi rend="italic bold">d</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> como se ven apuntados
+                      <lb/><choice><orig>1·2·3·4·5·6</orig><reg><hi rend="italic bold">1,2,3,4,5,6</hi></reg></choice><choice><orig> y tiradas</orig><reg>. Tiradas</reg></choice> todas estas <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>palarellas</orig><reg>paralelas</reg></choice> con la <choice><orig>c·b</orig><reg><hi rend="italic bold">c,b</hi></reg></choice> <choice><orig>a</orig><reg></reg></choice> don<lb break="no"/>de
+                      se cortan con las ya tiradas <choice><orig>paralellas</orig><reg>paralelas</reg></choice> con la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>c·d</orig><reg><hi rend="italic bold">c,d</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> como se ve
+                      <lb/>en los puntos <choice><orig>n·o·p·q·r·d</orig><reg><hi rend="italic bold">n,o,p,q,r,d</hi></reg></choice><choice><orig> con</orig><reg>. Con</reg></choice> estos puntos se saca la cercha en una
+                      <lb/>tablilla<choice><orig></orig><reg>,</reg></choice> con que se <choice><orig>trasa</orig><reg>traza</reg></choice> la media caña en planta llana. 
+                  </p>
+
+                  <figure xml:id="group_88v">
+                      <figure xml:id="fig_88v_1" type="dibujo">
+                          <graphic url="/assets/images/dibujos/88v_1.png"/>
+                      </figure>
+
+                      <figure xml:id="fig_88v_2" type="dibujo">
+                          <graphic url="/assets/images/dibujos/88v_2.png"/>
+                      </figure>
+                  </figure>
+
+                  <figure xml:id="fig_88v_3" type="dibujo">
+                    <graphic url="/assets/images/dibujos/88v_3.png"/>
+                  </figure>
+
+                  <p>
+                      <lb/><choice><orig>en</orig><reg>En</reg></choice> la planta <choice><orig>A</orig><reg><hi rend="italic bold">A</hi></reg></choice> se pone <choice><orig>mas</orig><reg>más</reg></choice> por entero como se saca la <choice><orig>linea</orig><reg>línea</reg></choice>
+                      <lb/>de la media caña y se labra<choice><orig></orig><reg>,</reg></choice> para lo <choice><orig>qual</orig><reg>cual</reg></choice> <choice><orig><abbr>primeramete</abbr></orig><reg><expan>primeramente</expan></reg></choice>
+                      <lb/>se forma el <choice><orig>quarto</orig><reg>cuarto</reg></choice> del <choice><orig>çirculo</orig><reg>círculo</reg></choice> <choice><orig>a·b·c</orig><reg><hi rend="italic bold">a,b,c</hi></reg></choice> en el tamaño que
+                      <lb/><choice><orig>a</orig><reg>ha</reg></choice> de tener el <choice><orig>camon</orig><reg>camón</reg></choice><choice><orig></orig><reg>,</reg></choice> que es la mitad del ancho de la <choice><orig>pie<lb break="no"/>sa</orig><reg>pieza</reg></choice>
+                      que se <choice><orig>a</orig><reg>ha</reg></choice> de cubrir<choice><orig> y partido</orig><reg>. Partido</reg></choice> el <choice><orig>quarto</orig><reg>cuarto</reg></choice> del <choice><orig>çirculo</orig><reg>círculo</reg></choice> <choice><orig></orig><reg>—</reg></choice>co<lb break="no"/>mo
+                      se <choice><orig>a</orig><reg>ha</reg></choice> dicho y <choice><orig>asi</orig><reg>así</reg></choice> se muestra<choice><orig></orig><reg>—</reg></choice> se tiran todas las <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>paralel<lb break="no"/>las</orig><reg>paralelas</reg></choice>
+                      con la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·c·b</orig><reg><hi rend="italic bold">c,b</hi></reg></choice><choice><orig> y</orig><reg>,</reg></choice> porque la lima no <choice><orig>ba</orig><reg>va</reg></choice> en el mismo <choice><orig>angulo</orig><reg>ángulo</reg></choice><choice><orig></orig><reg>,</reg></choice> 
+                      <lb/>si no una cuerda menos<choice><orig></orig><reg>,</reg></choice> como en la planta <choice><orig>B</orig><reg><hi rend="italic bold">B</hi></reg></choice> <choice><orig>quadrada</orig><reg>cuadrada</reg></choice> se <orig>mostra</orig><corr>muestra</corr>
+                      <lb/>con las <choice><orig>limeas</orig><corr>limas</corr></choice> angulares o puntas<choice><orig> para</orig><reg>. Para</reg></choice> <choice><orig>trasar</orig><reg>trazar</reg></choice> la lima se acorta
+                      <lb/>en la planta lo que tiende la cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> por el grueso 
+                      <lb/>de la madera<choice><orig></orig><reg>,</reg></choice> que es lo mismo que <choice><orig>ay</orig><reg>hay</reg></choice> de las <choice><orig>lineas</orig><reg>líneas</reg></choice> apuntadas al <choice><orig>rin<lb break="no"/>con</orig><reg>rincón</reg></choice>
+                      <lb/>por esta causa<choice><orig> la</orig><reg>. La</reg></choice> <choice><orig>linea</orig><reg>línea</reg></choice> angular<choice><orig></orig><reg>,</reg></choice> que para sacar la lima
+                      <lb/>se <choice><orig>avia</orig><reg>había</reg></choice> de tirar <choice><orig>a·b</orig><reg><hi rend="italic bold">a,b</hi></reg></choice> en el <choice><orig>quarto</orig><reg>cuarto</reg></choice> del <choice><orig>çirculo</orig><reg>círculo</reg></choice> <choice><orig>a·b·c</orig><reg><hi rend="italic bold">a,b,c</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> se tira <choice><orig>b·p</orig><reg><hi rend="italic bold">b,p</hi></reg></choice><choice><orig></orig><reg>,</reg></choice>
+                      <lb/>que es con aquella parte que <choice><orig>ay</orig><reg>hay</reg></choice> de las <choice><orig>lineas</orig><reg>líneas</reg></choice> apuntadas al <choice><orig>rincon</orig><reg>rincón</reg></choice> 
+                      <lb/> menos tirada la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>b·p</orig><reg><hi rend="italic bold">b,p</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> que es la que corta todas la <choice><orig>lineas</orig><reg>líneas</reg></choice>
+                      <lb/>del <choice><orig>quarto</orig><reg>cuarto</reg></choice> del <choice><orig>çirculo</orig><reg>círculo</reg></choice><choice><orig> se</orig><reg>. Se</reg></choice> <choice><orig>tomo</orig><reg>toma</reg></choice> con el <choice><orig>conpas</orig><reg>compás</reg></choice> la distancia <choice><orig>b·e</orig><reg><hi rend="italic bold">b,e</hi></reg></choice> y se
+                      <lb/><choice><orig>hecha</orig><reg>echa</reg></choice> sobre la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·c·d</orig><reg><hi rend="italic bold">c,d</hi></reg></choice> en el punto <choice><orig>·l</orig><reg><hi rend="italic bold">l</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y con la <choice><orig>e·f</orig><reg><hi rend="italic bold">e,f</hi></reg></choice> se señala la 
+                      <lb/><choice><orig>·l·m</orig><reg><hi rend="italic bold">l,m</hi></reg></choice> y en la <choice><orig>f·g</orig><reg><hi rend="italic bold">f,g</hi></reg></choice> la <choice><orig>m·n</orig><reg><hi rend="italic bold">m,n</hi></reg></choice><choice><orig></orig><reg>;</reg></choice> y <choice><orig>asi</orig><reg>así</reg></choice> las <choice><orig>demas</orig><reg>demás</reg></choice><choice><orig> y tiradas</orig><reg>. Tiradas</reg></choice> estas <choice><orig>li<lb break="no"/>neas</orig><reg>líneas</reg></choice>
+                      <choice><orig>paralellas</orig><reg>paralelas</reg></choice> con la <choice><orig>c·b</orig><reg><hi rend="italic bold">c,b</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> se toma el largo de las <choice><orig>lineas</orig><reg>líneas</reg></choice> del <choice><orig>quarto</orig><reg>cuarto</reg></choice>
+                      <lb/>del <choice><orig>çirculo</orig><reg>círculo</reg></choice> y por su orden se pasan a las <choice><orig>lineas</orig><reg>líneas</reg></choice> de la lima<choice><orig></orig><reg>;</reg></choice> con que
+                      <lb/>queda formada la cercha <choice><orig>b·d</orig><reg><hi rend="italic bold">b,d</hi></reg></choice>.
+                  </p>
+
+                  <p>
+                      <lb/><choice><orig>en</orig><reg>En</reg></choice> la dicha planta llana <choice><orig></orig><reg><hi rend="italic bold">B</hi></reg></choice> se muestra lo que se tiende por <choice><orig>abaxo</orig><reg>abajo</reg></choice><choice><orig></orig><reg>,</reg></choice> 
+                      <lb/><choice><orig>mas</orig><reg>más</reg></choice> la <choice><orig>conpana</orig><corr>campana</corr></choice> de la lima que el ancho del <choice><orig>camon</orig><reg>camón</reg></choice><choice><orig></orig><reg>;</reg></choice> aquello <choice><orig>mas</orig><reg>más</reg></choice> se par<lb break="no"/>te
+                      en tantos tamaños como son los plomos que sacan la lima<choice><orig> y</orig><reg>.</reg></choice> <choice><orig>comen<lb break="no"/>sando</orig><reg>Comenzando</reg></choice>
+                      por la parte que <choice><orig>açienta</orig><reg>asienta</reg></choice> en el estribo se le dan sobre <choice><orig>en</orig><corr>el</corr></choice> ancho del <choice><orig>ca<lb break="no"/>mon</orig><reg>camón</reg></choice> 
+                      todos aquellos tamaños <choice><orig>mas</orig><reg>más</reg></choice><choice><orig> si</orig><reg>. Si</reg></choice> son <choice><orig>seys</orig><reg>seis</reg></choice> los plomos<choice><orig></orig><reg>,</reg></choice> en el segundo plo<lb break="no"/>mo
+                      <choice><orig>senalado</orig><reg>señalado</reg></choice> <choice><orig>·s</orig><reg><hi rend="italic bold">s</hi></reg></choice> se <choice><orig>hechan</orig><reg>echan</reg></choice> <choice><orig>sinco</orig><reg>cinco</reg></choice> <choice><orig>tamanos</orig><reg>tamaños</reg></choice><choice><orig> y</orig><reg>,</reg></choice> en el plomo <choice><orig>·t</orig><reg><hi rend="italic bold">t</hi></reg></choice> se echan <choice><orig>quatro</orig><reg>cuatro</reg></choice><choice><orig></orig><reg>,</reg></choice>
+                      <lb/><choice><orig>y</orig><reg></reg></choice> en el <choice><orig>v</orig><reg><hi rend="italic bold">v</hi></reg></choice> tres<choice><orig> y</orig><reg>,</reg></choice> en el plomo <choice><orig>x</orig><reg><hi rend="italic bold">x</hi></reg></choice> se <choice><orig>hechan</orig><reg>echan</reg></choice> dos tamaños y en el plomo <choice><orig>y</orig><reg><hi rend="italic bold">y</hi></reg></choice>
+                      <lb/>se <choice><orig>hecha</orig><reg>echa</reg></choice> el <choice><orig>ultimo</orig><reg>último</reg></choice> tamaño<choice><orig> en el</orig><reg>. El</reg></choice> plomo <choice><orig>b·c</orig><reg><hi rend="italic bold">b,c</hi></reg></choice> es el ancho del <choice><orig>camon</orig><reg>camón</reg></choice> en es<lb break="no"/>ta
+                      forma<choice><orig></orig><reg>:</reg></choice> se saca en una tabla la plantilla o molde<choice><orig></orig><reg>,</reg></choice> con que se labran
+                      <lb/>las limas con este <choice><orig><abbr>mol</abbr></orig><reg><expan>molde</expan></reg></choice><choice><orig></orig><reg>,</reg></choice> y conforme a <choice><orig>el</orig><reg>él</reg></choice> se <choice><orig>ensanblan</orig><reg>ensamblan</reg></choice> las <choice><orig>piesas</orig><reg>piezas</reg></choice> <choice><orig>de</orig><reg></reg></choice> que se <choice><orig>an</orig><reg>han</reg></choice>
+                      <lb/>de <choice><orig>hazer</orig><reg>hacer</reg></choice> las limas<choice><orig> y se</orig><reg>. Se</reg></choice> <choice><orig>desalavean</orig><reg>desalabean</reg></choice> por la parte de las <choice><orig>canpanas</orig><reg>campanas</reg></choice> con que <choice><orig>ha<lb break="no"/>zen</orig><reg>hacen</reg></choice>
+                      <choice><orig>la</orig><corr>las</corr></choice> calles de <choice><orig></orig><reg>las</reg></choice> limas<choice><orig> y se</orig><reg>. Se</reg></choice> saca muy derecha con una regla y por la
+                      <lb/>parte de adentro <choice><orig></orig><reg>—</reg></choice>que es la <choice><orig>concaba</orig><reg>cóncava</reg></choice><choice><orig></orig><reg>—</reg></choice> se saca con esta <choice><orig>canpana</orig><reg>campana</reg></choice> <choice><orig>al</orig><reg>el</reg></choice> grueso de
+                      <lb/>los camones por la parte de arriba donde se juntan las <choice><orig>cabesas</orig><reg>cabezas</reg></choice>  de las
+                      <lb/>limas<choice><orig></orig><reg>,</reg></choice> <choice><orig>governandose</orig><reg>gobernándose</reg></choice> siempre con el molde y tabla de las <choice><orig>canpanas</orig><reg>campanas</reg></choice> se <choice><orig>sa<lb break="no"/>ca</orig><corr>sacan</corr></choice> 
+                      aquellas <choice><orig>cabesas</orig><reg>cabezas</reg></choice> a <choice><orig>esquadra</orig><reg>escuadra</reg></choice><choice><orig></orig><reg>,</reg></choice> con el ancho y grueso de los camones<choice><orig> la</orig><reg>. La</reg></choice>
+                      <lb/>forma <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> tienen abajo se <choice><orig>be</orig><reg>ve</reg></choice> en la planta <choice><orig><abbr>lla</abbr></orig><reg><expan>llana</expan></reg></choice> <choice><orig>B</orig><reg><hi rend="italic bold">B</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y con los plomos ya dichos 
+                      <lb/>se reparte la <choice><orig>desminuyçion</orig><reg>disminuición</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> tiene por el canto alto<choice><orig> y</orig><reg>. Y</reg></choice> puesta en obra <choice><orig><abbr>qda</abbr></orig><reg><expan>queda</expan></reg></choice> 
+                      <lb/>por la parte <choice><orig>concaba</orig><reg>cóncava</reg></choice> y convexa todo a regla<choice><orig>.</orig><reg>,</reg></choice> y la tabla en que cla<lb break="no"/>van la <choice><orig>pendola</orig><reg>péndola</reg></choice> toda al ancho de los camones.
+                  </p>
+
+                </div><!-- Fin de la entrada_23 -->
+              
+              <!-- Fin del folio 88v -->
+            
+            </div><!-- Fin de la subsección 3 -->
+        </div>    
+    </body>
+</text>
+</TEI>
