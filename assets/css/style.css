@@ -1,7 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
 /* Estilos generales */
 body,
 html {
-  font-family: 'Open sans', sans-serif;
+  font-family: "Moderustic", 'Open sans', sans-serif;
   margin: 0;
   height: 100%;  
   box-sizing: border-box; 
@@ -107,7 +110,7 @@ h6 {
 
 .enlace::before {
   content: '';
-  background-color: var(--grisclaro);
+  background-color: var(--secondary);
   opacity: 0.6;
   position: absolute;
   left: 0;
@@ -141,7 +144,7 @@ ol {
   padding: 20px;
   font-size: 16px;
   color: var(--blanco);
-  background-color: var(--color-boton);
+  background-color: var(--primary);
   border: 0px;
   border-radius: 20px;
   cursor: pointer;
@@ -150,12 +153,16 @@ ol {
 }
 
 .boton:hover {
-  border-color: var(--color-boton);
+  border-color: var(--primary);
   opacity: 0.8;
 }
 
 a.boton {
   text-decoration: none;
+}
+
+#toggleEdition {
+  font-family: "Moderustic", 'Open sans', sans-serif;
 }
 
 .centered-container {
@@ -173,7 +180,7 @@ a.boton {
   z-index: 1000;
   top: 0;
   right: 0;
-  background-color: var(--color-sidebar);
+  background-color: var(--primary);
   overflow-x: hidden;
   transition: 0.5s ease;
   transform: translateX(100%);  /* Oculta el sidebar moviéndolo hacia la derecha */
@@ -182,7 +189,7 @@ a.boton {
 
 .cita {
   margin-top: auto;  /* Esto empuja la cita hacia abajo, al final del espacio disponible */
-  color: var(--gris);
+  color: var(--blanco);
   padding: 10px 15px;
 }
 
@@ -204,13 +211,14 @@ a.boton {
   padding: 10px 15px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: var(--blanco);
   display: block;
   transition: 0.3s;
 }
 
 .sidebar a:hover {
   color: var(--blanco);
+  opacity: 0.7;
 }
 
 
@@ -223,16 +231,20 @@ a.boton {
   padding: 10px 15px;
   z-index: 1001;
   font-size: 30px;
+  color: var(--primary); /* Color del menú hamburguesa */
+  background-color: transparent; /* Fondo transparente por defecto */
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 /* Estilo para hover */
 .menu-bar:hover {
-  color: var(--grisclaro);
+  opacity: 0.6;
 }
 
 
 
 /* PORTADA*/
+
 #portada .col-9 {
   display: flex;
   flex-direction: column;
@@ -263,9 +275,9 @@ a.boton {
   bottom: 40px; 
   width: 500px;
   height: auto;
-  background: url('/assets/images/dibujoportada.png') no-repeat center center;
+  background: url('/assets/images/dibujoportada2.png') no-repeat center center;
   background-size: cover; 
-  opacity: 0.5;
+  opacity: 0.8;
   border-radius: 20px;
   z-index: -1;
 }
@@ -283,6 +295,11 @@ a.boton {
     padding: 20px;
   }
   
+}
+
+.benson-logo img {
+  display: block;
+  width: 40px;
 }
 
 
@@ -433,7 +450,7 @@ a.boton {
   position: absolute;
   width: 100%;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(90, 121, 185, 0.7);
   color: white;
   text-align: center;
   padding: 10px 0;
