@@ -224,6 +224,8 @@ a.boton {
 
 /* Estilo para el botón de menú hamburguesa */
 .menu-bar {
+  font-family: "Open Sans";
+  font-weight: bold;
   position: fixed;
   top: 0;
   right: 0;

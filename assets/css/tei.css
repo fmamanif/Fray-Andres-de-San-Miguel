@@ -18,6 +18,7 @@ tei-p, tei-item {
 
 tei-head {
   display: block;
+  text-align: justify;
   font-weight: 700;
   font-size: 1.5em;
   margin-top: 20px;
@@ -88,15 +89,18 @@ tei-item::before {
 }
 
 .close {
-  color: #aaa;
+  color: var(--gris);
+  font-family: 'Open Sans';
   float: right;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: -15px;
 }
 
 .close:hover,
 .close:focus {
-  color: #333;
+  color: var(--gris);
+  opacity: 0.6;
   text-decoration: none;
   cursor: pointer;
 }
@@ -189,19 +193,8 @@ tei-sic, tei-orig {
   display: inline; /* Muestra sic y orig, oculta corr y reg */
 }
 
-/* Subrayar en verde las palabras originales seguidas por un <reg> cuando se muestra la versión diplomática */
-.diplomatic tei-choice > tei-orig + tei-reg ~ tei-orig {
-  text-decoration: underline green;
-}
-
-/* Subrayar en rojo las palabras originales seguidas por un <corr> cuando se muestra la versión diplomática */
-.diplomatic tei-choice > tei-orig + tei-corr ~ tei-orig {
-  text-decoration: underline red;
-}
-
-/* No subrayar en la versión modernizada */
-.modernized tei-choice > tei-orig {
-  text-decoration: none;
+.diplomatic tei-ptr {
+  display: none;
 }
 
 
@@ -226,6 +219,7 @@ tei-pb {
 
 tei-pb:before {
 content: "[Folio " attr(n) "]";
+line-height: 3; 
 } 
 
 tei-hi[rend="italic bold"] {
