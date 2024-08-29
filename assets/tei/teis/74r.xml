@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+        <author>
+          <name type="full">Fray Andrés de San Miguel</name>
+          <name type="personal">
+            <forename>Andrés</forename> 
+            <surname>de Segura de la Alcuña</surname>
+          </name>
+          <idno type="wikidata">Q16942240</idno>
+          <idno type="bne">XX1182168</idno>
+          <idno type="viaf">1661877</idno>
+        </author>
+        <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+        <editor role="Technical_Editor">David Merino Recalde</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Francisco Mamani Fuentes</publisher>
+        <availability status="free">
+          <licence>CC BY-NC-SA</licence>
+				</availability>
+        <date>2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+              <repository>University of Texas Libraries</repository>
+              <collection>Benson Latin American Collection</collection>
+              <idno>31775792</idno>
+          </msIdentifier>
+          <msContents>
+              <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+              <textLang mainLang="es"/>
+              <msItem  n="72r-88v">
+                <title>Sección dedicada a la carpintería de armar</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+              <objectDesc>
+                  <supportDesc>
+                      <support>Papel</support>
+                      <extent>295 folios</extent>
+                  </supportDesc>
+              </objectDesc>
+          </physDesc>
+          <history>
+              <origin>
+                  <date>ca. 1630</date>
+                  <placeName>Ciudad de México</placeName>
+              </origin>
+          </history>
+        </msDesc>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>1969</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+          <editor>
+            <name type="personal">
+              <forename>Enrique</forename>
+              <surname>Nuere</surname>
+            </name>
+          </editor>
+					<publisher>Colegio de Arquitectos de Málaga</publisher>
+					<pubPlace>Málaga</pubPlace>
+          <date>1990</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>2007</date>
+				</bibl>
+      </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div type="seccion">
+            <div type="subsección" n="1" xml:id="subsección_1">
+              
+                <div type="entrada" n="6" xml:id="entrada_6"><!-- Continuación de la entrada_6 -->
+
+                <pb n="74r" facs="74r.jpg"/>
+
+                    <p>
+                        <lb/><choice><orig>estos</orig><reg>Estos</reg></choice> <choice><orig>aqui</orig><reg>aquí</reg></choice> <choice><orig>abaxo</orig><reg>abajo</reg></choice> trazados son <choice><orig>exemplos</orig><reg>ejemplos</reg></choice> de todas las boquillas<choice><orig></orig><reg>:</reg></choice> 
+                    </p>
+                    <list>
+                    <item>
+                        <choice><orig>la</orig><reg>La</reg></choice> pri<lb break="no"/>mera
+                        señalada con este <choice><orig>numero</orig><reg>número</reg></choice> <choice><orig>8</orig><reg><hi rend="italic bold">8</hi></reg></choice> es su <choice><orig>mesma</orig><reg>misma</reg></choice> boquilla<choice><orig></orig><reg>:</reg></choice> el trazo <choice><orig>a<lb break="no"/>b·</orig><reg><hi rend="italic bold">a,b</hi></reg></choice> es <choice><orig>cabeça</orig><reg>cabeza</reg></choice> de ocho y el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>a·c</orig><reg><hi rend="italic bold">a,c</hi></reg></choice> la cola del <choice><orig>quadrado</orig><reg>cuadrado</reg></choice>. 
+                    </item>
+
+                    <item>
+                        <lb/><choice><orig>el</orig><reg>El</reg></choice> <choice><orig>numero</orig><reg>número</reg></choice> <choice><orig>9</orig><reg><hi rend="italic bold">9</hi></reg></choice> es boquilla de <choice><orig>nueue</orig><reg>nueve</reg></choice><choice><orig></orig><reg>:</reg></choice> el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>·e·f</orig><reg><hi rend="italic bold">e,f</hi></reg></choice> es la <choice><orig>cabça</orig><corr>cabeza</corr></choice>
+                        <lb/>del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de nueve y el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>eg</orig><reg><hi rend="italic bold">e,g</hi></reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice>.
+                    </item>
+
+                    <item>
+                        <lb/><choice><orig>el</orig><reg>El</reg></choice> <choice><orig>numero</orig><reg>número</reg></choice> <choice><orig>10</orig><reg><hi rend="italic bold">10</hi></reg></choice> es su boquilla<choice><orig></orig><reg>:</reg></choice> el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>·h·i</orig><reg><hi rend="italic bold">h,i</hi></reg></choice> es <choice><orig>cabesa</orig><reg>cabeza</reg></choice> de <choice><orig>cartabon</orig><reg>cartabón</reg></choice>
+                        <lb/>de <choice><orig>çinco</orig><reg>cinco</reg></choice> y el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>·h·l</orig><reg><hi rend="italic bold">h,l</hi></reg></choice> la cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice>. 
+                    </item>
+
+                    <item>
+                        <lb/><choice><orig>el</orig><reg>El</reg></choice> <choice><orig>numero</orig><reg>número</reg></choice> <choice><orig>·12</orig><reg><hi rend="italic bold">12</hi></reg></choice> es su boquilla<choice><orig> y</orig><reg>:</reg></choice> el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>·m·n</orig><reg><hi rend="italic bold">m,n</hi></reg></choice> es cola del cartabón
+                        <lb/><choice><orig>quadrado</orig><reg>cuadrado</reg></choice> y el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>·m·o</orig><reg><hi rend="italic bold">m,o</hi></reg></choice> es la cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>seys</orig><reg>seis</reg></choice>.
+                    </item>
+
+                    <item>
+                        <lb/><choice><orig>el</orig><reg>El</reg></choice> <choice><orig>numero</orig><reg>número</reg></choice> <choice><orig>·16·</orig><reg><hi rend="italic bold">16</hi></reg></choice> es su boquilla<choice><orig> y</orig><reg>:</reg></choice> el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>·p·q</orig><reg><hi rend="italic bold">p,q</hi></reg></choice> es <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice>
+                        <lb/><choice><orig>quadrado</orig><reg>cuadrado</reg></choice> y el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>·p·r</orig><reg><hi rend="italic bold">p,r</hi></reg></choice> es la cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice>. 
+                    </item>
+
+                    <item>
+                        <lb/><choice><orig>el</orig><reg>El</reg></choice> <choice><orig>numero</orig><reg>número</reg></choice> <choice><orig>·20</orig><reg><hi rend="italic bold">20</hi></reg></choice> es su boquilla<choice><orig> y</orig><reg>:</reg></choice> el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>·s·t</orig><reg><hi rend="italic bold">s,t</hi></reg></choice> es <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> 
+                        <lb/>de diez y el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>·s·u</orig><reg><hi rend="italic bold">s,u</hi></reg></choice> es la cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice>.
+                    </item>
+                    </list>
+
+                    <figure xml:id="fig_74r_1" type="dibujo">
+                        <graphic url="/assets/images/dibujos/74r_1.png"/>
+                    </figure>
+
+                    <p>
+                    <lb/>Estos por su orden son los cartabones que cortan en todos los lazos de ocho, nueve, diez, <choice><orig>doze</orig><reg>doce</reg></choice>, <choice><orig>diez y seys</orig><reg>dieciséis</reg></choice> y <choice><orig>veynte</orig><reg>veinte</reg></choice>. 
+                    </p>
+
+                    <figure xml:id="fig_74r_2" type="dibujo">
+                        <graphic url="/assets/images/dibujos/74r_2.png"/>
+                    </figure>
+                    
+
+                </div><!-- Fin de la entrada_6 -->
+
+                <div type="entrada" n="7" xml:id="entrada_7">
+                    <head>De <choice><orig>como</orig><reg>cómo</reg></choice> sin abrir ni <choice><orig>serrar</orig><reg>cerrar</reg></choice> el <choice><orig>compas</orig><reg>compás</reg></choice> se sacan el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>quatro</orig><reg>cuatro</reg></choice> y medio y el que llaman <choice><orig>atimbron</orig><reg><hi rend="italic">atimbrón</hi></reg></choice></head>
+                    <p>
+                    <lb/><choice><orig>formada</orig><reg>Formada</reg></choice> con sus <choice><orig>lineas</orig><reg>líneas</reg></choice> la planta señalada <choice><orig>·A</orig><reg><hi rend="italic bold">A</hi></reg></choice><choice><orig> y</orig><reg>,</reg></choice>
+                    <lb/> se sacan en ella los cartabones <choice><orig>quadrado</orig><corr>cuadrados</corr></choice><choice><orig></orig><reg>,</reg></choice> el de <choice><orig>çinco</orig><reg>cinco</reg></choice> y el de diez<choice><orig></orig><reg>.</reg></choice>
+                    <lb/><choice><orig>y del</orig><reg>Del</reg></choice> <choice><orig>angulo</orig><reg>ángulo</reg></choice> <choice><orig>·o</orig><reg><hi rend="italic bold">o</hi></reg></choice> y del <choice><orig>angulo</orig><reg>ángulo</reg></choice> <choice><orig>·b</orig><reg><hi rend="italic bold">b</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> se señala el punto <choice><orig>·e</orig><reg><hi rend="italic bold">e</hi></reg></choice> y se ti<lb break="no"/>ra
+                    la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·c·e</orig><reg><hi rend="italic bold">c,e</hi></reg></choice><choice><orig> puesto</orig><reg>. Puesto</reg></choice> <choice><orig>el</orig><reg></reg></choice> un pie del <choice><orig>compas</orig><reg>compás</reg></choice> sobre la diago<lb break="no"/>nal
+                    <lb/>en el punto <choice><orig>·r</orig><reg><hi rend="italic bold">r</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> con el <choice><orig>otra</orig><corr>otro</corr></choice> pie se señala el punto <choice><orig>·h</orig><reg><hi rend="italic bold">h</hi></reg></choice><choice><orig> y puesto</orig><reg>. Puesto</reg></choice>
+                    <lb/><choice><orig>alli</orig><reg>allí</reg></choice> <choice><orig>el</orig><reg></reg></choice> un pie del <choice><orig>conpas</orig><reg>compás</reg></choice><choice><orig></orig><reg>,</reg></choice> con el otro se señala sobre la <choice><orig>çircun<lb break="no"/>ferençia</orig><reg>circunferencia</reg></choice>
+                    <lb/>el punto <choice><orig>·e</orig><reg><hi rend="italic bold">e</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y se tiran las <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>·b·e</orig><reg><hi rend="italic bold">b,e</hi></reg></choice> y <choice><orig>·a·e</orig><reg><hi rend="italic bold">a,e</hi></reg></choice> con <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> 
+                    <lb/>queda formado el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>quadro</orig><corr>cuatro</corr></choice> y medio. 
+                    </p>
+
+                    <p>
+                    <lb/><choice><orig>y</orig><reg></reg></choice> <choice><orig>para</orig><reg>Para</reg></choice> sacar el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>atimbron</orig><reg>atimbrón</reg></choice> se pone <choice><orig>el</orig><reg></reg></choice> un pie del <choice><orig>con<lb break="no"/>pas</orig><reg>compás</reg></choice>
+                    en el punto <choice><orig>·m</orig><reg><hi rend="italic bold">m</hi></reg></choice> <choice><orig></orig><reg>—</reg></choice><choice><orig>cabeça</orig><reg>cabeza</reg></choice> de diez<choice><orig></orig><reg>—</reg></choice> y con el otro se <choice><orig>senala</orig><reg>señala</reg></choice> so<lb break="no"/>bre
+                    su cola el punto <choice><orig>·l</orig><reg><hi rend="italic bold">l</hi></reg></choice><choice><orig> y</orig><reg>.</reg></choice> <choice><orig>fixo</orig><reg>Fijo</reg></choice> <choice><orig>alli</orig><reg>allí</reg></choice> el <choice><orig>conpas</orig><reg>compás</reg></choice><choice><orig></orig><reg>,</reg></choice> con el otro pie se se<lb break="no"/>ñala 
+                    el punto <choice><orig>·g</orig><reg><hi rend="italic bold">g</hi></reg></choice><choice><orig></orig><reg>;</reg></choice> y teniendo <choice><orig>aqui</orig><reg>aquí</reg></choice> <choice><orig>fixo</orig><reg>fijo</reg></choice> el <choice><orig>conpas</orig><reg>compás</reg></choice><choice><orig></orig><reg>,</reg></choice> con la otra
+                    <lb/>punta se <choice><orig>senala</orig><reg>señala</reg></choice> sobre la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice> el
+                    <lb/>punto <choice><orig>l</orig><reg><hi rend="italic bold">i</hi></reg></choice><choice><orig> y teniendo</orig><reg>. Teniendo</reg></choice> <choice><orig>aqui</orig><reg>aquí</reg></choice> <choice><orig>fixa</orig><reg>fija</reg></choice> la punta del <choice><orig>conpas</orig><reg>compás</reg></choice><choice><orig></orig><reg>,</reg></choice> con
+                    <lb/>la otra punta se señala sobre la <choice><orig>çircunferençia</orig><reg>circunferencia</reg></choice> el punto
+                    <lb/><choice><orig>·n</orig><reg><hi rend="italic bold">n</hi></reg></choice> y se tiran las <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>·a·n</orig><reg><hi rend="italic bold">a,n</hi></reg></choice> <choice><orig></orig><reg>y</reg></choice> <choice><orig>·n·b</orig><reg><hi rend="italic bold">n,b</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> con que queda formado el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>atimbron</orig><reg>atimbrón</reg></choice>. 
+                    </p>
+
+                    <figure xml:id="fig_74r_3" type="dibujo">
+                        <graphic url="/assets/images/dibujos/74r_3.png"/>
+                    </figure>
+
+                    <figure xml:id="fig_74r_4" type="dibujo">
+                        <graphic url="/assets/images/dibujos/74r_4.png"/>
+                    </figure>
+
+                </div><!-- Fin de la entrada_7 -->
+                <!--Fin del folio 74r -->
+            </div>
+        </div>    
+    </body>
+</text>
+</TEI>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+        <author>
+          <name type="full">Fray Andrés de San Miguel</name>
+          <name type="personal">
+            <forename>Andrés</forename> 
+            <surname>de Segura de la Alcuña</surname>
+          </name>
+          <idno type="wikidata">Q16942240</idno>
+          <idno type="bne">XX1182168</idno>
+          <idno type="viaf">1661877</idno>
+        </author>
+        <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+        <editor role="Technical_Editor">David Merino Recalde</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Francisco Mamani Fuentes</publisher>
+        <availability status="free">
+          <licence>CC BY-NC-SA</licence>
+				</availability>
+        <date>2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+              <repository>University of Texas Libraries</repository>
+              <collection>Benson Latin American Collection</collection>
+              <idno>31775792</idno>
+          </msIdentifier>
+          <msContents>
+              <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+              <textLang mainLang="es"/>
+              <msItem  n="72r-88v">
+                <title>Sección dedicada a la carpintería de armar</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+              <objectDesc>
+                  <supportDesc>
+                      <support>Papel</support>
+                      <extent>295 folios</extent>
+                  </supportDesc>
+              </objectDesc>
+          </physDesc>
+          <history>
+              <origin>
+                  <date>ca. 1630</date>
+                  <placeName>Ciudad de México</placeName>
+              </origin>
+          </history>
+        </msDesc>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>1969</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+          <editor>
+            <name type="personal">
+              <forename>Enrique</forename>
+              <surname>Nuere</surname>
+            </name>
+          </editor>
+					<publisher>Colegio de Arquitectos de Málaga</publisher>
+					<pubPlace>Málaga</pubPlace>
+          <date>1990</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>2007</date>
+				</bibl>
+      </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div type="seccion">
+            <div type="subsección" n="1" xml:id="subsección_1">
+
+                <div type="entrada" n="4" xml:id="entrada_4"><!-- Continuación de la entrada_4 -->
+                <pb n="73v" facs="73v.jpg"/>
+                    <p>
+                        <lb/><choice><orig>la</orig><reg>La</reg></choice> patilla de la lima la abre el albanecar por la tabla
+                        <lb/>que <choice><orig>esta</orig><reg>está</reg></choice> a <choice><orig>esquadra</orig><reg>escuadra</reg></choice> y por la del <choice><orig>canpaneo</orig><reg>campaneo</reg></choice> el coz de limas<choice><orig></orig><reg>,</reg></choice>
+                        <lb/>pero porque siempre sale con alguna <choice><orig>inperfecçion</orig><reg>imperfección</reg></choice> es <choice><orig>mas</orig><reg>más</reg></choice>
+                        <lb/><choice><orig>çierto</orig><reg>cierto</reg></choice> abrir estas patillas por rehendimiento<choice><orig> esto</orig><reg>. Esto</reg></choice> se <choice><orig>ha<lb break="no"/>ze</orig><reg>hace</reg></choice>
+                        <choice><orig>despues</orig><reg>después</reg></choice> de ajustada la lima en su lugar<choice><orig> </orig><reg>:</reg></choice> se le seña<lb break="no"/>la
+                        la patilla en el canto alto y <choice><orig>baxo</orig><reg>bajo</reg></choice> <choice><orig>derecha</orig><reg>derecho</reg></choice> con la de los
+                        <lb/>pares y <choice><orig>pendolas</orig><reg>péndolas</reg></choice><choice><orig></orig><reg>,</reg></choice> y en la <choice><orig>pendola</orig><reg>péndola</reg></choice> <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig>sercana</orig><reg>cercana</reg></choice> a la lima se
+                        <lb/><choice><orig>se</orig><corr></corr></choice> pasan de una a otra esquina por la tabla los <choice><orig>trasos</orig><reg>trazos</reg></choice> que
+                        <lb/>cortan la patilla<choice><orig> y pasados</orig><reg>. Pasados</reg></choice> con el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> por 
+                        <lb/>el canto <choice><orig>baxo</orig><reg>bajo</reg></choice> de la <choice><orig>pendola</orig><reg>péndola</reg></choice><choice><orig></orig><reg>,</reg></choice> por estos <choice><orig>trasos</orig><reg>trazos</reg></choice> de la una a la
+                        <lb/>otra <choice><orig>pendola</orig><reg>péndola</reg></choice> se tira una regla<choice><orig></orig><reg>,</reg></choice> y <choice><orig>sino</orig><reg>si no</reg></choice> <choice><orig>alcansa</orig><reg>alcanza</reg></choice> un cordel
+                        <lb/>que <choice><orig>alcanse</orig><reg>alcance</reg></choice> <choice><orig>dentranbas</orig><reg>a ambas</reg></choice> <choice><orig>lineas</orig><reg>líneas</reg></choice><choice><orig> y se</orig><reg>. Se</reg></choice> les <choice><orig>senala</orig><reg>señala</reg></choice> este <choice><orig>traso</orig><reg>trazo</reg></choice> en
+                        <lb/>el canto <choice><orig>baxo</orig><reg>bajo</reg></choice><choice><orig></orig><reg>,</reg></choice> que es el de la <choice><orig>canpana</orig><reg>campana</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig>dentranbas</orig><reg>a ambas</reg></choice> limas<choice><orig> este</orig><reg>. Este</reg></choice>
+                        <lb/>es el <choice><orig>traso</orig><reg>trazo</reg></choice> que abre la barbilla y en el canto alto de la lima se
+                        <lb/><choice><orig>señalla</orig><corr>señala</corr></choice> el <choice><orig>traso</orig><reg>trazo</reg></choice> que de la patilla <choice><orig>salio</orig><reg>salió</reg></choice> al canto alto de la
+                        <lb/><choice><orig>pendola</orig><reg>péndola</reg></choice><choice><orig> con</orig><reg>. Con</reg></choice> esto quedan en la lima <choice><orig>senalados</orig><reg>señalados</reg></choice> <choice><orig>quatro</orig><reg>cuatro</reg></choice>
+                        <lb/><choice><orig>trasos</orig><reg>trazos</reg></choice><choice><orig></orig><reg>:</reg></choice> dos en el canto <choice><orig>baxo</orig><reg>bajo</reg></choice> de la campana y dos en el can<lb break="no"/>to
+                        alto<choice><orig> estos</orig><reg>. Estos</reg></choice> <choice><orig>quatro</orig><reg>cuatro</reg></choice> <choice><orig>trasos</orig><reg>trazos</reg></choice> se tiran encontrados por <choice><orig><abbr>la</abbr></orig><reg><expan>las</expan></reg></choice> ta<lb break="no"/>blas
+                        de esquina a esquina<choice><orig></orig><reg>,</reg></choice> y donde se cortan uno a otro en 
+                        <lb/>las <choice><orig>mismas</orig><reg>mismás</reg></choice> tablas <choice><orig>abien</orig><corr>abren</corr></choice> la patilla<choice><orig> este</orig><reg>. Este</reg></choice> es el modo <choice><orig>mas</orig><reg>más</reg></choice> per<lb break="no"/>fecto
+                        <choice><orig>que</orig><corr></corr></choice> para abrir <choice><orig>quales quiera</orig><reg>cualquiera de las</reg></choice> patillas de limas <choice><orig></orig><corr>que</corr></choice> se <choice><orig>pueda</orig><corr>puedan</corr></choice> dar.
+                    </p>
+                </div><!-- Fin de la entrada_4 -->
+
+                <div type="entrada" n="5" xml:id="entrada_5">
+                  <head>De otras reglas y de algunas medidas <choice><orig>de</orig><reg>del</reg></choice> lazo de ocho</head>
+                  <p>
+                      <lb/><choice><orig>quando</orig><reg>Cuando</reg></choice> <choice><orig>el</orig><reg>la</reg></choice> armadura es de lazo se <choice><orig>a</orig><corr>han</corr></choice> de usar <choice><orig>de</orig><reg></reg></choice> dos o tres
+                      <lb/>reglas<choice><orig> y</orig><reg>, que</reg></choice> <choice><orig>aqui</orig><reg>aquí</reg></choice> llamaremos cuerdas<choice><orig></orig><reg>,</reg></choice> del largo de una <choice><orig>bara</orig><reg>vara</reg></choice> o poco
+                      <lb/><choice><orig>mas</orig><reg>más</reg></choice><choice><orig></orig><reg>,</reg></choice> y su ancho ajustado con el <choice><orig>gruesso</orig><reg>grueso</reg></choice> <choice><orig>del</orig><reg>de la</reg></choice> alfarda y el <choice><orig>gru<lb break="no"/>esso</orig><reg>grueso</reg></choice> 
+                      el del <choice><orig>taugel</orig><reg>taujel</reg></choice><choice><orig></orig><reg>,</reg></choice> que son las <choice><orig>çintas</orig><reg>cintas</reg></choice> con que se guarnece<choice><orig> en</orig><reg>. En</reg></choice>
+                      <lb/>estas reglas se ponen todas las medidas <choice><orig>de el</orig><reg>del</reg></choice> lazo para <choice><orig>usar 
+                      <lb/>de ellas</orig><reg>usarlas</reg></choice> en la <choice><orig>trasa</orig><reg>traza</reg></choice> de las alfardas<choice><orig>, para</orig><reg>. Para</reg></choice> esto se pone en estas re<lb break="no"/>glas
+                      el ancho de la calle y el de la taravea <choice><orig>quado</orig><corr>cuando</corr></choice> es lazo de di<lb break="no"/>ez,
+                      el largo de la <choice><orig>haliba</orig><reg>háliba</reg></choice> y el <choice><orig>de el</orig><reg>del</reg></choice> costadillo, y el largo de
+                      <lb/>la boquilla, medida de sino y medida de <ptr target="#candilejo" n="?"/><choice><orig></orig><reg>;</reg></choice> y las que
+                      <lb/><choice><orig>mas</orig><reg>más</reg></choice> <choice><orig>ubiere</orig><reg>hubiere</reg></choice>. 
+                  </p>
+
+                  <p>
+                      <lb/><choice><orig>calle</orig><reg>Calle</reg></choice> en lazo de ocho <choice><orig></orig><reg>—</reg></choice><choice><orig>quando</orig><reg>cuando</reg></choice> se <choice><orig>dize</orig><reg>dice</reg></choice> a <choice><orig></orig><reg><hi rend="italic">calle y cuerda</hi></reg></choice> y en
+                      <lb/>cualquiera otra lazo<choice><orig></orig><reg>—</reg></choice> es el ancho de dos cuerdas. <choice><orig>el</orig><reg>El</reg></choice> largo de la 
+                      <lb/><choice><orig>uoquilla</orig><reg>boquilla</reg></choice> de ocho se señala echando en esta cuerda la cola del
+                      <lb/><choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig></orig><reg>,</reg></choice> y <choice><orig>arimando</orig><reg>arrimando</reg></choice> en la esquina <choice><orig>deste</orig><reg>de este</reg></choice> <choice><orig>traso</orig><reg>trazo</reg></choice> la
+                      <lb/><choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de ocho<choice><orig> lo</orig><reg>. Lo</reg></choice> que se <choice><orig>desuian</orig><reg>desvían</reg></choice> estos dos <choice><orig>trasos</orig><reg>trazos</reg></choice>
+                      <lb/>en la otra esquina es el largo de la boquilla de ocho<choice><orig> y</orig><reg>,</reg></choice> la abre
+                      <lb/>en <choice><orig>el</orig><reg>la</reg></choice> alfarda con la cuerda de <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice>
+                      <lb/>y la cola del mismo <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> ata los perfiles<choice><orig>, en estando</orig><reg>. Estando</reg></choice> seña<lb break="no"/>lada
+                      la boquilla en este lazo se abre con <choice><orig>façilidad</orig><reg>facilidad</reg></choice> el sino<choice><orig></orig><reg>.</reg></choice> <choice><orig>se</orig><corr>Su</corr></choice> medi<lb break="no"/>da
+                      <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig>çierta</orig><reg>cierta</reg></choice> es esta<choice><orig></orig><reg>:</reg></choice> <choice><orig>en</orig><reg></reg></choice> <choice><orig>senalando</orig><reg>señalando</reg></choice> la boquilla se arrima <choice><orig>del</orig><reg> la</reg></choice>
+                      <lb/>alfarda a la parte <choice><orig>mas</orig><reg>más</reg></choice> estrecha del corte la cuerda y se <choice><orig>conti<lb break="no"/>nua</orig><reg>continúa</reg></choice>
+                      sobre ella el <choice><orig>traso</orig><reg>trazo</reg></choice> con la misma <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de ocho
+                      <lb/>que corta la boquilla hasta la esquina <choice><orig>ultima</orig><reg>última</reg></choice> de la cuerda<choice><orig> y</orig><reg>.</reg></choice> <choice><orig>alli</orig><reg>Allí</reg></choice>
+                      <lb/>en la esquina donde fenece este <choice><orig>traso</orig><reg>trazo</reg></choice> se asienta la misma <choice><orig>cabesa</orig><reg>cabeza</reg></choice>
+                      <lb/>del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de ocho y se echa otro <choice><orig>traso</orig><reg>trazo</reg></choice> contrario al primero<choice><orig></orig><reg>,</reg></choice>
+                      <lb/>y lo que se <choice><orig>desuian</orig><reg>desvía</reg></choice> en la esquina contraria<choice><orig></orig><reg>,</reg></choice> <choice><orig>el</orig><reg></reg></choice> un <choice><orig>traso</orig><reg>trazo</reg></choice> del o<lb break="no"/>tro 
+                      <lb/>es puntualmente la medida del sino de ocho por lo <choice><orig>mas</orig><reg>más</reg></choice> ancho<choice><orig></orig><reg>.</reg></choice>
+                      <lb/><choice><orig>este</orig><reg>Este</reg></choice> camino es el <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig>çierto</orig><reg>cierto</reg></choice> para hallar la puntual medida de
+                      <lb/>todos los sinos<choice><orig></orig><reg>,</reg></choice> porque todos sus cortes naturalmente se <choice><orig>ban</orig><reg>van</reg></choice> a cor<lb break="no"/>tar
+                      en el centro del sino<choice><orig> y</orig><reg>. </reg></choice> <choice><orig>assi</orig><reg>Así</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig>hechando</orig><reg>echando</reg></choice> <choice><orig>donde</orig><corr>en</corr></choice> este centro dos
+                      <lb/><choice><orig>trasos</orig><reg>trazos</reg></choice> cada uno a su mano de la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> o cola de <choice><orig>cartabon</orig><reg>cartabón</reg></choice> que abre
+                      <lb/>el sino<choice><orig></orig><reg>,</reg></choice> lo que estos dos <choice><orig>trasos</orig><reg>trazos</reg></choice> se <choice><orig>desuian</orig><reg>desvían</reg></choice> <choice><orig></orig><reg>—</reg></choice>el <choice><orig>una</orig><corr>uno</corr></choice> del otro al fin
+                      <lb/> del ancho de toda la calle<choice><orig></orig><reg>—</reg></choice> <choice><orig>que</orig><reg></reg></choice> es dos cuerdas<choice><orig></orig><reg>, que</reg></choice> es lo que se abre el
+                      <lb/>sino por la parte <choice><orig>mas</orig><reg>más</reg></choice> ancha.
+                  </p>
+
+                  <p>
+                      <lb/><choice><orig>el</orig><reg>El</reg></choice> largo de la <choice><orig>haliba</orig><reg>háliba</reg></choice> de ocho es lo que tiende la cola del
+                      <lb/><choice><orig>quadrado</orig><reg>cuadrado</reg></choice> por el canto del par<choice><orig>, y el</orig><reg>. El</reg></choice> largo del costadillo<choice><orig></orig><reg>,</reg></choice> lo
+                      <lb/>que <choice><orig><abbr>ende</abbr></orig><reg><expan>tiende</expan></reg></choice> la <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de ocho por el canto del par
+                      <lb/><choice><orig>mas</orig><reg>más</reg></choice> la medidas del candilejo<ptr target="#candilejo" n="?"/> o aspilla<choice><orig> porque</orig><reg>. Porque</reg></choice> mejor se en<lb break="no"/>tienda
+                      se pone este <choice><orig>exemplo</orig><reg>ejemplo</reg></choice><choice><orig></orig><reg>,</reg></choice> que puede <choice><orig>seruir</orig><reg>servir</reg></choice> para sacar es<lb break="no"/>ta
+                      medida en todos los lazos<choice><orig> y es</orig><reg>. Es</reg></choice> el siguiente<choice><orig>.</orig><reg>:</reg></choice> 
+                  </p>
+
+                  <figure xml:id="fig_73v_1" type="dibujo">
+                      <graphic url="/assets/images/dibujos/73v_1.png"/>
+                  </figure>
+
+                  <p>
+                      <lb/><choice><orig>en</orig><reg>En</reg></choice> este <choice><orig>exemplo</orig><reg>ejemplo</reg></choice> se declaran las medidas <choice><orig>mas</orig><reg>más</reg></choice> dificultosas
+                      <lb/><choice><orig>de el</orig><reg>del</reg></choice> lazo<choice><orig></orig><reg>.</reg></choice> <choice><orig>aqui</orig><reg>Aquí</reg></choice> se muestra un <choice><orig>pedaço</orig><reg>pedazo</reg></choice> de alfarda trazada de
+                      <lb/>lazo de ocho<choice><orig> y</orig><reg>,</reg></choice> para abrir en ella el sino con acierto y sin ro<lb break="no"/>deos 
+                      se le arrima una cuerda<choice><orig> y sobre</orig><reg>. Sobre</reg></choice> ella se tiran con la <choice><orig>ca<lb break="no"/>besa</orig><reg>cabeza</reg></choice> 
+                      del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de ocho <choice><orig></orig><reg>—</reg></choice>que es la que abre su sino<choice><orig></orig><reg>—</reg></choice> las dos
+                      <lb/><choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>·a·b·</orig><reg><hi rend="italic bold">a,b</hi></reg></choice> y <choice><orig>·a·c·</orig><reg><hi rend="italic bold">a,c</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y es el <choice><orig>exemplo</orig><reg>ejemplo</reg></choice> de lo que ya se <choice><orig>a</orig><reg>ha</reg></choice> dicho<choice><orig> por</orig><reg>. Por</reg></choice>
+                      <lb/>el mismo orden despiden todos los sinos los cartabones que los
+                      <lb/>abren<choice><orig>,</orig><reg>.</reg></choice> <choice><orig>arimado</orig><reg>Arrimado</reg></choice> al sino se <choice><orig>bee</orig><corr>ve</corr></choice> su boquilla <choice><orig></orig><reg>—</reg></choice>ya se <choice><orig>a</orig><reg>ha</reg></choice> dicho su
+                      <lb/>medida<choice><orig></orig><reg>—</reg></choice> y la abre la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> en la cu<lb break="no"/>erda
+                      que se le <choice><orig>arima</orig><reg>arrima</reg></choice> y la rehiende la cola del <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig></orig><reg>,</reg></choice> que
+                      <lb/>es su ataperfiles<choice><orig>,</orig><reg>.</reg></choice> <choice><orig>desta</orig><reg>De esta</reg></choice> cola del <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> <choice><orig></orig><reg>—</reg></choice>que es la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·cd·</orig><reg><hi rend="italic bold">c,d</hi></reg></choice><choice><orig></orig><reg>—</reg></choice>
+                      <lb/>se le <choice><orig>arima</orig><reg>arrima</reg></choice> la cuerda<choice><orig></orig><reg>,</reg></choice> y con ella se tira el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>·ef·</orig><reg><hi rend="italic bold">e,f</hi></reg></choice> que despi<lb break="no"/>de
+                      por una parte<choice><orig></orig><reg>,</reg></choice> como se <choice><orig>uee</orig><corr>ve</corr></choice> la <choice><orig>haliba</orig><reg>háliba</reg></choice><choice><orig></orig><reg>,</reg></choice> y por la otra el almen<lb break="no"/>drilla<choice><orig>,</orig><reg>.</reg></choice>
+                      <choice><orig>a</orig><reg>A</reg></choice> este <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>·e·f·</orig><reg><hi rend="italic bold">e,f</hi></reg></choice> se vuelve a <choice><orig>arimar</orig><reg>arrimar</reg></choice> la cuerda y se tira
+                      <lb/>el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>·g·</orig><reg><hi rend="italic bold">g</hi></reg></choice><choice><orig> y</orig><reg>,</reg></choice> el <choice><orig>trase</orig><corr>trazo</corr></choice> <choice><orig>·e·g</orig><reg><hi rend="italic bold">e,g</hi></reg></choice> se tira con la cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de
+                      <lb/> ocho y el <choice><orig>traso</orig><reg>trazo</reg></choice> <choice><orig>·f·8</orig><reg><hi rend="italic bold">f,8</hi></reg></choice> se tira con la cabeza de ocho<choice><orig></orig><reg>.</reg></choice> <choice><orig>deste</orig><reg>De este</reg></choice> <choice><orig>traso</orig><reg>trazo</reg></choice>
+                      <lb/> se le <choice><orig>arima</orig><reg>arrima</reg></choice> la cuerda y se señala el <choice><orig>traso</orig><reg>trazo</reg></choice> apuntado <choice><orig>·h·i</orig><reg><hi rend="italic bold">h,i</hi></reg></choice><choice><orig> este</orig><reg>. Este</reg></choice>
+                      <lb/>despide<choice><orig></orig><reg>,</reg></choice> como se <choice><orig>uee</orig><corr>ve</corr></choice><choice><orig></orig><reg>,</reg></choice> el largo del costadillo y la medida del <choice><orig><abbr>ca<lb break="no"/>dilejo</abbr></orig><reg><expan>candilejo</expan></reg></choice><ptr target="#candilejo" n="?"/><choice><orig></orig><reg>,</reg></choice>
+                      porque tomando con un <choice><orig>conpas</orig><reg>compás</reg></choice> en este <choice><orig>traso</orig><reg>trazo</reg></choice> apuntado
+                      <lb/><choice><orig>·h·i</orig><reg><hi rend="italic bold">h,i</hi></reg></choice> <choice><orig>dende</orig><reg>desde</reg></choice> la esquina <choice><orig>del</orig><reg>de la</reg></choice> alfarda hasta donde corta el <choice><orig>tra<lb break="no"/>so</orig><reg>trazo</reg></choice>
+                      <lb/><choice><orig>·e·g</orig><reg><hi rend="italic bold">e,g</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> es puntualmente la mitad del candilejo<ptr target="#candilejo" n="?"/> por lo <choice><orig>mas</orig><reg>más</reg></choice>
+                      <lb/>alto<choice><orig>, y esta</orig><reg>. Esta</reg></choice> <choice><orig>es mis</orig><corr>misma</corr></choice> regla se <choice><orig>a</orig><reg>ha</reg></choice> de guardar con sus propios carta<lb break="no"/>bones 
+                      en los candilejos<ptr target="#candilejo" n="?"/> de nueve y de diez<choice><orig></orig><reg>,</reg></choice> que los <choice><orig>demas</orig><reg>demás</reg></choice> <choice><orig>la<lb break="no"/>sos</orig><reg>lazos</reg></choice>
+                      no los tienen<choice><orig> y</orig><reg>,</reg></choice> <choice><orig>aun que</orig><reg>aunque</reg></choice> que en otras partes ponga otras medi<lb break="no"/>das 
+                      de sinos y de candilejos<ptr target="#candilejo" n="?"/><choice><orig> estas</orig><reg>. Estas</reg></choice> son las <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig>çiertas</orig><reg>ciertas</reg></choice> <choice><orig>por</orig><reg>para</reg></choice> des<lb break="no"/>pedirlas<choice><orig></orig><reg>,</reg></choice> 
+                      <choice><orig>assi</orig><reg>así</reg></choice> el mismo lazo sin <choice><orig>artifiçio</orig><reg>artificio</reg></choice>. 
+                  </p>
+
+                </div><!-- Fin de la entrada_5 -->
+
+                <div type="entrada" n="6" xml:id="entrada_6">
+                  <head>De las medidas de las <choice><orig>demas</orig><reg>demás</reg></choice> boquillas</head>
+                  <p>
+                      <lb/>La cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> y la <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del de nueve<choice><orig> y</orig><reg></reg></choice> echa<lb break="no"/>dos 
+                      juntamente en una esquina por el grueso <choice><orig>del</orig><reg>de la</reg></choice> alfarda <choice><orig></orig><reg>—</reg></choice>lo que 
+                      <lb/><choice><orig>desuia</orig><reg>desvía</reg></choice> un <choice><orig>traso</orig><reg>trazo</reg></choice> de otro en la otra esquina<choice><orig></orig><reg>—</reg></choice> es el largo <choice><orig>y </orig><reg></reg></choice>de la boqui<lb break="no"/>lla
+                      del sino de nueve<choice><orig>, la</orig><reg>. La</reg></choice> <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>seys</orig><reg>seis</reg></choice> corta la
+                      <lb/>boquilla del sino de nueve<choice><orig> y</orig><reg>,</reg></choice> la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> negri<lb break="no"/>llo
+                      corta el candilejo<ptr target="#candilejo" n="?"/><choice><orig> y</orig><reg>, la</reg></choice> cola de <choice><orig>quatra</orig><corr>cuatro</corr></choice> y medio <choice><orig>enpalma</orig><reg>empalma</reg></choice> las as<lb break="no"/>pillas<choice><orig> y</orig><reg>, y la</reg></choice> <choice><orig>cauesa</orig><reg>cabeza</reg></choice> de <choice><orig>diez y ocho</orig><reg>dieciocho</reg></choice> <choice><orig>enpalma</orig><reg>empalma</reg></choice> la <choice><orig>haliba</orig><reg>háliba</reg></choice>. 
+                  </p>
+
+                  <p>
+                      <lb/>La cola y la <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice> tiradas sobre la
+                      <lb/><choice><orig>una</orig><reg></reg></choice> esquina <choice><orig>del</orig><reg>de la</reg></choice> alfarda o de la cuerda <choice><orig></orig><reg>—</reg></choice>lo que se <choice><orig>desuian</orig><reg>desvían</reg></choice> los dos
+                      <lb/>trazos en la otra esquina<choice><orig></orig><reg>—</reg></choice> es el largo de la boquilla de diez<choice><orig>, el</orig><reg>. El</reg></choice>
+                      <lb/>sino de diez y el candilejo<ptr target="#candilejo" n="?"/> los abre la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> de <choice><orig>çinco</orig><reg>cinco</reg></choice><choice><orig></orig><reg>,</reg></choice> y <choice><orig>a</orig><reg>con</reg></choice>
+                      <lb/>el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de diez y el de <choice><orig>çinco</orig><reg>cinco</reg></choice> se abren todos los cortes <choice><orig>de el</orig><reg>del</reg></choice> la<lb break="no"/>zo
+                      de diez. 
+                  </p>
+
+                  <p>
+                      <lb/>La cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> y la cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>seys</orig><reg>seis</reg></choice><choice><orig></orig><reg>,</reg></choice>
+                      <lb/><choice><orig>hechadas</orig><reg>echadas</reg></choice> por el <choice><orig>gruesso</orig><reg>grueso</reg></choice> <choice><orig>del</orig><reg>de la</reg></choice> alfarda<choice><orig></orig><reg>,</reg></choice> es el largo de la boquilla
+                      <lb/>del lazo de <choice><orig>doze</orig><reg>doce</reg></choice><choice><orig> y la</orig><reg>. La</reg></choice> cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> abre su sino 
+                      <lb/><choice><orig></orig><reg>y </reg></choice>su aspilla es la del lazo de nueve<choice><orig> la</orig><reg>. La</reg></choice> <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de
+                      <lb/><choice><orig>seys</orig><reg>seis</reg></choice> <choice><orig>enpalma</orig><reg>empalma</reg></choice> la <choice><orig>haliba</orig><reg>háliba</reg></choice> y la <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> negrillo
+                      <lb/> abre la boquilla como tambien el candilejo<ptr target="#candilejo" n="?"/><choice><orig>, el</orig><reg>. El</reg></choice> largo del <choice><orig>costa<lb break="no"/>dello</orig><corr>costadillo</corr></choice>
+                      de <choice><orig>doze</orig><reg>doce</reg></choice> es tanto como el largo de su <choice><orig>haliba</orig><reg>háliba</reg></choice>. 
+                  </p>
+                  <p>
+                      <lb/><choice><orig>el</orig><reg>El</reg></choice> largo de la boquilla del lazo de <choice><orig>diez y seys</orig><reg>dieciséis</reg></choice> es todo el <choice><orig>gruesso</orig><reg>grueso</reg></choice>
+                      <lb/><choice><orig>del</orig><reg>de la</reg></choice> alfarda<choice><orig>, la</orig><reg>. La</reg></choice> cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> blanquillo abre el sino<choice><orig></orig><reg>,</reg></choice> la
+                      <lb/>cola del <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> <choice><orig>enpalma</orig><reg>empalma</reg></choice> la <choice><orig>haliba</orig><reg>hábila</reg></choice><choice><orig></orig><reg>,</reg></choice> el largo del costadillo
+                      <lb/>de <choice><orig>diez y seys</orig><reg>dieciséis</reg></choice> la despide <choice><orig>elazo</orig><reg>el lazo</reg></choice> de ocho<choice><orig></orig><reg>;</reg></choice> y es todo lo que <choice><orig>ay</orig><reg>hay</reg></choice> de la <choice><orig>ca<lb break="no"/>besa</orig><reg>cabeza</reg></choice> <choice><orig>del</orig><reg>de la</reg></choice> almendrilla hasta la punta de la <choice><orig>habila</orig><reg>háliba</reg></choice> en <choice><orig>el</orig><reg>la</reg></choice> <choice><orig>afarde</orig><reg>alfarda</reg></choice>.
+                  </p>
+
+
+                  <p>
+                      <lb/><choice><orig>el</orig><reg>El</reg></choice> largo de la boquilla de <choice><orig>veynte</orig><reg>veinte</reg></choice> es cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de <choice><orig>çin<lb break="no"/>co</orig><reg>cinco</reg></choice>
+                      y la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de diez<choice><orig></orig><reg>,</reg></choice> <choice><orig>hechadas</orig><reg>echadas</reg></choice> por el <choice><orig>gruesso</orig><reg>grueso</reg></choice> <choice><orig>del</orig><reg>de la</reg></choice> al<lb break="no"/>farda<choice><orig></orig><reg>.</reg></choice>
+                      <choice><orig>el</orig><reg>El</reg></choice> <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> abre su sino sale por la <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del de <choice><orig>çinco</orig><reg>cinco</reg></choice><choice><orig></orig><reg>,</reg></choice> el lar<lb break="no"/>go
+                      de su costadillo lo despide el lazo de diez y sale por el orden que el <choice><orig>diez <lb/>y seys</orig><reg>dieciséis</reg></choice>.
+                  </p>
+              
+                </div> <!-- La entrada_6 continúa en el siguiente folio -->
+        
+            </div>    
+        </div>
+    </body>
+</text>
+</TEI>

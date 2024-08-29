@@ -1,24 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Sección de carpintería del manuscrito de Fray Andrés de San Miguel</title>
-        <author>Fray Andrés de San Miguel</author>
-      </titleStmt>
-      <publicationStmt>
-        <publisher>Francisco Mamani Fuentes</publisher>
-        <date>2024</date>
-      </publicationStmt>
-      <sourceDesc>
-        <p>Datos de la fuente para la edicion Benson</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-
-  <text>
-
+<teiHeader>
+        <fileDesc>
+          <titleStmt>
+            <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+            <author>
+              <name type="full">Fray Andrés de San Miguel</name>
+              <name type="personal">
+                <forename>Andrés</forename> 
+                <surname>de Segura de la Alcuña</surname>
+              </name>
+              <idno type="wikidata">Q16942240</idno>
+              <idno type="bne">XX1182168</idno>
+              <idno type="viaf">1661877</idno>
+            </author>
+            <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+            <editor role="Technical_Editor">David Merino Recalde</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Francisco Mamani Fuentes</publisher>
+            <availability status="free">
+              <licence>CC BY-NC-SA</licence>
+                    </availability>
+            <date>2024</date>
+          </publicationStmt>
+          <sourceDesc>
+            <msDesc>
+              <msIdentifier>
+                  <repository>University of Texas Libraries</repository>
+                  <collection>Benson Latin American Collection</collection>
+                  <idno>31775792</idno>
+              </msIdentifier>
+              <msContents>
+                  <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+                  <textLang mainLang="es"/>
+                  <msItem  n="72r-88v">
+                    <title>Sección dedicada a la carpintería de armar</title>
+                </msItem>
+              </msContents>
+              <physDesc>
+                  <objectDesc>
+                      <supportDesc>
+                          <support>Papel</support>
+                          <extent>295 folios</extent>
+                      </supportDesc>
+                  </objectDesc>
+              </physDesc>
+              <history>
+                  <origin>
+                      <date>ca. 1630</date>
+                      <placeName>Ciudad de México</placeName>
+                  </origin>
+              </history>
+            </msDesc>
+            <bibl type="print-source">
+              <title>
+                <title>Obras de fray Andrés de San Miguel</title>
+                <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+              </title>
+              <editor>
+                <name type="personal">
+                  <forename>Eduardo</forename>
+                  <surname>Báez Macías</surname>
+                </name>
+              </editor>
+                        <publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+                        <pubPlace>México, D. F.</pubPlace>
+              <date>1969</date>
+                    </bibl>
+            <bibl type="print-source">
+              <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+              <editor>
+                <name type="personal">
+                  <forename>Enrique</forename>
+                  <surname>Nuere</surname>
+                </name>
+              </editor>
+                        <publisher>Colegio de Arquitectos de Málaga</publisher>
+                        <pubPlace>Málaga</pubPlace>
+              <date>1990</date>
+                    </bibl>
+            <bibl type="print-source">
+              <title>
+                <title>Obras de fray Andrés de San Miguel</title>
+                <title>Introducción, notas y versión paleográfica</title>
+              </title>
+              <editor>
+                <name type="personal">
+                  <forename>Eduardo</forename>
+                  <surname>Báez Macías</surname>
+                </name>
+              </editor>
+                        <publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+                        <pubPlace>México, D. F.</pubPlace>
+              <date>2007</date>
+                    </bibl>
+          </sourceDesc>
+        </fileDesc>
+</teiHeader>
+    
+<text>
     <body>
         <div type="sección">
 
@@ -398,7 +480,8 @@
                         <choice><orig>el</orig><reg>El</reg></choice> <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> abre su sino sale por la <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del de <choice><orig>çinco</orig><reg>cinco</reg></choice><choice><orig></orig><reg>,</reg></choice> el lar<lb break="no"/>go
                         de su costadillo lo despide el lazo de diez y sale por el orden que el <choice><orig>diez <lb/>y seys</orig><reg>dieciséis</reg></choice>.
                     </p>
-            
+                    
+                    <!-- Fin del folio 73v -->
                     <pb n="74r" facs="74r.jpg"/>
 
                     <p>
@@ -484,6 +567,7 @@
                     </figure>
 
                 </div><!-- Fin de la entrada_7 -->
+                <!--Fin del folio 74r -->
 
 
                 <div type="entrada" n="8" xml:id="entrada_8">                
@@ -530,12 +614,14 @@
                         <lb/><choice><orig>obro</orig><reg>obró</reg></choice><choice><orig> y</orig><reg>. Esto</reg></choice> es lo que se <choice><orig>deue</orig><reg>debe</reg></choice> seguir en toda suerte de lazos.
                     </p>
                 </div><!-- Fin de la entrada_8 -->
+                <!-- Fin del folio 74v -->
 
                 <pb n="75r" facs="75r.jpg"/>
 
                 <figure xml:id="fig_75r_1" type="dibujo">
                     <graphic url="/assets/images/dibujos/75r_1.png"/>
                 </figure>
+                <!-- Fin del folio 75r -->
 
                 <div type="entrada" n="9" xml:id="entrada_9">
                     <pb n="75v" facs="75v.jpg"/>
@@ -698,6 +784,7 @@
                         <lb/>se forme un <choice><orig>semiçirculo</orig><reg>semicírculo</reg></choice> con sus dos <choice><orig>lineas</orig><reg>líneas</reg></choice> perpendicular y lla<lb break="no"/>na<choice><orig></orig><reg>,</reg></choice>
                         como se hizo para los cartabones.
                     </p>
+                    <!-- Fin del folio 75v -->
 
                     <pb n="76r" facs="76r.jpg"/>
 
@@ -813,6 +900,7 @@
                         <lb/> <choice><orig></orig><corr>se</corr></choice> tira <choice><orig>·b·s</orig><reg><hi rend="italic bold">b,s</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> con que queda formado el coz de limas de <choice><orig>cabeça</orig><reg>cabeza</reg></choice> <choice><orig>·a·b·s</orig><reg><hi rend="italic bold">a,b,s</hi></reg></choice><choice><orig> y</orig><reg>. Y</reg></choice> se<lb break="no"/>mejantemente
                         se sacan los <choice><orig>demas</orig><reg>demás</reg></choice>.
                     </p>
+                    <!-- Fin del folio 76r -->
 
                     <pb n="76v" facs="76v.jpg"/>
 
@@ -900,6 +988,7 @@
                         es la que forma la cola del albanecar y en que se
                         <lb/>asienta <choice><orig>el</orig><reg>la</reg></choice> alpartilla o <choice><orig>trazilla</orig><reg>tracilla</reg></choice>. 
                     </p>
+                    <!-- Fin del folio 76v -->
 
                     <pb n="77r" facs="77r.jpg"/>
 
@@ -910,12 +999,14 @@
                     <figure xml:id="fig_77r_2" type="dibujo">
                         <graphic url="/assets/images/dibujos/77r_2.png"/>
                     </figure>
+                    <!-- Fin del folio 77r -->
 
                     <pb n="77v" facs="77v.jpg"/>
 
                     <!--Hoja en blanco-->
 
                 </div><!-- Fin de la entrada_11 -->
+                <!-- Fin del folio 77v -->
 
                 <div type="entrada" n="12" xml:id="entrada_12">
                     <pb n="78r" facs="78r.jpg"/>
@@ -938,7 +1029,7 @@
                         <choice><orig>de</orig><reg></reg></choice> <choice><orig>grueças</orig><reg>gruesas</reg></choice> y la obra <choice><orig>seria</orig><reg>sería</reg></choice> fea y <choice><orig>pareseria</orig><reg>parecería</reg></choice> mal a la vista a la
                         <lb/><choice><orig>qual</orig><reg>cual</reg></choice> se pretende agradar<choice><orig> en</orig><reg>. En</reg></choice> <choice><orig>semexantes</orig><reg>semejantes</reg></choice> obras <choice><orig>sufrira</orig><reg>sufrirá</reg></choice> esta arma<lb break="no"/>dura
                         <lb/><choice><orig>qualquiera</orig><reg>cualquier</reg></choice> <choice><orig>covertura</orig><reg>cobertura</reg></choice><choice><orig></orig><reg>,</reg></choice> por pesada que sea<choice><orig></orig><reg>,</reg></choice> sin tener <choice><orig>neçesçidad</orig><reg>necesidad</reg></choice>
-                        <lb/> de <choice><orig>caramanchon</orig><reg>caramanchón</reg></choice>. <note place="inline margin left">cartabones <choice><orig>a</orig><reg></reg></choice>que <choice><orig>arma</orig><reg>arman</reg></choice></note> Los cartabones <choice><orig>aqui</orig><reg>aquí</reg></choice> <choice><orig>ban</orig><reg>van</reg></choice> bien apuntados en la misma
+                        <lb/> de <choice><orig>caramanchon</orig><reg>camaranchón</reg></choice>. <note place="inline margin left">cartabones <choice><orig>a</orig><reg></reg></choice>que <choice><orig>arma</orig><reg>arman</reg></choice></note> Los cartabones <choice><orig>aqui</orig><reg>aquí</reg></choice> <choice><orig>ban</orig><reg>van</reg></choice> bien apuntados en la misma
                         <lb/>montea <choice><orig>que</orig><reg></reg></choice> son los siguientes<choice><orig></orig><reg>:</reg></choice> el <choice><orig>triangulo</orig><reg>triángulo</reg></choice> arma por <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> de
                         <lb/><choice><orig>de</orig><corr></corr></choice> cinco, el paño <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> arma al <choice><orig>quadrado</orig><reg>cuadrado</reg></choice>, y los paños <choice><orig>baxos</orig><reg>bajos</reg></choice> todos
                         <lb/>arman por <choice><orig>cabeça</orig><reg>cabeza</reg></choice> de ocho. 
@@ -968,7 +1059,7 @@
                         <lb/><choice><orig>la</orig><reg></reg></choice> una punta en medio <choice><orig>de la quebra</orig><reg>del quiebre</reg></choice> <choice><orig></orig><reg>—</reg></choice><choice><orig>señalada</orig><reg>señalado</reg></choice> <choice><orig>·h·</orig><reg><hi rend="italic bold">h</hi></reg></choice><choice><orig></orig><reg>—</reg></choice><choice><orig></orig><reg>,</reg></choice> y destienda la otra hasta <choice><orig>la quebra</orig><reg>el quiebre</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>haze</orig><reg>hace</reg></choice> el paño <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> con el <choice><orig>almiçate</orig><reg>almizate</reg></choice><choice><orig> este</orig><reg>. Este</reg></choice> tamaño se <choice><orig>a</orig><reg>ha</reg></choice> de
                         <lb/><choice><orig>hechar</orig><reg>echar</reg></choice> desde el <choice><orig>ocho</orig><reg><hi rend="italic bold">8</hi></reg></choice> a la <choice><orig>t</orig><reg><hi rend="italic bold">t</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> que es de garganta a garganta<choice><orig> luego</orig><reg>. Luego</reg></choice> se tome el largo del <choice><orig>triangulo</orig><reg>triángulo</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es desde su <choice><orig>misma quiebra</orig><reg>mismo quiebre</reg></choice> hasta el <choice><orig>çentro</orig><reg>centro</reg></choice> del <choice><orig>signo</orig><reg>sino</reg></choice> <choice><orig></orig><reg>—</reg></choice><choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> es
                         <lb/><choice><orig>q</orig><corr></corr></choice> <choice><orig>esla</orig><reg>es la</reg></choice> señal <choice><orig>·x·z</orig><reg><hi rend="italic bold">x,z</hi></reg></choice><choice><orig></orig><reg>—</reg></choice> y <choice><orig>heche</orig><reg>eche</reg></choice> este tamaño del <choice><orig>9</orig><reg><hi rend="italic bold">9</hi></reg></choice> a la <choice><orig>u</orig><reg><hi rend="italic bold">u</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y <choice><orig>alli</orig><reg>allí</reg></choice> se muestra el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> a <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> arma y lo <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> <choice><orig>an</orig><reg>han</reg></choice> de <gap unit="word" reason="illegible" extent="unknown"/> el <choice><orig>numero</orig><reg>número</reg></choice> <choice><orig>·1·</orig><reg><hi rend="italic bold">1</hi></reg></choice> y alargue el <choice><orig>compaz</orig><reg>compás</reg></choice> hasta la <gap unit="word" reason="illegible" extent="unknown"/>
-                    
+                    <!-- Fin del folio 78r -->
 
                     <pb n="78v" facs="78v.jpg"/>
 
@@ -1001,6 +1092,7 @@
                     <figure xml:id="fig_78v_2" type="dibujo">
                         <graphic url="/assets/images/dibujos/78v_2.png"/>
                     </figure>
+                    <!-- Fin del folio 78v -->
 
                     <pb n="79r" facs="79r.jpg"/>
 
@@ -1027,12 +1119,14 @@
                         <lb/>las mismas <choice><orig>lineas</orig><reg>líneas</reg></choice> del <choice><orig>tri<lb break="no"/>angulo</orig><reg>triángulo</reg></choice><choice><orig></orig><reg>.</reg></choice>
                     </p>
                     -->
+                    <!-- Fin del folio 79r -->
 
                     <pb n="79v" facs="79v.jpg"/>
 
                     <!--Hoja en blanco-->
 
                 </div><!-- Fin de la entrada_13 -->
+                <!-- Fin del folio 79v  -->
 
                 <div type="entrada" n="14" xml:id="entrada_14">
                     <pb n="80r" facs="80r.jpg"/>
@@ -1102,9 +1196,10 @@
                         que se <choice><orig>tendera</orig><corr>tendría</corr></choice> para <choice><orig>averse</orig><reg>haberse</reg></choice> de ajustar. <choice><orig>mas</orig><reg>Mas</reg></choice> esto es <choice><orig>forçoso</orig><reg>forzoso</reg></choice> <choice><orig>hazerle</orig><reg>hacerle</reg></choice> <choice><orig>quando</orig><reg>cuando</reg></choice> se <choice><orig>uvieron</orig><reg>hubieron</reg></choice> de <choice><orig>hazer</orig><reg>hacer</reg></choice> algunas puertas de lazo<choice><orig></orig><reg>,</reg></choice> que <choice><orig>entonses</orig><reg>entonces</reg></choice> <choice><orig>conbiene</orig><reg>conviene</reg></choice> <choice><orig>yr</orig><reg>ir</reg></choice> esco<lb break="no"/>pleado
                         y espigado<choice><orig></orig><reg>,</reg></choice> como lo <choice><orig>ban</orig><reg>van</reg></choice> las <choice><orig>demas</orig><reg>demás</reg></choice> puertas<choice><orig>,</orig><reg>.</reg></choice> <choice><orig>mas</orig><reg>Mas</reg></choice> para armadura basta que sea la <choice><orig>quixera</orig><reg>quijera</reg></choice> de doblado grueso del que es el <choice><orig>tauxel</orig><reg>taujel</reg></choice> con que se <choice><orig>guarneçe</orig><reg>guarnece</reg></choice><choice><orig></orig><reg>,</reg></choice> que <choice><orig>vendra</orig><reg>vendrá</reg></choice>
                         <lb/>a <choice><orig>çer</orig><reg>ser</reg></choice> la <choice><orig>quixera</orig><reg>quijera</reg></choice> <choice><orig>dedos</orig><reg>de dos</reg></choice> dedos de grueso<choice><orig></orig><reg>,</reg></choice> poco <choice><orig>mas</orig><reg>más</reg></choice> o menos<choice><orig></orig><reg>,</reg></choice> <choice><orig>segun</orig><reg>según</reg></choice> el grueso de las maderas<choice><orig></orig><reg>.</reg></choice> <choice><orig>mas</orig><reg>Mas</reg></choice> este grueso no se <choice><orig>a</orig><reg>ha</reg></choice> de <choice><orig>hechar</orig><reg>echar</reg></choice> en toda la <choice><orig>quixera</orig><reg>quijera</reg></choice><choice><orig></orig><reg>,</reg></choice> si acaso no es el <choice><orig>peynaso</orig><reg>peinazo</reg></choice> ro<lb break="no"/>mo
-                        <lb/>como lo es el señalado de <choice><orig>·A·</orig><reg><hi rend="italic bold">A</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> mas si es agudo como el señalado <choice><orig>·B·</orig><reg><hi rend="italic bold">B</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> no es todo el grueso <choice><orig>mas</orig><reg>más</reg></choice> de en aquello que <choice><orig>alcansan</orig><reg>alcanzan</reg></choice> los perfiles del par<choice><orig> y lo</orig><reg>. Lo</reg></choice> <choice><orig>demas</orig><reg>demás</reg></choice> de la qui<lb break="no"/>xera<choice><orig></orig><reg>,</reg></choice>
+                        <lb/>como lo es el señalado de <choice><orig>·A·</orig><reg><hi rend="italic bold">A</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> mas si es agudo como el señalado <choice><orig>·B·</orig><reg><hi rend="italic bold">B</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> no es todo el grueso <choice><orig>mas</orig><reg>más</reg></choice> de en aquello que <choice><orig>alcansan</orig><reg>alcanzan</reg></choice> los perfiles del par<choice><orig> y lo</orig><reg>. Lo</reg></choice> <choice><orig>demas</orig><reg>demás</reg></choice> de la <choice><orig>qui<lb break="no"/>xera</orig><reg>quijera</reg></choice><choice><orig></orig><reg>,</reg></choice>
                         que es aquello que <choice><orig>esta</orig><reg>está</reg></choice> señalado <choice><orig>abaxo</orig><reg>abajo</reg></choice> de la <choice><orig>B·</orig><reg><hi rend="italic bold">B</hi></reg></choice> con <choice><orig>unnos</orig><reg>unos</reg></choice> puntos <choice><orig>osbcuros</orig><reg>oscuros</reg></choice><choice><orig> que</orig><reg>,</reg></choice> no <choice><orig>lleba</orig><reg>lleva</reg></choice> <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> el grueso del <choice><orig>tauxel</orig><reg>taujel</reg></choice>. 
                     </p>
+                    <!-- Fin del folio 80r -->
 
                     <pb n="80v" facs="80v.jpg"/>
 
@@ -1113,6 +1208,7 @@
                     </figure>
 
                 </div><!-- Fin de la entrada_16 -->
+                <!-- Fin del folio 80v -->
 
                 <div type="entrada" n="17" xml:id="entrada_17">
                     <pb n="81r" facs="81r.jpg"/>
@@ -1169,8 +1265,10 @@
                         <lb/>con la otra se <choice><orig>señalara</orig><reg>señalará</reg></choice> con la <choice><orig>mi<lb break="no"/>ma</orig><corr>misma</corr></choice>
                         <choice><orig>linea</orig><reg>línea</reg></choice> donde <choice><orig>al<lb break="no"/>cansare</orig><reg>alcazare</reg></choice><choice><orig></orig><reg>,</reg></choice>
                     
-                        <figure xml:id="fig_81r_2" type="dibujo">
-                            <graphic url="/assets/images/dibujos/81r_2.png"/>
+                        <figure xml:id="group_81r">
+                            <figure xml:id="fig_81r_2" type="dibujo">
+                                <graphic url="/assets/images/dibujos/81r_2.png"/>
+                            </figure>
                         </figure>
                     
                         <lb/>que <choice><orig>sera</orig><reg>será</reg></choice> en las dos <choice><orig>lineas</orig><reg>líneas</reg></choice> perpendiculares que despiden el nudillo o <choice><orig>almiçate</orig><reg>almizate</reg></choice><choice><orig></orig><reg>,</reg></choice> como se ve en la montea presente<choice><orig></orig><reg>.</reg></choice> <choice><orig>hechadas</orig><reg>Echadas</reg></choice> todas las <choice><orig>lineas</orig><reg>líneas</reg></choice> ya dichas<choice><orig></orig><reg>,</reg></choice> se va con el
@@ -1180,40 +1278,49 @@
                         <lb/>se <choice><orig>hechara</orig><reg>echará</reg></choice> otra<choice><orig></orig><reg>,</reg></choice> y luego se le <choice><orig>dara</orig><reg>dará</reg></choice> el alto <choice><orig><abbr>q</abbr></orig><reg><expan>que</expan></reg></choice> se <choice><orig>uviere</orig><reg>hubiere</reg></choice> de dar al par y al <choice><orig>almiçate</orig><reg>almizate</reg></choice> <gap unit="word" reason="illegible" extent="unknown"/> mon<lb break="no"/>tea<choice><orig></orig><reg>,</reg></choice>  
                         y es la <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig>çierta</orig><reg>cierta</reg></choice> y <gap unit="word" reason="illegible" extent="unknown"/><choice><orig></orig><reg>.</reg></choice>
                     </p>
+                    <!-- Fin del folio 81r -->
 
                     <pb n="81v" facs="81v.jpg"/>
 
                     <figure xml:id="fig_81v_1" type="dibujo">
                         <graphic url="/assets/images/dibujos/81v_1.png"/>
                     </figure>
+                    <!-- Fin del folio 81v -->
 
-                    <!--no existe folio 82-->
+                    <!-- No existe folio 82 por un error en la paginación original. Mantenemos el error. -->
 
                     <pb n="83r" facs="83r.jpg"/>
                     
                     <figure xml:id="fig_83r_1" type="dibujo">
                         <graphic url="/assets/images/dibujos/83r_1.png"/>
                     </figure>
+                    <!-- Fin del folio 83r. -->
 
                     <pb n="83v" facs="83v.jpg"/>
+                    <!-- Fin del folio 83v -->
 
                     <pb n="84r" facs="84r.jpg"/>
+                    <!-- Fin del folio 84r -->
 
                     <pb n="84v" facs="84v.jpg"/>
                     
                     <figure xml:id="fig_84v_1" type="dibujo">
                         <graphic url="/assets/images/dibujos/84v_1.png"/>
                     </figure>
+                    <!-- Fin del folio 84v -->
 
                     <pb n="85r" facs="85r.jpg"/>
+                    <!-- Fin del folio 85r -->
 
                     <pb n="85v" facs="85v.jpg"/>
                     
                     <figure xml:id="fig_85v_1" type="dibujo">
                         <graphic url="/assets/images/dibujos/85v_1.png"/>
                     </figure>
+                    <!-- Fin del folio 85v -->
 
                     <pb n="86r" facs="86r.jpg"/>
+                    <!-- Fin del folio 86r -->
 
                     <pb n="86v" facs="86v.jpg"/>
                     
@@ -1226,6 +1333,7 @@
                             <graphic url="/assets/images/dibujos/86v_2.png"/>
                         </figure>
                     </figure>
+                    <!-- Fin del folio 86v -->
 
                     <pb n="87r" facs="87r.jpg"/>
 
@@ -1234,6 +1342,7 @@
                     </figure>
 
                 </div><!-- Fin de la entrada_18 -->
+                <!-- Fin del folio 87r -->
             
             </div><!-- Finde la subsección 1-->
             
@@ -1302,6 +1411,7 @@
                         <lb/>grulillo
                         <lb/>media <choice><orig>jayra</orig><reg>jaira</reg></choice>
                     </p>
+                    <!-- Fin del folio 87v -->
 
                     <pb n="88r" facs="88r.jpg"/>
 
@@ -1457,6 +1567,7 @@
                     </figure>
 
                 </div><!-- Fin de la entrada_22 -->
+                <!-- Fin del folio 88r-->
 
                 <div type="entrada" n="23" xml:id="entrada_23">
                     <pb n="88v" facs="88v.jpg"/>
@@ -1561,6 +1672,7 @@
                 </div><!-- Fin de la entrada_23 -->
             
             </div><!-- Fin de la subsección 3 -->
+            <!-- Fin del folio 88v -->
 
         </div>
     </body>
@@ -1568,5 +1680,5 @@
     <back>
     </back>
     
-  </text>
+</text>
 </TEI>

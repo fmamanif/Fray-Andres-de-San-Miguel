@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+        <author>
+          <name type="full">Fray Andrés de San Miguel</name>
+          <name type="personal">
+            <forename>Andrés</forename> 
+            <surname>de Segura de la Alcuña</surname>
+          </name>
+          <idno type="wikidata">Q16942240</idno>
+          <idno type="bne">XX1182168</idno>
+          <idno type="viaf">1661877</idno>
+        </author>
+        <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+        <editor role="Technical_Editor">David Merino Recalde</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Francisco Mamani Fuentes</publisher>
+        <availability status="free">
+          <licence>CC BY-NC-SA</licence>
+				</availability>
+        <date>2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+              <repository>University of Texas Libraries</repository>
+              <collection>Benson Latin American Collection</collection>
+              <idno>31775792</idno>
+          </msIdentifier>
+          <msContents>
+              <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+              <textLang mainLang="es"/>
+              <msItem  n="72r-88v">
+                <title>Sección dedicada a la carpintería de armar</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+              <objectDesc>
+                  <supportDesc>
+                      <support>Papel</support>
+                      <extent>295 folios</extent>
+                  </supportDesc>
+              </objectDesc>
+          </physDesc>
+          <history>
+              <origin>
+                  <date>ca. 1630</date>
+                  <placeName>Ciudad de México</placeName>
+              </origin>
+          </history>
+        </msDesc>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>1969</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+          <editor>
+            <name type="personal">
+              <forename>Enrique</forename>
+              <surname>Nuere</surname>
+            </name>
+          </editor>
+					<publisher>Colegio de Arquitectos de Málaga</publisher>
+					<pubPlace>Málaga</pubPlace>
+          <date>1990</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>2007</date>
+				</bibl>
+      </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div type="seccion">
+            <div type="subsección" n="1" xml:id="subsección_1">
+
+                <div type="entrada" n="2" xml:id="entrada_2">
+                  <pb n="72v" facs="72v.jpg"/>
+                  <head><choice><orig>de</orig><reg>De</reg></choice> <choice><orig>como</orig><reg>cómo</reg></choice> se <choice><orig>trasa</orig><reg>traza</reg></choice> <choice><orig>un</orig><reg>una</reg></choice> armadura<choice><orig></orig><reg>,</reg></choice> su <choice><orig>almisate</orig><reg>almizate</reg></choice> <choice><orig>quajuado</orig><corr>quajado</corr></choice> de lazo de ocho y los <choice><orig>panos</orig><reg>paños</reg></choice> de <choice><orig>signos</orig><reg>sinos</reg></choice> y nudos</head>
+                  <p>
+                      <lb/><choice><orig>armadura</orig><reg><hi rend="italic">Armadura</hi></reg></choice> <choice><orig>quadrada</orig><reg><hi rend="italic">cuadrada</hi></reg></choice> es cualquiera que se arma sobre estribo<choice><orig></orig><reg>,</reg></choice> planta y almizate de <choice><orig>quatro</orig><reg>cuatro</reg></choice> <choice><orig>angulos</orig><reg>ángulos</reg></choice><choice><orig></orig><reg>.</reg></choice> <choice><orig>sea</orig><reg>Sea</reg></choice> o no sea
+                      <lb/>de lados y <choice><orig>angulos</orig><reg>ángulos</reg></choice> <choice><orig>yguales</orig><reg>iguales</reg></choice><choice><orig></orig><reg>,</reg></choice> basta  que sea de <choice><orig>quatro</orig><reg>cuatro</reg></choice> lados para que se le <choice><orig>de</orig><reg>dé</reg></choice> <choice><orig>nonbre</orig><reg>nombre</reg></choice> de <choice><orig>quadrada</orig><reg>cuadrada</reg></choice>. <choice><orig>y</orig><reg></reg></choice> <choice><orig>para</orig><reg>Para</reg></choice> trazar<lb break="no"/>la
+                      <choice><orig>asertadamente</orig><reg>acertadamente</reg></choice> en todos sus cortes y medidas<choice><orig></orig><reg>,</reg></choice> lo primero se <choice><orig>conçidere</orig><reg>considere</reg></choice> y mida el ancho del templo o <choice><orig>cassa</orig><reg>casa</reg></choice> que con
+                      <lb/>ella se <choice><orig>a</orig><reg>ha</reg></choice> de cubrir<choice><orig></orig><reg>,</reg></choice> <choice><orig>proporçionando</orig><reg>proporcionando</reg></choice> con el ancho el grueso y ancho que las maderas <choice><orig>an</orig><reg>han</reg></choice> de tener<choice><orig></orig><reg>,</reg></choice> y conforme al
+                      <lb/><choice><orig>gruesso</orig><reg>grueso</reg></choice> <choice><orig>dellas</orig><reg>de ellas</reg></choice> se haga la traza. <choice><orig>y</orig><reg>Y</reg></choice> <choice><orig>çirva</orig><reg>sirva</reg></choice> de <choice><orig>exemplo</orig><reg>ejemplo</reg></choice><choice><orig></orig><reg>:</reg></choice> quiero cubrir de armadura <choice><orig>quadrada</orig><reg>cuadrada</reg></choice> la planta <choice><orig>aqui</orig><reg>aquí</reg></choice>
+                      <lb/> señalada <choice><orig>·a·</orig><reg><hi rend="italic bold">a</hi></reg></choice> y pongo que tiene <choice><orig>çinco</orig><reg>cinco</reg></choice> <choice><orig>baras</orig><reg>varas</reg></choice> de ancho <choice><orig></orig><reg>—</reg></choice>que son <choice><orig>quinze</orig><reg>quince</reg></choice> <choice><orig>terçias</orig><reg>tercias</reg></choice> o pies<choice><orig></orig><reg>—</reg></choice> y para dar el <choice><orig>gruesso</orig><reg>grueso</reg></choice> que
+                      <lb/><choice><orig>que</orig><corr></corr></choice> me <choice><orig>parese</orig><reg>parece</reg></choice> conveniente a las maderas parto todo su ancho en <choice><orig>treynta</orig><reg>treinta</reg></choice> y ocho partes<choice><orig></orig><reg>,</reg></choice> <choice><orig>y</orig><reg></reg></choice> la una <choice><orig>dellas</orig><reg>de ellas</reg></choice> doy de
+                      <lb/>grueso a las maderas<choice><orig></orig><reg>.</reg></choice> <choice><orig>y para</orig><reg>Para</reg></choice> trazarla y meterle el lazo en papel<choice><orig></orig><reg>,</reg></choice> tiro una <choice><orig>linea</orig><reg>línea</reg></choice> llana <choice><orig>y </orig><reg>—</reg></choice>sea la <choice><orig>aqui</orig><reg>aquí</reg></choice> apuntada
+                      <lb/>de puntos oscuros <choice><orig>·ab·</orig><reg><hi rend="italic bold">a,b</hi></reg></choice><choice><orig></orig><reg>—</reg></choice> y sobre ella apunto con el <choice><orig>ferete</orig><reg>ferrete</reg></choice> que la he de trazar o con un <choice><orig>conpas</orig><reg>compás</reg></choice> las <choice><orig> treynta</orig><reg>treinta</reg></choice> y ocho
+                      <lb/>cuerdas que corresponden al <choice><orig>numero</orig><reg>número</reg></choice> en que se <choice><orig>repartio</orig><reg>repartió</reg></choice> el templo<choice><orig></orig><reg>,</reg></choice> como se <choice><orig>vee</orig><corr>ve</corr></choice> repartido en la <choice><orig>mesma</orig><reg>misma</reg></choice> planta <choice><orig>·a·</orig><reg><hi rend="italic bold">a</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> deba<lb break="no"/>jo
+                      <lb/>del <choice><orig>·38·</orig><reg><hi rend="italic bold">38</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> apuntadas las cuerdas que <choice><orig>sinifican</orig><reg>significan</reg></choice> las maderas y las calles de puntos oscuros. <choice><orig>esto</orig><reg>Esto</reg></choice> entendido se <choice><orig>bea</orig><reg>vea</reg></choice>
+                      <lb/>a <choice><orig>que</orig><reg>qué</reg></choice> <choice><orig>cartabon</orig><reg>cartabón</reg></choice> se <choice><orig>a</orig><reg>ha</reg></choice> de armar y demos <choice><orig>que</orig><reg></reg></choice> al <choice><orig>quadrado</orig><reg>cuadrado</reg></choice>. <choice><orig>formese</orig><reg>Fórmese</reg></choice> un <choice><orig>semiçirculo</orig><reg>semicírculo</reg></choice> sobre una <choice><orig>linea</orig><reg>línea</reg></choice> llana que tome todo
+                      <lb/>el ancho que <choice><orig>a</orig><reg>ha</reg></choice> de tener la <choice><orig>trasa</orig><reg>traza</reg></choice> por las barbillas<choice><orig></orig><reg>,</reg></choice> que es dos cuerdas <choice><orig>mas</orig><reg>más</reg></choice> para el arrocabe o <choice><orig>cornixa</orig><reg>cornisa</reg></choice><choice><orig></orig><reg>,</reg></choice> y <choice><orig>de el</orig><reg>del</reg></choice> centro saque una
+                      <lb/> <choice><orig>linea</orig><reg>línea</reg></choice> a <choice><orig>esquadra</orig><reg>escuadra</reg></choice> y de <choice><orig>angulos</orig><reg>ángulos</reg></choice> rectos que <choice><orig>diuida</orig><reg>divida</reg></choice> el <choice><orig>semiçirculo</orig><reg>semicírculo</reg></choice> en dos partes <choice><orig>yguales</orig><reg>iguales</reg></choice>. <choice><orig>y de</orig><reg>De</reg></choice> donde esta <choice><orig>line</orig><corr>línea</corr></choice> <choice><orig></orig><reg>—</reg></choice>que es la seña<lb break="no"/>lada
+                      <lb/><choice><orig>·8·a</orig><reg><hi rend="italic bold">8,a</hi></reg></choice><choice><orig></orig><reg>—</reg></choice> corta el <choice><orig>çirculo</orig><reg>círculo</reg></choice> <choice><orig>ques</orig><reg>que es</reg></choice> en la <choice><orig>t</orig><reg><hi rend="italic bold">t</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> se tiran dos <choice><orig>lineas</orig><reg>líneas</reg></choice> a los dos <choice><orig>angulos</orig><reg>ángulos</reg></choice> del <choice><orig>semiçirculo</orig><reg>semicírculo</reg></choice> <choice><orig>·gh</orig><reg><hi rend="italic bold">g,h</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> las <choice><orig>quales</orig><reg>cuales</reg></choice> <choice><orig>muestan</orig><corr>muestran</corr></choice> el
+                      <lb/>largo que <choice><orig>an</orig><reg>han</reg></choice> de tener los pares o alfardas. <choice><orig>para</orig><reg>Para</reg></choice> sacar el largo del nudillo<choice><orig></orig><reg>,</reg></choice> que es el <choice><orig>almiçate</orig><reg>almizate</reg></choice><choice><orig></orig><reg>,</reg></choice> vemos que <choice><orig>adeçer</orig><reg>ha de ser</reg></choice> al <choice><orig>terçio</orig><reg>tercio</reg></choice><choice><orig></orig><reg>,</reg></choice>
+                      <lb/>que es la tercera parte del ancho de la casa<choice><orig></orig><reg>.</reg></choice> <choice><orig>se</orig><reg>Se</reg></choice> parte la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·g·h</orig><reg><hi rend="italic bold">g,h</hi></reg></choice> en tres partes <choice><orig>yguales</orig><reg>iguales</reg></choice> y de los puntos de la <choice><orig>partiçion</orig><reg>partición</reg></choice> se <choice><orig>leban<lb break="no"/>tan</orig><reg>levantan</reg></choice>
+                      las dos <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>paralellas</orig><reg>paralelas</reg></choice> <choice><orig>·q</orig><reg><hi rend="italic bold">q</hi></reg></choice> y <choice><orig>·r</orig><reg><hi rend="italic bold">r</hi></reg></choice> a <choice><orig>esquadra</orig><reg>escuadra</reg></choice> y en <choice><orig>angulos</orig><reg>ángulos</reg></choice> rectos<choice><orig> y</orig><reg>,</reg></choice> a donde cortan en las dos <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>·gt·</orig><reg><hi rend="italic bold">g,t</hi></reg></choice> y <choice><orig>ht</orig><reg><hi rend="italic bold">h,t</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> que es en
+                      <lb/>los puntos <choice><orig>·q</orig><reg><hi rend="italic bold">q</hi></reg></choice> y <choice><orig>r</orig><reg><hi rend="italic bold">r</hi></reg></choice><choice><orig></orig><reg>. Este</reg></choice> es el largo del nudillo y juntamente los pares y alfardas y el ancho de la casa quedan partidos en tres par<lb break="no"/>tes
+                      <choice><orig>yguales</orig><reg>iguales</reg></choice>. 
+                  </p> 
+
+                </div><!-- Fin de la entrada_2 -->
+          
+                <div type="entrada" n="3" xml:id="entrada_3">
+                  <head>De <choice><orig>como</orig><reg>cómo</reg></choice> se montea cualquier armadura <choice><orig>qadrada</orig><corr>cuadrada</corr></choice> de lazo o llana y se le busca el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> y albanecar a que arma</head>
+                  <p>
+                      <lb/><choice><orig>montear</orig><reg>Montear</reg></choice> una <choice><orig>trasa</orig><reg>traza</reg></choice><choice><orig></orig><reg>,</reg></choice> cualquiera que sea<choice><orig></orig><reg>,</reg></choice> no es otra
+                      <lb/>cosa sino <choice><orig>sino</orig><corr></corr></choice> buscarle y hallar con <choice><orig>açierto</orig><reg>acierto</reg></choice> los cor<lb break="no"/>tes y lo alto y ancho y forma que ha de tener puesto
+                      <lb/>en obra para en ella <choice><orig>emendar</orig><reg>enmendar</reg></choice> las faltas y <choice><orig>conçide<lb break="no"/>rarlo</orig><reg>considerarlo</reg></choice>
+                      que se <choice><orig>deue</orig><reg>debe</reg></choice> <choice><orig>hazer</orig><reg>hacer</reg></choice><choice><orig>;</orig><reg>.</reg></choice> <choice><orig>esto</orig><reg>Esto</reg></choice> en caso de duda y en
+                      <lb/>obras que tienen dificultad<choice><orig></orig><reg>,</reg></choice> suelen los <choice><orig>mas</orig><reg>más</reg></choice> entendidos
+                      <lb/><choice><orig>hazer</orig><reg>hacer</reg></choice> modelo<choice><orig></orig><reg>,</reg></choice> que es la misma obra en pequeño donde
+                      <lb/><choice><orig>corrijen</orig><reg>corrigen</reg></choice> los defectos y se <choice><orig>hazen</orig><reg>hacen</reg></choice> mejor que en la obra. 
+                  </p>
+
+                  <p>
+                      <lb/><choice><orig>pues</orig><reg>Pues</reg></choice> para montear la <choice><orig>trasa</orig><reg>traza</reg></choice> <choice><orig>quadrada</orig><reg>cuadrada</reg></choice> de lazo de ocho que <choice><orig>a<lb break="no"/>qui</orig><reg>aquí</reg></choice>
+                      se muestra<choice><orig></orig><reg>,</reg></choice> o <choice><orig>quanquiera</orig><corr>cualquiera</corr></choice> otra armadura <choice><orig>quadrada</orig><reg>cuadrada</reg></choice><choice><orig></orig><reg>,</reg></choice> pri<lb break="no"/>meramente
+                      se tira una <choice><orig>linea</orig><reg>línea</reg></choice> llana <choice><orig>parella</orig><reg>paralela</reg></choice> con la <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig>baxa</orig><reg>baja</reg></choice>
+                      <lb/>del <choice><orig>armarbate</orig><corr>almarbate</corr></choice><choice><orig></orig><reg>,</reg></choice> distante <choice><orig>dellos</orig><reg>de ellas</reg></choice> dos cuerdas que es una calle<choice><orig></orig><reg>,</reg></choice>
+                      <lb/>como lo muestra la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·ab·</orig><reg><hi rend="italic bold">a,b</hi></reg></choice> apuntada con puntos negros<choice><orig></orig><reg>.</reg></choice>
+                      <lb/><choice><orig>y poniendo</orig><reg>Poniendo</reg></choice> <choice><orig>el</orig><reg></reg></choice> un pie del <choice><orig>conpas</orig><reg>compás</reg></choice> en el centro del punto <choice><orig>·c</orig><reg><hi rend="italic bold">c</hi></reg></choice> que
+                      <lb/><choice><orig>dibida</orig><reg>divida</reg></choice> la <choice><orig>line</orig><corr>línea</corr></choice> en dos partes <choice><orig>yguales</orig><reg>iguales</reg></choice><choice><orig></orig><reg>,</reg></choice> <choice><orig>sea</orig><corr>se</corr></choice> abre la otra punta
+                      <lb/>del <choice><orig>compas</orig><reg>compás</reg></choice> hasta el <choice><orig>puno</orig><corr>punto</corr></choice> <choice><orig>·a·</orig><reg><hi rend="italic bold">a</hi></reg></choice> <choice><orig></orig><reg>o</reg></choice> al punto <choice><orig>·b</orig><reg><hi rend="italic bold">b</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> que es lo <choice><orig>mesmo</orig><reg>mismo</reg></choice><choice><orig></orig><reg>.</reg></choice> <choice><orig>es<lb break="no"/>ta</orig><reg>Esta</reg></choice> medida se <choice><orig>lleba</orig><reg>lleva</reg></choice> a la <choice><orig>linea</orig><reg>línea</reg></choice> llana que se <choice><orig>a</orig><reg>ha</reg></choice> de <choice><orig>auer</orig><reg>haber</reg></choice> <choice><orig>tihado</orig><corr>tirado</corr></choice> y sea
+                      <lb/>la señalada <choice><orig>·g·h</orig><reg><hi rend="italic bold">g,h</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> con la <choice><orig>qu</orig><corr>que</corr></choice> cae sobre ella a <choice><orig>esquadra</orig><reg>escuadra</reg></choice> o en <choice><orig>an<lb break="no"/>gulos</orig><reg>ángulos</reg></choice>
+                      rectos <choice><orig>·8·a</orig><reg><hi rend="italic bold">8,a</hi></reg></choice><choice><orig>y puesta</orig><reg>. Puesta</reg></choice> la <choice><orig>una</orig><reg></reg></choice> punta del <choice><orig>compas</orig><reg>compás</reg></choice> en el cen<lb break="no"/>tro
+                      <choice><orig>8</orig><reg><hi rend="italic bold">8</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> con la otra punta se señalan los puntos <choice><orig>g·h</orig><reg><hi rend="italic bold">g,h</hi></reg></choice> o se <choice><orig>çir<lb break="no"/>cunda</orig><reg>circunda</reg></choice>
+                      todo el <choice><orig>semiçirculo</orig><reg>semicírculo</reg></choice><choice><orig> y se</orig><reg>. Se</reg></choice> tiran las dos <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>·g·i</orig><reg><hi rend="italic bold">g,i</hi></reg></choice> y
+                      <lb/> <choice><orig>h·l</orig><reg><hi rend="italic bold">h,l</hi></reg></choice> 
+                      <choice><orig>parallas</orig><reg>paralelas</reg></choice> y en <choice><orig>ygual</orig><reg>igual</reg></choice> <choice><orig>distançia</orig><reg>distancia</reg></choice> con la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·a8</orig><reg><hi rend="italic bold">a,8</hi></reg></choice><choice><orig>estas</orig><reg>. Estas</reg></choice>
+                      <lb/>dos <choice><orig>lineas</orig><reg>líneas</reg></choice> muestran el ancho de la casa y el que <choice><orig>ay</orig><reg>hay</reg></choice> entre los
+                      <lb/>estribos<choice><orig>, hecho</orig><reg>. Hecho</reg></choice>  esto se pone <choice><orig>el</orig><reg></reg></choice> un pie del <choice><orig>compas</orig><reg>compás</reg></choice> en el centro
+                      <lb/>del <choice><orig>almiçate</orig><reg>almizate</reg></choice><choice><orig></orig><reg>,</reg></choice> sea en el punto <choice><orig>·8</orig><reg><hi rend="italic bold">8</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y donde <choice><orig>alli</orig><reg>allí</reg></choice> se abre el <choice><orig>conpas</orig><reg>compás</reg></choice> has<lb break="no"/>ta
+                      la <choice><orig>·f</orig><reg><hi rend="italic bold">f</hi></reg></choice> o hasta la <choice><orig>e</orig><reg><hi rend="italic bold">e</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> que es lo mismo<choice><orig>, y con</orig><reg>. Con</reg></choice> este tamaño se pone <choice><orig>el</orig><reg></reg></choice>
+                      <lb/><choice><orig>el</orig><corr></corr></choice> un pie del <choice><orig>compas</orig><corr>compás</corr></choice> en el punto <choice><orig>·8</orig><reg><hi rend="italic bold">8</hi></reg></choice> y con el otro pie se señala la
+                      <lb/> <choice><orig>t</orig><reg><hi rend="italic bold">t</hi></reg></choice> y la <choice><orig>s</orig><reg><hi rend="italic bold">s</hi></reg></choice><choice><orig> y puesto</orig><reg>. Puesto</reg></choice> el mismo pie del <choice><orig>compas</orig><reg>compás</reg></choice> en la <choice><orig>a</orig><reg><hi rend="italic bold">a</hi></reg></choice> se circunda a
+                      <lb/>una y otra parte y se tiran las dos <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>·s·r</orig><reg><hi rend="italic bold">s,r</hi></reg></choice> y <choice><orig>·t·q</orig><reg><hi rend="italic bold">t,q</hi></reg></choice><choice><orig> tiradas</orig><reg>. Tiradas</reg></choice> 
+                      <lb/>estas <choice><orig>lineas</orig><reg>líneas</reg></choice> se <choice><orig>buelue</orig><reg>vuelve</reg></choice> a la <choice><orig>trasa</orig><reg>traza</reg></choice> y puesta la <choice><orig>una</orig><reg></reg></choice> punta del <choice><orig>compas</orig><reg>compás</reg></choice>
+                      <lb/>en el centro <choice><orig>c</orig><reg><hi rend="italic bold">c</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> se abre el <choice><orig>compas</orig><reg>compás</reg></choice> hasta que alcance a la media ca<lb break="no"/>lle 
+                      entre el paño y el <choice><orig>almiçate</orig><reg>almizate</reg></choice><choice><orig></orig><reg>,</reg></choice> que es a la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·e·f</orig><reg><hi rend="italic bold">e,f</hi></reg></choice><choice><orig> con</orig><reg>. Con</reg></choice> esta
+                      <lb/>medida tomada <choice><orig>assi</orig><reg>así</reg></choice> por <choice><orig>linea</orig><reg>línea</reg></choice> recta<choice><orig></orig><reg>,</reg></choice> se pone el <choice><orig>un</orig><reg></reg></choice> pie del <choice><orig>conpas</orig><reg>compás</reg></choice> en
+                      <lb/>el <choice><orig>angulo</orig><reg>ángulo</reg></choice> <choice><orig>·h·</orig><reg><hi rend="italic bold">h</hi></reg></choice><choice><orig></orig><reg>,</reg></choice> y con el otro pie se <choice><orig>çicunda</orig><corr>circunda</corr></choice> sobre la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·r·s</orig><reg><hi rend="italic bold">r,s</hi></reg></choice><choice><orig> y lo</orig><reg>. Lo</reg></choice> 
+                      <lb/><choice><orig>mesmo</orig><reg>mismo</reg></choice> se <choice><orig>hasa</orig><corr>hará</corr></choice> en la otra parte del <choice><orig>angulo</orig><reg>ángulo</reg></choice> y se <choice><orig>çircunda</orig><reg>circunda</reg></choice> so<lb break="no"/>bre
+                      la <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·q·t</orig><reg><hi rend="italic bold">q,t</hi></reg></choice> y se <choice><orig>tira</orig><corr>tiran</corr></choice> las <choice><orig>lineas</orig><reg>líneas</reg></choice> <choice><orig>·q·r</orig><reg><hi rend="italic bold">q,r</hi></reg></choice> y la <choice><orig>·r·h</orig><reg><hi rend="italic bold">r,h</hi></reg></choice> y la <choice><orig>·g·q</orig><reg><hi rend="italic bold">g,q</hi></reg></choice> <choice><orig>has</orig><corr>hasta</corr></choice>
+                      <lb/>juntarse en la <choice><orig>t</orig><reg><hi rend="italic bold">t</hi></reg></choice><choice><orig> estas</orig><reg>. Estas</reg></choice> dos <choice><orig>lineas</orig><reg>líneas</reg></choice> muestran el largo que los pa<lb break="no"/>res
+                      tienen por <choice><orig>de</orig><reg></reg></choice> dentro y la tercera <choice><orig>linea</orig><reg>línea</reg></choice> <choice><orig>·q·r</orig><reg><hi rend="italic bold">q,r</hi></reg></choice> muestra el lar<lb break="no"/>go 
+                      del <choice><orig>almiçate</orig><reg>almizate</reg></choice> y en el <choice><orig>triangulo</orig><reg>triángulo</reg></choice> <choice><orig>s·r·h</orig><reg><hi rend="italic bold">s,r,h</hi></reg></choice> es el <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>a que ar</orig><corr></corr></choice>
+                      <lb/> a que arma <choice><orig>el</orig><reg>la</reg></choice> armadura<choice><orig> sobre</orig><reg>. Sobre</reg></choice> estas <choice><orig>lineas</orig><reg>líneas</reg></choice> se <choice><orig>saxa</orig><corr>saca</corr></choice> el ancho
+                      <lb/>del par como en la montea lo muestra, y para sacar el ancho
+                      <lb/>del nudillo en esta o en cualquiera otra <choice><orig>trasa</orig><reg>traza</reg></choice> y armadura<choice><orig></orig><reg>,</reg></choice>
+                      <lb/>se <choice><orig>hecha</orig><reg>echa</reg></choice> en la tabla del par un <choice><orig>traso</orig><reg>trazo</reg></choice> con la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>carta<lb break="no"/>bon</orig><reg>cartabón</reg></choice>
+                      <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig></orig><reg>,</reg></choice> y sobre <choice><orig>el</orig><reg>él</reg></choice> en la esquina se <choice><orig>açienta</orig><reg>asienta</reg></choice> la cola o <choice><orig>cabe<lb break="no"/>sa</orig><reg>cabeza</reg></choice>
+                      a que arma <choice><orig>el</orig><reg>la</reg></choice> armadura<choice><orig> y tirado</orig><reg>. Tirado</reg></choice> el <choice><orig>traso</orig><reg>trazo</reg></choice><choice><orig></orig><reg>,</reg></choice> lo que <choice><orig>desuia</orig><reg>desvía</reg></choice> el
+                      <lb/>uno del otro <choice><orig></orig><reg>—</reg></choice>puesto el <choice><orig>compas</orig><reg>compás</reg></choice> en la esquina <choice><orig>q·</orig><reg><hi rend="italic bold">q</hi></reg></choice><choice><orig></orig><reg>—</reg></choice> es el ancho del nu<lb break="no"/>dillo<choice><orig></orig><reg>.</reg></choice>
+                      <choice><orig>el</orig><reg>El</reg></choice> <choice><orig>cartabon</orig><reg>cartabón</reg></choice> que despide la montea corta el nu<lb break="no"/>dillo<choice><orig>y</orig><reg>,</reg></choice> el copete<choice><orig></orig><reg>,</reg></choice> y <choice><orig></orig><reg>la</reg></choice> patilla <choice><orig>del</orig><reg>de la</reg></choice> alfarda se arma por cola<choice><orig> se</orig><reg>. Se</reg></choice> corta
+                      <lb/>con ella la patilla <choice><orig>del</orig><reg>de la</reg></choice> alfarda y la quijera del nudillo<choice><orig></orig><reg>,</reg></choice> y con la
+                      <lb/><choice><orig>cabesa</orig><reg>cabeza</reg></choice> la barbilla<choice><orig> y el</orig><reg>. El</reg></choice> copete del par o alfarda se arma al <choice><orig>qua<lb break="no"/>drado</orig><reg>cuadrado</reg></choice><choice><orig></orig><reg>,</reg></choice>
+                      <choice><orig>el</orig><reg>él</reg></choice> solo <choice><orig>haze</orig><reg>hace</reg></choice> todos los cortes <choice><orig>del</orig><reg>de la</reg></choice> armadura<choice><orig>, para</orig><reg>. Para</reg></choice> la pa<lb break="no"/>tilla
+                      se parte la tabla <choice><orig>del</orig><reg>de la</reg></choice> alfarda en tres partes<choice><orig> y</orig><reg>:</reg></choice> la una se
+                      <lb/> da a la barbilla y las dos partes se dan a la patilla<choice><orig></orig><reg>,</reg></choice> que es la parte
+                      <lb/>que <choice><orig>açienta</orig><reg>asienta</reg></choice> sobre el <choice><orig>estriuo</orig><reg>estribo</reg></choice><choice><orig>, el</orig><reg>. El</reg></choice> corte de la garganta <choice><orig>del</orig><reg>de la</reg></choice> alfar<lb break="no"/>da
+                      donde asientan las quijeras del nudillo<choice><orig></orig><reg>,</reg></choice> <choice><orig>assi</orig><reg>así</reg></choice> por las tablas
+                      <lb/>como por el canto<choice><orig></orig><reg>,</reg></choice> siempre las <choice><orig>haze</orig><reg>hace</reg></choice> la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig>, para</orig><reg>. Para</reg></choice>
+                      <lb/>la garganta se parte el grueso <choice><orig>del</orig><reg>de la</reg></choice> alfarda en <choice><orig>çinco</orig><reg>cinco</reg></choice> partes<choice><orig></orig><reg>:</reg></choice> las
+                      <lb/>tres se dan al <choice><orig>gruesso</orig><reg>grueso</reg></choice> de la garganta y las dos se quitan una de
+                      <lb/>cada lado<choice><orig> uno</orig><reg>. Uno</reg></choice> <choice><orig>destos</orig><reg>de estos</reg></choice> <choice><orig>tamanos</orig><reg>tamaños</reg></choice> se tira <choice><orig>tanbien</orig><reg>también</reg></choice> por el canto <choice><orig>del</orig><reg>de la</reg></choice> al<lb break="no"/>farda<choice><orig></orig><reg>,</reg></choice>
+                      <lb/><choice><orig>metiendole</orig><reg>metiéndole</reg></choice> la sierra por el corte de <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> donde se a<lb break="no"/>justa
+                      el nudillo con <choice><orig>el</orig><reg>la</reg></choice> alfarda, y se saca aquella madera en
+                      <lb/><choice><orig>desminuyçion</orig><reg>disminución</reg></choice> donde <choice><orig>donde</orig><corr></corr> <choice><orig>alcansa</orig><reg>alcanza</reg></choice></choice> la punta de la cola que a<lb break="no"/>bre
+                      la garganta. <choice><orig>y se</orig><reg>Se</reg></choice> <choice><orig>a</orig><reg>ha</reg></choice> de dejar este corte de la cola un dedo
+                      <lb/><choice><orig>mas</orig><reg>más</reg></choice> alto <choice><orig>delo</orig><reg>de lo</reg></choice> que llena el nudillo en que entre la tabica<choice><orig></orig><reg>,</reg></choice> con<lb break="no"/>forme
+                      al corte <choice><orig>dela</orig><reg>de la</reg></choice> garganta se abre el encaje en el nudillo. 
+                  </p>
+
+                </div><!-- Fin de la entrada_3 -->
+          
+                <div type="entrada" n="4" xml:id="entrada_4">
+                  <head>Reglas que se <choice><orig>deuen</orig><reg>deben</reg></choice> usar</head>
+                  <p>
+                      <lb/><choice><orig>toda</orig><reg>Toda</reg></choice> suerte de armaduras<choice><orig></orig><reg>,</reg></choice> <choice><orig>aun que</orig><reg>aunque</reg></choice> sean llanas<choice><orig></orig><reg>,</reg></choice> teniendo calle
+                      <lb/>de limas<choice><orig></orig><reg>,</reg></choice> <choice><orig>conuiene</orig><reg>conviene</reg></choice> <choice><orig>ajustarla</orig><corr>ajustarlas</corr></choice> <choice><orig>abaxo</orig><reg>abajo</reg></choice> y para esto se <choice><orig>hazen</orig><reg>hacen</reg></choice> dos reglas<choice><orig></orig><reg>.</reg></choice>
+                      <lb/><choice><orig>la una</orig><reg>Una</reg></choice> tan larga como tiene de ancho el paño con <choice><orig>ssus</orig><corr>sus</corr></choice> limas por las
+                      <lb/>patillas y de ancho lo que tienen de <choice><orig>gruesso</orig><reg>grueso</reg></choice> las alfardas<choice><orig> en</orig><reg>. En</reg></choice> esta
+                      <lb/> se <choice><orig>trasan</orig><reg>trazan</reg></choice> con la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> todas las alfardas y
+                      <lb/><choice><orig>pendolas</orig><reg>péndolas</reg></choice> como se <choice><orig>an</orig><reg>han</reg></choice> de asentar en su lugar y con el albanecar las
+                      <lb/>limas<choice><orig>, la</orig><reg>. La</reg></choice> otra regla ha de tener el largo de los nudillos<choice><orig></orig><reg>,</reg></choice> donde <choice><orig>tan<lb break="no"/>bien</orig><reg>también</reg></choice>
+                      se señalan las alfardas que suben <choice><orig>almiçate</orig><reg>almizate</reg></choice> y las limas<choice><orig> la</orig><reg>. La</reg></choice> re<lb break="no"/>gla
+                      baja se <choice><orig>claua</orig><reg>clava</reg></choice> en las alfardas <choice><orig>haziendo</orig><reg>haciendo</reg></choice> <choice><orig>has</orig><reg>haz</reg></choice> con las barbillas<choice><orig></orig><reg>,</reg></choice> <choice><orig>des<lb break="no"/>pues</orig><reg>después</reg></choice>
+                      de <choice><orig>auerla</orig><reg>haberla</reg></choice> puesto a escuadrar con las mis<choice><orig>mas</orig><reg>más</reg></choice> alfardas<choice><orig>, y la</orig><reg>. La</reg></choice>
+                      <lb/>regla alta se <choice><orig>claua</orig><reg>clava</reg></choice> <choice><orig>haziendo</orig><reg>haciendo</reg></choice> haz con las gargantas<choice><orig></orig><reg>.</reg></choice> <choice><orig>abiendola</orig><reg>habiéndola</reg></choice> puesto
+                      <lb/>asimismo a <choice><orig>esquadra</orig><reg>escuadra</reg></choice> con las alfardas<choice><orig> debajo</orig><reg>. Debajo</reg></choice> <choice><orig>destas</orig><reg>de estas</reg></choice> reglas se me<lb break="no"/>ten
+                      y cortan las limas a la medida<choice><orig> y</orig><reg>, </reg></choice> todas las <choice><orig>pendolas</orig><reg>péndolas</reg></choice> se ajus<lb break="no"/>tan
+                      en las limas y abren las patillas<choice><orig></orig><reg>,</reg></choice> y <choice><orig>senalan</orig><reg>señalan</reg></choice> <choice><orig>escopleaduras</orig><reg>escopladuras</reg></choice><choice><orig></orig><reg>;</reg></choice> si <choice><orig>a</orig><reg>ha</reg></choice>
+                      <lb/>de llevar lazo <choice><orig>a que</orig><corr>aquí</corr></choice> se <choice><orig>trasa</orig><reg>traza</reg></choice> y <choice><orig>guarnese</orig><reg>guarnece</reg></choice><choice><orig> y de</orig><reg>. De</reg></choice> <choice><orig>aqui</orig><reg>aquí</reg></choice> sale todo ajustado y <choice><orig>guar<lb break="no"/>neçido</orig><reg>guarnecido</reg></choice>
+                      como se <choice><orig>a</orig><reg>ha</reg></choice> de asentar en su lugar. 
+                  </p>
+                </div><!-- La entrada_4 continúa en los siguientes folios-->
+              
+            </div>
+        </div>    
+    </body>
+</text>
+</TEI>

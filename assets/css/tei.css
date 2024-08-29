@@ -379,6 +379,12 @@ tei-figure[id="fig_80r_3"] {
 tei-figure[id="fig_80r_3"] img {
   width: 20%;
 }
+tei-figure#group_81r {
+  display: block; 
+}
+tei-figure[id="fig_81r_2"] img {
+  width: 100%;
+}
 
 tei-figure[id="fig_81v_1"] img {
   width: 60%;

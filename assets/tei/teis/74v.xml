@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La carpintería de armar en Fray Andrés de San Miguel</title>
+        <author>
+          <name type="full">Fray Andrés de San Miguel</name>
+          <name type="personal">
+            <forename>Andrés</forename> 
+            <surname>de Segura de la Alcuña</surname>
+          </name>
+          <idno type="wikidata">Q16942240</idno>
+          <idno type="bne">XX1182168</idno>
+          <idno type="viaf">1661877</idno>
+        </author>
+        <editor role="Editor-in-Chief">Francisco Mamani Fuentes</editor>
+        <editor role="Technical_Editor">David Merino Recalde</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Francisco Mamani Fuentes</publisher>
+        <availability status="free">
+          <licence>CC BY-NC-SA</licence>
+				</availability>
+        <date>2024</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+              <repository>University of Texas Libraries</repository>
+              <collection>Benson Latin American Collection</collection>
+              <idno>31775792</idno>
+          </msIdentifier>
+          <msContents>
+              <summary>Conjunto de manuscritos que contienen escritos sobre arquitectura, matemáticas, astronomía, teología, botánica e hidrología. Un manuscrito del siglo XVII (G73) contiene varios escritos que incluyen dibujos técnicos y arquitectónicos de edificios y puentes, tablas matemáticas e ilustraciones, esquemas de equipos como bombas y péndulos, y otros dibujos. Los temas tratados incluyen geometría aplicada, dibujo técnico, diseño de mosaicos, construcción de relojes simples, la composición del cosmos, una descripción del templo de Salomón y el drenaje de los lagos alrededor de la Ciudad de México. G65 es una copia manuscrita del siglo XIX de las hojas 124-138 de G73. Para esta edición, se ha tenido en cuenta únicamente la sección dedicada a la carpintería de armar (folios 72r a 88v).</summary>
+              <textLang mainLang="es"/>
+              <msItem  n="72r-88v">
+                <title>Sección dedicada a la carpintería de armar</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+              <objectDesc>
+                  <supportDesc>
+                      <support>Papel</support>
+                      <extent>295 folios</extent>
+                  </supportDesc>
+              </objectDesc>
+          </physDesc>
+          <history>
+              <origin>
+                  <date>ca. 1630</date>
+                  <placeName>Ciudad de México</placeName>
+              </origin>
+          </history>
+        </msDesc>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica de Eduardo Báez Macías</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>1969</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>La carpintería de lazo: Lectura dibujada del manuscrito de Fray Andrés de San Miguel</title>
+          <editor>
+            <name type="personal">
+              <forename>Enrique</forename>
+              <surname>Nuere</surname>
+            </name>
+          </editor>
+					<publisher>Colegio de Arquitectos de Málaga</publisher>
+					<pubPlace>Málaga</pubPlace>
+          <date>1990</date>
+				</bibl>
+        <bibl type="print-source">
+          <title>
+            <title>Obras de fray Andrés de San Miguel</title>
+            <title>Introducción, notas y versión paleográfica</title>
+          </title>
+          <editor>
+            <name type="personal">
+              <forename>Eduardo</forename>
+              <surname>Báez Macías</surname>
+            </name>
+          </editor>
+					<publisher>Universidad Nacional Autonoma de México, Instituto de Investigaciones Estéticas</publisher>
+					<pubPlace>México, D. F.</pubPlace>
+          <date>2007</date>
+				</bibl>
+      </sourceDesc>
+    </fileDesc>
+</teiHeader>
+
+<text>
+    <body>
+        <div type="seccion">
+            <div type="subsección" n="1" xml:id="subsección_1">
+
+                <div type="entrada" n="8" xml:id="entrada_8">                
+                    
+                  <pb n="74v" facs="74v.jpg"/>
+                  
+                  <figure xml:id="fig_74v_1" type="dibujo">
+                      <graphic url="/assets/images/dibujos/74v_1.png"/>
+                  </figure>
+
+                  <head><choice><orig></orig><reg>De cómo sacar los cartabones de una armadura de cinco paños</reg></choice></head>
+                  <p>
+                      <lb/><choice><orig>el</orig><reg>La</reg></choice> armadura <choice><orig>aqui</orig><reg>aquí</reg></choice> trazada y monteada <choice><orig>esta en</orig><reg>es de</reg></choice> <choice><orig>çinco</orig><reg>cinco</reg></choice> paños<choice><orig></orig><reg>,</reg></choice>
+                      <lb/><choice><orig>y</orig><reg></reg></choice> es <choice><orig>quadrada</orig><reg>cuadrada</reg></choice> por el <choice><orig>almisate</orig><reg>almizate</reg></choice> y por <choice><orig>abaxo</orig><reg>abajo</reg></choice><choice><orig></orig><reg>,</reg></choice> y <choice><orig>ochaba<lb break="no"/>da</orig><reg>ochavada</reg></choice> 
+                      por en medio y <choice><orig>entranbos</orig><reg>entreambos</reg></choice> paños<choice><orig></orig><reg>.</reg></choice> <choice><orig>en</orig><reg>En</reg></choice> los <choice><orig>quatro</orig><reg>cuatro</reg></choice> <choice><orig>ochauos</orig><reg>ochavos</reg></choice>
+                      <lb/><choice><orig>haze</orig><reg>hace</reg></choice> un <choice><orig>triangulo</orig><reg>triángulo</reg></choice><choice><orig></orig><reg>:</reg></choice> el <choice><orig>triangulo</orig><reg>triángulo</reg></choice> del <choice><orig>pano</orig><reg>paño</reg></choice> alto arma <choice><orig>por la</orig><corr></corr></choice> por
+                      <lb/>la <choice><orig>cabeça</orig><reg>cabeza</reg></choice> del albanecar del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig></orig><reg>,</reg></choice> y el <choice><orig>pano</orig><reg>paño</reg></choice> al<lb break="no"/>to 
+                      <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> por la cola del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadrado</orig><reg>cuadrado</reg></choice><choice><orig> esta</orig><reg>. Esta</reg></choice> arma<lb break="no"/>dura
+                      y todas las <choice><orig>demas</orig><reg>demás</reg></choice> despiden con sus plomos sus propi<lb break="no"/>os
+                      cartabones<choice><orig></orig><reg>,</reg></choice> y <choice><orig>assi</orig><reg>así</reg></choice> no es menester repetir los <choice><orig>mas</orig><reg>más</reg></choice> <choice><orig> de en co<lb break="no"/>mun</orig><reg>comunes</reg></choice>
+                      como se sacan todos.
+                  </p>
+
+                  <p> 
+                      <lb/>Los paños altos cuadrados no tienen <choice><orig>canpaneo</orig><reg>campaneo</reg></choice> en las li<lb break="no"/>mas
+                      y se dobla el <choice><orig>canpaneo</orig><reg>campaneo</reg></choice> en las limas de los <choice><orig>triangu<lb break="no"/>los</orig><reg>triángulos</reg></choice><choice><orig></orig><reg>.</reg></choice>
+                      <choice><orig>y generalmente</orig><reg>Generalmente</reg></choice> salen los <choice><orig>canpanos</orig><corr>campaneos</corr></choice> de las limas <choice><orig><abbr>hecha</abbr></orig><reg><expan>hechas</expan></reg></choice>
+                      <choice><orig>de</orig><reg></reg></choice> por la tabla <choice><orig>del</orig><reg>de la</reg></choice> alfarda<choice><orig> la</orig><reg>. Con la</reg></choice> <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>quadra<lb break="no"/>do</orig><reg>cuadrado</reg></choice><choice><orig> y</orig><reg>,</reg></choice> la <choice><orig>cabesa</orig><reg>cabeza</reg></choice> del <choice><orig>cartabon</orig><reg>cartabón</reg></choice> <choice><orig>del</orig><reg>de</reg></choice> armadura y <choice><orig>con</orig><reg></reg></choice> la cola
+                      <lb/>del albanecar<choice><orig></orig><reg>,</reg></choice> se <choice><orig>bueluen</orig><reg>vuelven</reg></choice> <choice><orig>aquelos</orig><corr>aquellos</corr></choice> dos trazos por el canto <choice><orig>del</orig><reg>de la</reg></choice>
+                      <lb/>alfarda<choice><orig> y lo</orig><reg>. Lo</reg></choice> que se <choice><orig>desuian</orig><reg>desvían</reg></choice> de <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> <choice><orig>a que</orig><reg></reg></choice> los dos 
+                      <lb/>trazos de las colas del albanecar de <choice><orig>quadrado</orig><reg>cuadrado</reg></choice> por el can<lb break="no"/>to
+                      <choice><orig>del</orig><reg>de la</reg></choice> alfarda es lo que <choice><orig>mas</orig><reg>más</reg></choice> se da a la lima de <choice><orig>can<lb break="no"/>pana</orig><reg>campana</reg></choice><choice><orig>,</orig><reg>.</reg></choice>
+                      <choice><orig>en</orig><reg>En</reg></choice> las semejantes armaduras el albanecar de
+                      <lb/>los <choice><orig>triangulos</orig><reg>triángulos</reg></choice> es <choice><orig>ochabada</orig><corr>ochavado</corr></choice> y la de los paños <choice><orig>quadrados</orig><reg>cuadrados</reg></choice>
+                      <lb/><choice><orig>quadrada</orig><reg>cuadrada</reg></choice><choice><orig></orig><reg>,</reg></choice> y <choice><orig>quando</orig><reg>cuando</reg></choice> no tienen pares por medio se le <choice><orig>he<lb break="no"/>chan</orig><reg>echan</reg></choice>
+                      desollados<choice><orig></orig><reg>,</reg></choice> en <choice><orig></orig><reg>los</reg></choice> que se <choice><orig>clauan</orig><reg>clavan</reg></choice> las limas y engargan<lb break="no"/>tan
+                      unos en otros y <choice><orig>enpatillan</orig><reg>empatillan</reg></choice> en sus estribos. 
+                  </p>
+
+                  <p>
+                      <lb/><choice><orig>en</orig><reg>En</reg></choice> esta armadura <choice><orig>esta</orig><reg>está</reg></choice> <choice><orig>trasado</orig><reg>trazado</reg></choice> y <choice><orig>guarneçido</orig><reg>guarnecido</reg></choice> todo el
+                      <lb/>lazo <choice><orig>assi</orig><reg>así</reg></choice> en las alfardas como <choice><orig>peynazos</orig><reg>peinazos</reg></choice> y taujel<choice><orig></orig><reg>,</reg></choice> con la
+                      <lb/><choice><orig>diferençia</orig><reg>diferencia</reg></choice> clara de <choice><orig>tos</orig><corr>todos</corr></choice> sus cortes como de ordinales se
+                      <lb/><choice><orig>obro</orig><reg>obró</reg></choice><choice><orig> y</orig><reg>. Esto</reg></choice> es lo que se <choice><orig>deue</orig><reg>debe</reg></choice> seguir en toda suerte de lazos.
+                  </p>
+              </div><!-- Fin de la entrada_8 -->
+              <!-- Fin del folio 74v -->               
+
+            </div>
+        </div>    
+    </body>
+</text>
+</TEI>
