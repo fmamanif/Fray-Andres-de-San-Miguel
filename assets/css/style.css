@@ -281,7 +281,7 @@ a.boton {
 
 /* MENÚ CONTENIDOS */
 #menu-contenidos {
-  position: fixed;
+  position: relative;
   top: 20px;
   overflow-y: auto;
   max-height: 80vh;
