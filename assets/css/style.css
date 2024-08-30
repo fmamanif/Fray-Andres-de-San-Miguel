@@ -73,6 +73,10 @@ p {
   margin-bottom: 10px;  /* Espacio después de los párrafos */
 }
 
+.texto li {
+  margin-bottom: 10px;
+}
+
 
 /* Estilos para los encabezados */
 h1,
@@ -111,6 +115,7 @@ h6 {
   font-size: 0.875em;  /* 14px */
 }
 
+
 /* Estilos para enlaces */
 .enlace {
 	text-decoration: none;
@@ -139,8 +144,7 @@ h6 {
 
 
 
-
-/* BOTONES */
+/* #region BOTONES */
 .boton {
   margin-top: 20px;
   display: inline-block;
@@ -164,9 +168,9 @@ a.boton {
   text-decoration: none;
 }
 
-#toggleEdition {
-  font-family: "Moderustic", 'Open sans', sans-serif;
-}
+/* #endregion BOTONES */
+
+
 
 .centered-container {
   text-align: center; /* Asegura que el texto dentro del div también esté centrado */
@@ -396,7 +400,7 @@ a.boton {
 
 
 
-/* BOTONES VERSIONES*/
+/* #region BOTONES VERSIONES*/
 .boton-version {
   position: fixed;
   bottom: 40px;
@@ -406,14 +410,13 @@ a.boton {
   gap: 10px;
 }
 
-#showDiplomatic {
-  background-color: var(--gris);
-}
-#showModernized {
-  background-color: var(--grisclaro);
+#toggleEdition {
+  font-family: "Moderustic", 'Open sans', sans-serif;
 }
 
-/* PASAR PAGINA */
+/* #endregion */
+
+/* #region NAVEGACIÓN FOLIOS */
 .navegacion-paginas {
   position: fixed;
   bottom: 40px;
@@ -438,21 +441,18 @@ a.boton {
   color: var(--gris);
 }
 
-/* #region BIBLIOGRAFÍA */
+/* #endregion NAVEGACIÓN FOLIOS */
 
+/* #region BIBLIOGRAFÍA */
 .bibliography p {
   text-indent: -20px;
   margin-left: 20px;
   margin-bottom: 10px;
 }
 
-
-
 /* #endregion BIBLIOGRAFÍA */
 
-
-
-/*IMÁGENES FACSÍMIL */
+/* #region IMÁGENES FACSÍMIL */
 .imagen-fixed {
   position: fixed;
   bottom: 130px; /* Ajusta esta distancia para que la imagen quede encima de los botones */
@@ -492,7 +492,6 @@ a.boton {
   font-size: 16px;
 }
 
-/* Utiliza una clase separada para el botón de cerrar específico de este modal */
 .cerrar-imagen {
   position: absolute;
   top: 15px;
@@ -506,16 +505,17 @@ a.boton {
   color: var(--blanco);
 }
 
+/* #endregion */
 
 /* Estilos para el enlace del logo */
-.logo-enlace {
+.logo-tei {
   position: fixed; 
   right: 20px; 
   bottom: 20px; 
   z-index: 998; 
 }
 
-.logo-enlace img {
+.logo-tei img {
   display: block;
   width: 80px;
   height: 80px;
@@ -584,7 +584,7 @@ a.boton {
   #menu-contenidos {
     position: static;
   }
-  .logo-enlace {
+  .logo-tei {
     display: none;
   }
   .boton-version {

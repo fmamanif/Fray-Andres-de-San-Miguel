@@ -414,3 +414,13 @@ tei-figure[id="fig_88v_3"] img {
 
 
 /* #endregion FIGURAS */
+
+
+
+
+@media (max-width: 768px) {
+  tei-head {
+    text-align: left;
+  }
+
+}
