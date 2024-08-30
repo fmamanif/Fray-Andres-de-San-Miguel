@@ -41,7 +41,6 @@ html {
 .col-1 { width: 8.33%; }
 .col-2 { 
   width: 16.67%; 
-  max-width: 16.67%; 
   overflow: hidden;
 }
 .col-3 { width: 25%; }
@@ -575,13 +574,15 @@ a.boton {
     margin-right: 0;
     margin-left: 0;
   }
-  .col-1, .col-3, .col-6, .col-9, .col-10 {
+  .col-1, .col-2, .col-3, .col-6, .col-9, .col-10 {
     width: 100%; /* Hace que todas las columnas ocupen el ancho completo */
     padding: 40px; /* Ajusta el padding si es necesario */
   }
+  .col-2{
+    padding-bottom: 0;
+  }
   #menu-contenidos {
     position: static;
-    width: 100%; /* Asegura que el menú no se desborde en pantallas pequeñas */
   }
   .logo-enlace {
     display: none;
