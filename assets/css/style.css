@@ -116,7 +116,7 @@ h6 {
 }
 
 
-/* Estilos para enlaces */
+/* #region ENLACES GENERALES */
 .enlace {
 	text-decoration: none;
 	color: var(--color-texto);
@@ -142,7 +142,7 @@ h6 {
   height: 100%;
 }
 
-
+/* #endregion */
 
 /* #region BOTONES */
 .boton {
@@ -170,13 +170,7 @@ a.boton {
 
 /* #endregion BOTONES */
 
-
-
-.centered-container {
-  text-align: center; /* Asegura que el texto dentro del div también esté centrado */
-}
-
-/* Estilo del sidebar */
+/* #region MENÚ GENERAL */
 .sidebar {
   display: flex;  /* Activa Flexbox */
   flex-direction: column;  /* Organiza los elementos en una columna */
@@ -205,7 +199,6 @@ a.boton {
 
 }
 
-
 .sidebar .logos a {
   display: inline-block;
   margin-right: 10px;
@@ -222,10 +215,6 @@ a.boton {
   align-items: center;  /* Centra verticalmente si hay diferencia en tamaño de fuente o altura */
 }
 
-
-
-
-/* Estilo de los enlaces del sidebar */
 .sidebar a {
   padding: 10px 15px;
   text-decoration: none;
@@ -240,7 +229,6 @@ a.boton {
   opacity: 0.7;
 }
 
-/* Estilo del submenú */
 .submenu {
   display: none; /* Oculta el submenú por defecto */
   flex-direction: column;
@@ -261,8 +249,6 @@ a.boton {
   padding-left: 1px;
 }
 
-
-/* Estilo para el botón de menú hamburguesa */
 .menu-bar {
   font-family: "Open Sans";
   font-weight: bold;
@@ -278,12 +264,13 @@ a.boton {
   transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-/* Estilo para hover */
 .menu-bar:hover {
   opacity: 0.6;
 }
 
-/* MENÚ CONTENIDOS */
+/* #endregion MENÚ GENERAL */
+
+/* #region MENÚ CONTENIDOS */
 #menu-contenidos {
   position: relative;
   top: 20px;
@@ -332,13 +319,9 @@ a.boton {
   opacity: 0.7; /* Aplica el efecto hover solo a la línea individual */
 }
 
+/* #endregion MENÚ CONTENIDOS */
 
-
-
-
-
-
-/* PORTADA*/
+/* #region PORTADA*/
 
 #portada .col-9 {
   display: flex;
@@ -362,7 +345,6 @@ a.boton {
   margin-bottom: 2px; /* Espacio inferior entre los párrafos */
 }
 
-
 .centrado-vertical .background-image {
   position: absolute; 
   right: 0; 
@@ -377,9 +359,8 @@ a.boton {
   z-index: -1;
 }
 
-/* Ensure the parent is positioned relatively */
 .centrado-vertical {
-  position: relative; /* Needed to position the child absolutely */
+  position: relative; 
 }
 
 @media screen and (max-width: 1024px) {
@@ -392,13 +373,7 @@ a.boton {
   
 }
 
-.benson-logo img {
-  display: block;
-  width: 40px;
-}
-
-
-
+/* #endregion PORTADA */
 
 /* #region BOTONES VERSIONES*/
 .boton-version {
@@ -524,6 +499,10 @@ a.boton {
 
 
 /* #region GRID IMAGENES */
+.centered-container {
+  text-align: center; /* Asegura que el texto dentro del div también esté centrado */
+}
+
 .grid-container {
   width: 100%; /* Un poco de espacio en los lados */
   margin: 20px auto; /* Centrado horizontal */
