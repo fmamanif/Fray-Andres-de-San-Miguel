@@ -399,12 +399,12 @@ a.boton {
 /*IMÁGENES FACSÍMIL */
 .imagen-fixed {
   position: fixed;
-  bottom: 135px; /* Ajusta esta distancia para que la imagen quede encima de los botones */
+  bottom: 130px; /* Ajusta esta distancia para que la imagen quede encima de los botones */
   left: 40px; /* Alineación con el margen izquierdo, similar a los botones */
 }
 
 .imagen-fixed img {
-  width: 150px; /* Ajusta este tamaño según el margen*/
+  width: 200px; /* Ajusta este tamaño según el margen*/
   height: auto; /* Mantiene la proporción de la imagen */
   cursor: pointer; /* Cambia el cursor para indicar que la imagen se puede clickear */
 }
