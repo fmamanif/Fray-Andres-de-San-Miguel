@@ -294,6 +294,7 @@ a.boton {
   color: var(--gris);
   margin-left: 0; 
   padding-left: 0;
+  border-bottom: 1px solid var(--grisclaro);
 }
 
 #menu-contenidos ul {
@@ -576,7 +577,6 @@ a.boton {
   }
   .col-1, .col-2, .col-3, .col-6, .col-9, .col-10 {
     width: 100%; /* Hace que todas las columnas ocupen el ancho completo */
-    padding: 40px; /* Ajusta el padding si es necesario */
   }
   .col-2{
     padding-bottom: 0;
