@@ -70,4 +70,4 @@ puntos = (?<!<orig>[^<]*)·(?![^>]*</orig>)
 
 <choice><orig><del rend="line-through"></del></orig><reg></reg></choice>
 
-<ptr target="#" n="?"/> 
+ 
