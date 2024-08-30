@@ -25,6 +25,10 @@
             <note xml:id="lazo" type="término"><term rend="bold">Lazo</term> 
                 Obra producida por el entrelazamiento continuo de cintas o bandas que forman ciertas líneas cortadas o curvilíneas, sin solución de continuidad aparente. En la carpintería de armar histórica iberoamericano, este lazo, además de obedecer a las leyes internas del trazado geométrico, depende de los factores constructivos como la modulación y las dimensiones de los elementos que la forman, esto le confiere un aspecto propio. Se usa también el término lacería para hablar de un grupo de lazos o de forma genérica para este tipo de entrelazamiento de bandas.</note>
             
+            <note xml:id="traza" type="término">
+                <term rend="bold">Traza</term> Diseño o modelo dibujado a cualquier escala del dibujo a construir.
+            </note>
+                
             <note xml:id="azafate" type="término"><term rend="bold">Azafate (o zafate)</term> 
                 Del árabe andalusí <hi rend="italic">as-safāṭ</hi> (cesta o canasta). Figura o hueco de forma hexagonal resultante de la intersección de dos bandas de madera que forman una rueda de lazo. Aunque geométricamente son dependientes del sino que genera la rueda, son uno de los elementos más visibles de esta por su forma, número y tamaño, siendo mayor cuantas más calles tenga la rueda. Son simétricos con respecto al eje que pasa por el centro del sino. En el caso de las ruedas de lazo de 8, pueden tener dos formas. <hi rend="italic">Azafate redondo</hi>: es un hexágono irregular y el vértice más alejado del sino comprende un ángulo obtuso. La condición geométrica para trazar una rueda canónica de lazo es que el costadillo y la media aspilla del azafate midan lo mismo. <hi rend="italic">Azafate Harpado</hi>: es un octógono irregular, y tanto el vértice más alejado del sino como los adyacentes comprenden cada uno un ángulo recto, simulando una punta de flecha. Se utilizaba para que las series de ruedas de 8 pudieran insertarse en una trama estructural de elementos equidistantes, como sucede, por ejemplo, en los cuartillejos.</note>
             <note xml:id="candilejo" type="término"><term rend="bold">Candilejo</term> 
@@ -33,6 +37,10 @@
                 Figura o hueco de forma romboidal resultante de la intersección de lazos que forman una rueda.</note>
             <note xml:id="sino" type="término"><term rend="bold">Sino (o signo)</term> 
                 Polígono regular en forma de estrella que da su nombre a cada tipo de rueda de lazo. Es el centro y el origen de cada rueda y resulta del cruce de las bandas que componen los lazos.</note>
+            <note xml:id="cuartillejo" type="término">
+                <term rend="bold">Cuartillejo</term> Superficie cuadrada en que los vértices son centros de sino, desde los que se trazan las correspondientes ruedas de lazo con todos sus elementos. Está formado por 4 cuartos de rueda.
+            </note>
+                
             <note xml:id="plomo" type="expresión"><term rend="bold">Plomo ("a plomo")</term>  
                 Línea perpendicular a un plano horizontal. Línea vertical.</note>
             <note xml:id="cuerda" type="término"><term rend="bold">Cuerda</term> 
