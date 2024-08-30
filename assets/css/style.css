@@ -32,11 +32,18 @@ html {
 }
 
 /* Clases de columnas */
-.col-1, .col-3, .col-6, .col-9, .col-10 {
+.col-1, .col-2, .col-3, .col-6, .col-9, .col-10 {
   padding: 20px; /* padding a cada lado, resultando en un total de 40px de espacio interior */
+  box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .col-1 { width: 8.33%; }
+.col-2 { 
+  width: 16.67%; 
+  max-width: 16.67%; 
+  overflow: hidden;
+}
 .col-3 { width: 25%; }
 .col-6 { width: 50%; }
 .col-9 {
@@ -45,6 +52,11 @@ html {
   margin-right: auto;
 }
 .col-10 { width: 83.33%; }
+
+.no-margin-auto {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 /* Clearfix para el sistema de float */
 .row::after {
@@ -126,16 +138,8 @@ h6 {
   height: 100%;
 }
 
-.menu {
-
-}
 
 
-/* Estilo básico para listas */
-ul,
-ol {
-  margin-left: 20px;  /* Añade indentación a las listas */
-}
 
 /* BOTONES */
 .boton {
@@ -275,6 +279,58 @@ a.boton {
 .menu-bar:hover {
   opacity: 0.6;
 }
+
+/* MENÚ CONTENIDOS */
+#menu-contenidos {
+  position: fixed;
+  top: 20px;
+  overflow-y: auto;
+  max-height: 80vh;
+  width: 100%; 
+  max-width: 100%;
+
+}
+
+#menu-contenidos h5 {
+  color: var(--gris);
+  margin-left: 0; 
+  padding-left: 0;
+}
+
+#menu-contenidos ul {
+  list-style-type: none;
+  padding-left: 0; 
+  margin-left: 0; 
+  width: 100%; /* Asegura que la lista ocupe todo el ancho del contenedor */
+}
+
+#menu-contenidos ul li {
+  margin-bottom: 10px;
+  padding-left: 0; 
+  max-width: 100%; 
+  overflow: hidden;
+}
+
+#menu-contenidos ul li a {
+  text-decoration: none;
+  color: var(--gris);
+  word-wrap: break-word;
+  white-space: normal;
+  display: block;
+  overflow: hidden;
+  max-width: 100%;
+  box-sizing: border-box;
+  word-break: break-word;
+  width: 100%;
+}
+
+#menu-contenidos ul li a:hover {
+  opacity: 0.7; /* Aplica el efecto hover solo a la línea individual */
+}
+
+
+
+
 
 
 
@@ -522,6 +578,10 @@ a.boton {
   .col-1, .col-3, .col-6, .col-9, .col-10 {
     width: 100%; /* Hace que todas las columnas ocupen el ancho completo */
     padding: 40px; /* Ajusta el padding si es necesario */
+  }
+  #menu-contenidos {
+    position: static;
+    width: 100%; /* Asegura que el menú no se desborde en pantallas pequeñas */
   }
   .logo-enlace {
     display: none;
