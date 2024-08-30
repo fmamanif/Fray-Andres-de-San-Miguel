@@ -507,7 +507,7 @@ a.boton {
 
 /* #endregion */
 
-/* Estilos para el enlace del logo */
+
 .logo-tei {
   position: fixed; 
   right: 20px; 
@@ -523,7 +523,7 @@ a.boton {
 }
 
 
-/* GRID IMAGENES */
+/* #region GRID IMAGENES */
 .grid-container {
   width: 100%; /* Un poco de espacio en los lados */
   margin: 20px auto; /* Centrado horizontal */
@@ -566,6 +566,7 @@ a.boton {
   opacity: 1;
 }
 
+/* #endregion GRID */
 
 
 /* Estilos para ajustar el contenido de la edición a pantallas más pequeñas */
