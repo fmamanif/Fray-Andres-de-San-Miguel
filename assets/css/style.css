@@ -193,6 +193,12 @@ a.boton {
   padding: 10px 15px;
 }
 
+.cita p {
+  font-size: 14px;
+
+}
+
+
 .sidebar .logos a {
   display: inline-block;
   margin-right: 10px;
