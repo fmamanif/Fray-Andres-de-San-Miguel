@@ -24,26 +24,472 @@
 
             <note xml:id="lazo" type="término"><term rend="bold">Lazo</term> 
                 Obra producida por el entrelazamiento continuo de cintas o bandas que forman ciertas líneas cortadas o curvilíneas, sin solución de continuidad aparente. En la carpintería de armar histórica iberoamericano, este lazo, además de obedecer a las leyes internas del trazado geométrico, depende de los factores constructivos como la modulación y las dimensiones de los elementos que la forman, esto le confiere un aspecto propio. Se usa también el término lacería para hablar de un grupo de lazos o de forma genérica para este tipo de entrelazamiento de bandas.</note>
-            <note xml:id="azafate" type="término"><term rend="bold">Azafate o zafate</term> 
-                Del árabe andalusí <hi rend="italic">as-safāṭ</hi> (cesta o canasta). Figura o hueco de forma hexagonal resultante de la intersección de dos bandas de madera que forman una rueda de lazo. Puede tener forma “redonda”, es decir hexagonal, o “harpados”, en forma de un arpón.</note>
+            
+            <note xml:id="azafate" type="término"><term rend="bold">Azafate (o zafate)</term> 
+                Del árabe andalusí <hi rend="italic">as-safāṭ</hi> (cesta o canasta). Figura o hueco de forma hexagonal resultante de la intersección de dos bandas de madera que forman una rueda de lazo. Aunque geométricamente son dependientes del sino que genera la rueda, son uno de los elementos más visibles de esta por su forma, número y tamaño, siendo mayor cuantas más calles tenga la rueda. Son simétricos con respecto al eje que pasa por el centro del sino. En el caso de las ruedas de lazo de 8, pueden tener dos formas. <hi rend="italic">Azafate redondo</hi>: es un hexágono irregular y el vértice más alejado del sino comprende un ángulo obtuso. La condición geométrica para trazar una rueda canónica de lazo es que el costadillo y la media aspilla del azafate midan lo mismo. <hi rend="italic">Azafate Harpado</hi>: es un octógono irregular, y tanto el vértice más alejado del sino como los adyacentes comprenden cada uno un ángulo recto, simulando una punta de flecha. Se utilizaba para que las series de ruedas de 8 pudieran insertarse en una trama estructural de elementos equidistantes, como sucede, por ejemplo, en los cuartillejos.</note>
             <note xml:id="candilejo" type="término"><term rend="bold">Candilejo</term> 
                 Figura o hueco en forma de estrella de cinco puntas que resulta del cruce de bandas de madera que forman una rueda de lazo.</note>
             <note xml:id="almendrilla" type="término"><term rend="bold">Almendrilla</term> 
                 Figura o hueco de forma romboidal resultante de la intersección de lazos que forman una rueda.</note>
-            <note xml:id="sino" type="término"><term rend="bold">Sino o signo</term> 
-                Polígono regular en forma de estrella que da su nombre a cada tipo de rueda de lazo. Es el centro y el origen de cada rueda y resulta del cruce de las bandas que componen los lazos. </note>
+            <note xml:id="sino" type="término"><term rend="bold">Sino (o signo)</term> 
+                Polígono regular en forma de estrella que da su nombre a cada tipo de rueda de lazo. Es el centro y el origen de cada rueda y resulta del cruce de las bandas que componen los lazos.</note>
             <note xml:id="plomo" type="expresión"><term rend="bold">Plomo ("a plomo")</term>  
                 Línea perpendicular a un plano horizontal. Línea vertical.</note>
             <note xml:id="cuerda" type="término"><term rend="bold">Cuerda</term> 
                 Grueso de la madera.</note>
-            <note xml:id="desculatar" type="verbo"><term rend="bold">Desculatar o descopetar</term> 
+            <note xml:id="desculatar" type="verbo"><term rend="bold">Desculatar (o descopetar)</term> 
                 Acción de generar una rueda de lazo a partir de una o varias otras ruedas de lazo extendiendo sus brazos. </note>
             <note xml:id="ferrete" type="término"><term rend="bold">Ferrete</term> 
                 Del francés <hi rend="italic">ferret</hi>, diminutivo de <hi rend="italic">fer</hi> (objeto o parte de un objeto hecho de hierro). Instrumento de hierro utilizado para marcar o poner señal a las cosas.</note>
+            <note xml:id="costadillo" type="término"><term rend="bold">Costadillo</term> 
+                Pieza que se origina del corte de las cintas de una rueda de lazo. Está formada por los lados paralelos de los azafates y está delimitada por las aspillas.</note>
+            <note xml:id="rueda" type="término"><term rend="bold">Rueda (de lazo)</term> 
+                Conjunto de elementos entrelazados que crean una composición radial originada por una estrella. Está compuesto por un sino en el centro y de un grupo de almendrillas, azafates y candilejos que la rodean. Dependiendo del número de puntas de su sino recibirá su nombre. Por ejemplo: una rueda de lazo de 8 se denomina así por estrella o sino de 8 puntas. </note>
+            <note xml:id="armar" type="verbo"><term rend="bold">Armar</term> 
+                Concentrar y juntar entre sí las varias piezas de que se componen un objeto.</note>
+            <note xml:id="armadura" type="término"><term rend="bold">Armadura</term> 
+                Del latín <hi rend="italic">armum</hi>, conteniendo a su vez la raíz indoeuropea <hi rend="italic">ar-</hi> (junta o articulación). Grupo de elementos o piezas reunidas para cubrir un edificio o estancia, pudiendo ser estructurales o decorativas. En la ocurrencia, estas piezas son de madera. Se utiliza como sinónimo de cubierta o techumbre, y de artesonado de manera popular.</note>
+            <note xml:id="almizate" type="término"><term rend="bold">Alizate</term> 
+                Del árabe andalusí <hi rend="italic">al-mīsāṭ</hi> (el centro). Sección plana y horizontal formada por la totalidad de los nudillos y peinazos en las armaduras. Estructuralmente, la existencia del almizate aporte una mayor estabilidad a la armadura puesto que tiene un efecto transmisor de cargas en caso de viento, y adicionalmente, sirve para impedir que los pares adquieran flecha debido al peso propio y al de la cubierta. En su configuración habitual se ubicaba justo a dos tercios de la altura de los pares. Sinónimo de <hi rend="italic">Harneruelo</hi>.</note>
+            <note xml:id="cuajar" type="verbo"><term rend="bold">Cuajar</term> 
+                Recargar con muchos adornos una cosa. En este caso hace referencia a la composición decorativa de una armadura. En el manuscrito, tanto Baez como Nuere leen “cuadrado”, pero Fray Andrés escribe “cuajada” para resaltar la fabricación de la ornamentación.</note>
+            <note xml:id="paño" type="término"><term rend="bold">Paño</term> 
+                Estructura de madera que forma un plano plano e inclinado que cubre una estancia. Según el tipo de armadura, los paños pueden ser triangulares, cuadrados, rectangulares o trapezoidales. En función de su lugar en la estancia, este puede ser un paño testero, ya que está ubicado sobre sobre el muro <hi rend="italic">testero</hi>; y las <hi rend="italic">gualderas</hi> que ocupan los lados izquierdo o derecho de la estancia. Sinónimo de <hi rend="italic">Faldón</hi></note>
+            <note xml:id="nudo" type="término"><term rend="bold">Nudo</term> 
+                En la lacería, punto de encuentro de dos piezas que se cruzan a nivel.</note>
+            <note xml:id="estribo" type="térmno"><term rend="bold">Estribo</term> 
+                Del vocablo latino <hi rend="italic">strepus</hi> (correa que permitía mantener los pies en su lugar mientras se montaba a caballo). Pieza maestra horizontal puesta sobre el muro, como un marco. Permite que los pares embarbillen con él, y de esa manera neutralizar las cargas y empujes, transformándose en una carga vertical que se transmite al muro. Por extensión, <hi rend="italic">estribamiento</hi> o <hi rend="italic">viga collar</hi>. </note>
+            <note xml:id="vara" type="expresión"><term rend="bold">Vara ("Vara de Burgos")</term> 
+                Antigua unidad de medida igual a tres pies o a cuatro palmos. Su valor varió a lo largo de la historia, pero bajo el reino de Felipe II de España, medía 83,59 cm.</note>
+            <note xml:id="pie" type="término"><term rend="bold">Pie (o Tercia)</term> 
+                Antigua unidad de medida equivalente a un tercio de vara (27,9 cm).</note>
+            <note xml:id="calle" type="término"><term rend="bold">Calle</term> 
+                Espacio comprendido entre dos calles, vigas o bandas de madera consecutivas y paralelas en la armadura.</note>
+            <note xml:id="cartabón" type="término"><term rend="bold">Cartabón</term> 
+                Del occitano <hi rend="italic">escartabon</hi>, cuya raíz <hi rend="italic">escartar</hi> significa dividir en cuartos. Es probable que comparta la raíz etimológica con escuadra. Instrumento diseño en forma de triángulo compuesto por diferentes ángulos, utilizado para marcar los ángulos y las medidas. Tiene forma de triángulo rectángulo escaleno (90° y dos desiguales) en todos los casos, salvo en el del cartabón de cuatro, en el que es rectángulo isósceles (dos de 45° y uno de 90°).  Los ángulos del cartabón se denominaban cola, cabeza y cabeza de cuadrado. Dado los tres ángulos, el recto era la cabeza de cuadrado, y de los dos ángulos agudos restantes, el más agudo era la cola y el menos la cabeza. Cuando se popularizó la lacería, se comenzó a llamar a los cartabones con nombre propio (de 5, de 6, de 7, etc…) en función del número de veces que cabía su cola en una cambija.  Existen dos tipo de cartabones en el universo de la carpintería de armar histórica iberoamericana: los destinados a la fabricación de armaduras y los destinados a la realización de los lazos.</note>
+            <note xml:id="cuadrado" type="expresión">                <term rend="bold">“Cuadrado” (cartabón cuadrado)</term> 
+                Conocido también como <hi rend="italic">cartabón de cuatro</hi>, está compuesto por ángulos agudos que valen <num>45°</num> cada uno.
+            </note>
+            <note xml:id="barbilla" type="término">
+                <term rend="bold">Barbilla</term> Corte angular dado a una viga para sostener o ensamblar otra pieza de madera. En los pares de una armadura, esta palabra se utiliza para nombrar el corte vertical dado a la base del par que transmite las cargas al estribo.
+            </note>
+            <note xml:id="arrocabe" type="término">
+                <term rend="bold">Arrocabe (o cornisa)</term> De árabe andalusí <hi rend="italic">ar-arukkāb</hi> (aquello que se cabalga o se monta). Grupo de piezas de madera formadas por los elementos que, desde el listón del almarbate de los paños hasta la solera, son ubicados delante de las piezas estructurales (solera, estribo e inicio de los pares).
+            </note>
+            <note xml:id="a_escuadra" type="expresión">
+                <term rend="bold">“a escuadra”</term> En ángulo recto.
+            </note>
+            <note xml:id="par" type="término">
+                <term rend="bold">Par</term> Viga estructural que reposa en la hilera y en el estribo. Un grupo de pares da forma a un paño. Sinónimo de <term>Alfarda</term>.
+            </note>
+            
+            <note xml:id="alfarda" type="término">
+                <term rend="bold">Alfarda</term> Del árabe <hi rend="italic">al-fārd</hi> (cada una de las cosas que componen un todo). Sinónimo de <term>par</term>.
+            </note>
+            
+            <note xml:id="nudillo" type="término">
+                <term rend="bold">Nudillo</term> Elemento estructural de una armadura que está ensamblado horizontalmente a una cierta altura -generalmente dos tercios- a partir de dos pares opuestos. El conjunto de los nudillos de una armadura se denomina <term>almizate</term> o <term>harneruelo</term>.
+            </note>
+            
+            <note xml:id="montear" type="verbo">
+                <term rend="bold">Montear</term> Hacer el dibujo o montea de una obra.
+            </note>
+            
+            <note xml:id="albanecar" type="término">
+                <term rend="bold">Albanecar</term> Del árabe andalusí <hi rend="italic">al-banīqa</hi> (capucha o pieza triangular). Triángulo rectángulo formado por la lima, la solera y el par toral. A partir de este triángulo nace el cartabón albanecar que era usado para construir los testeros y las gualderas, sobre todo a la hora dar los cortes a las péndolas. Puesto que el albanecar está ubicado en un plano inclinado, para medirlo es necesario abatir el mismo sobre la planta.
+            </note>
+            
+            <note xml:id="almarbate" type="término">
+                <term rend="bold">Almarbate</term> Del árabe andalusí <hi rend="italic">al-marbāṭ</hi> (cinturón). Cinta de madera, ubicada en las parte más baja y más visible de los paños, que amarra la parte baja de los pares y sirve de cierre visual del trazado de la armadura. Sobre ella se encuentra el <term>arrocabe</term>.
+            </note>
+            
+            <note xml:id="montea" type="término">
+                <term rend="bold">Montea</term> Representación a tamaño natural o a escala, del todo o parte de un elemento o traza, suficiente y necesaria para llevar a cabo su construcción.
+            </note>
+            
+            <note xml:id="cabeza" type="término">
+                <term rend="bold">Cabeza (de cartabón)</term> El ángulo más grande de un cartabón, excluyendo el de 90°.
+            </note>
+            
+            <note xml:id="cola" type="término">
+                <term rend="bold">Cola (de cartabón)</term> Término que designa el ángulo más pequeño que contiene un cartabón, siendo el ángulo complementario que aquel que está en la cabeza del mismo.
+            </note>
+            
+            <note xml:id="copete" type="término">
+                <term rend="bold">Copete</term> Corte superior de un par donde la hilera reposa. Su ángulo de corte es generalmente de 45°. Por extensión, la extremidad de un trozo de madera.
+            </note>
+            
+            <note xml:id="patilla" type="término">
+                <term rend="bold">Patilla</term> Corte dado al par en su extremidad inferior, cuyo ángulo está trazado con la cola del <term>cartabón cuadrado</term> o de armadura. El corte permite que el par se ensamble en la base superior del estribo.
+            </note>
+            
+            <note xml:id="quijera" type="término">
+                <term rend="bold">Quijera</term> Cada una de las ramas de la horquilla que se forma en el extremo de un peinazo o nudillo al hacer una caja para que entre la garganta de otro. Se usa también el término <term>cornezuelo</term> cuando estas ramas están en los extremos del nudillo.
+            </note>
+            <note xml:id="garganta" type="término">
+                <term rend="bold">Garganta</term> Escopleadura que se hace en los pares de una armadura para recibir las <term>cornezuelos</term> del nudillo.
+            </note>
+            
+            <note xml:id="canto" type="término">
+                <term rend="bold">Canto</term> Lado más estrecho de una pieza de sección rectangular. Altura de una viga.
+            </note>
+            
+            <note xml:id="tabica" type="término">
+                <term rend="bold">Tabica</term> Del árabe <hi rend="italic">tabīqa</hi> (adaptado o ajustado). Plancha de madera instalada en la sección baja de los pares y sirve para cubrir las calles intermedias.
+            </note>
+            
+            <note xml:id="lima" type="término">
+                <term rend="bold">Lima</term> Del latín <hi rend="italic">limus</hi> (oblicuo). Viga que forma el borde de esquina, sirviendo de unión de dos paños contiguos de la armadura. Se extiende desde el estribo hasta la hilera. Existen tres tipos de limas. <hi rend="italic">Lima bordón</hi>: es cuando existe solo una viga de unión y sobre ella reposan las péndolas de ambos paños. <hi rend="italic">Lima moamar</hi>: (del árabe <hi rend="italic">moammar</hi>: restaurado, reedificado, doble o reforzado): es una viga doble, cada una perteneciente a un paño, de modo que en cada lima reposan únicamente por péndolas correspondientes a su paño. Las limas moamares favorecen la prefabricación, pues permiten realizar la unión de los paños en el taller o en la obra, no en altura. <hi rend="italic">Lima jaira</hi>: tipo de lima utilizado en las armaduras ochavadas, su forma oblicua hace que su corte sea de sección romboidal. También existe el término <hi rend="italic">lima tesa</hi>, que es el nombre que recibe la lima producida al encontrarse dos paños en una divisoria de aguas.
+            </note>
+            
+            <note xml:id="regla_alta" type="expresión">
+                <term rend="bold">Regla alta (“una tan larga”)</term> Largo de la línea que separa el paño con el almizate.
+            </note>
+            
+            <note xml:id="pendola" type="término">
+                <term rend="bold">Péndola</term> Cada uno de los maderos de un paño de armadura que va de un tamaño mayor a menor desde la solera a la <term>lima tesa</term>.
+            </note>
+            
+            <note xml:id="regla_baja" type="término">
+                <term rend="bold">Regla baja</term> Largo del par sobre el <term>almarbate</term>.
+            </note>
+            
+            <note xml:id="escuadrar" type="verbo">
+                <term rend="bold">Escuadrar</term> Labrar o disponer un objeto de modo que sus caras formen con las caras contiguas ángulos rectos. También se usa en el contexto del tratamiento de la madera, luego del aserramiento y descortezado de los árboles.
+            </note>
+            
+            <note xml:id="escopleadura" type="término">
+                <term rend="bold">Escopleadura</term> Caja realizada en la madera con un escoplo, para que encaje en ella la espiga de otra madera.
+            </note>
+            
+            <note xml:id="guarnecer" type="verbo">
+                <term rend="bold">Guarnecer</term> Este término hace referencia a la decoración y dotación de elementos estructurales como el lazo.
+            </note>
+            <note xml:id="cinta" type="término">
+                <term rend="bold">Cinta</term> Tablilla estrecha y alargada, generalmente colocada de manera perpendicular a pares, nudillos o simples jaldetas, con la finalidad de cuajar de madera la separación entre las diferentes tablas sin que queden ranuras visibles desde abajo.
+            </note>
+            
+            <note xml:id="campaneo" type="término">
+                <term rend="bold">Campaneo</term> Sección trapezoidal dado a las limas -moamares y jairas- con el fin de simular que los bordes, que se encuentran en las calle de las limas, sean paralelos. Esta sección se obtiene a través de un método que consiste en averiguar el suplemento que es necesario darle a una sección equivalente a la de un par para obtener el campaneo.
+            </note>
+            
+            <note xml:id="coz" type="término">
+                <term rend="bold">Coz de limas</term> De la raíz latina <hi rend="italic">calcis</hi> (talón). Cartabón de armadura que proporciona la medida y los ángulos de corte entre la lima y su proyección sobre el plano horizontal.
+            </note>
+            
+            <note xml:id="taujel" type="término">
+                <term rend="bold">Taujel</term> Del árabe andalusí <hi rend="italic">tawšīḥ</hi> (portar un cinturón o correa). Fina banda de madera que compone un motivo de lazo y que, del mismo modo que los pares o nudillos, pero con escaso grosor, sirve para realizar o complementar trazados de lacería. En armaduras apeinazadas no se distinguen de los peinazos, pues se solapan con determinados rebajes en piezas portantes. En armaduras ataujeradas, el lazo estaría compuesto exclusivamente por taujeles, al estar sobrepuestos a una tablazón de soporte.
+            </note>
+            
+            <note xml:id="taravea" type="término">
+                <term rend="bold">Taravea</term> Del árabe <hi rend="italic">at-tarbī</hi> (pieza cuadrada). Grupo de piezas de madera que posibilitan la conexión entre las ruedas de lazo generadores y sus desculatadas. Por extensión, pieza incrustada de madera. También se encuentra bajo la forma <term>taracea</term>.
+            </note>
+            
+            <note xml:id="haliba" type="término">
+                <term rend="bold">Háliba</term> Pieza que es parte de la rueda de lazo, continua a los sinos, azafates y almendrillas. Algunos piensan que por su forma el término háliba viene del tipo de peces llamado “Halibut”.
+            </note>
+            
+            <note xml:id="boquilla" type="término">
+                <term rend="bold">Boquilla</term> Pequeña pieza que es parte del corte de una rueda de lazo y que está ubicada a los lados del sino.
+            </note>
+            
+            <note xml:id="calle_y_cuerda" type="expresión">
+                <term rend="bold">“Calle y cuerda”</term> Regla que hace referencia al espacio de dos cuerdas que es dejado en cada calle, es decir entre cada par. Esta regla permite sistematizar tanto la fabricación de las armaduras y lazos.
+            </note>
+            
+            <note xml:id="aspilla" type="término">
+                <term rend="bold">Aspilla</term> Pieza de madera que recibe su nombre por su parecido con las aspas de un molino. Es parte de las partes de una rueda de lazo. Se ubica en el encuentro de dos ruedas y sirve de remate de los azafates, en su extremo más alejado del sino. Está formada por tres piezas: una más larga y dos cortas e iguales entre sí, que a su vez serían idénticas al costadillo corto. En el caso de las armaduras apeinazadas, esta pueda estar formada por peinazos con relieve, o por taujeles. Sus cortes se trazan con el <term>cartabón ataperfiles</term>.
+            </note>
+            
+            <note xml:id="rehender" type="verbo">
+                <term rend="bold">Rehender</term> Dar pequeños golpes de sierra a las maderas para indicar por dónde han de cortarse, según el uso a que se les destine.
+            </note>
+            
+            <note xml:id="ataperfiles" type="término">
+                <term rend="bold">Ataperfiles (cartabón ataperfiles)</term> Cartabón cuya cola o ángulo menor, es la mitad de la cabeza o ángulo mayor del cartabón de quien toma el nombre. Los ataperfiles con nombre propio son: <term>atimbrón</term> (cartabón de 7: 57°86’ y 32°14’), <term>blanquillo</term> (cartabón de ocho: 35°45’ y 56°15’) y <term>negrillo</term> (cartabón de nueve: 35° y 55°). El cartabón de diez utiliza como ataperfiles al cartabón de cinco. Este también usado para dar forma a las aspillas.
+            </note>
+            
+            <note xml:id="negrillo" type="término">
+                <term rend="bold">Cartabón negrillo</term> véase <term>Ataperfiles</term>.
+            </note>
+            
+            <note xml:id="blanquillo" type="término">
+                <term rend="bold">Cartabón blanquillo</term> véase <term>Ataperfiles</term>.
+            </note>
+            <note xml:id="atimbron" type="término">
+                <term rend="bold">Cartabón atimbrón</term> véase <term>Ataperfiles</term>.
+            </note>
+            <note xml:id="ochavada" type="término">
+                <term rend="bold">Ochavada (armadura ochavada)</term> Armadura de plano octogonal alargada, compuesta de un almizate y de ocho paños.
+            </note>
+            
+            <note xml:id="desollar" type="verbo">
+                <term rend="bold">Desollar</term> Rebajar las maderas.
+            </note>
+            
+            <note xml:id="peinazo" type="término">
+                <term rend="bold">Peinazo</term> Proviene de peine, en alusión a las pequeñas púas que parten ortogonalmente que las reúne a todas. Pieza fundamental para referirse a dos tipos de elementos: los maderos que recorren puertas y ventanas en el sentido horizontal entre ambos largueros, o las piezas que van de un nudillo a otro en los almizates de las armaduras.
+            </note>
 
+            <note xml:id="saltarregla" type="término">
+                <term rend="bold">Saltarregla</term> Del francés <hi rend="italic">sauterelle</hi> (falsa escuadra). Instrumento de medida constituido de dos brazos articulados puestos en un eje y que permiten definir, trazar y controlar todos los valores de los ángulos.
+            </note>
+            
+            <note xml:id="ambligonio" type="término">
+                <term rend="bold">Triángulo Ambligonio</term> Triángulo que tiene obtuso uno de sus ángulos.
+            </note>
+            
+            <note xml:id="venturero" type="expresión">
+                <term rend="bold">“Cartabón venturero”</term> Cartabón que no responde a una construcción concreta.
+            </note>
+            
+            <note xml:id="seisavar" type="verbo">
+                <term rend="bold">Seisavar</term> Dar a una pieza forma hexagonal regular.
+            </note>
+            
+            <note xml:id="jairón" type="término">
+                <term rend="bold">Jairón</term> Paño irregular que aparece entre los regulares de una armadura de varios paños.
+            </note>
+            
+            <note xml:id="cambija" type="término">
+                <term rend="bold">Cambija</term> Semicircunferencia utilizada para el cálculo y trazado de cartabones.
+            </note>
 
+            <note xml:id="tirante" type="término">
+                <term rend="bold">Tirante</term> Elemento de refuerzo estructural ensamblado al estribo perpendicularmente a la luz de la estancia y apoyado sobre la solera. Esta viga está sujeta a tracción, asumiendo así las cargas laterales de la armadura, con el fin de que no sean transmitidas al muro, lo que impide que los estribos se separen.
+            </note>
+            
+            <note xml:id="embeber" type="verbo">
+                <term rend="bold">Embeber</term> Dicho de una cosa. Contener o encerrar dentro de sí a otra.
+            </note>
+            
+            <note xml:id="enrasar" type="verbo">
+                <term rend="bold">Enrasar</term> Igualar una obra con otra, de suerte que tengan una misma altura. Esto hace referencia especialmente a la fábrica o muros del edificio.
+            </note>
+            
+            <note xml:id="solera" type="término">
+                <term rend="bold">Solera</term> Del latín <hi rend="italic">solum</hi> (suelo). Madero asentado en toda su longitud sobre la fábrica y los nudillos del muro. También se denomina durmiente. Se ocupa como elemento de conexión entre la armadura de madera y las fábricas, de manera que la transmisión de cargas sea más continua. No obstante, en la práctica es imposible que la solera distribuya las cargas de manera homogénea puesto que sobre ella apoyan normalmente los tirantes cada cierta distancia, y en el espacio intermedio su misión se reduce a servir de apoyo al alicer inferior al arrocabe. Habitualmente es visible desde el interior del edificio gracias a una moldura que está clavada a la misma solera.
+            </note>
+            
+            <note xml:id="can" type="término">
+                <term rend="bold">Can</term> De la raíz latina <hi rend="italic">canthus</hi>, cuya traducción literal sería canto o extremo. En carpintería, se refiere a una pieza de madera en voladizo, sobre la que apoya otro elemento estructural, como puede ser una viga, un tirante o un cuadral. Normalmente, se encuentran los canes bajo los tirantes y cuadrales.
+            </note>
+            
+            <note xml:id="alicer" type="término">
+                <term rend="bold">Alicer</term> Del árabe clásico <hi rend="italic">al-ihsar</hi> (cinta o friso). Tablas de madera que se encajan entre dos canes o dos tirantes, dispuestas verticalmente con un ligero acuesto, y del mismo alto que las piezas antes mencionadas. Su función es puramente decorativa, pues sirven para tapar el encuentro entre todos los maderos y la cabeza del muro, pues en general surgían tosquedades propias de la obra que era conveniente no dejar a la vista. La configuración más habitual era que hubiese dos pisos de aliceres, uno entre canes y otro entre tirantes, separados entre sí por una tocadura, más otra que separaba el segundo alicer del argeute. Podía estar policromado.
+            </note>
+            
+            <note xml:id="engargolar" type="verbo">
+                <term rend="bold">Engargolar</term> Ajustar un tablero de madera en ranuras de otro madero sin necesidad de pegamento o cola.
+            </note>
+            
+            <note xml:id="acuesto" type="término">
+                <term rend="bold">Acuesto</term> Inclinación de la tablazón del arrocabe o de alguna otra pieza sobre la horizontal y respecto a la armadura.
+            </note>
+            
+            <note xml:id="moldura" type="término">
+                <term rend="bold">Moldura</term> Elemento ornamental corrido, de perfil arbitrario.
+            </note>
+            
+            <note xml:id="arquitrabe" type="término">
+                <term rend="bold">Arquitrabe</term> Parte inferior del entablamiento, la cual descansa inmediatamente sobre el capitel de la columna.
+            </note>
+            
+            <note xml:id="friso" type="término">
+                <term rend="bold">Friso</term> Faja más o menos ancha que suele estar decorada, usada como parte del establecimiento en los órdenes clásicos entre el arquitrabe y la cornisa.
+            </note>
+            
+            <note xml:id="empatillar" type="verbo">
+                <term rend="bold">Empatillar</term> Acción de ensamblar una pieza de madera a otra por medio de un tipo de corte llamado patilla.
+            </note>
+            
+            <note xml:id="zanca" type="término">
+                <term rend="bold">Zanca</term> Madero estructural inclinado. En las armaduras corresponde a la parte inferior de los pares que queda cubierta por el arrocabe.
+            </note>
+            
+            <note xml:id="cuadrante" type="término">
+                <term rend="bold">Cuadrante</term> En armaduras con cuadrales, es el paño horizontal limitado por el cuadral y los estribos, en la esquina de la pieza. Es de forma triangular.
+            </note>
+            
+            <note xml:id="rosca" type="término">
+                <term rend="bold">Rosca (del arco)</term> Cara frontal de un arco, la correspondiente al conjunto de cabezas de las dovelas que lo forman, o sea, la parte más manifiesta entre el trasdós y el intradós. Aparece profusamente decorada en los arcos triunfales de los presbiterios.
+            </note>
+            
+            <note xml:id="santo_domingo" type="historia">
+                <term rend="bold">Iglesia del Convento de Santo Domingo (Ciudad de México)</term> Fundada luego de la llegada de los dominicos en 1526 en el barrio de Santa María, que perteneció al calpulli azteca de Cuepopan. Esta primera iglesia fue reconstruida entre 1556 y 1557, es posible que en esta etapa de la iglesia haya ocurrido la obra de carpintería mencionada por Fray Andrés de San Miguel. Esta obra desapareció luego de una inundación, siendo reconstruida la iglesia en su totalidad bajo el diseño del arquitecto novohispano Pedro de Arieta, cuando tomó su aspecto actual.
+            </note>
+            
+            <note xml:id="mojinete" type="término">
+                <term rend="bold">Mojinete</term> Piñón de fábrica de forma triangular que remata la armadura a dos aguas.
+            </note>
+            
+            <note xml:id="alpartilla" type="término">
+                <term rend="bold">Alpartilla</term> Elemento auxiliar, probablemente un tope de tabla colocado en la base de escuadras o cartabones, a fin de servir de guía en el trazado sobre las piezas. Sinónimo de tracilla.
+            </note>
+            
+            <note xml:id="camaranchon" type="término">
+                <term rend="bold">Camaranchón</term> Espacio que queda sobre la armadura bajo el tejado.
+            </note>
+            
+            <note xml:id="quiebre" type="expresión">
+                <term rend="bold">“Quiebre”</term> Líneas de encuentro de los paños y del almizate de la armadura.
+            </note>
+            
+            <note xml:id="desquijerar" type="verbo">
+                <term rend="bold">Desquijerar</term> Acción de hacer las quijeras. En los nudillos, estas quijeras son los cornezuelos.
+            </note>
+            
+            <note xml:id="mangueta" type="término">
+                <term rend="bold">Mangueta</term> Pieza del almizate que tiene forma de nudillo cortado a poca distancia de los cornezuelos, debido a que se interseca con un nudillo normal, interrumpiéndolo.
+            </note>
+            
+            <note xml:id="espiga" type="término">
+                <term rend="bold">Espiga</term> Parte del ensamble denominado “caja y espiga”. Corresponde a la testa rebajada de una de las maderas, de modo que se ajusta en la caja de la otra.
+            </note>
+            
+            <note xml:id="vivo" type="expresión">
+                <term rend="bold">“Vivo”</term> Este término posee varias acepciones: canto; esquina o arista que se forma al juntarse dos planos; y la menor dimensión de un objeto de proporciones aplanadas.
+            </note>
+            
+            <note xml:id="herir" type="verbo">
+                <term rend="bold">Herir</term> Dividir, tomar. Repartir una distancia en un número determinado, o proporción, de partes menores. También hace referencia a la acción de marcar.
+            </note>
+            
+            <note xml:id="abastecer" type="verbo">
+                <term rend="bold">Abastecer</term> Acción de cuajar la armadura con sus piezas.
+            </note>
+            
+            <note xml:id="racimo" type="término">
+                <term rend="bold">Racimo</term> Conjunto de mocárabes dispuestos de forma escalonada, formando un colgante decorativo.
+            </note>
+            
+            <note xml:id="mocárabe" type="término">
+                <term rend="bold">Mocárabe</term> Del árabe andalusí <hi rend="italic">al-muqārbas</hi> (ensamblaje de curvas; cosa construida como una bóveda de estalactitas). Elemento decorativo de base geométrica compuesto por prismas o adarajas ubicados en diferentes posiciones en el plano vertical.
+            </note>
+            
+            <note xml:id="conza" type="término">
+                <term rend="bold">Conza</term> Adaraja que se obtiene de un prisma rectangular de proporciones 5x7, con dos piernas de 1/7 de anchura del lado mayor, que dejan en medio un medio círculo de un diámetro de 5/4 de dicho lado, siendo la altura hasta la clave del arco de 5/7. Por extensión se llama de esta manera a la plantilla con que se recortan dichas piezas.
+            </note>
+            
+            <note xml:id="atacia" type="término">
+                <term rend="bold">Atacia</term> Adaraja que se obtiene de un prisma triangular denominado “medio cuadrado”. Este es un prisma con sección de triángulo rectángulo isósceles, al que se recorta perpendicularmente a su espalda con la plantilla de conzas o atacias.
+            </note>
+            
+            <note xml:id="pierna" type="término">
+                <term rend="bold">Pierna</term> Extremo o extremidad de algo, de dimensiones y sección alargada y fina respecto al resto. En la labor de mocárabes, este término hace referencia a lo que queda en los bordes del prisma tras haber recortado con la plantilla la adaraja, y cuya situación y dimensiones respecto al resto de la pieza induce a esta denominación.
+            </note>
+            
+            <note xml:id="jaira_rubí" type="término">
+                <term rend="bold">Jaira rubí</term> Adaraja similar a la jaira ciruelo, en este caso se le añaden una o dos pernezuelas en uno o en los dos vértices del eje mayor del rombo.
+            </note>
+            
+            <note xml:id="pernezuela" type="término">
+                <term rend="bold">Pernezuela</term> Pierna pequeña. En la fabricación de mocárabes, es una pieza alargada que se añade a algunas adarajas. Su dimensión está en función de las adarajas a las que ha sido añadida. Normalmente se hace de sección triangular.
+            </note>
+            
+            <note xml:id="media_jaira" type="término">
+                <term rend="bold">Media Jaira</term> Prisma triangular isósceles de ángulo menor 45°, que compuesto con otro igual por la espalda, y labrado de determinada manera forman las jairas.
+            </note>
+            
+            <note xml:id="adaraja" type="término">
+                <term rend="bold">Adaraja</term> Del árabe andalusí <hi rend="italic">dārağa</hi> (escalón). Cada una de las piezas prismáticas que componen una labor o racimo de mocárabes.
+            </note>
+            
+            <note xml:id="mástil" type="término">
+                <term rend="bold">Mástil</term> Palo recto, generalmente colocado en vertical. En el caso de los mocárabes, es utilizado como viga vertical para su sostenimiento.
+            </note>
+            
+            <note xml:id="medio_cuadrada" type="término">
+                <term rend="bold">Medio cuadrada</term> En los mocárabes es un prisma triangular rectangular isósceles, igual que la atacia, de quien difiere en el corte de sus caras.
+            </note>
 
-        </back>
+            <note xml:id="dumbaque" type="término">
+                <term rend="bold">Dumbaque</term> Prisma de planta triangular utilizado en la formación de adarajas en la labor de mocárabes. En el caso de que sea un dumbaque ciruelo, este debe ser la mitad de una jaira ciruelo o lo que es igual, la jaira ciruelo la componen dos dumbaques ciruelo espalda contra espalda.
+            </note>
+            
+            <note xml:id="grullillo" type="término">
+                <term rend="bold">Grullillo</term> Una de las adarajas que componen los conjuntos de mocárabes. De sección triangular no recta, el corte se inicia desde abajo por su parte más estrecha, de modo que su aspecto pueda recordar al de una pequeña grulla, de lo que precede tal vez su nombre.
+            </note>
+            
+            <note xml:id="bocado" type="término">
+                <term rend="bold">Bocado</term> Corte de una pieza.
+            </note>
+            
+            <note xml:id="jaira_ahorcada" type="término">
+                <term rend="bold">Jaira ahorcada</term> Se cree que es el conjunto formado por dos medias jairas labradas por la espalda, con dos piernas en los vértices del lado menor, y un cañón semicircular de eje el eje mayor del susodicho rombo.
+            </note>
+            
+            <note xml:id="jaira" type="término">
+                <term rend="bold">Jaira</term> Determinada adaraja compuesta por dos prismas triangulares isósceles de ángulo menor cola de cuadrado (45°), formando su unión un rombo. Según el corte particular que tenga recibe un nombre diferente: jaira ciruelo, jaira ahorcada, jaira rubí.
+            </note>
+            
+            <note xml:id="jaira_ciruelo" type="término">
+                <term rend="bold">Jaira ciruelo</term> Es el conjunto formado por dos dumbaques ciruelo, esto es, dos medios rombos recortados con la plantilla simétrica en la cara de cinco.
+            </note>
+            
+            <note xml:id="cubillo" type="término">
+                <term rend="bold">Cubillo</term> Cubo pequeño que se forma en los racimos y cubos de mocárabes para darle mayor movimiento al perfil provocando subidas y bajadas en la disposición de las adarajas.
+            </note>
+            
+            <note xml:id="albanecar2" type="término">
+                <term rend="bold">Albanecar</term> Pieza que se coloca como remate y tapajuntas perimetral del conjunto de prismas en los racimos de mocárabes. Cada lado del polígono que limita el racimo se cubre con una pieza recortada que con frecuencia repite la forma de las adarajas. En el tratado de Diego López de Arenas, esta pieza recibe por nombre albernica.
+            </note>
+            
+            <note xml:id="formeta" type="término">
+                <term rend="bold">Formeta</term> Puede significar forma, perfil e incluso plantilla.
+            </note>
+            
+            <note xml:id="casco" type="término">
+                <term rend="bold">Casco</term> Cada uno de los paños que forman la media naranja.
+            </note>
+            
+            <note xml:id="media_naranja" type="término">
+                <term rend="bold">Media naranja</term> Cúpula semiesférica. Cuando se construye en madera, esta tiene sección ligeramente ultrasemicircular, es decir, su curva es más amplia que un semicírculo.
+            </note>
+            
+            <note xml:id="cercha" type="término">
+                <term rend="bold">Cercha</term> En la construcción de medias naranjas se denomina cercha a la pieza curva de madera que a la vez forma y soporta cada casco de la media naranja. Sinónimo de camón o forma.
+            </note>
+
+            <note xml:id="media_caña" type="término">
+                <term rend="bold">Media caña</term> Cubierta cilíndrica de medio cañón. Moldura convexa de sección semicircular.
+            </note>
+            
+            <note xml:id="camón" type="término">
+                <term rend="bold">Camón</term> Pieza principal en una armadura de forma curva. Pieza curva de dicha armadura.
+            </note>
+            
+            <note xml:id="desalabear" type="verbo">
+                <term rend="bold">Desalabear</term> Quitar el alabeo característico de la madera aserrada.
+            </note>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            </back>
 
     </text>
 
