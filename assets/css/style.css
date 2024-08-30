@@ -204,13 +204,19 @@ a.boton {
   width: auto; 
 }
 
+.menu-item {
+  display: flex;  /* Flexbox para alinear los elementos en una línea */
+  align-items: center;  /* Centra verticalmente si hay diferencia en tamaño de fuente o altura */
+}
+
+
 
 
 /* Estilo de los enlaces del sidebar */
 .sidebar a {
   padding: 10px 15px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1.25em;
   color: var(--blanco);
   display: block;
   transition: 0.3s;
@@ -219,6 +225,27 @@ a.boton {
 .sidebar a:hover {
   color: var(--blanco);
   opacity: 0.7;
+}
+
+/* Estilo del submenú */
+.submenu {
+  display: none; /* Oculta el submenú por defecto */
+  flex-direction: column;
+  padding-left: 20px; /* Añade un poco de espacio a la izquierda para diferenciar del menú principal */
+  line-height: 1.25;
+  font-size: 0.75em;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.submenu a {
+  padding: 5px 15px;
+  margin-top: auto;
+}
+
+#submenu-toggle {
+  font-size: 0.9em;
+  padding-left: 1px;
 }
 
 

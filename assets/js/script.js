@@ -1,4 +1,41 @@
-// Sidebar
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("../includes/menu.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("menu-placeholder").innerHTML = data;
+
+            // Inicializar eventos después de que el menú se haya cargado
+            document.getElementById("menu-bar").onclick = toggleNav;
+
+            document.getElementById("submenu-toggle").onclick = function(e) {
+                e.preventDefault(); // Evita que el enlace recargue la página
+                const submenu = document.getElementById("submenu");
+                if (submenu.style.display === "block") {
+                    submenu.style.display = "none";
+                } else {
+                    submenu.style.display = "block";
+                }
+            };
+
+            // Cerrar el sidebar si se hace clic fuera de él
+            document.addEventListener('click', function(event) {
+                const sidebar = document.getElementById("mySidebar");
+                const menuBar = document.getElementById("menu-bar");
+                const submenu = document.getElementById("submenu");
+                const submenuToggle = document.getElementById("submenu-toggle");
+
+                // Verifica si el clic fue fuera del sidebar, fuera del submenú y no es el botón del menú
+                if (!sidebar.contains(event.target) && 
+                    !menuBar.contains(event.target) && 
+                    !submenu.contains(event.target) &&
+                    event.target !== submenuToggle &&
+                    sidebar.style.transform === "translateX(0px)") {
+                    closeSidebar();
+                }
+            });
+        });
+});
+
 function toggleNav() {
     const sidebar = document.getElementById("mySidebar");
 
@@ -29,19 +66,3 @@ function closeSidebar() {
     menuBar.style.color = "#5a79b9"; // Cambia el color del menú hamburguesa a 5a79b9
     menuBar.style.backgroundColor = "transparent"; // Restablece el fondo a transparente
 }
-
-
-// Inicializar el evento click para alternar el estado del sidebar
-document.getElementById("menu-bar").onclick = toggleNav;
-
-// Cerrar el sidebar si se hace clic fuera de él
-document.addEventListener('click', function(event) {
-    const sidebar = document.getElementById("mySidebar");
-    const menuBar = document.getElementById("menu-bar");
-
-    // Verifica si el clic fue fuera del sidebar y no es el botón del menú
-    if (!sidebar.contains(event.target) && !menuBar.contains(event.target) && sidebar.style.transform === "translateX(0px)") {
-        closeSidebar();
-    }
-});
-
