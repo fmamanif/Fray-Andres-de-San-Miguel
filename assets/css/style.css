@@ -382,6 +382,17 @@ a.boton {
   color: var(--gris);
 }
 
+/* #region BIBLIOGRAFÍA */
+
+.bibliography p {
+  text-indent: -20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+/* #endregion BIBLIOGRAFÍA */
 
 
 
