@@ -75,7 +75,7 @@
                 Espacio comprendido entre dos calles, vigas o bandas de madera consecutivas y paralelas en la armadura.</note>
             <note xml:id="cartabón" type="término"><term rend="bold">Cartabón</term> 
                 Del occitano <hi rend="italic">escartabon</hi>, cuya raíz <hi rend="italic">escartar</hi> significa dividir en cuartos. Es probable que comparta la raíz etimológica con escuadra. Instrumento diseño en forma de triángulo compuesto por diferentes ángulos, utilizado para marcar los ángulos y las medidas. Tiene forma de triángulo rectángulo escaleno (90° y dos desiguales) en todos los casos, salvo en el del cartabón de cuatro, en el que es rectángulo isósceles (dos de 45° y uno de 90°).  Los ángulos del cartabón se denominaban cola, cabeza y cabeza de cuadrado. Dado los tres ángulos, el recto era la cabeza de cuadrado, y de los dos ángulos agudos restantes, el más agudo era la cola y el menos la cabeza. Cuando se popularizó la lacería, se comenzó a llamar a los cartabones con nombre propio (de 5, de 6, de 7, etc…) en función del número de veces que cabía su cola en una cambija.  Existen dos tipo de cartabones en el universo de la carpintería de armar histórica iberoamericana: los destinados a la fabricación de armaduras y los destinados a la realización de los lazos.</note>
-            <note xml:id="cuadrado" type="expresión">                <term rend="bold">“Cuadrado” (cartabón cuadrado)</term> 
+            <note xml:id="cuadrado" type="término">                <term rend="bold">Cuadrado (cartabón cuadrado)</term> 
                 Conocido también como <hi rend="italic">cartabón de cuatro</hi>, está compuesto por ángulos agudos que valen <num>45°</num> cada uno.
             </note>
             <note xml:id="barbilla" type="término">
@@ -150,11 +150,11 @@
                 <term rend="bold">Lima</term> Del latín <hi rend="italic">limus</hi> (oblicuo). Viga que forma el borde de esquina, sirviendo de unión de dos paños contiguos de la armadura. Se extiende desde el estribo hasta la hilera. Existen tres tipos de limas. <hi rend="italic">Lima bordón</hi>: es cuando existe solo una viga de unión y sobre ella reposan las péndolas de ambos paños. <hi rend="italic">Lima moamar</hi>: (del árabe <hi rend="italic">moammar</hi>: restaurado, reedificado, doble o reforzado): es una viga doble, cada una perteneciente a un paño, de modo que en cada lima reposan únicamente por péndolas correspondientes a su paño. Las limas moamares favorecen la prefabricación, pues permiten realizar la unión de los paños en el taller o en la obra, no en altura. <hi rend="italic">Lima jaira</hi>: tipo de lima utilizado en las armaduras ochavadas, su forma oblicua hace que su corte sea de sección romboidal. También existe el término <hi rend="italic">lima tesa</hi>, que es el nombre que recibe la lima producida al encontrarse dos paños en una divisoria de aguas.
             </note>
             
-            <note xml:id="regla_alta" type="expresión">
+            <note xml:id="regla_alta" type="término">
                 <term rend="bold">Regla alta (“una tan larga”)</term> Largo de la línea que separa el paño con el almizate.
             </note>
             
-            <note xml:id="pendola" type="término">
+            <note xml:id="péndola" type="término">
                 <term rend="bold">Péndola</term> Cada uno de los maderos de un paño de armadura que va de un tamaño mayor a menor desde la solera a la <term>lima tesa</term>.
             </note>
             
@@ -193,7 +193,7 @@
                 <term rend="bold">Taravea</term> Del árabe <hi rend="italic">at-tarbī</hi> (pieza cuadrada). Grupo de piezas de madera que posibilitan la conexión entre las ruedas de lazo generadores y sus desculatadas. Por extensión, pieza incrustada de madera. También se encuentra bajo la forma <term>taracea</term>.
             </note>
             
-            <note xml:id="haliba" type="término">
+            <note xml:id="háliba" type="término">
                 <term rend="bold">Háliba</term> Pieza que es parte de la rueda de lazo, continua a los sinos, azafates y almendrillas. Algunos piensan que por su forma el término háliba viene del tipo de peces llamado “Halibut”.
             </note>
             
@@ -224,7 +224,7 @@
             <note xml:id="blanquillo" type="término">
                 <term rend="bold">Cartabón blanquillo</term> véase <term>Ataperfiles</term>.
             </note>
-            <note xml:id="atimbron" type="término">
+            <note xml:id="atimbrón" type="término">
                 <term rend="bold">Cartabón atimbrón</term> véase <term>Ataperfiles</term>.
             </note>
             <note xml:id="ochavada" type="término">
@@ -335,12 +335,16 @@
                 <term rend="bold">Alpartilla</term> Elemento auxiliar, probablemente un tope de tabla colocado en la base de escuadras o cartabones, a fin de servir de guía en el trazado sobre las piezas. Sinónimo de tracilla.
             </note>
             
-            <note xml:id="camaranchon" type="término">
+            <note xml:id="camaranchón" type="término">
                 <term rend="bold">Camaranchón</term> Espacio que queda sobre la armadura bajo el tejado.
             </note>
             
             <note xml:id="quiebre" type="expresión">
                 <term rend="bold">“Quiebre”</term> Líneas de encuentro de los paños y del almizate de la armadura.
+            </note>
+
+            <note xml:id="destender" type="v">
+                <term rend="bold">Destender (la punta del compás)</term> Forma antigua de "extender". Fray Andrés de San Miguel lo utilizara para referirse a la acción de mover las puntas del compás para el trazado.
             </note>
             
             <note xml:id="desquijerar" type="verbo">
@@ -356,15 +360,15 @@
             </note>
             
             <note xml:id="vivo" type="expresión">
-                <term rend="bold">“Vivo”</term> Este término posee varias acepciones: canto; esquina o arista que se forma al juntarse dos planos; y la menor dimensión de un objeto de proporciones aplanadas.
-            </note>
-            
-            <note xml:id="herir" type="verbo">
-                <term rend="bold">Herir</term> Dividir, tomar. Repartir una distancia en un número determinado, o proporción, de partes menores. También hace referencia a la acción de marcar.
+                <term rend="bold">“Vivo”</term> Esta expresión posee varias acepciones: canto; esquina o arista que se forma al juntarse dos planos; y la menor dimensión de un objeto de proporciones aplanadas.
             </note>
             
             <note xml:id="abastecer" type="verbo">
                 <term rend="bold">Abastecer</term> Acción de cuajar la armadura con sus piezas.
+            </note>        
+
+            <note xml:id="herir" type="verbo">
+                <term rend="bold">Herir</term> Dividir, tomar. Repartir una distancia en un número determinado, o proporción, de partes menores. También hace referencia a la acción de marcar.
             </note>
             
             <note xml:id="racimo" type="término">
