@@ -68,17 +68,3 @@ function closeSidebar() {
 }
 
 
-/* CONTENIDOS */
-document.addEventListener("DOMContentLoaded", function () {
-    const menuList = document.getElementById("menu-list");
-    const headers = document.querySelectorAll(".col-9 h1, .col-9 h2, .col-9 h3, .col-9 h4, .col-9 h5, .col-9 h6");
-  
-    headers.forEach(header => {
-      const listItem = document.createElement("li");
-      const linkItem = document.createElement("a");
-      linkItem.href = `#${header.id}`;
-      linkItem.textContent = header.textContent;
-      listItem.appendChild(linkItem);
-      menuList.appendChild(listItem);
-    });
-  });
