@@ -272,13 +272,9 @@ a.boton {
 
 /* #region MENÚ CONTENIDOS */
 #menu-contenidos {
-  position: relative;
+  position: fixed;
   top: 20px;
-  overflow-y: auto;
-  max-height: 80vh;
-  width: 100%; 
-  max-width: 100%;
-
+  width: 15%; 
 }
 
 #menu-contenidos h5 {
@@ -563,6 +559,7 @@ a.boton {
   }
   #menu-contenidos {
     position: static;
+    width: 100%;
   }
   .logo-tei {
     display: none;
