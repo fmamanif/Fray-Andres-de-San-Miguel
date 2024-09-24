@@ -288,7 +288,7 @@ a.boton {
   list-style-type: none;
   padding-left: 0; 
   margin-left: 0; 
-  width: 100%; /* Asegura que la lista ocupe todo el ancho del contenedor */
+  width: 100%; 
 }
 
 #menu-contenidos ul li {
@@ -314,6 +314,19 @@ a.boton {
 #menu-contenidos ul li a:hover {
   opacity: 0.7; /* Aplica el efecto hover solo a la línea individual */
 }
+
+#menu-contenidos ul li.menu-h1 a {
+  font-size: 1em;
+}
+
+#menu-contenidos ul li.menu-h2 a {
+  font-size: 0.90em;
+}
+
+#menu-contenidos ul li.menu-h3 a {
+  font-size: 0.80em;
+}
+
 
 /* #endregion MENÚ CONTENIDOS */
 

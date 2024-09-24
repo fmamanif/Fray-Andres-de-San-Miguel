@@ -76,9 +76,27 @@ document.addEventListener("DOMContentLoaded", function () {
     headers.forEach(header => {
       const listItem = document.createElement("li");
       const linkItem = document.createElement("a");
+  
       linkItem.href = `#${header.id}`;
       linkItem.textContent = header.textContent;
+  
+      // Añade una clase específica según el tipo de encabezado
+      if (header.tagName.toLowerCase() === 'h1') {
+        listItem.classList.add('menu-h1');
+      } else if (header.tagName.toLowerCase() === 'h2') {
+        listItem.classList.add('menu-h2');
+      } else if (header.tagName.toLowerCase() === 'h3') {
+        listItem.classList.add('menu-h3');
+      } else if (header.tagName.toLowerCase() === 'h4') {
+        listItem.classList.add('menu-h4');
+      } else if (header.tagName.toLowerCase() === 'h5') {
+        listItem.classList.add('menu-h5');
+      } else if (header.tagName.toLowerCase() === 'h6') {
+        listItem.classList.add('menu-h6');
+      }
+  
       listItem.appendChild(linkItem);
       menuList.appendChild(listItem);
     });
   });
+  
