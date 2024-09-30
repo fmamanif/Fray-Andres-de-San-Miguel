@@ -295,7 +295,7 @@ tei-figure[id="fig_72r_2"] img {
 }
 
 tei-figure[id="fig_72r_3"] img {
-  width: 30%;
+  width: 50%;
 }
 
 tei-figure[id="fig_72r_4"] img {
@@ -352,12 +352,15 @@ tei-figure[id="fig_78r_2"] img {
   width: 80%;
 }
 
-tei-figure[id="fig_78v_1"] img {
-  width: 40%;
+tei-figure#group_78v {
+  display: block; 
 }
 
+tei-figure[id="fig_78v_1"] img {
+  width: 60%;
+}
 tei-figure[id="fig_78v_2"] img {
-  width: 40%;
+  width: 80%;
 }
 
 tei-figure[id="fig_79r_1"] img {
@@ -388,11 +391,11 @@ tei-figure[id="fig_81r_2"] img {
 }
 
 tei-figure[id="fig_81v_1"] img {
-  width: 60%;
+  width: 80%;
 }
 
 tei-figure[id="fig_87v_1"] img {
-  width: 60%;
+  width: 100%;
 }
 
 tei-figure#group_88r {
