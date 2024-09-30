@@ -75,6 +75,7 @@ p {
 
 .texto li {
   margin-bottom: 10px;
+  line-height: 1.6;
 }
 
 
@@ -427,6 +428,31 @@ a.boton {
 
 /* #endregion NAVEGACIÓN FOLIOS */
 
+/* Secciones */
+.imagenestexto {
+  text-align: center;
+}
+
+#edicionesbaez {
+  display: inline-flex;
+}
+
+#edicionesbaez img {
+  width: 70%;
+}
+
+.img40 img {
+  width: 40%;
+}
+
+.img100 img {
+  width: 100%;
+}
+
+figcaption {
+  font-size: 0.85em;
+}
+
 /* #region BIBLIOGRAFÍA */
 .bibliography p {
   text-indent: -20px;
@@ -507,7 +533,7 @@ a.boton {
 }
 
 
-/* #region GRID IMAGENES */
+/* #region GRID IMÁGENES */
 .centered-container {
   text-align: center; /* Asegura que el texto dentro del div también esté centrado */
 }
