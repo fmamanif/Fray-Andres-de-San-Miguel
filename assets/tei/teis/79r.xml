@@ -105,15 +105,17 @@
         <div>
             <pb n="79r" facs="79r.jpg"/>
 
-              <figure xml:id="group_79r">
-                  <figure xml:id="fig_79r_1" type="dibujo">
-                      <graphic url="/assets/images/dibujos/79r_1.png"/>
-                  </figure>
-
-                  <figure xml:id="fig_79r_2" type="dibujo">
-                      <graphic url="/assets/images/dibujos/79r_2.png"/>
-                  </figure>
+              <figure xml:id="fig_79r_1" type="dibujo">
+                  <graphic url="/assets/images/dibujos/79r_1.png"/>
               </figure>
+
+              <figure xml:id="fig_79r_2" type="dibujo">
+                  <graphic url="/assets/images/dibujos/79r_2.png"/>
+                  <figDesc>
+                    Muestra de cómo se mete el lazo en el triángulo y clavan las limas en los paños cuadrados, y de cómo clavar los pares muertos en las mismas limas del triángulo.
+                  </figDesc>
+              </figure>
+
             <!-- Fin del folio 79r -->
         </div>    
     </body>

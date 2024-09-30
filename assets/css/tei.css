@@ -353,17 +353,17 @@ tei-figure[id="fig_78v_2"] img {
   width: 40%;
 }
 
-tei-figure#group_79r {
-  display: flex; 
-  align-items: flex-start; 
+tei-figure[id="fig_79r_1"] img {
+  width: 40%;
 }
 
-tei-figure[id="fig_79r_1"] img {
-  width: 60%;
+tei-figure[id="fig_79r_2"] {
+  display: inline-flex;
+  flex-direction: column;
 }
 
 tei-figure[id="fig_79r_2"] img {
-  width: 100%;
+  width: 50%;
 }
 
 tei-figure[id="fig_80r_3"] {
