@@ -142,6 +142,11 @@ tei-item::before {
   background-color: #B05500;
 }
 
+.h {
+  color: #fefefe;
+  background-color: #0078b0;
+}
+
 /* Etiquetas de notas */
 .note-type {
   border-radius: 10px; /* Esquinas redondeadas */
@@ -264,6 +269,8 @@ tei-figure tei-head {
 tei-figdesc {
   font-style: italic;
   font-size: 12px;
+  width: 70%;
+  align-self: center;
 }
 
 /* IMÁGENES */
@@ -371,7 +378,7 @@ tei-figure[id="fig_80r_3"] {
 }
 
 tei-figure[id="fig_80r_3"] img {
-  width: 20%;
+  width: 56%;
 }
 tei-figure#group_81r {
   display: block; 
