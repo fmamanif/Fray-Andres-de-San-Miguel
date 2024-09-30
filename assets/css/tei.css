@@ -413,7 +413,11 @@ tei-figure#group_88v {
 }
 
 tei-figure[id="fig_88v_1"] img {
-  width: 60%;
+  width: 80%;
+}
+
+tei-figure[id="fig_88v_2"] img {
+  width: 100%;
 }
 
 tei-figure[id="fig_88v_3"] img {
