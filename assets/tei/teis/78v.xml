@@ -128,13 +128,15 @@
                     <lb/>afuera y los <choice><orig>seys</orig><reg>seis</reg></choice> <choice><orig>peynaços</orig><reg>peinazos</reg></choice> todos son vivos<ptr target="#vivo" n="?" type="e"/><choice><orig></orig><reg>,</reg></choice> y se debe <choice><orig>traçar</orig><reg>trazar</reg></choice> el <choice><orig>laso</orig><reg>lazo</reg></choice> en ellos como lo muestra la <choice><orig>traça</orig><reg>traza</reg></choice>.
                 </p>
 
-                <figure xml:id="fig_78v_1" type="dibujo">
+                <figure xml:id="group_78v">
+                  <figure xml:id="fig_78v_1" type="dibujo">
                     <graphic url="/assets/images/dibujos/78v_1.png"/>
                 </figure>
 
                 <figure xml:id="fig_78v_2" type="dibujo">
                     <graphic url="/assets/images/dibujos/78v_2.png"/>
                 </figure>
+              </figure>
                 
               </div>
               <!-- Fin del folio 78v -->
