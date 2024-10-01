@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13867303.svg)](https://doi.org/10.5281/zenodo.13867303)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13365292.svg)](https://doi.org/10.5281/zenodo.13365292)
 
 # Edición digital de la sección de carpintería del manuscrito de Fray Andrés de San Miguel
 
