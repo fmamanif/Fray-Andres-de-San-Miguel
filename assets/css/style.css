@@ -445,6 +445,10 @@ a.boton {
   width: 30%;
 }
 
+.img50 img {
+  width: 50%;
+}
+
 .img100 img {
   width: 100%;
 }
@@ -636,8 +640,27 @@ figcaption {
   #siguiente {
     text-align: right;
   }
+  .img50 img {
+    width: 90%;
+  }
+  .img40 img {
+    width: 50%;
+  }  
+  #edicionesbaez img {
+    width: 90%;
+  }
 }
 @media (max-width: 500px) {
+  .img40 img {
+    width: 90%;
+  }
+  #edicionesbaez {
+    display: block;
+  }
+  #edicionesbaez figcaption {
+    margin-bottom: 20px;
+
+  }
 
 }
 
